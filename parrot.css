@@ -178,3 +178,28 @@ aside {
 	font-size: 12px;
   text-transform: uppercase;
 }
+
+li > span {
+  color: #444;
+  cursor: pointer;
+  position: relative;
+}
+
+[tooltip]:before {
+  position : absolute;
+  content : attr(tooltip);
+  opacity : 0;
+  font-size: 10px;
+  background: #444;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 3px;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+  left: 10px;
+  width: 100px;
+  top: 0px;
+}
+[tooltip]:hover:before {
+  opacity : 1;
+}
