@@ -42,3 +42,4 @@ The only Slack reaction gif's you'll ever need.
 
  * [@mermop](https://github.com/mermop) for [sourcing the original party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/2)
  * [@ifreecarve](https://github.com/ifreecarve) for making shuffle parrot and shuffle further parrot [chain together better](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/4).
+ * [@gjtorikian](https://github.com/gjtorikian) [s/Github/GitHub/](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/5)
