@@ -39,6 +39,12 @@ ul {
 li {
 	text-align: left;
 }
+ul li img {
+  width: 30px;
+}
+ul li a {
+  text-decoration: none;
+}
 a.button {
   border-radius: 20px;
   background: #444;
