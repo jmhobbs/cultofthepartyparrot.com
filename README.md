@@ -44,4 +44,5 @@ The only Slack reaction gif's you'll ever need.
  * [@ifreecarve](https://github.com/ifreecarve) for making shuffle parrot and shuffle further parrot [chain together better](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/4).
  * [@gjtorikian](https://github.com/gjtorikian) [s/Github/GitHub/](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/5)
  * [@ermanc](https://github.com/ermanc) for the all powerful [conga line parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/7)
- * [@glentakahashi](https:/github.com/glentakahashi) for the deeply moving [sad parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/10)
+ * [@glentakahashi](https:/github.com/glentakahashi) for the deeply moving [sad parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/10) and the [Party Cop](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/11).
+ * [@daveyarwood](https://github.com/daveyarwood) for [fast and slow parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/13)
