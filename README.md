@@ -47,3 +47,4 @@ The only Slack reaction gif's you'll ever need.
  * [@glentakahashi](https:/github.com/glentakahashi) for the deeply moving [sad parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/10) and the [Party Cop](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/11).
  * [@daveyarwood](https://github.com/daveyarwood) for [fast and slow parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/13)
  * [@tysondreeder](https://github.com/tysondreeder) for [deal with it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/16)
+ * [@hrimhari](https://github.com/hrimhari) for [reverse conga parrot and a smoother aussie parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/18)
