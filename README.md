@@ -49,3 +49,4 @@ The only Slack reaction gif's you'll ever need.
  * [@tysondreeder](https://github.com/tysondreeder) for [deal with it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/16)
  * [@hrimhari](https://github.com/hrimhari) for [reverse conga parrot and a smoother aussie parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/18)
  * [@ernestoacevedo](https://github.com/ernestoacevedo) for [fiesta parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/20)
+ * [@andyhmltn](https://github.com/andyhmltn) for [chill, explody and shuffle party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/23)
