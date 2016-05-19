@@ -50,3 +50,11 @@ The only Slack reaction gif's you'll ever need.
  * [@hrimhari](https://github.com/hrimhari) for [reverse conga parrot and a smoother aussie parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/18)
  * [@ernestoacevedo](https://github.com/ernestoacevedo) for [fiesta parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/20)
  * [@andyhmltn](https://github.com/andyhmltn) for [chill, explody and shuffle party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/23)
+
+# Building!
+
+ 1. `npm install`
+ 1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. `node generate.js`
+ 1. Open a PR
+ 1. PARTY
