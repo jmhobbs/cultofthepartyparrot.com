@@ -1,0 +1,97 @@
+[
+    {
+        "gif": "parrot.gif",
+        "name": "Parrot"
+    },
+    {
+        "gif": "middleparrot.gif",
+        "name": "Middle Parrot"
+    },
+    {
+        "gif": "rightparrot.gif",
+        "name": "Right Parrot"
+    },
+    {
+        "gif": "aussieparrot.gif",
+        "name": "Aussie Parrot"
+    },
+    {
+        "gif": "gothparrot.gif",
+        "name": "Goth Parrot"
+    },
+    {
+        "gif": "oldtimeyparrot.gif",
+        "name": "Old Timey Parrot"
+    },
+    {
+        "gif": "boredparrot.gif",
+        "name": "Bored Parrot"
+    },
+    {
+        "gif": "shuffleparrot.gif",
+        "name": "Shuffle Parrot"
+    },
+    {
+        "gif": "shufflefurtherparrot.gif",
+        "name": "Shuffle Further Parrot",
+        "tip": "Combine with Shuffle Parrot for a conga line!"
+    },
+    {
+        "gif": "congaparrot.gif",
+        "name": "Conga Line Parrot",
+        "tip": "A self sufficient conga line parrot!"
+    },
+    {
+        "gif": "reversecongaparrot.gif",
+        "name": "Reverse Conga Line Parrot"
+    },
+    {
+        "gif": "partyparrot.gif",
+        "name": "Party Parrot"
+    },
+    {
+        "gif": "sadparrot.gif",
+        "name": "Sad Parrot",
+        "tip": "Parrots are entitled to their full range of emotions."
+    },
+    {
+        "gif": "parrotcop.gif",
+        "name": "Parrot Cop",
+        "tip": "Not to be confused with Stripper Parrot!"
+    },
+    {
+        "gif": "fastparrot.gif",
+        "name": "Fast Parrot",
+        "tip": "Now with 50% more party!"
+    },
+    {
+        "gif": "slowparrot.gif",
+        "name": "Slow Parrot",
+        "tip": "Web 1.0 all over again!"
+    },
+    {
+        "gif": "parrotdad.gif",
+        "name": "Parrot Dad",
+        "tip": "Is totally freaking out."
+    },
+    {
+        "gif": "dealwithitparrot.gif",
+        "name": "Deal With It Parrot"
+    },
+    {
+        "gif": "fiestaparrot.gif",
+        "name": "Fiesta Parrot"
+    },
+    {
+        "gif": "chillparrot.gif",
+        "name": "Chill Parrot"
+    },
+    {
+        "gif": "explodyparrot.gif",
+        "name": "Explody Parrot"
+    },
+    {
+        "gif": "shufflepartyparrot.gif",
+        "name": "Shuffle Party Parrot"
+    }
+]

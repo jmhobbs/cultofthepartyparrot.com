@@ -78,28 +78,9 @@
         <hr/>
 
         <ul>
-          <li><img src="parrots/parrot.gif" alt="Parrot"/> Parrot</li>
-          <li><img src="parrots/middleparrot.gif" alt="Middle Parrot"/> Middle Parrot</li>
-          <li><img src="parrots/rightparrot.gif" alt="Right Parrot"/> Right Parrot</li>
-          <li><img src="parrots/aussieparrot.gif" alt="Aussie Parrot"/> Aussie Parrot</li>
-          <li><img src="parrots/gothparrot.gif" alt="Goth Parrot"/> Goth Parrot</li>
-          <li><img src="parrots/oldtimeyparrot.gif" alt="Old Timey Parrot"/> Old Timey Parrot</li>
-          <li><img src="parrots/boredparrot.gif" alt="Bored Parrot"/> Bored Parrot</li>
-          <li><img src="parrots/shuffleparrot.gif" alt="Shuffle Parrot"/> Shuffle Parrot</li>
-          <li><img src="parrots/shufflefurtherparrot.gif" alt="Shuffle Further Parrot"/> Shuffle Further Parrot<span tooltip="Combine with Shuffle Parrot for a conga line!">*</span></li>
-          <li><img src="parrots/congaparrot.gif" alt="Conga Line Parrot"/> Conga Line Parrot<span tooltip="A self sufficient conga line parrot!">*</span></li>
-          <li><img src="parrots/reversecongaparrot.gif" alt="Reverse Conga Line Parrot"/> Reverse Conga Line Parrot</li>
-          <li><img src="parrots/partyparrot.gif" alt="Party Parrot"/> Party Parrot</li>
-          <li><img src="parrots/sadparrot.gif" alt="Sad Parrot"/> Sad Parrot<span tooltip="Parrots are entitled to their full range of emotions.">*</span></li>
-          <li><img src="parrots/parrotcop.gif" alt="Parrot Cop"/> Parrot Cop<span tooltip="Not to be confused with Stripper Parrot!">*</span></li>
-          <li><img src="parrots/fastparrot.gif" alt="Fast Parrot"/> Fast Parrot<span tooltip="Now with 50% more party!">*</span></li>
-          <li><img src="parrots/slowparrot.gif" alt="Slow Parrot"/> Slow Parrot<span tooltip="Web 1.0 all over again!">*</span></li>
-          <li><img src="parrots/parrotdad.gif" alt="Parrot Dad"/> Parrot Dad<span tooltip="Is totally freaking out.">*</span></li>
-          <li><img src="parrots/dealwithitparrot.gif" alt="Deal With It Parrot"/> Deal With It Parrot</li>
-          <li><img src="parrots/fiestaparrot.gif" alt="Fiesta Parrot"/> Fiesta Parrot</li>
-          <li><img src="parrots/chillparrot.gif" alt="Chill Parrot"/> Chill Parrot</li>
-          <li><img src="parrots/explodyparrot.gif" alt="Explody Parrot"/> Explody Parrot</li>
-          <li><img src="parrots/shufflepartyparrot.gif" alt="Shuffle Party Parrot"/> Shuffle Party Parrot</li>
+          {{#parrots}}
+          <li><img src="parrots/{{gif}}" alt="{{name}}"/> {{name}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/parrots}}
         </ul>
 
         <hr/>
