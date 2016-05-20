@@ -1,0 +1,23 @@
+{
+  "name": "cultofthepartyparrot.com",
+  "version": "1.0.0",
+  "description": "PARTY OR DIE",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmhobbs/cultofthepartyparrot.com.git"
+  },
+  "author": "John Hobbs <john@velvetcache.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmhobbs/cultofthepartyparrot.com/issues"
+  },
+  "homepage": "https://github.com/jmhobbs/cultofthepartyparrot.com#readme",
+  "devDependencies": {
+    "js-yaml": "^3.6.1",
+    "mustache": "^2.2.1"
+  }
+}
