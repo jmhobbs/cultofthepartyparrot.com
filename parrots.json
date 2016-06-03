@@ -93,5 +93,9 @@
     {
         "gif": "shufflepartyparrot.gif",
         "name": "Shuffle Party Parrot"
+    },
+    {
+        "gif": "ice-cream-parrot.gif",
+        "name": "Ice Cream Parrot"
     }
 ]
