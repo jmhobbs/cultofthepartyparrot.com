@@ -97,5 +97,13 @@
     {
         "gif": "ice-cream-parrot.gif",
         "name": "Ice Cream Parrot"
+    },
+    {
+        "gif": "aussiecongaparrot.gif",
+        "name": "Aussie Conga Line Parrot"
+    },
+    {
+        "gif": "aussiereversecongaparrot.gif",
+        "name": "Aussie Reverse Conga Line Parrot"
     }
 ]
