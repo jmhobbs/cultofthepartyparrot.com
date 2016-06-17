@@ -213,3 +213,36 @@ li > span {
 [tooltip]:hover:before {
   opacity : 1;
 }
+
+h3 {
+  margin-top: 0;
+}
+div.clearfix:after {
+  content: '';
+  display:table;
+  clear:both;
+}
+div.shirt img {
+  height: 150px;
+}
+
+@media screen and (min-width: 600px) {
+  div.shirt {
+    width: 30%;
+    margin: 0 10%;
+    float: left;
+    text-align: center;
+  }
+  div.shirt:first-child {
+    margin: 0 0 0 20%;
+  }
+  div.shirt:last-child {
+    margin: 0 20% 0 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  div.shirt img {
+    height: 300px;
+  }
+}
