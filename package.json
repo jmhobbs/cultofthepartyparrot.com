@@ -2,9 +2,8 @@
   "name": "cultofthepartyparrot.com",
   "version": "1.0.0",
   "description": "PARTY OR DIE",
-  "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node generate.js"
   },
   "repository": {
     "type": "git",

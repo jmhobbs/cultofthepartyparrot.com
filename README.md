@@ -56,6 +56,6 @@ The only Slack reaction gif's you'll ever need.
 
  1. `npm install`
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
- 1. `node generate.js`
+ 1. `npm run build`
  1. Open a PR
  1. PARTY
