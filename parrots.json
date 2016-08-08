@@ -99,6 +99,10 @@
         "name": "Ice Cream Parrot"
     },
     {
+        "gif": "sassyparrot.gif",
+        "name": "Sassy Parrot"
+    },
+    {
         "gif": "aussiecongaparrot.gif",
         "name": "Aussie Conga Line Parrot"
     },
