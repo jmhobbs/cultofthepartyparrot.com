@@ -24,6 +24,8 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/reversecongaparrot.gif'
   - name: partyparrot
     src: 'http://cultofthepartyparrot.com/parrots/partyparrot.gif'
+    name: pizzaparrot
+    src: 'http://cultofthepartyparrot.com/parrots/pizzaparrot.gif'
   - name: sadparrot
     src: 'http://cultofthepartyparrot.com/parrots/sadparrot.gif'
   - name: parrotcop
