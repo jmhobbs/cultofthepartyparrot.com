@@ -48,6 +48,8 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/ice-cream-parrot.gif'
   - name: sassyparrot
     src: 'http://cultofthepartyparrot.com/parrots/sassyparrot.gif'
+  - name: confusedparrot
+    src: 'http://cultofthepartyparrot.com/parrots/confusedparrot.gif'
   - name: aussiecongaparrot
     src: 'http://cultofthepartyparrot.com/parrots/aussiecongaparrot.gif'
   - name: aussiereversecongaparrot
