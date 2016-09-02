@@ -4,7 +4,8 @@
   "description": "PARTY OR DIE",
   "scripts": {
     "build": "node generate.js",
-    "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/"
+    "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/",
+    "compare": "echo \"import json\nfor parrot in json.load(open('parrots.json', 'rb')):\n\tprint parrot['gif']\" | python | sort > .injson && ls -l parrots/ | awk '{print $9}' | sort > .indir && echo '--[diff]-------------------------------------------' && (diff .injson .indir || true) && rm .injson .indir"
   },
   "repository": {
     "type": "git",

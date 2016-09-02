@@ -72,3 +72,7 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/parrotwave6.gif'
   - name: parrotwave7
     src: 'http://cultofthepartyparrot.com/parrots/parrotwave7.gif'
+  - name: congapartyparrot
+    src: 'http://cultofthepartyparrot.com/parrots/congapartyparrot.gif'
+  - name: moonwalkingparrot
+    src: 'http://cultofthepartyparrot.com/parrots/moonwalkingparrot.gif'

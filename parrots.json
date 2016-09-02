@@ -83,12 +83,12 @@
         "name": "Fiesta Parrot"
     },
     {
-        "gif": "pizzaparrot.gif",
-        "name": "Pizza Parrot"
+      "gif": "pizzaparrot.gif",
+      "name": "🍕 Parrot"
     },
     {
-        "gif": "hamburgerparrot.gif",
-        "name": "Hamburger Parrot"
+      "gif": "hamburgerparrot.gif",
+      "name": "🍔 Parrot"
     },
     {
         "gif": "chillparrot.gif",
@@ -149,5 +149,13 @@
     {
         "gif": "parrotwave7.gif",
         "name": "Parrot Wave (7)"
+    },
+    {
+      "gif": "congapartyparrot.gif",
+      "name": "Conga Party Parrot"
+    },
+    {
+      "gif": "moonwalkingparrot.gif",
+      "name": "Moonwalking Parrot"
     }
 ]
