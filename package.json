@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "PARTY OR DIE",
   "scripts": {
-    "build": "node generate.js"
+    "build": "node generate.js",
+    "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/"
   },
   "repository": {
     "type": "git",
