@@ -87,6 +87,10 @@
         "name": "Pizza Parrot"
     },
     {
+        "gif": "hamburgerparrot.gif",
+        "name": "Hamburger Parrot"
+    },
+    {
         "gif": "chillparrot.gif",
         "name": "Chill Parrot"
     },
