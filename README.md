@@ -51,6 +51,14 @@ The only Slack reaction gif's you'll ever need.
  * [@ernestoacevedo](https://github.com/ernestoacevedo) for [fiesta parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/20)
  * [@andyhmltn](https://github.com/andyhmltn) for [chill, explody and shuffle party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/23)
  * [@oliviag](https://github.com/oliviag) for [ice cream parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/26)
+ * [@lucymhdavies](https://github.com/lucymhdavies) for [doing the wave](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/27)
+ * [@samlindsaylevine](https://github.com/samlindsaylevine) for [Aussie conga line parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/28)
+ * [@joaorgsampaio](https://github.com/joaorgsampaio) for [moonwalking parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/29)
+ * [@hrimhari](https://github.com/hrimhari) for [conga party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/24)
+ * [@natelowry](https://github.com/natelowry) for [bringing the sass](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/33)
+ * [@kyprifog](https://github.com/kyprifog) for [confused parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/35)
+ * [@chalisegrogan](https://github.com/chalisegrogan) for [🍕 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/34)
+ * [@westerlund](https://github.com/westerlund) for [🍔 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/36)
 
 # Building!
 
