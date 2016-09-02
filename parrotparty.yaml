@@ -38,6 +38,8 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/dealwithitparrot.gif'
   - name: fiestaparrot
     src: 'http://cultofthepartyparrot.com/parrots/fiestaparrot.gif'
+  - name: pizzaparrot
+    src: 'http://cultofthepartyparrot.com/parrots/pizzaparrot.gif'
   - name: chillparrot
     src: 'http://cultofthepartyparrot.com/parrots/chillparrot.gif'
   - name: explodyparrot
