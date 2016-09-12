@@ -157,5 +157,9 @@
     {
       "gif": "moonwalkingparrot.gif",
       "name": "Moonwalking Parrot"
+    },
+    {
+      "gif": "nyanparrot.gif",
+      "name": "Nyan Cat Parrot"
     }
 ]
