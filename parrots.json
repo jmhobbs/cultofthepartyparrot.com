@@ -157,5 +157,9 @@
     {
       "gif": "moonwalkingparrot.gif",
       "name": "Moonwalking Parrot"
+    },
+    {
+        "gif": "rainyparrot.gif",
+        "name": "Rainy umbrella dance Parrot"
     }
 ]
