@@ -76,3 +76,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/congapartyparrot.gif'
   - name: moonwalkingparrot
     src: 'http://cultofthepartyparrot.com/parrots/moonwalkingparrot.gif'
+  - name: nyanparrot
+    src: 'http://cultofthepartyparrot.com/parrots/nyanparrot.gif'
