@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node generate.js",
     "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/",
-    "compare": "echo \"import json\nfor parrot in json.load(open('parrots.json', 'rb')):\n\tprint parrot['gif']\" | python | sort > .injson && ls -l parrots/ | awk '{print $9}' | sort > .indir && echo '--[diff]-------------------------------------------' && (diff .injson .indir || true) && rm .injson .indir"
+    "compare": "echo \"import json\nfor parrot in json.load(open('parrots.json', 'rb')):\n\tprint parrot['gif']\" | python | sort > .injson && ls -l parrots/ | awk '{print $9}' | sort > .indir && echo '--[diff]-------------------------------------------' && (diff .injson .indir || true) && rm .injson .indir",
+    "compress": "echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -f -o -v -z  parrots.zip parrots/"
   },
   "repository": {
     "type": "git",

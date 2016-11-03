@@ -59,6 +59,7 @@ The only Slack reaction gif's you'll ever need.
  * [@kyprifog](https://github.com/kyprifog) for [confused parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/35)
  * [@chalisegrogan](https://github.com/chalisegrogan) for [🍕 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/34)
  * [@westerlund](https://github.com/westerlund) for [🍔 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/36)
+ * [@chemikpil](https://github.com/chemikpil) for [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/46)
 
 # Building!
 
