@@ -85,7 +85,7 @@
 
         <hr/>
 
-        <a class="button" href="parrots.zip"></a>
+        <a class="button" id="parrots_zip" href="parrots.zip"></a>
         <p>(zip)</p>
 
         <aside><p>Add them to your Slack. Do it.</p></aside>
@@ -112,7 +112,7 @@
         <hr/>
 
         <p>
-          <a class="button-small" href="parrot.svg">SVG</a>
+          <a class="button-small" id="parrot_svg" href="parrot.svg">SVG</a>
           <a class="button-small" href="https://github.com/jmhobbs/cultofthepartyparrot.com">GitHub</a>
         </p>
 
@@ -156,6 +156,29 @@
 
         ga('create', 'UA-1664885-25', 'auto');
         ga('send', 'pageview');
+
+        function trackLinkClickEvent(id, name) {
+          document.getElementById(id).onclick = function (event) {
+            if(false && navigator.sendBeacon != undefined) {
+              ga('send', 'event', 'Link', 'click', name, {transport: 'beacon'});
+            }
+            else {
+              var ran = false,
+                   el = event.srcElement || event.target;
+                 link = e.href,
+             navigate = function() {
+                if (ran) return;
+                ran = true;
+                window.location.href = link;
+              };
+              ga('send', 'event', 'Link', 'click', name, {hitCallback: navigate});
+              setTimeout(navigate, 1000);
+              event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+            }
+          }
+        }
+        trackLinkClickEvent("parrots_zip", "parrots.zip");
+        trackLinkClickEvent("parrot_svg", "parrot.svg");
       </script>
     </div>
   </body>
