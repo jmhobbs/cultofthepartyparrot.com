@@ -161,5 +161,9 @@
     {
       "gif": "parrotmustache.gif",
       "name": "Parrot with mustache"
+    },
+    {
+      "gif": "christmasparrot.gif",
+      "name": "Christmas Parrot"
     }
 ]
