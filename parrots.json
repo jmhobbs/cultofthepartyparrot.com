@@ -159,6 +159,10 @@
       "name": "Moonwalking Parrot"
     },
     {
+      "gif": "coffeeparrot.gif",
+      "name": "Coffee Parrot"
+    },
+    {
       "gif": "parrotmustache.gif",
       "name": "Parrot with mustache"
     },
