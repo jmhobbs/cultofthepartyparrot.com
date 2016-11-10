@@ -40,11 +40,42 @@ li {
 	text-align: left;
 }
 ul li img {
-  width: 30px;
+  height: 28px;
 }
 ul li a {
   text-decoration: none;
 }
+
+@media screen and (min-width: 720px) {
+  ul {
+    max-width: 800px;
+  }
+  li {
+    width: 50%;
+    float: left;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  ul {
+    max-width: 1100px;
+  }
+  li {
+    width: 33.3333%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  ul {
+    max-width: 1300px;
+  }
+  li {
+    width: 25%;
+  }
+}
+
+
 a.button {
   border-radius: 20px;
   background: #444;
