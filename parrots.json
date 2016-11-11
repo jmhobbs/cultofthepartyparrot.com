@@ -169,5 +169,10 @@
     {
       "gif": "christmasparrot.gif",
       "name": "Christmas Parrot"
+    },
+    {
+      "gif": "witnessprotectionparrot.gif",
+      "name": "Witness Protection Parrot",
+      "tip": "I wonder who this guy is?"
     }
 ]
