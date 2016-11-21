@@ -84,3 +84,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/christmasparrot.gif'
   - name: witnessprotectionparrot
     src: 'http://cultofthepartyparrot.com/parrots/witnessprotectionparrot.gif'
+  - name: maxed-out-cpu-parrot
+    src: 'http://cultofthepartyparrot.com/parrots/maxed-out-cpu-parrot.gif'

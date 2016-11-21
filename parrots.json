@@ -174,5 +174,10 @@
       "gif": "witnessprotectionparrot.gif",
       "name": "Witness Protection Parrot",
       "tip": "I wonder who this guy is?"
+    },
+    {
+      "gif": "maxed-out-cpu-parrot.gif",
+      "name": "Maxed-Out CPU Parrot",
+      "tip": "You may need to download more RAM"
     }
 ]
