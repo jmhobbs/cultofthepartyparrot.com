@@ -178,5 +178,9 @@
     {
       "gif": "parrotsleep.gif",
       "name": "Sleepy Parrot"
+    },
+    {
+      "gif": "parrotbeer.gif",
+      "name": "Happy Hour Parrot"
     }
 ]

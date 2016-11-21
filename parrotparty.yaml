@@ -86,3 +86,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/witnessprotectionparrot.gif'
   - name: parrotsleep
     src: 'http://cultofthepartyparrot.com/parrots/parrotsleep.gif'
+  - name: parrotbeer
+    src: 'http://cultofthepartyparrot.com/parrots/parrotbeer.gif'
