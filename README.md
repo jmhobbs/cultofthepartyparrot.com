@@ -62,6 +62,8 @@ The only Slack reaction gif's you'll ever need.
  * [@clangen](https://github.com/clangen) for [coffee parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/38)
  * [@chemikpil](https://github.com/chemikpil) for [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/46) and [christmas parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/49)
  * [@jhildings](https://github.com/jhildings) for [parrot anatomy lessons](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/50)
+ * [@schaney](https://github.com/schaney) for [witness protection parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/52)
+ * [@camilaazuma](https://github.com/camilaazuma) for [sleepy and beer parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/57)
 
 # Building!
 
