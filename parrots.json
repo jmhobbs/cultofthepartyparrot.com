@@ -174,5 +174,9 @@
       "gif": "witnessprotectionparrot.gif",
       "name": "Witness Protection Parrot",
       "tip": "I wonder who this guy is?"
+    },
+    {
+      "gif": "parrotsleep.gif",
+      "name": "Sleepy Parrot"
     }
 ]
