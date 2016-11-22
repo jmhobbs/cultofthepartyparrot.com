@@ -257,6 +257,10 @@ div.shirt img {
   height: 150px;
 }
 
+.keyboards img {
+  vertical-align: middle;
+}
+
 @media screen and (min-width: 600px) {
   div.shirt {
     width: 30%;
