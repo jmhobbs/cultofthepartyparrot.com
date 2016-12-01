@@ -182,5 +182,32 @@
     {
       "gif": "parrotbeer.gif",
       "name": "Happy Hour Parrot"
+    },
+    {
+      "gif": "darkbeerparrot",
+      "name": "Dark Beer Parrot"
+    },
+    {
+      "gif": "blondesassyparrot",
+      "name": "Blonde Sassy Parrot"
+    },
+    {
+      "gif": "bluecluesparrot",
+      "name": "Blues Clues Parrot"
+    },
+    {
+      "gif": "gentlemanparrot",
+      "name": "Gentleman Parrot",
+      "tip": "A true gentleman parrot"
+    },
+    {
+      "gif": "magaritaparrot",
+      "name": "Magarita Parrot",
+      "tip": "Fiesta Parrot is getting his drink on, magarita style!"
+    },
+    {
+      "gif": "oriolesparrot",
+      "name": "Orioles Parrot",
+      "tip": "This parrot loves the orioles so much he turned into one!"
     }
 ]
