@@ -193,18 +193,21 @@
     },
     {
       "gif": "bluecluesparrot",
-      "name": "Steve from Blue's Clues Parrot"
+      "name": "Blue's Clues Parrot"
     },
     {
       "gif": "gentlemenparrot",
-      "name": "A true Gentlemen Parrot"
+      "name": "Gentlemen Parrot",
+      "tip": "A true gentleman parrot"
     },
     {
       "gif": "magaritaparrot",
-      "name": "Fiesta Parrot is getting his drink on, magarita style!"
+      "name": "Magarita Parrot",
+      "tip": "Fiesta Parrot is getting his drink on, magarita style!"
     },
     {
       "gif": "oriolesparrot",
-      "name": "This parrot loves the orioles so much he turned into one!"
+      "name": "Orioles Parrot",
+      "tip": "This parrot loves the orioles so much he turned into one!"
     }
 ]
