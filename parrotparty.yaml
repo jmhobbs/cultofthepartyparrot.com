@@ -88,3 +88,15 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/parrotsleep.gif'
   - name: parrotbeer
     src: 'http://cultofthepartyparrot.com/parrots/parrotbeer.gif'
+  - name: darkbeerparrot
+    src: 'http://cultofthepartyparrot.com/parrots/darkbeerparrot.gif'
+  - name: blondesassyparrot
+    src: 'http://cultofthepartyparrot.com/parrots/blondesassyparrot.gif'
+  - name: bluecluesparrot
+    src: 'http://cultofthepartyparrot.com/parrots/bluecluesparrot.gif'
+  - name: gentlemenparrot
+    src: 'http://cultofthepartyparrot.com/parrots/gentlemenparrot.gif'
+  - name: magaritaparrot
+    src: 'http://cultofthepartyparrot.com/parrots/magaritaparrot.gif'
+  - name: oriolesparrot
+    src: 'http://cultofthepartyparrot.com/parrots/oriolesparrot.gif'
