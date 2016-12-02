@@ -64,7 +64,7 @@ The only Slack reaction gif's you'll ever need.
  * [@jhildings](https://github.com/jhildings) for [parrot anatomy lessons](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/50)
  * [@schaney](https://github.com/schaney) for [witness protection parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/52)
  * [@camilaazuma](https://github.com/camilaazuma) for [sleepy and beer parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/57)
- * [@kbvincent](https://github.com/kbvincent) for [six great parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/58)
+ * [@kbvincent](https://github.com/kbvincent) for [six great parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/58), and a [wizard](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/62)
 
 # Building!
 
