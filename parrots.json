@@ -214,5 +214,10 @@
       "gif": "dreidelparrot.gif",
       "name": "Dreidel Parrot",
       "tip": "Happy Hanukkah!"
+    },
+    {
+      "gif": "harrypotterparrot.gif",
+      "name": "Harry Potter Parrot",
+      "tip": "You're a parrot-wizard Harry!"
     }
 ]
