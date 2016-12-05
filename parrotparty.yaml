@@ -104,3 +104,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/dreidelparrot.gif'
   - name: harrypotterparrot
     src: 'http://cultofthepartyparrot.com/parrots/harrypotterparrot.gif'
+  - name: trumpparrot
+    src: 'http://cultofthepartyparrot.com/parrots/trumpparrot.gif'
