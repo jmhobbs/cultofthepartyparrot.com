@@ -219,5 +219,10 @@
       "gif": "harrypotterparrot.gif",
       "name": "Harry Potter Parrot",
       "tip": "You're a parrot-wizard Harry!"
+    },
+    {
+      "gif": "trumpparrot.gif",
+      "name": "Donald Trump Parrot",
+      "tip": "You're gonna love this parrot, believe me!"
     }
 ]
