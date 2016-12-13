@@ -219,5 +219,10 @@
       "gif": "harrypotterparrot.gif",
       "name": "Harry Potter Parrot",
       "tip": "You're a parrot-wizard Harry!"
+    },
+    {
+      "gif": "fieriparrot.gif",
+      "name": "Guy Fieri Parrot",
+      "tip": "One way ticket to flavor town!"
     }
 ]
