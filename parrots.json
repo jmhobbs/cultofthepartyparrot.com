@@ -224,5 +224,9 @@
       "gif": "fieriparrot.gif",
       "name": "Guy Fieri Parrot",
       "tip": "One way ticket to flavor town!"
+    },
+    {
+      "gif": "upvotepartyparrot.gif",
+      "name": "Upvote Party Parrot"
     }
 ]

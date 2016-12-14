@@ -106,3 +106,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/harrypotterparrot.gif'
   - name: fieriparrot
     src: 'http://cultofthepartyparrot.com/parrots/fieriparrot.gif'
+  - name: upvotepartyparrot
+    src: 'http://cultofthepartyparrot.com/parrots/upvotepartyparrot.gif'
