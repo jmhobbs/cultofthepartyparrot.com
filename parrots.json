@@ -228,5 +228,14 @@
     {
       "gif": "upvotepartyparrot.gif",
       "name": "Upvote Party Parrot"
-    }
+    },
+    {
+      "gif": "twinsparrot.gif",
+      "name": "Twins Parrot",
+      "tip": "parrot + parrot = great party!"
+    },
+    {
+      "gif": "tripletsparrot.gif",
+      "name": "Triplets Parrot",
+      "tip": "parrot + parrot + parrot = magnificent party!!!!"
 ]
