@@ -42,6 +42,8 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/pizzaparrot.gif'
   - name: hamburgerparrot
     src: 'http://cultofthepartyparrot.com/parrots/hamburgerparrot.gif'
+  - name: santaparrot
+    src: 'http://cultofthepartyparrot.com/parrots/santaparrot.gif'
   - name: chillparrot
     src: 'http://cultofthepartyparrot.com/parrots/chillparrot.gif'
   - name: explodyparrot

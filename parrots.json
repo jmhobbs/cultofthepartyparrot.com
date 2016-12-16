@@ -91,6 +91,10 @@
       "name": "🍔 Parrot"
     },
     {
+      "gif": "santaparrot.gif",
+      "name": "Santa Parrot"
+    },
+    {
         "gif": "chillparrot.gif",
         "name": "Chill Parrot"
     },
@@ -238,4 +242,5 @@
       "gif": "tripletsparrot.gif",
       "name": "Triplets Parrot",
       "tip": "parrot + parrot + parrot = magnificent party!!!!"
+    }
 ]
