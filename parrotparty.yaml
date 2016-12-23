@@ -112,3 +112,5 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/twinsparrot.gif'
   - name: tripletsparrot
     src: 'http://cultofthepartyparrot.com/parrots/tripletsparrot.gif'
+  - name: poiparrot
+    src: 'http://cultofthepartyparrot.com/parrots/poiparrot.gif'
