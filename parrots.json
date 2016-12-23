@@ -238,4 +238,10 @@
       "gif": "tripletsparrot.gif",
       "name": "Triplets Parrot",
       "tip": "parrot + parrot + parrot = magnificent party!!!!"
+    },
+    {
+      "gif": "stableparrot.gif",
+      "name": "Stable Parrot",
+      "tip": "Gyrostablization Mode Initiated"
+    }
 ]
