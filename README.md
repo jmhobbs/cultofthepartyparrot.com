@@ -1,5 +1,7 @@
 # [cultofthepartyparrot.com](http://cultofthepartyparrot.com)
 
+[![Build Status](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com.svg?branch=master)](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com)
+
 ```
                           ........:oo:........
                        o//ssssssssyhhysssss+////o                   .'''''''''''''''''.
