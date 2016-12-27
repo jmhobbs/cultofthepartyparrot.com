@@ -6,7 +6,8 @@
     "build": "node generate.js",
     "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/",
     "compare": "echo \"import json\nfor parrot in json.load(open('parrots.json', 'rb')):\n\tprint parrot['gif']\" | python | sort > .injson && ls -l parrots/ | awk '{print $9}' | sort > .indir && echo '--[diff]-------------------------------------------' && (diff .injson .indir || true) && rm .injson .indir",
-    "compress": "rm -f parrots.zip && echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -v -z  parrots.zip parrots/*"
+    "compress": "rm -f parrots.zip && echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -v -z  parrots.zip parrots/*",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/jmhobbs/cultofthepartyparrot.com#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "js-yaml": "^3.6.1",
+    "jsonschema": "1.1.1",
     "mustache": "^2.2.1"
   }
 }
