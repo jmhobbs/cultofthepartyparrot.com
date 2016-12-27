@@ -1,0 +1,5 @@
+language: node_js
+before_install:
+  - npm install -g mocha
+before_script: "npm install --dev"
+script: "npm test"
