@@ -67,6 +67,7 @@ The only Slack reaction gif's you'll ever need.
  * [@kbvincent](https://github.com/kbvincent) for [six great parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/58), and a [wizard](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/62)
  * [@schaney](https://github.com/schaney) for [a one way ticket to flavor town](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/66)
  * [@francoislg](https://github.com/francoislg) for [upvote parrot and PPaaS](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/64)
+ * [@c-r-a-f](https://github.com/c-r-a-f) for [twin and triplet parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/68)
 
 # Building!
 
