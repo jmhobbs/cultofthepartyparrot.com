@@ -16,5 +16,3 @@ parrots.forEach(function (e, i, a) {
 });
 
 fs.writeFileSync("parrotparty.yaml", yaml.dump({title: "parrotparty", emojis: emoji}));
-
-// exec('zip -ur parrots parrots', function (error, stdout, stderr) { console.log(stdout); console.log(stderr); }); 
