@@ -1,13 +1,9 @@
 {
   "name": "cultofthepartyparrot.com",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PARTY OR DIE",
   "scripts": {
-    "build": "node generate.js",
-    "deploy": "rsync -rvz --exclude='*.mustache' --exclude=node_modules --exclude=.git * velvetcache.org:~/cultofthepartyparrot.com/",
-    "compare": "echo \"import json\nfor parrot in json.load(open('parrots.json', 'rb')):\n\tprint parrot['gif']\" | python | sort > .injson && ls -l parrots/ | awk '{print $9}' | sort > .indir && echo '--[diff]-------------------------------------------' && (diff .injson .indir || true) && rm .injson .indir",
-    "compress": "rm -f parrots.zip && echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -v -z  parrots.zip parrots/*",
-    "test": "mocha"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -21,8 +17,13 @@
   "homepage": "https://github.com/jmhobbs/cultofthepartyparrot.com#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "js-yaml": "^3.6.1",
-    "jsonschema": "1.1.1",
-    "mustache": "^2.2.1"
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-mustache": "^2.3.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-uglifycss": "^1.0.6",
+    "jsonschema": "1.1.1"
   }
 }

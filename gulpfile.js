@@ -1,0 +1,86 @@
+var gulp = require('gulp'),
+  mocha = require('gulp-mocha'),
+  mustache = require("gulp-mustache"),
+  data = require('gulp-data'),
+  imagemin = require('gulp-imagemin'),
+  uglify = require('gulp-uglify'),
+  uglifycss = require('gulp-uglifycss'),
+  rev = require('gulp-rev'),
+  exec = require('child_process').exec,
+  fs = require('fs');
+
+
+gulp.task('test', function() {
+  return gulp.src(['test/*.js'], { read: false })
+    .pipe(mocha());
+});
+
+// Depends on zip and css for the asset manifest
+gulp.task('render', ['test', 'zip', 'css'], function () {
+  gulp.src('templates/*')
+    .pipe(data(function(file) {
+      // Mustache doesn't handle dots in keys...
+      var assets = {};
+      var json = JSON.parse(fs.readFileSync('dist/assets/rev-manifest.json'));
+      for(var key in json) {
+        assets[key.replace('.', '_')] = json[key];
+      }
+      return {
+        parrots: JSON.parse(fs.readFileSync('parrots.json')),
+        assets: assets,
+        zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['parrots.zip']
+      };
+    }))
+    .pipe(mustache())
+    .pipe(gulp.dest("dist/"));
+});
+
+gulp.task('zip', ['compress'], function () {
+  gulp.src('parrots.zip')
+    .pipe(rev())
+    .pipe(gulp.dest('dist/'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('compress', ['test'], function (cb) {
+  exec('rm -f ./parrots.zip', function (err, stdout, stderr) {
+    console.log(stderr);
+    if(err != null) { cb(err); }
+    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
+      console.log(stderr);
+      cb(err);
+    });
+  });
+});
+
+gulp.task('images', function () {
+  gulp.src('src/*.{svg,png,jpg,gif}')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/assets/'));
+  gulp.src('src/favicon.ico')
+    .pipe(gulp.dest('dist/'));
+  gulp.src('parrots/*.gif')
+    .pipe(gulp.dest('dist/parrots/'));
+});
+
+gulp.task('css', function () {
+  gulp.src('src/parrot.css')
+    .pipe(uglifycss())
+    .pipe(rev())
+    .pipe(gulp.dest('dist/assets/'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('dist/assets/'));
+});
+
+gulp.task('clean', function (cb) {
+  exec('rm -f dist/*', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+});
+
+gulp.task('build', ['test', 'css', 'images', 'render', 'zip']);
+
+gulp.task('default', ['test']);

@@ -5,12 +5,12 @@
     <title>Cult of the Party Parrot</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="parrot.css?v=7">
+    <link rel="stylesheet" href="/assets/{{assets.parrot_css}}">
 
     <meta property="og:title" content="Cult of the Party Parrot" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="THE PARROT INSISTS" />
-    <meta property="og:image" content="/og.png" />
+    <meta property="og:image" content="/assets/og.png" />
 
     <!--
 
@@ -59,19 +59,19 @@
        
         <table>
           <tr>
-            <td><img src="parrots/parrot.gif" /></td>
-            <td><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /></td>
-            <td><img src="parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/parrot.gif" /></td>
+            <td><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /></td>
+            <td><img src="/parrots/rightparrot.gif" /></td>
           </tr>
           <tr>
-            <td><img src="parrots/parrot.gif" /></td>
+            <td><img src="/parrots/parrot.gif" /></td>
             <td><h2>PARTY OR DIE</h2></td>
-            <td><img src="parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/rightparrot.gif" /></td>
           </tr>
           <tr>
-            <td><img src="parrots/parrot.gif" /></td>
-            <td><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /><img src="parrots/middleparrot.gif" /></td>
-            <td><img src="parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/parrot.gif" /></td>
+            <td><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /></td>
+            <td><img src="/parrots/rightparrot.gif" /></td>
           </tr>
         </table>
 
@@ -79,13 +79,13 @@
 
         <ul>
           {{#parrots}}
-          <li><img src="parrots/{{gif}}" alt="{{name}}"/> {{name}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          <li><img src="/parrots/{{gif}}" alt="{{name}}"/> {{name}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
           {{/parrots}}
         </ul>
 
         <hr/>
 
-        <a class="button" id="parrots_zip" href="parrots.zip"></a>
+        <a class="button" id="parrots_zip" href="/{{zip}}"></a>
         <p>(zip)</p>
 
         <aside><p>Add them to your Slack. Do it.</p></aside>
@@ -95,10 +95,10 @@
         <h3>Shirts!</h3>
         <div class="clearfix">
           <div class="shirt">
-            <a href="https://cottonbureau.com/products/parrot"><img src="/shirt.jpg" alt=":parrot:" /></a>
+            <a href="https://cottonbureau.com/products/parrot"><img src="/assets/shirt.jpg" alt=":parrot:" /></a>
           </div>
           <div class="shirt">
-            <a href="https://teespring.com/partyparrot"><img src="/glasses-shirt.png" alt=":partyparrot:" /></a>
+            <a href="https://teespring.com/partyparrot"><img src="/assets/glasses-shirt.png" alt=":partyparrot:" /></a>
           </div>
         </div>
 
@@ -106,14 +106,14 @@
 
         <h3>Keyboards!</h3>
         <div class="clearfix keyboards">
-          <a href="https://itunes.apple.com/us/app/cult-of-the-party-parrot/id1169278591?ls=1&mt=8"><img src="app-store-badge.svg" alt="Download on the App Store" /></a>
-          <a href="https://play.google.com/store/apps/details?id=us.fetch321.partyparrotkeyboard"><img src="google-play-badge.png" alt="Download on Google Play" /></a>
+          <a href="https://itunes.apple.com/us/app/cult-of-the-party-parrot/id1169278591?ls=1&mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" /></a>
+          <a href="https://play.google.com/store/apps/details?id=us.fetch321.partyparrotkeyboard"><img src="/assets/google-play-badge.png" alt="Download on Google Play" /></a>
         </div>
 
         <hr/>
 
         <p>
-          <a class="button-small" id="parrot_svg" href="parrot.svg">SVG</a>
+          <a class="button-small" id="parrot_svg" href="/assets/parrot.svg">SVG</a>
           <a class="button-small" href="https://github.com/jmhobbs/cultofthepartyparrot.com">GitHub</a>
         </p>
 
@@ -132,7 +132,7 @@
           Party Parrot based on <a href="https://www.youtube.com/watch?v=9T1vfsHYiKY">Sirocco</a>, the hardest partying parrot ever.
         </p>
 
-        <img src="sirocco.gif" alt="Sirocco" />
+        <img src="/assets/sirocco.gif" alt="Sirocco" />
 
         <p>
           Sirocco is a member of the endangered Kākāpō species.
@@ -147,7 +147,7 @@
       </article>
 
       <footer>
-        With <img src="parrots/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
+        With <img src="/parrots/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
       </footer>
 
       <script>
