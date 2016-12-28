@@ -34,4 +34,19 @@ describe("parrots.json", function () {
 
     assert.equal(0, validation_result.errors.length);
   });
+
+  it("should not have extra gifs", function () {
+    var parrots_json = JSON.parse(fs.readFileSync(__dirname + '/../parrots.json', 'utf8'));
+    parrots_json.forEach(function(parrot) {
+      assert.ok(fs.existsSync(__dirname + '/../parrots/' + parrot.gif))
+    });
+  });
+
+  it("should contain all gifs", function () {
+    var parrots = JSON.parse(fs.readFileSync(__dirname + '/../parrots.json', 'utf8')).map(function(parrot) { return parrot.gif; });
+    var parrot_gifs = fs.readdirSync(__dirname + '/../parrots');
+    parrot_gifs.forEach(function(gif) {
+      assert.ok(-1 !== parrots.indexOf(gif));
+    });
+  });
 });

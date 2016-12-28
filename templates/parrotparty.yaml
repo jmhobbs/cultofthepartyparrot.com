@@ -1,0 +1,6 @@
+title: parrotparty
+emojis:
+{{#parrots}}
+  - name: {{name}}
+    src: 'http://cultofthepartyparrot.com/parrots/{{gif}}'
+{{/parrots}}

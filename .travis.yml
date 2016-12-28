@@ -1,5 +1,5 @@
 language: node_js
-before_install:
+install:
   - npm install -g mocha
-before_script: "npm install --dev"
-script: "npm test"
+  - npm install chai jsonschema
+script: "mocha"

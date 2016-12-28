@@ -72,10 +72,14 @@ The only Slack reaction gif's you'll ever need.
  * [@c-r-a-f](https://github.com/c-r-a-f) for [twin and triplet parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/68)
  * [@curiousepic](https://github.com/curiousepic) for [stabalized parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/71)
 
-# Building!
+# Contributing!
 
- 1. `npm install`
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
- 1. `npm run build`
  1. Open a PR
  1. PARTY
+
+# Deploying!
+
+ 1. `npm install`
+ 1. `gulp build`
+ 1. Upload it somewhere!
