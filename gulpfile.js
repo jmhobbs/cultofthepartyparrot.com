@@ -16,7 +16,7 @@ gulp.task('test', function() {
 
 // Depends on zip and css for the asset manifest
 gulp.task('render', ['test', 'zip', 'css'], function () {
-  gulp.src('templates/*')
+  return gulp.src('templates/*')
     .pipe(data(function(file) {
       // Mustache doesn't handle dots in keys...
       var assets = {};
@@ -35,7 +35,7 @@ gulp.task('render', ['test', 'zip', 'css'], function () {
 });
 
 gulp.task('zip', ['compress'], function () {
-  gulp.src('parrots.zip')
+  return gulp.src('parrots.zip')
     .pipe(rev())
     .pipe(gulp.dest('dist/'))
     .pipe(rev.manifest())
@@ -54,17 +54,17 @@ gulp.task('compress', ['test'], function (cb) {
 });
 
 gulp.task('images', function () {
-  gulp.src('src/*.{svg,png,jpg,gif}')
-    .pipe(imagemin())
-    .pipe(gulp.dest('dist/assets/'));
   gulp.src('src/favicon.ico')
     .pipe(gulp.dest('dist/'));
   gulp.src('parrots/*.gif')
     .pipe(gulp.dest('dist/parrots/'));
+  return gulp.src('src/*.{svg,png,jpg,gif}')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/assets/'));
 });
 
 gulp.task('css', function () {
-  gulp.src('src/parrot.css')
+  return gulp.src('src/parrot.css')
     .pipe(uglifycss())
     .pipe(rev())
     .pipe(gulp.dest('dist/assets/'))
@@ -73,7 +73,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('clean', function (cb) {
-  exec('rm -f dist/*', function (err, stdout, stderr) {
+  exec('rm -rf dist/*', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
