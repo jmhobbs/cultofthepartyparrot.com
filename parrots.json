@@ -247,5 +247,9 @@
       "gif": "stableparrot.gif",
       "name": "Stable Parrot",
       "tip": "Gyrostablization Mode Initiated"
+    },
+    {
+	  "gif": "halalparrot.gif",
+	  "name": "Halal Parrot"
     }
 ]
