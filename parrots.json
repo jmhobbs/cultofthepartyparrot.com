@@ -251,5 +251,9 @@
     {
       "gif": "skiparrot.gif",
       "name": "Ski Parrot"
+    },
+    {
+	  "gif": "halalparrot.gif",
+	  "name": "Halal Parrot"
     }
 ]
