@@ -251,5 +251,13 @@
     {
       "gif": "shipitparrot.gif",
       "name": "Ship It Parrot"
+    },
+    {
+      "gif": "skiparrot.gif",
+      "name": "Ski Parrot"
+    },
+    {
+	  "gif": "halalparrot.gif",
+	  "name": "Halal Parrot"
     }
 ]
