@@ -386,5 +386,9 @@
       "gif": "bluntparrot.gif",
       "hd": "hd/bluntparrot.gif",
       "name": "Blunt Parrot"
+    },
+    {
+      "gif": "partyowl.gif",
+      "name": "Party Owl"
     }
 ]
