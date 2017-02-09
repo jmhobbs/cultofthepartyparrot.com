@@ -259,5 +259,10 @@
     {
 	  "gif": "halalparrot.gif",
 	  "name": "Halal Parrot"
+    },
+    {
+      "gif": "grumpyparrot.gif",
+      "name": "Grumpy Parrot",
+      "tip": "Want to party? No!"
     }
 ]
