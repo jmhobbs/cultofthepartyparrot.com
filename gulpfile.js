@@ -14,6 +14,11 @@ gulp.task('test', function() {
     .pipe(mocha());
 });
 
+function ParrotObjectAddSlackName (parrot) {
+  parrot.slack_name = parrot.gif.replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-');
+  return parrot;
+}
+
 // Depends on zip and css for the asset manifest
 gulp.task('render', ['test', 'zip', 'css'], function () {
   return gulp.src('templates/*')
@@ -25,7 +30,7 @@ gulp.task('render', ['test', 'zip', 'css'], function () {
         assets[key.replace('.', '_')] = json[key];
       }
       return {
-        parrots: JSON.parse(fs.readFileSync('parrots.json')),
+        parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAddSlackName),
         assets: assets,
         zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['parrots.zip']
       };
