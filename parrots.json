@@ -257,7 +257,11 @@
       "name": "Ski Parrot"
     },
     {
-	  "gif": "halalparrot.gif",
-	  "name": "Halal Parrot"
+      "gif": "halalparrot.gif",
+      "name": "Halal Parrot"
+    },
+    {
+      "gif": "nyanparrot.gif",
+      "name": "Nyan Parrot"
     }
 ]
