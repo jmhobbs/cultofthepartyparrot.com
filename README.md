@@ -71,6 +71,11 @@ The only Slack reaction gif's you'll ever need.
  * [@francoislg](https://github.com/francoislg) for [upvote parrot and PPaaS](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/64)
  * [@c-r-a-f](https://github.com/c-r-a-f) for [twin and triplet parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/68)
  * [@curiousepic](https://github.com/curiousepic) for [stabalized parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/71)
+ * [@marcthayer](https://github.com/marcthayer) for [banana parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/78) and [typo fixes](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/77)
+ * [@tianyuliu](https://github.com/tianyuliu) for [ski parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/81), [halal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/80) and [ship it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/84)
+ * [@vaicine](https://github.com/vaicine) for [nyan parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/89)
+ * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/90)
+ * [@jcoutch])https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/91)
 
 # Contributing!
 
