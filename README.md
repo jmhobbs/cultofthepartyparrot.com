@@ -75,7 +75,7 @@ The only Slack reaction gif's you'll ever need.
  * [@tianyuliu](https://github.com/tianyuliu) for [ski parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/81), [halal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/80) and [ship it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/84)
  * [@vaicine](https://github.com/vaicine) for [nyan parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/89)
  * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/90)
- * [@jcoutch])https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/91)
+ * [@jcoutch](https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/91)
 
 # Contributing!
 
