@@ -78,6 +78,7 @@ The only Slack reaction gif's you'll ever need.
  * [@jcoutch](https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/91)
  * [@paul-russo](https://github.com/paul-russo) for [typo fix](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/92)
  * [@lucymhdavies](https://github.com/lucymhdavies) for [sharing found parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/93)
+ * [@viktorsec](https://github.com/viktorsec) for [making shuffle parrots chainable](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/30)
 
 # Contributing!
 
