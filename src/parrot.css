@@ -142,6 +142,7 @@ a.button-small {
   padding: 10px 20px;
   display: inline-block;
   margin: auto;
+  margin-bottom: 5px;
   font-size: 14px;
 }
 
