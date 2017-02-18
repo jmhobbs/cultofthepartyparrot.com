@@ -31,6 +31,10 @@ hr {
   width: 50%;
   margin: 40px auto;
 }
+hr.thin {
+  border-width: 1px;
+  border-color: #CCC;
+}
 ul {
 	display: inline-block;
 	margin: auto;
