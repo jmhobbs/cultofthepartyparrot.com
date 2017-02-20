@@ -205,6 +205,7 @@
     },
     {
       "gif": "gentlemanparrot.gif",
+      "hd": "hd/gentlemanparrot.gif",
       "name": "Gentleman Parrot",
       "tip": "A true gentleman parrot"
     },
@@ -276,10 +277,5 @@
       "gif": "wendyparrot.gif",
       "name": "Wendy's Parrot",
       "tip": "BACONATOR OR DIE!"
-    },
-    {
-      "gif": "hd_gentleman_parrot.gif",
-      "name": "Gentleman Parrot",
-      "tip": "HD Gentleman Parrot"
     }
 ]
