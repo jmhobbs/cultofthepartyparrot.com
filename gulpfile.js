@@ -51,7 +51,7 @@ gulp.task('compress', ['test'], function (cb) {
   exec('rm -f ./parrots.zip', function (err, stdout, stderr) {
     console.log(stderr);
     if(err != null) { cb(err); }
-    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
+    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
       console.log(stderr);
       cb(err);
     });
