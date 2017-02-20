@@ -79,7 +79,7 @@
 
         <ul>
           {{#parrots}}
-          <li><img src="/parrots/{{gif}}" alt="{{name}}"/> {{name}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          <li><img src="/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
           {{/parrots}}
         </ul>
 
