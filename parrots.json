@@ -261,18 +261,22 @@
       "name": "Ski Parrot"
     },
     {
-    "gif": "loveparrot.gif",
-    "name": "Love Parrot"
+	  "gif": "halalparrot.gif",
+	  "name": "Halal Parrot"
     },
     {
-      "gif": "halalparrot.gif",
-      "name": "Halal Parrot"
+    "gif": "partyowl.gif",
+    "name": "Party Owl"
+    },
+    {
+    "gif": "loveparrot.gif",
+    "name": "Love Parrot"
     },
     {
       "gif": "nyanparrot.gif",
       "name": "Nyan Parrot"
     },
-   {
+    {
         "gif": "wendyparrot.gif",
         "name": "Wendy's Parrot",
         "tip": "BACONATOR OR DIE!"
