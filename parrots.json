@@ -163,6 +163,10 @@
       "name": "Moonwalking Parrot"
     },
     {
+      "gif": "thumbsupparrot.gif",
+      "name": "Thumbs Up Parrot"
+    },
+    {
       "gif": "coffeeparrot.gif",
       "name": "Coffee Parrot"
     },
@@ -263,5 +267,18 @@
     {
     "gif": "partyowl.gif",
     "name": "Party Owl"
+    },
+    {
+    "gif": "loveparrot.gif",
+    "name": "Love Parrot"
+    },
+    {
+      "gif": "nyanparrot.gif",
+      "name": "Nyan Parrot"
+    },
+    {
+        "gif": "wendyparrot.gif",
+        "name": "Wendy's Parrot",
+        "tip": "BACONATOR OR DIE!"
     }
 ]
