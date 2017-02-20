@@ -272,9 +272,14 @@
       "gif": "nyanparrot.gif",
       "name": "Nyan Parrot"
     },
-   {
-        "gif": "wendyparrot.gif",
-        "name": "Wendy's Parrot",
-        "tip": "BACONATOR OR DIE!"
+    {
+      "gif": "wendyparrot.gif",
+      "name": "Wendy's Parrot",
+      "tip": "BACONATOR OR DIE!"
+    },
+    {
+      "gif": "hd_gentleman_parrot.gif",
+      "name": "Gentleman Parrot",
+      "tip": "HD Gentleman Parrot"
     }
 ]
