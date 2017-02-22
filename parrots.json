@@ -276,5 +276,9 @@
         "gif": "wendyparrot.gif",
         "name": "Wendy's Parrot",
         "tip": "BACONATOR OR DIE!"
+    },
+    {
+      "gif": "yakultparrot.gif",
+      "name": "Yakult Parrot"
     }
 ]
