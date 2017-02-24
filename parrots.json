@@ -1,14 +1,17 @@
 [
     {
         "gif": "parrot.gif",
+        "hd": "hd/parrot.gif",
         "name": "Parrot"
     },
     {
         "gif": "middleparrot.gif",
+        "hd": "hd/middleparrot.gif",
         "name": "Middle Parrot"
     },
     {
         "gif": "rightparrot.gif",
+        "hd": "hd/rightparrot.gif",
         "name": "Right Parrot"
     },
     {
@@ -29,6 +32,7 @@
     },
     {
         "gif": "shuffleparrot.gif",
+        "hd": "hd/shuffleparrot.gif",
         "name": "Shuffle Parrot"
     },
     {
@@ -38,6 +42,7 @@
     },
     {
         "gif": "congaparrot.gif",
+        "hd": "hd/congaparrot.gif",
         "name": "Conga Line Parrot",
         "tip": "A self sufficient conga line parrot!"
     },
@@ -51,6 +56,7 @@
     },
     {
         "gif": "sadparrot.gif",
+        "hd": "hd/sadparrot.gif",
         "name": "Sad Parrot",
         "tip": "Parrots are entitled to their full range of emotions."
     },
@@ -76,6 +82,7 @@
     },
     {
         "gif": "dealwithitparrot.gif",
+        "hd": "hd/dealwithitparrot.gif",
         "name": "Deal With It Parrot"
     },
     {
@@ -176,6 +183,7 @@
     },
     {
       "gif": "christmasparrot.gif",
+      "hd": "hd/christmasparrot.gif",
       "name": "Christmas Parrot"
     },
     {
@@ -277,5 +285,9 @@
       "gif": "wendyparrot.gif",
       "name": "Wendy's Parrot",
       "tip": "BACONATOR OR DIE!"
+    },
+    {
+      "hd": "hd/popcornparrot.gif",
+      "name": "Popcorn Parrot"
     }
 ]

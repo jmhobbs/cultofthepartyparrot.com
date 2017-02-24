@@ -13,7 +13,11 @@ var parrots_json_schema = {
       "name": { "type": "string" },
       "tip": { "type": "string" }
     },
-    "required": ["gif", "name"],
+    "required": ["name"],
+    "anyOf": [
+      {"required" : ["gif"]},
+      {"required" : ["hd"]}
+    ],
     "additionalProperties": false
   }
 };
@@ -39,7 +43,7 @@ describe("parrots.json", function () {
   it("should not have extra gifs", function () {
     var parrots_json = JSON.parse(fs.readFileSync(__dirname + '/../parrots.json', 'utf8'));
     parrots_json.forEach(function(parrot) {
-      assert.ok(fs.existsSync(__dirname + '/../parrots/' + parrot.gif) || fs.existsSync(__dirname + '/../parrots/' + parrot.hd))
+      assert.ok(fs.existsSync(__dirname + '/../parrots/' + parrot.gif) || fs.existsSync(__dirname + '/../parrots/' + parrot.hd), parrot.name)
     });
   });
 
@@ -48,7 +52,7 @@ describe("parrots.json", function () {
     var parrot_gifs = fs.readdirSync(__dirname + '/../parrots');
     parrot_gifs.forEach(function(gif) {
       if(! fs.statSync(__dirname + '/../parrots/' + gif).isFile()) { return; }
-      assert.ok(-1 !== parrots.indexOf(gif));
+      assert.ok(-1 !== parrots.indexOf(gif), gif);
     });
   });
 
@@ -57,7 +61,7 @@ describe("parrots.json", function () {
     var parrot_hd_gifs = fs.readdirSync(__dirname + '/../parrots/hd');
     parrot_hd_gifs.forEach(function(gif) {
       if(! fs.statSync(__dirname + '/../parrots/hd/' + gif).isFile()) { return; }
-      assert.ok(-1 !== hd_parrots.indexOf('hd/' + gif));
+      assert.ok(-1 !== hd_parrots.indexOf('hd/' + gif), gif);
     });
   });
 });
