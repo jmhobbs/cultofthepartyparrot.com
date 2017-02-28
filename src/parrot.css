@@ -134,6 +134,27 @@ a.button:hover:after {
   90% {background-color:#FD5258;}
 }
 
+@keyframes hdParrot { 
+  0% {color:#FECE7A;}
+  12% {color:#7EFF7A;}
+  24% {color:#7EFFFF;}
+  36% {color:#7BA3FE;}
+  48% {color:#CB70FE;}
+  60% {color:#FC49F5;}
+  78% {color:#FC4EA7;}
+  90% {color:#FD5258;}
+}
+@-webkit-keyframes hdParrot { 
+  0% {color:#FECE7A;}
+  12% {color:#7EFF7A;}
+  24% {color:#7EFFFF;}
+  36% {color:#7BA3FE;}
+  48% {color:#CB70FE;}
+  60% {color:#FC49F5;}
+  78% {color:#FC4EA7;}
+  90% {color:#FD5258;}
+}
+
 a.button-small {
   border-radius: 5px;
   background: #444;
@@ -285,4 +306,20 @@ div.shirt img {
   div.shirt img {
     height: 300px;
   }
+}
+
+span.hd {
+  font-size: 0.2em;
+  font-weight: bold;
+  vertical-align: super;
+
+  animation-name: hdParrot; 
+  animation-duration:1s; 
+  animation-direction:alternate; 
+  animation-iteration-count:infinite; 
+
+  -webkit-animation-name: hdParrot; 
+  -webkit-animation-duration:1s; 
+  -webkit-animation-direction:alternate; 
+  -webkit-animation-iteration-count:infinite;	
 }
