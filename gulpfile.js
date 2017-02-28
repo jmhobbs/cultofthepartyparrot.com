@@ -15,7 +15,7 @@ gulp.task('test', function() {
 });
 
 function ParrotObjectAddSlackName (parrot) {
-  parrot.slack_name = parrot.gif.replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-');
+  parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-');
   return parrot;
 }
 
@@ -61,7 +61,7 @@ gulp.task('compress', ['test'], function (cb) {
 gulp.task('images', function () {
   gulp.src('src/favicon.ico')
     .pipe(gulp.dest('dist/'));
-  gulp.src('parrots/*.gif')
+  gulp.src('parrots/**/*')
     .pipe(gulp.dest('dist/parrots/'));
   return gulp.src('src/*.{svg,png,jpg,gif}')
     .pipe(imagemin())
