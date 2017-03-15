@@ -1,5 +1,7 @@
 deploy.sh
 node_modules/
+parrots.zip
+dist/
 
 # Created by https://www.gitignore.io/api/vim,osx
 

@@ -1,14 +1,17 @@
 [
     {
         "gif": "parrot.gif",
+        "hd": "hd/parrot.gif",
         "name": "Parrot"
     },
     {
         "gif": "middleparrot.gif",
+        "hd": "hd/middleparrot.gif",
         "name": "Middle Parrot"
     },
     {
         "gif": "rightparrot.gif",
+        "hd": "hd/rightparrot.gif",
         "name": "Right Parrot"
     },
     {
@@ -29,6 +32,7 @@
     },
     {
         "gif": "shuffleparrot.gif",
+        "hd": "hd/shuffleparrot.gif",
         "name": "Shuffle Parrot"
     },
     {
@@ -38,6 +42,7 @@
     },
     {
         "gif": "congaparrot.gif",
+        "hd": "hd/congaparrot.gif",
         "name": "Conga Line Parrot",
         "tip": "A self sufficient conga line parrot!"
     },
@@ -51,6 +56,7 @@
     },
     {
         "gif": "sadparrot.gif",
+        "hd": "hd/sadparrot.gif",
         "name": "Sad Parrot",
         "tip": "Parrots are entitled to their full range of emotions."
     },
@@ -76,6 +82,7 @@
     },
     {
         "gif": "dealwithitparrot.gif",
+        "hd": "hd/dealwithitparrot.gif",
         "name": "Deal With It Parrot"
     },
     {
@@ -89,6 +96,10 @@
     {
       "gif": "hamburgerparrot.gif",
       "name": "🍔 Parrot"
+    },
+    {
+      "gif": "bananaparrot.gif",
+      "name": "🍌 Parrot"
     },
     {
         "gif": "chillparrot.gif",
@@ -159,6 +170,10 @@
       "name": "Moonwalking Parrot"
     },
     {
+      "gif": "thumbsupparrot.gif",
+      "name": "Thumbs Up Parrot"
+    },
+    {
       "gif": "coffeeparrot.gif",
       "name": "Coffee Parrot"
     },
@@ -168,6 +183,7 @@
     },
     {
       "gif": "christmasparrot.gif",
+      "hd": "hd/christmasparrot.gif",
       "name": "Christmas Parrot"
     },
     {
@@ -192,18 +208,19 @@
       "name": "Blonde Sassy Parrot"
     },
     {
-      "gif": "bluecluesparrot.gif",
+      "gif": "bluescluesparrot.gif",
       "name": "Blues Clues Parrot"
     },
     {
       "gif": "gentlemanparrot.gif",
+      "hd": "hd/gentlemanparrot.gif",
       "name": "Gentleman Parrot",
       "tip": "A true gentleman parrot"
     },
     {
-      "gif": "magaritaparrot.gif",
-      "name": "Magarita Parrot",
-      "tip": "Fiesta Parrot is getting his drink on, magarita style!"
+      "gif": "margaritaparrot.gif",
+      "name": "Margarita Parrot",
+      "tip": "Fiesta Parrot is getting his drink on, margarita style!"
     },
     {
       "gif": "oriolesparrot.gif",
@@ -238,4 +255,39 @@
       "gif": "tripletsparrot.gif",
       "name": "Triplets Parrot",
       "tip": "parrot + parrot + parrot = magnificent party!!!!"
+    },
+    {
+      "gif": "stableparrot.gif",
+      "name": "Stable Parrot",
+      "tip": "Gyrostablization Mode Initiated"
+    },
+    {
+      "gif": "shipitparrot.gif",
+      "name": "Ship It Parrot"
+    },
+    {
+      "gif": "skiparrot.gif",
+      "name": "Ski Parrot"
+    },
+    {
+    "gif": "loveparrot.gif",
+    "name": "Love Parrot"
+    },
+    {
+      "gif": "halalparrot.gif",
+      "name": "Halal Parrot"
+    },
+    {
+      "gif": "nyanparrot.gif",
+      "name": "Nyan Parrot"
+    },
+    {
+      "hd": "hd/wendyparrot.gif",
+      "name": "Wendy's Parrot",
+      "tip": "BACONATOR OR DIE!"
+    },
+    {
+      "hd": "hd/popcornparrot.gif",
+      "name": "Popcorn Parrot"
+    }
 ]

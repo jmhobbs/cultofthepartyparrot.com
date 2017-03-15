@@ -1,0 +1,7 @@
+title: parrotparty
+emojis:
+{{#parrots}}
+  - name: {{slack_name}}
+    src: 'http://cultofthepartyparrot.com/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
+    fullname: {{name}}
+{{/parrots}}
