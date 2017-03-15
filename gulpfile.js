@@ -15,7 +15,7 @@ gulp.task('test', function() {
 });
 
 function ParrotObjectAddSlackName (parrot) {
-  parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-');
+  parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
   return parrot;
 }
 
