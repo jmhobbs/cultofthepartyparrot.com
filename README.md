@@ -66,7 +66,7 @@ The only Slack reaction gif's you'll ever need.
  * [@jhildings](https://github.com/jhildings) for [parrot anatomy lessons](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/50)
  * [@schaney](https://github.com/schaney) for [witness protection parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/52)
  * [@camilaazuma](https://github.com/camilaazuma) for [sleepy and beer parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/57)
- * [@kbvincent](https://github.com/kbvincent) for [six great parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/58), and a [wizard](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/62)
+ * [@kbvincent](https://github.com/kbvincent) for [six great parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/58), a [wizard](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/62) and [HD gentleman parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/96)
  * [@schaney](https://github.com/schaney) for [a one way ticket to flavor town](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/66)
  * [@francoislg](https://github.com/francoislg) for [upvote parrot and PPaaS](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/64)
  * [@c-r-a-f](https://github.com/c-r-a-f) for [twin and triplet parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/68)
@@ -79,6 +79,10 @@ The only Slack reaction gif's you'll ever need.
  * [@paul-russo](https://github.com/paul-russo) for [typo fix](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/92)
  * [@lucymhdavies](https://github.com/lucymhdavies) for [sharing found parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/93)
  * [@viktorsec](https://github.com/viktorsec) for [making shuffle parrots chainable](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/30)
+ * [@8-uh](https://github.com/8-uh) for [Party Parrot wants your soul](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/99)
+ * [@mjaniszew](https://github.com/mjaniszew) for [touch bar parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/101)
+ * [@melinerunen](https://github.com/melinerunen) for [hd only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/102) and the [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/107)
+ * [@joekieffer](https://github.com/joekieffer) for [🍩 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/103)
 
 # Contributing!
 
