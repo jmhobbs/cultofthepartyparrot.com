@@ -64,4 +64,18 @@ describe("parrots.json", function () {
       assert.ok(-1 !== hd_parrots.indexOf('hd/' + gif), gif);
     });
   });
+
+  it("should not contain any gifs over 64kb", function () {
+    var sixtyfourk = 64 * 1024;
+    fs.readdirSync(__dirname + '/../parrots').forEach(function(gif) {
+      var stat = fs.statSync(__dirname + '/../parrots/' + gif);
+      if(! stat.isFile()) { return; }
+      assert.ok(stat.size <= sixtyfourk, gif);
+    });
+    fs.readdirSync(__dirname + '/../parrots/hd').forEach(function(gif) {
+      var stat = fs.statSync(__dirname + '/../parrots/hd/' + gif);
+      if(! stat.isFile()) { return; }
+      assert.ok(stat.size <= sixtyfourk, gif);
+    });
+  });
 });
