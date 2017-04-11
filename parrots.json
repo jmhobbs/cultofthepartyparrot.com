@@ -293,5 +293,10 @@
     {
       "hd": "hd/donutparrot.gif",
       "name": "Donut Parrot"
+    },
+    {
+      "hd": "hd/frustratedparrot.gif",
+      "name": "Frustrated Parrot",
+      "tip": "Frustrated parrot is banging his head against the wall. Someone bring him a drink!"
     }
 ]
