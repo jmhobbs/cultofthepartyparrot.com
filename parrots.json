@@ -293,5 +293,10 @@
     {
       "hd": "hd/donutparrot.gif",
       "name": "Donut Parrot"
+    },
+    {
+      "gif": "popcornparrotofdarkness.gif",
+      "hd": "hd/popcornparrotofdarkness.gif",
+      "name": "Popcorn Parrot of Darkness"
     }
 ]
