@@ -293,5 +293,10 @@
     {
       "hd": "hd/donutparrot.gif",
       "name": "Donut Parrot"
+    },
+    {
+      "hd": "hd/baldparrot.gif",
+      "name": "Bald Parrot",
+      "tip": "Bald and slow dude with a five o'clock shadow"
     }
 ]
