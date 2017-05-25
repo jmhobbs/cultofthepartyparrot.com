@@ -293,5 +293,23 @@
     {
       "hd": "hd/donutparrot.gif",
       "name": "Donut Parrot"
+    },
+    {
+      "gif": "discoparrot.gif",
+      "name": "Disco Parrot",
+      "tip": "1970s Party Parrot"
+    },
+    {
+      "gif": "matrixparrot.gif",
+      "name": "Matrix Parrot",
+      "tip": "This Parrot took the Red Pill"
+    },
+    {
+      "gif": "papalparrot.gif",
+      "name": "Papal Parrot"
+    },
+    {
+      "gif": "stalkerparrot.gif",
+      "name": "Stalker Parrot"
     }
 ]
