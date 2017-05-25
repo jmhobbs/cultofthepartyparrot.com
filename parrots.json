@@ -270,8 +270,8 @@
       "name": "Ski Parrot"
     },
     {
-    "gif": "loveparrot.gif",
-    "name": "Love Parrot"
+      "gif": "loveparrot.gif",
+      "name": "Love Parrot"
     },
     {
       "gif": "halalparrot.gif",
@@ -295,7 +295,7 @@
       "name": "Donut Parrot"
     },
     {
-      "gif": "discoparrot.gif",
+      "hd": "hd/discoparrot.gif",
       "name": "Disco Parrot",
       "tip": "1970s Party Parrot"
     },
