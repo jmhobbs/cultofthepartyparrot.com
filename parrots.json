@@ -293,5 +293,9 @@
     {
       "hd": "hd/donutparrot.gif",
       "name": "Donut Parrot"
+    },
+    {
+      "gif": "evilparrot.gif",
+      "name": "Evil Parrot"
     }
 ]
