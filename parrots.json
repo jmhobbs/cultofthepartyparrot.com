@@ -295,6 +295,10 @@
       "name": "Donut Parrot"
     },
     {
+            "gif": "evilparrot.gif",
+      "name": "Evil Parrot"
+    },
+    {
       "hd": "hd/discoparrot.gif",
       "name": "Disco Parrot",
       "tip": "1970s Party Parrot"
