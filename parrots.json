@@ -315,5 +315,10 @@
     {
       "gif": "stalkerparrot.gif",
       "name": "Stalker Parrot"
+    },
+    {
+      "gif": "scienceparrot.gif",
+      "hd": "hd/scienceparrot.gif",
+      "name": "Science Parrot"
     }
 ]
