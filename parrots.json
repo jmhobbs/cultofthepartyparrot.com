@@ -320,5 +320,10 @@
       "gif": "scienceparrot.gif",
       "hd": "hd/scienceparrot.gif",
       "name": "Science Parrot"
+    },
+    {
+      "gif": "prideparrot.gif",
+      "hd": "hd/prideparrot.gif",
+      "name": "Pride Parrot"
     }
 ]
