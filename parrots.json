@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "gif": "parrot.gif",
         "hd": "hd/parrot.gif",
@@ -329,5 +329,9 @@
     {
       "hd": "hd/revolutionparrot.gif",
       "name": "Revolution Parrot"
+    },
+    {
+      "hd": "hd/cryingparrot.gif",
+      "name": "Crying Parrot"
     }
 ]
