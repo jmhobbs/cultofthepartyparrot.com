@@ -335,8 +335,12 @@
         "name": "Fidget Spinner Parrot"
     },
     {
-        "gif": "beretparrot.gif",
-        "hd": "hd/beretparrot.gif",
-        "name": "Beret Parrot"
+      "gif": "beretparrot.gif",
+      "hd": "hd/beretparrot.gif",
+      "name": "Beret Parrot"
+    },
+    {
+      "gif": "tacoparrot.gif",
+      "name": "Taco Parrot"
     }
 ]
