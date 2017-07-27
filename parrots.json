@@ -329,5 +329,10 @@
     {
       "hd": "hd/revolutionparrot.gif",
       "name": "Revolution Parrot"
+    },
+    {
+        "gif": "beretparrot.gif",
+        "hd": "hd/beretparrot.gif",
+        "name": "Beret Parrot"
     }
 ]
