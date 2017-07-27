@@ -331,6 +331,11 @@
       "name": "Revolution Parrot"
     },
     {
+        "gif": "beretparrot.gif",
+        "hd": "hd/beretparrot.gif",
+        "name": "Beret Parrot"
+    },
+    {
       "hd": "hd/cryingparrot.gif",
       "name": "Crying Parrot"
     }
