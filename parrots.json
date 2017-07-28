@@ -331,6 +331,10 @@
       "name": "Revolution Parrot"
     },
     {
+        "gif": "fidgetparrot.gif",
+        "name": "Fidget Spinner Parrot"
+    },
+    {
         "gif": "beretparrot.gif",
         "hd": "hd/beretparrot.gif",
         "name": "Beret Parrot"
