@@ -289,16 +289,16 @@ div.shirt img {
 
 @media screen and (min-width: 600px) {
   div.shirt {
-    width: 30%;
+    width: 20%;
     margin: 0 10%;
     float: left;
     text-align: center;
   }
   div.shirt:first-child {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 10%;
   }
   div.shirt:last-child {
-    margin: 0 20% 0 0;
+    margin: 0 10% 0 0;
   }
 }
 
