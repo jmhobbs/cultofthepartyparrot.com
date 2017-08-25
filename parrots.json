@@ -342,5 +342,9 @@
     {
       "gif": "tacoparrot.gif",
       "name": "Taco Parrot"
+    },
+    {
+      "gif": "ryangoslingparrot.gif",
+      "name": "Ryan Gosling Parrot"
     }
 ]
