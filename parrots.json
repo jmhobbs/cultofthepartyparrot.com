@@ -295,7 +295,7 @@
       "name": "Donut Parrot"
     },
     {
-      "gif": "evilparrot.gif",
+            "gif": "evilparrot.gif",
       "name": "Evil Parrot"
     },
     {
@@ -315,5 +315,40 @@
     {
       "gif": "stalkerparrot.gif",
       "name": "Stalker Parrot"
+    },
+    {
+      "gif": "scienceparrot.gif",
+      "hd": "hd/scienceparrot.gif",
+      "name": "Science Parrot"
+    },
+    {
+      "gif": "prideparrot.gif",
+      "hd": "hd/prideparrot.gif",
+      "name": "Pride Parrot"
+    },
+    {
+      "hd": "hd/revolutionparrot.gif",
+      "name": "Revolution Parrot"
+    },
+    {
+        "gif": "fidgetparrot.gif",
+        "name": "Fidget Spinner Parrot"
+    },
+    {
+      "gif": "beretparrot.gif",
+      "hd": "hd/beretparrot.gif",
+      "name": "Beret Parrot"
+    },
+    {
+      "gif": "tacoparrot.gif",
+      "name": "Taco Parrot"
+    },
+    {
+      "gif": "ryangoslingparrot.gif",
+      "name": "Ryan Gosling Parrot"
+    },
+    {
+      "gif": "luckyparrot.gif",
+      "name": "Lucky Parrot"
     }
 ]
