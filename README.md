@@ -74,7 +74,7 @@ The only Slack reaction gif's you'll ever need.
  * [@marcthayer](https://github.com/marcthayer) for [banana parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/78) and [typo fixes](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/77)
  * [@tianyuliu](https://github.com/tianyuliu) for [ski parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/81), [halal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/80) and [ship it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/84)
  * [@vaicine](https://github.com/vaicine) for [nyan parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/89)
- * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/90)
+ * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/90) and [taco parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/130)
  * [@jcoutch](https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/91)
  * [@paul-russo](https://github.com/paul-russo) for [typo fix](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/92)
  * [@lucymhdavies](https://github.com/lucymhdavies) for [sharing found parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/93)
@@ -83,6 +83,15 @@ The only Slack reaction gif's you'll ever need.
  * [@mjaniszew](https://github.com/mjaniszew) for [touch bar parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/101)
  * [@melinerunen](https://github.com/melinerunen) for [hd only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/102) and the [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/107)
  * [@joekieffer](https://github.com/joekieffer) for [🍩 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/103)
+ * [@erinknight242](https://github.com/erinknight242) for [fixing HD conga parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/113)
+ * [@trekroot](https://github.com/trekroot) for [disco, matrix, papal and stalker parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/121)
+ * [@KeesKoffeman](https://github.com/KeesKoffeman) for [evil parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/123)
+ * [@shiruken](https://github.com/shiruken) for [science parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/124)
+ * [@bdrelling](https://github.com/bdrelling ) for [pride parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/125)
+ * [@KySmith1](https://github.com/KySmith1) for [revolutionary parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/128)
+ * [@arturocr](https://github.com/arturocr) for [beret parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/137)
+ * [@jgknight](https://github.com/jgknight) for [fidget spinner parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/138)
+ * [@nlgcabrera](https://github.com/nlgcabrera) for [🍀 lucky parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/144)
 
 # Contributing!
 
