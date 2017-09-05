@@ -127,6 +127,6 @@ gulp.task('clean', function (cb) {
   });
 });
 
-gulp.task('build', ['test', 'css', 'images', 'render', 'zip']);
+gulp.task('build', ['test', 'css', 'images', 'render', 'render-humans', 'zip']);
 
 gulp.task('default', ['test']);
