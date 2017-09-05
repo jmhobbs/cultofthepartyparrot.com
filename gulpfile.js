@@ -14,6 +14,27 @@ gulp.task('test', function() {
     .pipe(mocha());
 });
 
+
+gulp.task('render-humans', function () {
+  return gulp.src('templates/README.md')
+    .pipe(data(function(file) {
+      return {
+        contributors: JSON.parse(fs.readFileSync('contributors.json')).map(function (contributor) {
+          var len = contributor.contributions.length;
+          contributor.contributions.forEach(function(v) { v.comma = true; v.and = false; });
+          contributor.contributions[len-1].comma = false;
+          if(len > 1) {
+            contributor.contributions[len-1].and = true;
+            contributor.contributions[len-2].comma = false;
+          }
+          return contributor;
+        })
+      };
+    }))
+    .pipe(mustache())
+    .pipe(gulp.dest("."));
+});
+
 function ParrotObjectAddSlackName (parrot) {
   parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
   return parrot;
