@@ -15,7 +15,7 @@ gulp.task('test', function() {
 });
 
 
-gulp.task('render-humans', function () {
+gulp.task('render-readme', function () {
   return gulp.src('templates/README.md')
     .pipe(data(function(file) {
       return {
@@ -35,6 +35,27 @@ gulp.task('render-humans', function () {
     .pipe(gulp.dest("."));
 });
 
+gulp.task('render-humans', function () {
+  var d = new Date();
+
+  function pad(s) {
+    if (s.toString().length == 1) {
+      return "0" + s;
+    }
+    return s;
+  }
+
+  return gulp.src('templates/humans.txt')
+    .pipe(data(function(file) {
+      return {
+        contributors: JSON.parse(fs.readFileSync('contributors.json')),
+        last_update: d.getFullYear() + "/" + pad(d.getMonth()) + "/" + pad(d.getDay())
+      };
+    }))
+    .pipe(mustache())
+    .pipe(gulp.dest("dist/"));
+});
+
 function ParrotObjectAddSlackName (parrot) {
   parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
   return parrot;
@@ -42,7 +63,7 @@ function ParrotObjectAddSlackName (parrot) {
 
 // Depends on zip and css for the asset manifest
 gulp.task('render', ['test', 'zip', 'css'], function () {
-  return gulp.src('templates/*')
+  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
     .pipe(data(function(file) {
       // Mustache doesn't handle dots in keys...
       var assets = {};
