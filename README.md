@@ -104,3 +104,12 @@ The only Slack reaction gif's you'll ever need.
  1. `npm install`
  1. `gulp build`
  1. Upload it somewhere!
+
+# Automated upload via Selenium
+
+You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
+installed to run this:
+
+ 1. `python3 -m venv .venv`
+ 2. `pip install -r requirements.txt`
+ 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
