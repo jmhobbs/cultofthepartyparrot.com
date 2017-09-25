@@ -362,22 +362,22 @@
       "name": "Lucky Parrot"
     },
     {
-    	"gif": "birthdaypartyparrot.gif",
-    	"hd": "hd/birthdaypartyparrot.gif",
-    	"name": "birthdaypartyparrot"
+      "gif": "birthdaypartyparrot.gif",
+      "hd": "hd/birthdaypartyparrot.gif",
+      "name": "birthdaypartyparrot"
     },
     {
-    	"gif": "jediparrot.gif",
-    	"hd": "hd/jediparrot.gif",
-    	"name": "jediparrot"
+      "gif": "jediparrot.gif",
+      "hd": "hd/jediparrot.gif",
+      "name": "jediparrot"
     },
     {
-    	"gif": "angryparrot.gif",
-    	"name": "angryparrot"
+      "gif": "angryparrot.gif",
+      "name": "angryparrot"
     },
     {
-    	"gif": "invisibleparrot.gif",
-    	"name": "invisibleparrot"
+      "gif": "invisibleparrot.gif",
+      "name": "invisibleparrot"
     },
     {
       "gif": "rotatingparrot.gif",
