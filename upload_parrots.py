@@ -6,6 +6,10 @@ import os
 
 from selenium import webdriver
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 class ParrotUploader():
     browser = None
@@ -36,13 +40,21 @@ class ParrotUploader():
         if emoji_url not in self.browser.current_url:
             self.browser.get(emoji_url)
 
-        emoji_name = self.browser.find_element(value='emojiname')
+        emoji_table = WebDriverWait(
+            self.browser, 30).until(EC.presence_of_element_located(
+                (By.ID, "custom_emoji")))
         parrot_name = os.path.basename(parrot_path).split('.')[0]
+        if ":{}:".format(parrot_name) in emoji_table.text:
+            print("emoji :{}: already exists".format(parrot_name))
+            return
+        emoji_name = self.browser.find_element(value='emojiname')
+        emoji_name.clear()
         emoji_name.send_keys(parrot_name)
 
         emoji_file = self.browser.find_element(value='emojiimg')
         emoji_file .send_keys(parrot_path)
         emoji_file.submit()
+        print("emoji :{}: uploaded".format(parrot_name))
 
     def cleanup(self):
         if self.browser:
@@ -62,11 +74,12 @@ def main():
     args = parser.parse_args()
 
     uploader = ParrotUploader(slack_team=args.slack_team)
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    all_the_parrots = glob.glob(os.path.join(dir_path, 'parrots/hd/*.gif'))
+    all_the_parrots += glob.glob(os.path.join(dir_path, 'parrots/*.gif'))
     try:
         uploader.login(args.username, args.password)
-
-        dir_path = os.path.dirname(os.path.realpath(__file__))
-        for parrot in glob.glob(os.path.join(dir_path, 'parrots/*')):
+        for parrot in all_the_parrots:
             uploader.upload(parrot)
     finally:
         uploader.cleanup()
