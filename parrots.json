@@ -350,5 +350,9 @@
     {
       "gif": "luckyparrot.gif",
       "name": "Lucky Parrot"
+    },
+    {
+      "gif": "rotatingparrot.gif",
+      "name": "Rotating Parrot"
     }
 ]
