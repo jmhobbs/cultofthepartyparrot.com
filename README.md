@@ -93,6 +93,8 @@ The only Slack reaction gif's you'll ever need.
  * [@jgknight](https://github.com/jgknight) for [fidget spinner parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/138)
  * [@nlgcabrera](https://github.com/nlgcabrera) for [🍀 lucky parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/144)
  * [@santiycr](https://github.com/santiycr) for [automatic Slack upload script](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/150)
+ * [@zvuc](https://github.com/zvuc) for [ultra fast parrot and slow mo parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/151)
+ * [@youngcba](https://github.com/youngcba) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152)
 
 # Contributing!
 
