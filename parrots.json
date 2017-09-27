@@ -71,9 +71,19 @@
         "tip": "Now with 50% more party!"
     },
     {
+        "gif": "ultrafastparrot.gif",
+        "name": "Ultra Fast Parrot",
+        "tip": "Now with 150% more party!"
+    },
+    {
         "gif": "slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
+    },
+    {
+        "gif": "slomoparrot.gif",
+        "name": "Slo-mo Parrot",
+        "tip": "Party in slow motion."
     },
     {
         "gif": "parrotdad.gif",
@@ -335,8 +345,24 @@
         "name": "Fidget Spinner Parrot"
     },
     {
-        "gif": "beretparrot.gif",
-        "hd": "hd/beretparrot.gif",
-        "name": "Beret Parrot"
+      "gif": "beretparrot.gif",
+      "hd": "hd/beretparrot.gif",
+      "name": "Beret Parrot"
+    },
+    {
+      "gif": "tacoparrot.gif",
+      "name": "Taco Parrot"
+    },
+    {
+      "gif": "ryangoslingparrot.gif",
+      "name": "Ryan Gosling Parrot"
+    },
+    {
+      "gif": "luckyparrot.gif",
+      "name": "Lucky Parrot"
+    },
+    {
+      "gif": "rotatingparrot.gif",
+      "name": "Rotating Parrot"
     }
 ]

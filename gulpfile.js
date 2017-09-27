@@ -14,6 +14,48 @@ gulp.task('test', function() {
     .pipe(mocha());
 });
 
+
+gulp.task('render-readme', function () {
+  return gulp.src('templates/README.md')
+    .pipe(data(function(file) {
+      return {
+        contributors: JSON.parse(fs.readFileSync('contributors.json')).map(function (contributor) {
+          var len = contributor.contributions.length;
+          contributor.contributions.forEach(function(v) { v.comma = true; v.and = false; });
+          contributor.contributions[len-1].comma = false;
+          if(len > 1) {
+            contributor.contributions[len-1].and = true;
+            contributor.contributions[len-2].comma = false;
+          }
+          return contributor;
+        })
+      };
+    }))
+    .pipe(mustache())
+    .pipe(gulp.dest("."));
+});
+
+gulp.task('render-humans', function () {
+  var d = new Date();
+
+  function pad(s) {
+    if (s.toString().length == 1) {
+      return "0" + s;
+    }
+    return s;
+  }
+
+  return gulp.src('templates/humans.txt')
+    .pipe(data(function(file) {
+      return {
+        contributors: JSON.parse(fs.readFileSync('contributors.json')),
+        last_update: d.getFullYear() + "/" + pad(d.getMonth()) + "/" + pad(d.getDay())
+      };
+    }))
+    .pipe(mustache())
+    .pipe(gulp.dest("dist/"));
+});
+
 function ParrotObjectAddSlackName (parrot) {
   parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
   return parrot;
@@ -21,7 +63,7 @@ function ParrotObjectAddSlackName (parrot) {
 
 // Depends on zip and css for the asset manifest
 gulp.task('render', ['test', 'zip', 'css'], function () {
-  return gulp.src('templates/*')
+  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
     .pipe(data(function(file) {
       // Mustache doesn't handle dots in keys...
       var assets = {};
@@ -85,6 +127,6 @@ gulp.task('clean', function (cb) {
   });
 });
 
-gulp.task('build', ['test', 'css', 'images', 'render', 'zip']);
+gulp.task('build', ['test', 'css', 'images', 'render', 'render-humans', 'zip']);
 
 gulp.task('default', ['test']);
