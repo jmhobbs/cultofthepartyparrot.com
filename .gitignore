@@ -45,3 +45,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Python ###
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+.ropeproject

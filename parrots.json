@@ -71,9 +71,19 @@
         "tip": "Now with 50% more party!"
     },
     {
+        "gif": "ultrafastparrot.gif",
+        "name": "Ultra Fast Parrot",
+        "tip": "Now with 150% more party!"
+    },
+    {
         "gif": "slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
+    },
+    {
+        "gif": "slomoparrot.gif",
+        "name": "Slo-mo Parrot",
+        "tip": "Party in slow motion."
     },
     {
         "gif": "parrotdad.gif",
@@ -368,5 +378,9 @@
     {
     	"gif": "invisibleparrot.gif",
     	"name": "invisibleparrot"
+    },
+    {
+      "gif": "rotatingparrot.gif",
+      "name": "Rotating Parrot"
     }
 ]
