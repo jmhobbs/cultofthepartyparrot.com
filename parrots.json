@@ -364,5 +364,9 @@
     {
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
+    },
+    {
+      "gif": "sushiparrot.gif",
+      "name": "Sushi Parrot"
     }
 ]
