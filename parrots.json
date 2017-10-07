@@ -382,5 +382,9 @@
     {
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
+    },
+    {
+      "hd": "hd/sushiparrot.gif",
+      "name": "Sushi Parrot"
     }
 ]
