@@ -114,7 +114,7 @@ You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver
 installed to run this:
 
  1. `python3 -m venv .venv`
- 1. `source .venv/bin/activate` on Mac or `.venv\Scripts\activate` on windows
+ 1. `source .venv/bin/activate` on Mac or `.venv\Scripts\activate` on Windows
  1. `pip install -r requirements.txt`
  1. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
 
