@@ -386,5 +386,9 @@
     {
       "hd": "hd/sushiparrot.gif",
       "name": "Sushi Parrot"
+    },
+	{
+      "gif": "angelparrot.gif",
+      "name": "Angel Parrot"
     }
 ]
