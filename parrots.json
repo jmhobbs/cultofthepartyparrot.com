@@ -390,5 +390,10 @@
     {
       "hd": "hd/pumpkinparrot.gif",
       "name": "Pumpkin Parrot"
+    },
+    {
+      "gif": "angelparrot.gif",
+      "hd": "hd/angelparrot.gif",
+      "name": "Angel Parrot"
     }
 ]
