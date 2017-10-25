@@ -93,6 +93,8 @@ The only Slack reaction gif's you'll ever need.
  * [@jgknight](https://github.com/jgknight) for [fidget spinner parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/138)
  * [@nlgcabrera](https://github.com/nlgcabrera) for [🍀 lucky parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/144)
  * [@santiycr](https://github.com/santiycr) for [automatic Slack upload script](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/150)
+ * [@zvuc](https://github.com/zvuc) for [ultra fast parrot and slow mo parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/151)
+ * [@youngcba](https://github.com/youngcba) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152)
 
 # Contributing!
 
@@ -112,5 +114,8 @@ You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver
 installed to run this:
 
  1. `python3 -m venv .venv`
- 2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+ 1. `source .venv/bin/activate` on Mac or `.venv\Scripts\activate` on Windows
+ 1. `pip install -r requirements.txt`
+ 1. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+
+ __Notice__: The uploader won't re-write already existing parrots if they match by name.

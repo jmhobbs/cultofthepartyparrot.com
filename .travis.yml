@@ -1,6 +1,7 @@
 language: node_js
 install:
-  - npm install -g mocha
+  - npm install -g mocha@"^3.5.3"
   - npm install chai jsonschema
   - npm install convert-units
+  - npm install image-size
 script: "mocha"

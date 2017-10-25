@@ -71,9 +71,19 @@
         "tip": "Now with 50% more party!"
     },
     {
+        "gif": "ultrafastparrot.gif",
+        "name": "Ultra Fast Parrot",
+        "tip": "Now with 150% more party!"
+    },
+    {
         "gif": "slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
+    },
+    {
+        "gif": "slomoparrot.gif",
+        "name": "Slo-mo Parrot",
+        "tip": "Party in slow motion."
     },
     {
         "gif": "parrotdad.gif",
@@ -352,7 +362,46 @@
       "name": "Lucky Parrot"
     },
     {
+<<<<<<< HEAD
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
+=======
+    	"gif": "birthdaypartyparrot.gif",
+    	"hd": "hd/birthdaypartyparrot.gif",
+    	"name": "birthdaypartyparrot"
+    },
+    {
+    	"gif": "jediparrot.gif",
+    	"hd": "hd/jediparrot.gif",
+    	"name": "jediparrot"
+    },
+    {
+    	"gif": "angryparrot.gif",
+    	"name": "angryparrot"
+    },
+    {
+    	"gif": "invisibleparrot.gif",
+    	"name": "invisibleparrot"
+    },
+    {
+      "gif": "rotatingparrot.gif",
+      "name": "Rotating Parrot"
+    },
+    {
+      "hd": "hd/sushiparrot.gif",
+      "name": "Sushi Parrot"
+    },
+    {
+      "hd": "hd/pumpkinparrot.gif",
+      "name": "Pumpkin Parrot"
+    },
+    {
+      "gif": "angelparrot.gif",
+      "hd": "hd/angelparrot.gif",
+      "name": "Angel Parrot"
+    },
+    {
+      "gif": "bluntparrot.gif",
+      "name": "Blunt Parrot"
     }
 ]
