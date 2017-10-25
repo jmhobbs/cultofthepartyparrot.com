@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @youngcba
+ Sign out
+ Watch 43
+  Star 577  Fork 92 jmhobbs/cultofthepartyparrot.com
+ Code  Issues 20  Pull requests 10  Projects 0  Insights
+Branch: master Find file Copy pathcultofthepartyparrot.com/parrots.json
+1821616  5 days ago
+@trcliao trcliao Angel Parrot (#159)
+33 contributors @jmhobbs @tianyuliu @trekroot @schaney @marcthayer @kbvincent @deedeelavinder @vaicine @westerlund @shiruken @c-r-a-f @natelowry @KySmith1 @kyprifog @zvuc @KeesKoffeman @jgknight @joekieffer @jcoutch @ErinMorelli @curiousepic @chalisegrogan @camilaazuma @belltailjp @bdrelling @arturocr and others
+RawBlameHistory    
+400 lines (399 sloc)  8.65 KB
 [
     {
         "gif": "parrot.gif",
@@ -362,10 +380,6 @@
       "name": "Lucky Parrot"
     },
     {
-<<<<<<< HEAD
-      "gif": "rotatingparrot.gif",
-      "name": "Rotating Parrot"
-=======
     	"gif": "birthdaypartyparrot.gif",
     	"hd": "hd/birthdaypartyparrot.gif",
     	"name": "birthdaypartyparrot"
