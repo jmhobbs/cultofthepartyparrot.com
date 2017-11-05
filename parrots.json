@@ -400,5 +400,10 @@
       "gif": "bluntparrot.gif",
       "hd": "hd/bluntparrot.gif",
       "name": "Blunt Parrot"
+    },
+    {
+      "gif": "parrotpoop.gif",
+      "hd": "hd/parrotpoop.gif",
+      "name": "Parrot Poop"
     }
 ]
