@@ -101,6 +101,7 @@ The only Slack reaction gif's you'll ever need.
  * [@ErinMorelli](https://github.com/ErinMorelli) for [pumpkin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/161)
  * [@belltailjp](https://github.com/belltailjp) for [sushi parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/157)
  * [@breadadams](https://github.com/breadadams) for [fetch-the-parrot link](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/155)
+ * [@danrichman](https://github.com/danrichman) for [party pooper](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/167)
 
 # Contributing!
 
