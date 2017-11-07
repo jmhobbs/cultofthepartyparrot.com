@@ -81,7 +81,7 @@ The only Slack reaction gif's you'll ever need.
  * [@viktorsec](https://github.com/viktorsec) for [making shuffle parrots chainable](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/30)
  * [@8-uh](https://github.com/8-uh) for [Party Parrot wants your soul](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/99)
  * [@mjaniszew](https://github.com/mjaniszew) for [touch bar parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/101)
- * [@melinerunen](https://github.com/melinerunen) for [HD only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/102) and [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/107)
+ * [@melinerunen](https://github.com/melinerunen) for [HD only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/102), [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/107) and [upload script tweaks](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/158)
  * [@joekieffer](https://github.com/joekieffer) for [🍩 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/103)
  * [@erinknight242](https://github.com/erinknight242) for [fixing HD conga parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/113)
  * [@trekroot](https://github.com/trekroot) for [disco, matrix, papal and stalker parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/121)
@@ -94,7 +94,13 @@ The only Slack reaction gif's you'll ever need.
  * [@nlgcabrera](https://github.com/nlgcabrera) for [🍀 lucky parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/144)
  * [@santiycr](https://github.com/santiycr) for [automatic Slack upload script](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/150)
  * [@zvuc](https://github.com/zvuc) for [ultra fast parrot and slow mo parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/151)
- * [@youngcba](https://github.com/youngcba) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152)
+ * [@youngcba](https://github.com/youngcba) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152) and [blunt parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/166)
+ * [@hrousley](https://github.com/hrousley) for [party owl](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/85)
+ * [@trekroot ](https://github.com/trekroot ) for [birthday, jedi, invisible and angry parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/145)
+ * [@trcliao](https://github.com/trcliao) for [angel parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/159)
+ * [@ErinMorelli](https://github.com/ErinMorelli) for [pumpkin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/161)
+ * [@belltailjp](https://github.com/belltailjp) for [sushi parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/157)
+ * [@breadadams](https://github.com/breadadams) for [fetch-the-parrot link](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/155)
 
 # Contributing!
 
@@ -114,8 +120,7 @@ You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver
 installed to run this:
 
  1. `python3 -m venv .venv`
- 1. `source .venv/bin/activate` on Mac or `.venv\Scripts\activate` on Windows
- 1. `pip install -r requirements.txt`
- 1. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+ 2. `pip install -r requirements.txt`
+ 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
 
  __Notice__: The uploader won't re-write already existing parrots if they match by name.
