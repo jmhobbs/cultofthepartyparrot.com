@@ -143,6 +143,21 @@
 
         <hr/>
 
+        <h3>Other Party Things</h3>
+
+        <ul>
+          {{#other}}
+          <li><img src="/other/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/other}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="other_zip" href="/{{other_zip}}">Download</a>
+          <p>(zip)</p>
+        </div>
+
+        <hr/>
+
         <p>
           Party Parrot based on <a href="https://www.youtube.com/watch?v=9T1vfsHYiKY">Sirocco</a>, the hardest partying parrot ever.
         </p>
@@ -195,6 +210,7 @@
           }
         }
         trackLinkClickEvent("parrots_zip", "parrots.zip");
+        trackLinkClickEvent("other_zip", "other.zip");
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
         if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
