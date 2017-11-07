@@ -233,11 +233,6 @@
       "tip": "Fiesta Parrot is getting his drink on, margarita style!"
     },
     {
-      "gif": "oriolesparrot.gif",
-      "name": "Orioles Parrot",
-      "tip": "This parrot loves the orioles so much he turned into one!"
-    },
-    {
       "gif": "dreidelparrot.gif",
       "name": "Dreidel Parrot",
       "tip": "Happy Hanukkah!"
@@ -246,11 +241,6 @@
       "gif": "harrypotterparrot.gif",
       "name": "Harry Potter Parrot",
       "tip": "You're a parrot-wizard Harry!"
-    },
-    {
-      "gif": "fieriparrot.gif",
-      "name": "Guy Fieri Parrot",
-      "tip": "One way ticket to flavor town!"
     },
     {
       "gif": "upvotepartyparrot.gif",
@@ -286,10 +276,6 @@
     {
       "gif": "halalparrot.gif",
       "name": "Halal Parrot"
-    },
-    {
-      "gif": "nyanparrot.gif",
-      "name": "Nyan Parrot"
     },
     {
       "hd": "hd/wendyparrot.gif",
