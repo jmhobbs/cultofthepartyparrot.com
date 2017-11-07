@@ -22,5 +22,9 @@
     "hd": "hd/parrotpoop.gif",
     "name": "Parrot Poop",
     "tip": "Contains parrot DNA."
+  },
+  {
+    "gif": "partyowl.gif",
+    "name": "Party Owl"
   }
 ]
