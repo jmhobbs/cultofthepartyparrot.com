@@ -66,10 +66,10 @@ describe("parrots.json", function () {
   });
 });
 
-describe("other.json", function () {
+describe("guests.json", function () {
   it("should validate", function () {
-    var other_json = JSON.parse(fs.readFileSync(__dirname + '/../other.json', 'utf8')),
-      validation_result = validate(other_json, json_schema);
+    var guests_json = JSON.parse(fs.readFileSync(__dirname + '/../guests.json', 'utf8')),
+      validation_result = validate(guests_json, json_schema);
 
     // Schema errors in mocha are pretty useless, so print some here.
     validation_result.errors.forEach(function (e) {
@@ -85,27 +85,27 @@ describe("other.json", function () {
   });
 
   it("should not have extra gifs", function () {
-    var other_json = JSON.parse(fs.readFileSync(__dirname + '/../other.json', 'utf8'));
-    other_json.forEach(function(other) {
-      assert.ok(fs.existsSync(__dirname + '/../other/' + other.gif) || fs.existsSync(__dirname + '/../other/' + other.hd), other.name);
+    var guests_json = JSON.parse(fs.readFileSync(__dirname + '/../guests.json', 'utf8'));
+    guests_json.forEach(function(guests) {
+      assert.ok(fs.existsSync(__dirname + '/../guests/' + guests.gif) || fs.existsSync(__dirname + '/../guests/' + guests.hd), guests.name);
     });
   });
 
   it("should contain all gifs", function () {
-    var other = JSON.parse(fs.readFileSync(__dirname + '/../other.json', 'utf8')).map(function(other) { return other.gif; }).filter(function(gif) { return gif != undefined; });
-    var other_gifs = fs.readdirSync(__dirname + '/../other');
-    other_gifs.forEach(function(gif) {
-      if(! fs.statSync(__dirname + '/../other/' + gif).isFile()) { return; }
-      assert.ok(-1 !== other.indexOf(gif), gif);
+    var guests = JSON.parse(fs.readFileSync(__dirname + '/../guests.json', 'utf8')).map(function(guests) { return guests.gif; }).filter(function(gif) { return gif != undefined; });
+    var guests_gifs = fs.readdirSync(__dirname + '/../guests');
+    guests_gifs.forEach(function(gif) {
+      if(! fs.statSync(__dirname + '/../guests/' + gif).isFile()) { return; }
+      assert.ok(-1 !== guests.indexOf(gif), gif);
     });
   });
 
   it("should contain all HD gifs", function () {
-    var hd_other = JSON.parse(fs.readFileSync(__dirname + '/../other.json', 'utf8')).map(function(other) { return other.hd; }).filter(function(hd) { return hd != undefined; });
-    var other_hd_gifs = fs.readdirSync(__dirname + '/../other/hd');
-    other_hd_gifs.forEach(function(gif) {
-      if(! fs.statSync(__dirname + '/../other/hd/' + gif).isFile()) { return; }
-      assert.ok(-1 !== hd_other.indexOf('hd/' + gif), gif);
+    var hd_guests = JSON.parse(fs.readFileSync(__dirname + '/../guests.json', 'utf8')).map(function(guests) { return guests.hd; }).filter(function(hd) { return hd != undefined; });
+    var guests_hd_gifs = fs.readdirSync(__dirname + '/../guests/hd');
+    guests_hd_gifs.forEach(function(gif) {
+      if(! fs.statSync(__dirname + '/../guests/hd/' + gif).isFile()) { return; }
+      assert.ok(-1 !== hd_guests.indexOf('hd/' + gif), gif);
     });
   });
 });

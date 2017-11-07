@@ -143,16 +143,16 @@
 
         <hr/>
 
-        <h3>Other Party Things</h3>
+        <h3>Party Guests</h3>
 
         <ul>
-          {{#other}}
-          <li><img src="/other/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
-          {{/other}}
+          {{#guests}}
+          <li><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/guests}}
         </ul>
 
         <div id="other_download">
-          <a class="button-small" id="other_zip" href="/{{other_zip}}">Download</a>
+          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
           <p>(zip)</p>
         </div>
 
@@ -210,7 +210,7 @@
           }
         }
         trackLinkClickEvent("parrots_zip", "parrots.zip");
-        trackLinkClickEvent("other_zip", "other.zip");
+        trackLinkClickEvent("guests_zip", "guests.zip");
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
         if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
