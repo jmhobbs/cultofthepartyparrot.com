@@ -16,5 +16,11 @@
   {
     "hd": "hd/party-wizard.gif",
     "name": "Party Wizard"
+  },
+  {
+    "gif": "parrotpoop.gif",
+    "hd": "hd/parrotpoop.gif",
+    "name": "Parrot Poop",
+    "tip": "Contains parrot DNA."
   }
 ]
