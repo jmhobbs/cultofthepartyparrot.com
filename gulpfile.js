@@ -73,16 +73,18 @@ gulp.task('render', ['test', 'zip', 'css'], function () {
       }
       return {
         parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAddSlackName),
+        guests: JSON.parse(fs.readFileSync('guests.json')).map(ParrotObjectAddSlackName),
         assets: assets,
-        zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['parrots.zip']
+        zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['parrots.zip'],
+        guests_zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['guests.zip']
       };
     }))
     .pipe(mustache())
     .pipe(gulp.dest("dist/"));
 });
 
-gulp.task('zip', ['compress'], function () {
-  return gulp.src('parrots.zip')
+gulp.task('zip', ['compress', 'guests-compress'], function () {
+  return gulp.src('*.zip')
     .pipe(rev())
     .pipe(gulp.dest('dist/'))
     .pipe(rev.manifest())
@@ -100,11 +102,24 @@ gulp.task('compress', ['test'], function (cb) {
   });
 });
 
+gulp.task('guests-compress', ['test'], function (cb) {
+  exec('rm -f ./guests.zip', function (err, stdout, stderr) {
+    console.log(stderr);
+    if(err != null) { cb(err); }
+    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./guests.zip ./guests/*", function(err, stdout, stderr) {
+      console.log(stderr);
+      cb(err);
+    });
+  });
+});
+
 gulp.task('images', function () {
   gulp.src('src/favicon.ico')
     .pipe(gulp.dest('dist/'));
   gulp.src('parrots/**/*')
     .pipe(gulp.dest('dist/parrots/'));
+  gulp.src('guests/**/*')
+    .pipe(gulp.dest('dist/guests/'));
   return gulp.src('src/*.{svg,png,jpg,gif}')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/assets/'));
