@@ -1,5 +1,19 @@
 [
   {
+    "gif": "nyanparrot.gif",
+    "name": "Nyan Parrot"
+  },
+  {
+    "gif": "oriolesparrot.gif",
+    "name": "Orioles Parrot",
+    "tip": "This parrot loves the orioles so much he turned into one!"
+  },
+  {
+    "gif": "fieriparrot.gif",
+    "name": "Guy Fieri Parrot",
+    "tip": "One way ticket to flavor town!"
+  },
+  {
     "hd": "hd/party-wizard.gif",
     "name": "Party Wizard"
   }
