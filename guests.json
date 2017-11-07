@@ -26,5 +26,10 @@
   {
     "gif": "partyowl.gif",
     "name": "Party Owl"
+  },
+  {
+    "gif": "witnessprotectionparrot.gif",
+    "name": "Witness Protection Parrot",
+    "tip": "I wonder who this guy is?"
   }
 ]
