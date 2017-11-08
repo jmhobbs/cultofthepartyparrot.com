@@ -93,6 +93,21 @@
 
         <hr/>
 
+        <h3>Party Guests</h3>
+
+        <ul>
+          {{#guests}}
+          <li><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/guests}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
+        </div>
+
+
+        <hr/>
+
         <h3>Shirts!</h3>
         <div class="clearfix">
           <div class="shirt">
@@ -140,21 +155,6 @@
           <a class="button-small" href="https://codepen.io/nathangath/pen/RgvzVY/">CSS Parrot</a>
           <a class="button-small" href="https://github.com/breadadams/fetch-the-parrot">Fetch-the-parrot</a>
         </p>
-
-        <hr/>
-
-        <h3>Party Guests</h3>
-
-        <ul>
-          {{#guests}}
-          <li><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
-          {{/guests}}
-        </ul>
-
-        <div id="other_download">
-          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
-          <p>(zip)</p>
-        </div>
 
         <hr/>
 
