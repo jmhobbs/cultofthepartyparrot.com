@@ -94,7 +94,7 @@ The only Slack reaction gif's you'll ever need.
  * [@nlgcabrera](https://github.com/nlgcabrera) for [🍀 lucky parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/144)
  * [@santiycr](https://github.com/santiycr) for [automatic Slack upload script](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/150)
  * [@zvuc](https://github.com/zvuc) for [ultra fast parrot and slow mo parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/151)
- * [@youngcba](https://github.com/youngcba) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152) and [blunt parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/166)
+ * [@youngcba3](https://github.com/youngcba3) for [rotating parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/152) and [blunt parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/166)
  * [@hrousley](https://github.com/hrousley) for [party owl](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/85)
  * [@trekroot ](https://github.com/trekroot ) for [birthday, jedi, invisible and angry parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/145)
  * [@trcliao](https://github.com/trcliao) for [angel parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/159)
