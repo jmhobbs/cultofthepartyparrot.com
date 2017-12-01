@@ -103,6 +103,7 @@ The only Slack reaction gif's you'll ever need.
  * [@breadadams](https://github.com/breadadams) for [fetch-the-parrot link](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/155)
  * [@danrichman](https://github.com/danrichman) for [party pooper](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/167)
  * [@RHvdW](https://github.com/RHvdW) for [Sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
+ * [@nuragic](https://github.com/nuragic) for [`<party-parrot>`](https://github.com/nuragic/party-parrot-web-component)
 
 # Contributing!
 
