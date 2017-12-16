@@ -385,5 +385,9 @@
       {
       "hd": "hd/sintparrot.gif",
       "name": "Sinterklaas Parrot"
+    },
+    {
+      "hd": "hd/pirateparrot.gif",
+      "name": "Pirate Parrot"
     }
 ]
