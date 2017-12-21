@@ -389,5 +389,10 @@
     {
       "hd": "hd/pirateparrot.gif",
       "name": "Pirate Parrot"
+    },
+    {
+      "hd": "hd/ceilingparrot.gif",
+      "gif": "ceilingparrot.gif",
+      "name": "Ceiling Parrot"
     }
 ]
