@@ -132,5 +132,5 @@ installed to run this:
 
 ## Discord via Mr. Parrot
 
-  1. Visit [this invite link](https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot) to add the bot to your server
+  1. [Click this link](https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot) to invite the bot to your server
   2. Enjoy!
