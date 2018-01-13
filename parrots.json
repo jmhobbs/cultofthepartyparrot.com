@@ -394,5 +394,10 @@
       "hd": "hd/ceilingparrot.gif",
       "gif": "ceilingparrot.gif",
       "name": "Ceiling Parrot"
+    },
+    {
+      "hd": "hd/mardigrasparrot.gif",
+      "name": "Mardi Gras Parrot",
+      "tip": "Laissez les bons temps rouler!"
     }
 ]
