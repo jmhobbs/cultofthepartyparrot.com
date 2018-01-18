@@ -399,5 +399,10 @@
       "hd": "hd/mardigrasparrot.gif",
       "name": "Mardi Gras Parrot",
       "tip": "Laissez les bons temps rouler!"
+    },
+    {
+      "gif": "sovietparrot.gif"
+      "name": "Soviet Parrot",
+      "tip": "даваи даваи!"
     }
 ]
