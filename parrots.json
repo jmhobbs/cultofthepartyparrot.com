@@ -353,6 +353,11 @@
       "name": "Jedi Parrot"
     },
     {
+      "hd": "hd/sithparrot.gif",
+      "name": "Sith Parrot",
+      "tip": "Feel the power of the darkside"
+    },
+    {
       "gif": "angryparrot.gif",
       "name": "Angry Parrot"
     },
