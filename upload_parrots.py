@@ -3,6 +3,7 @@ import sys
 import glob
 import argparse
 import os
+import time
 
 from selenium import webdriver
 
@@ -24,12 +25,19 @@ class ParrotUploader():
             return
 
         self.browser.get('https://{}.slack.com/signin'.format(self.slack_team))
-        username_field = self.browser.find_element(value="email")
-        password_field = self.browser.find_element(value='password')
-
+        signin_button = self.browser.find_element_by_partial_link_text("Sign in with Google")
+        signin_button.click()
+        time.sleep(5)
+        username_field = self.browser.find_element_by_tag_name("input")
         username_field.send_keys(username)
+        email_next = self.browser.find_element_by_id("identifierNext")
+        email_next.click()
+        time.sleep(5)
+        password_field = self.browser.find_element_by_name("password")
         password_field.send_keys(password)
-        username_field.submit()
+        password_next = self.browser.find_element_by_id("passwordNext")
+        password_next.click()
+        time.sleep(5)
 
         self.loggged_in = True
 
