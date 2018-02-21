@@ -408,5 +408,10 @@
       "hd": "hd/mardigrasparrot.gif",
       "name": "Mardi Gras Parrot",
       "tip": "Laissez les bons temps rouler!"
+    },
+    {
+      "gif": "portalparrot.gif",
+      "name": "Portal Parrot",
+      "tip": "The cake is a lie."
     }
 ]
