@@ -414,5 +414,10 @@
       "gif": "portalparrot.gif",
       "name": "Portal Parrot",
       "tip": "The cake is a lie."
+    },
+    {
+      "hd": "hd/trollparrot.gif",
+      "name": "Troll Parrot",
+      "tip": "Problem?"
     }
 ]
