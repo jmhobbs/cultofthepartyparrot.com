@@ -102,8 +102,18 @@ The only Slack reaction gif's you'll ever need.
  * [@belltailjp](https://github.com/belltailjp) for [sushi parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/157)
  * [@breadadams](https://github.com/breadadams) for [fetch-the-parrot link](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/155)
  * [@danrichman](https://github.com/danrichman) for [party pooper](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/167)
- * [@RHvdW](https://github.com/RHvdW) for [Sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
- * [@nuragic](https://github.com/nuragic) for [`<party-parrot>`](https://github.com/nuragic/party-parrot-web-component)
+ * [@RHvdW](https://github.com/RHvdW) for [sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
+ * [@cavpollo](https://github.com/cavpollo) for [cat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/180)
+ * [@nuragic](https://github.com/nuragic) for [web components](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/182)
+ * [@TheoKanning](https://github.com/TheoKanning) for [pirate parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/185)
+ * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
+ * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
+ * [@matthewjwolff](https://github.com/matthewjwolff) for [mardi gras parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/194)
+ * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198)
+ * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
+ * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
+ * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207) and [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204)
+ * [@eokuwwy](https://github.com/eokuwwy) for [HD version of party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/209)
 
 # Contributing!
 
