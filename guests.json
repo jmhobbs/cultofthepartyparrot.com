@@ -36,5 +36,10 @@
     "gif": "catparrot.gif",
     "name": "Cat Parrot",
     "tip": "Dont be confused by its meows."
+  },
+  {
+    "hd": "hd/trollparrot.gif",
+    "name": "Troll Parrot",
+    "tip": "Party?"
   }
 ]

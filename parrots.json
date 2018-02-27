@@ -52,6 +52,7 @@
     },
     {
         "gif": "partyparrot.gif",
+        "hd": "hd/partyparrot.gif",
         "name": "Party Parrot"
     },
     {
@@ -189,6 +190,7 @@
     },
     {
       "gif": "parrotmustache.gif",
+      "hd": "hd/parrotmustache.gif",
       "name": "Parrot with mustache"
     },
     {
@@ -353,6 +355,11 @@
       "name": "Jedi Parrot"
     },
     {
+      "hd": "hd/sithparrot.gif",
+      "name": "Sith Parrot",
+      "tip": "Feel the power of the darkside"
+    },
+    {
       "gif": "angryparrot.gif",
       "name": "Angry Parrot"
     },
@@ -363,6 +370,10 @@
     {
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
+    },
+    {
+      "gif": "cryptoparrot.gif",
+      "name": "Crypto Parrot"
     },
     {
       "hd": "hd/sushiparrot.gif",
@@ -404,5 +415,20 @@
       "gif": "sovjetparrot.gif",
       "name": "Soviet Parrot",
       "tip": "даваи даваи!"
+    },
+    {
+      "gif": "portalparrot.gif",
+      "name": "Portal Parrot",
+      "tip": "The cake is a lie."
+    },
+    {
+      "hd": "hd/hardhatparrot.gif",
+      "name": "Hard Hat Parrot",
+      "tip": "[Under Construction]"
+    },
+    {
+      "hd": "hd/flyingmoneyparrot.gif",
+      "name": "Flying Money Parrot",
+      "tip": "The money is flying away!"
     }
 ]
