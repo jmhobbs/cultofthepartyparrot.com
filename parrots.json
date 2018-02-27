@@ -412,6 +412,11 @@
       "tip": "Laissez les bons temps rouler!"
     },
     {
+      "gif": "sovjetparrot.gif",
+      "name": "Soviet Parrot",
+      "tip": "даваи даваи!"
+    },
+    {
       "gif": "portalparrot.gif",
       "name": "Portal Parrot",
       "tip": "The cake is a lie."
