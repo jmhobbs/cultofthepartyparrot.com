@@ -419,5 +419,9 @@
       "hd": "hd/hardhatparrot.gif",
       "name": "Hard Hat Parrot",
       "tip": "[Under Construction]"
+    },
+    {      
+      "hd": "hd/rageparrot.gif",
+      "name": "Rage Parrot"
     }
 ]
