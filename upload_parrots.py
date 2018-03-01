@@ -26,21 +26,20 @@ class ParrotUploader():
 
         self.browser.get('https://{}.slack.com/signin'.format(self.slack_team))
 
-        if google.upper() == "Y":
+        if google == True:
             signin_button = self.browser.find_element_by_partial_link_text("Sign in with Google")
             signin_button.click()
-            time.sleep(5)
-            username_field = self.browser.find_element_by_tag_name("input")
+
+            username_field = WebDriverWait(self.browser, 30).until(EC.presence_of_element_located((By.ID, "identifierId")))
             username_field.send_keys(username)
             username_next = self.browser.find_element_by_id("identifierNext")
             username_next.click()
-            time.sleep(5)
-            password_field = self.browser.find_element_by_name("password")
+
+            password_field = WebDriverWait(self.browser, 30).until(EC.presence_of_element_located((By.NAME, "password")))
             password_field.send_keys(password)
             password_next = self.browser.find_element_by_id("passwordNext")
             password_next.click()
-            time.sleep(5)
-        elif google.upper() == "N":
+        elif google == False:
             username_field = self.browser.find_element(value="email")
             password_field = self.browser.find_element(value='password')
 
@@ -48,7 +47,7 @@ class ParrotUploader():
             password_field.send_keys(password)
             username_field.submit()
         else:
-            print("[ERROR] Invalid google arg '" + google + "' - must be y or n")
+            print("[ERROR] Invalid google arg '" + repr(google) + "' - must be True or False")
             sys.exit()
 
         self.loggged_in = True
@@ -90,8 +89,8 @@ def main():
                         help='The slack username with which to upload')
     parser.add_argument('--password',
                         help='The slack password with which to login')
-    parser.add_argument('--google',
-                        help='y or n whether you use Google sign in for your Slack team')
+    parser.add_argument('--google', action='store_true',
+                        help='Only add this arg if you use Google signin for your Slack team')
 
     args = parser.parse_args()
 
