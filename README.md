@@ -136,7 +136,10 @@ installed to run this:
 
  1. `python3 -m venv .venv`
  2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+ 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS` 
+ 
+ The following are optional args you can append to 3. above: 
+ 1. `--google` Use this if your Slack team uses Google signin
 
  __Notice__: The uploader won't re-write already existing parrots if they match by name.
 
