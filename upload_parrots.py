@@ -26,7 +26,7 @@ class ParrotUploader():
 
         self.browser.get('https://{}.slack.com/signin'.format(self.slack_team))
 
-        if google == True:
+        if google:
             signin_button = self.browser.find_element_by_partial_link_text("Sign in with Google")
             signin_button.click()
 
@@ -39,16 +39,13 @@ class ParrotUploader():
             password_field.send_keys(password)
             password_next = self.browser.find_element_by_id("passwordNext")
             password_next.click()
-        elif google == False:
+        else:
             username_field = self.browser.find_element(value="email")
             password_field = self.browser.find_element(value='password')
 
             username_field.send_keys(username)
             password_field.send_keys(password)
             username_field.submit()
-        else:
-            print("[ERROR] Invalid google arg '" + repr(google) + "' - must be True or False")
-            sys.exit()
 
         self.loggged_in = True
 
