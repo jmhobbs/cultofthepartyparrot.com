@@ -430,5 +430,13 @@
       "hd": "hd/flyingmoneyparrot.gif",
       "name": "Flying Money Parrot",
       "tip": "The money is flying away!"
+    },
+    {
+      "gif": "portalorangeparrot.gif",
+      "name": "Portal Parrot (Orange Portal)"
+    },
+    {
+      "gif": "portalblueparrot.gif",
+      "name": "Portal Parrot (Blue Portal)"
     }
 ]
