@@ -52,3 +52,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 .ropeproject
+
+# VS Code
+.vscode
+
+# Chromedriver
+Chromedriver.exe
