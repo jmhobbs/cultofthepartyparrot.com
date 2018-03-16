@@ -68,11 +68,13 @@
     },
     {
         "gif": "fastparrot.gif",
+	"hd": "hd/fastparrot.gif",
         "name": "Fast Parrot",
         "tip": "Now with 50% more party!"
     },
     {
         "gif": "ultrafastparrot.gif",
+	"hd": "hd/ultrafastparrot.gif",
         "name": "Ultra Fast Parrot",
         "tip": "Now with 150% more party!"
     },
