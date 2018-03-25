@@ -441,5 +441,9 @@
     {
       "gif": "portalblueparrot.gif",
       "name": "Portal Parrot (Blue Portal)"
+    },
+    {
+      "gif": "schnitzelparrot.gif",
+      "name": "Schnitzel Parrot"
     }
 ]
