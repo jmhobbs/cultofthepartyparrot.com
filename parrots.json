@@ -443,6 +443,11 @@
       "name": "Portal Parrot (Blue Portal)"
     },
     {
+      "hd": "hd/bunnyparrot.gif",
+      "name": "Bunny Parrot",
+      "tip": "Real men love bunnies"
+    },
+    {
       "gif": "schnitzelparrot.gif",
       "name": "Schnitzel Parrot"
     }
