@@ -446,5 +446,10 @@
       "hd": "hd/bunnyparrot.gif",
       "name": "Bunny Parrot",
       "tip": "Real men love bunnies"
+    },
+    {
+      "hd": "hd/norwegianblueparrot.gif",
+      "name": "Norwegian Blue Parrot",
+      "tip": "Remarkable bird, the Norwegian Blue, idn'it, ay?"
     }
 ]
