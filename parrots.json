@@ -451,5 +451,10 @@
       "hd": "hd/norwegianblueparrot.gif",
       "name": "Norwegian Blue Parrot",
       "tip": "Remarkable bird, the Norwegian Blue, idn'it, ay?"
+    },
+    {
+      "hd": "hd/trans-parrot.gif",
+      "name": "Trans Flag Parrot",
+      "tip": "Transgender flag pride parrot"
     }
 ]
