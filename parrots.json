@@ -475,5 +475,10 @@
     {
       "hd": "hd/whitewalkerparrot.gif",
       "name": "White Walker Parrot"
+    },
+    {
+      "hd": "hd/trans-parrot.gif",
+      "name": "Trans Flag Parrot",
+      "tip": "Transgender flag pride parrot"
     }
 ]
