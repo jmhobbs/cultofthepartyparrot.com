@@ -7,6 +7,8 @@ import time
 
 from selenium import webdriver
 
+from selenium.common.exceptions import TimeoutException
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -55,14 +57,16 @@ class ParrotUploader():
         emoji_url = 'https://{}.slack.com/customize/emoji'.format(self.slack_team)
         if emoji_url not in self.browser.current_url:
             self.browser.get(emoji_url)
-
-        emoji_table = WebDriverWait(
-            self.browser, 30).until(EC.presence_of_element_located(
-                (By.ID, "custom_emoji")))
         parrot_name = os.path.basename(parrot_path).split('.')[0]
-        if ":{}:".format(parrot_name) in emoji_table.text:
-            print("emoji :{}: already exists".format(parrot_name))
-            return
+        try:
+            emoji_table = WebDriverWait(
+                self.browser, 30).until(EC.presence_of_element_located(
+                    (By.ID, "custom_emoji")))
+            if ":{}:".format(parrot_name) in emoji_table.text:
+                print("emoji :{}: already exists".format(parrot_name))
+                return
+        except TimeoutException:
+            print("Custom emojis not found, let's add some")
         emoji_name = self.browser.find_element(value='emojiname')
         emoji_name.clear()
         emoji_name.send_keys(parrot_name)
