@@ -451,5 +451,10 @@
       "hd": "hd/norwegianblueparrot.gif",
       "name": "Norwegian Blue Parrot",
       "tip": "Remarkable bird, the Norwegian Blue, idn'it, ay?"
+    },
+    {
+      "gif": "pepeparrot.gif",
+      "name": "Pepe Parrot",
+      "tip": "Feels good, man."
     }
 ]
