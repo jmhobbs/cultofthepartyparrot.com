@@ -455,5 +455,13 @@
     {
       "hd": "hd/transparront.gif",
       "name": "Transparront"
+    },
+    {
+      "gif": "wallclimbparrot.gif",
+      "name": "Wall Climb Parrot"
+    },
+    {
+      "gif": "wallfallparrot.gif",
+      "name": "Wall Fall Parrot"
     }
 ]
