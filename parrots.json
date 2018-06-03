@@ -455,5 +455,11 @@
     {
       "hd": "hd/transparront.gif",
       "name": "Transparront"
+    },
+    {
+      "gif": "garlicbreadparrot.gif",
+      "hd": "hd/garlicbreadparrot.gif",
+      "name": "Garlic Bread Parrot",
+      "tip": "Would you like some memes with that?"
     }
 ]
