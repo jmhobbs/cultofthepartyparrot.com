@@ -41,5 +41,10 @@
     "hd": "hd/trollparrot.gif",
     "name": "Troll Parrot",
     "tip": "Party?"
+  },
+  {
+    "hd": "hd/stubparrot.gif",
+    "name": "Stub Parrot",
+    "tip": "// TODO"
   }
 ]
