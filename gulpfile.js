@@ -63,7 +63,7 @@ function ParrotObjectAddSlackName (parrot) {
 
 // Depends on zip and css for the asset manifest
 gulp.task('render', ['test', 'zip', 'css'], function () {
-  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
+  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml', 'templates/static.html'])
     .pipe(data(function(file) {
       // Mustache doesn't handle dots in keys...
       var assets = {};
@@ -120,6 +120,10 @@ gulp.task('images', function () {
     .pipe(gulp.dest('dist/parrots/'));
   gulp.src('guests/**/*')
     .pipe(gulp.dest('dist/guests/'));
+  gulp.src('parrots-static/**/*')
+    .pipe(gulp.dest('dist/parrots-static/'));
+  gulp.src('guests-static/**/*')
+    .pipe(gulp.dest('dist/guests-static/'));
   return gulp.src('src/*.{svg,png,jpg,gif}')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/assets/'));

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cult of the Party Parrot</title>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/{{assets.parrot_css}}">
+    <link type="text/plain" rel="author" href="humans.txt" />
+
+    <meta property="og:title" content="Cult of the Party Parrot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="THE PARROT INSISTS" />
+    <meta property="og:image" content="/assets/og.png" />
+
+    <!--
+
+                          ........:oo:........
+                       o//ssssssssyhhysssss+////o                   .'''''''''''''''''.
+                 mddmmm/::ddddddddddddddmmmyss::/mmN               |   PARTY OR DIE   |
+                 o..+oodddmmmhhhhhhhhhhhdmmmmmdddooy               | ,................'
+              h::oyyhddmmm+++///////////++++++mmmddy::s            |/
+           Nyyo[[sddhyyyyy::::::::::::::::::::yyymmh//oyym
+           h..:oohmm+:://///::::////////////////+mmmmms..sNN
+           m++sddmmm+::hddhhy::+ddddddddddddddhhhmmmmmdhh+++d
+        Nsssyyhmmhssooodmmhhh::+mmdyyyyyyyyddddddmmmmmmmmo::d
+      mmd../mmmmmo::shhdmmhhh::+mmhooooooooyhhmmmmmmmmmmmyssdmm
+      +++++smmdddo::///dmmhhh::+mmhooooooooooommmmmddddmmmdd/++m
+      ``+hhhmmhoo/:::::oooooossymmhooooooooyyymmdoooooydddmmo//N
+      ++:mmmmmy:::::::::::::/yyhmmhooooooooyhhmmd:::::+yyhmmyssddd
+      ooommmmmy:::::::::::::://ommhooooooooooommd:::::://shhdmm+..
+      yyhmmh++/::::::::::::::::+mmhooooooooyyymmd::::::::/++hmm+//
+      dddmmh++/::::::::::::::::+mmhooooooooyhhddh:::::::::::hmmysshhd
+      mmmmmdhhs::::::::::::::::+mmhoooooooohhhhhy:::::::::::hmmhhh``+
+      mmmmmh++/::::::::::::::::+mmdhhsooooodmm++/:::::::::::hmmsss``+
+      dddmmhoo+::::::::::::::::+dddddyssyyydmm::::::::::::::hmmsoo++o
+      dddmmdhho::::::::::::::::+hhdmmddddmmmmm::::::::::::::hmmsooNNN
+      mmmmmh///::::::::::::::::+hhdmmmmmmmmddd::::::::::::::hmmsoo++/
+      yyhmmdss+::::::::::::::::/ooydddmmmmmsoo::::::::::::::yddhyy::+
+      ++ommmmmy:::::::::::::::::::ohhdmmddd/::::::::::::::::shhdmmsssNNNmmN
+      ..+mmmmmy:::::::::::::::::::://shh+//:::::::::::::::::://dmmmmdoo+..o
+      ``+dddmmhss+:::::::::::::::::::+++/::::::::::::::::::::::ooodddhhysshNNy++m
+      ``+hhdmmdhhs///:::::::::::::::::::::::::::::::::::::::::::::yyymmmmmmmmo++hNNmdd
+      ``+hhdmmdhhhhh+:::::::::::::::::::::::::::::::::::::::::::::::/hhhhhdmmmmmsoo...
+      ``+ddmmmdhhhhhyyyyyyyyyyyo:::::::::::::::::::::::::::::::::::::+++++sdddmmdhhsss//+
+      ``+mmmmmhsshhhhhhhhhhhhhhy++/:::::::::::::::::::::::::::::::::::::::+ssyyydmmddd///hhd
+      ``+mmmmmy::shhhhhhhhhhhhhhhhs:::::::::::::::::::::::::::::::::::::::::::::ymmmmmmmh../
+      ``+mmmmmy:://////////////ohhhyy+::::::::::::::::::::::::::::::::::::::::::///hddmmmhhs++s
+      ``+mmmmmhssssssssssssssssydddddysssssssssssssssssssssssssssssssssssssssssssssdddmmmmmy::s
+      ``+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmhooh
+
+    -->
+  </head>
+  <body>
+    <div id="wrapper">
+      <article>
+        <div>
+          <h1>Cult of the Party Parrot</h1>
+        </div>
+
+        <h2>Static Parrots Comparison View</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Name</th>
+              <th>Animated</th>
+              <th>Static</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{#parrots}}
+            <tr>
+              <td>{{gif}}</td>
+              <td>{{name}}</td>
+              <td><img src="/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/></td>
+              <td><img src="/parrots-static/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/></td>
+            </tr>
+          {{/parrots}}
+          </tbody>
+        </table>
+
+        <hr/>
+
+        <table>
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Name</th>
+              <th>Animated</th>
+              <th>Static</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{#guests}}
+            <tr>
+              <td>{{gif}}</td>
+              <td>{{name}}</td>
+              <td><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/></td>
+              <td><img src="/guests-static/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/></td>
+            </tr>
+          {{/guests}}
+          </tbody>
+        </table>
+
+        <hr/>
+
+        <p>
+          Party Parrot based on <a href="https://www.youtube.com/watch?v=9T1vfsHYiKY">Sirocco</a>, the hardest partying parrot ever.
+        </p>
+
+        <img src="/assets/sirocco.gif" alt="Sirocco" />
+
+        <p>
+          Sirocco is a member of the endangered Kākāpō species.
+        </p>
+
+        <p>
+          <a class="button-small" href="http://kakaporecovery.org.nz/sirocco/">Donate To Keep Them Partying</a>
+        </p>
+
+        <hr/>
+
+      </article>
+
+      <footer>
+        With <img src="/parrots/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
+      </footer>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-1664885-25', 'auto');
+        ga('send', 'pageview');
+
+        if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
+      </script>
+    </div>
+  </body>
+</html>
