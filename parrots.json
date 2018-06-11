@@ -455,5 +455,9 @@
     {
       "hd": "hd/transparront.gif",
       "name": "Transparront"
-    }
+    },
+    {
+      "gif": "fixparrot.gif",
+      "name": "Fix Parrot"
+    },
 ]
