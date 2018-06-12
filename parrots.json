@@ -457,6 +457,10 @@
       "name": "Transparront"
     },
     {
+      "gif": "fixparrot.gif",
+      "name": "Fix Parrot"
+    },
+    {
       "gif": "wallclimbparrot.gif",
       "name": "Wall Climb Parrot"
     },
