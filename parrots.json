@@ -400,25 +400,26 @@
       "hd": "hd/sintparrot.gif",
       "name": "Sinterklaas Parrot"
     },
-      {
+    {
       "hd": "hd/CPUconcernedparrot.gif",
       "name": "CPU-concerned Parrot"
     },
-      {
+    {
       "hd": "hd/deceivingparrot.gif",
       "name": "Deceiving Parrot"
     },
-      {
+    {
       "hd": "hd/hiddenparrot.gif",
       "name": "Hidden Parrot"
     },
-      {
+    {
       "gif": "safeparrot.gif",
       "name": "Safe Parrot"
     },
-      {
+    {
       "hd": "hd/jumpingparrot.gif",
       "name": "Jumping Parrot"
+    },
     {
       "hd": "hd/pirateparrot.gif",
       "name": "Pirate Parrot"
