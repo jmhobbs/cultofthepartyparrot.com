@@ -59,5 +59,16 @@
   {"username":"belltailjp","contributions":[{"pr":157,"action":"sushi parrot"}]},
   {"username":"breadadams","contributions":[{"pr":155,"action":"fetch-the-parrot link"}]},
   {"username":"danrichman","contributions":[{"pr":167,"action":"party pooper"}]},
-  {"username":"RHvdW","contributions":[{"pr":178,"action":"Sint parrot"}]}
+  {"username":"RHvdW","contributions":[{"pr":178,"action":"sint parrot"}]},
+  {"username":"cavpollo","contributions":[{"pr":180,"action":"cat parrot"}]},
+  {"username":"nuragic","contributions":[{"pr":182,"action":"web components"}]},
+  {"username":"TheoKanning","contributions":[{"pr":185,"action":"pirate parrot"}]},
+  {"username":"zix99","contributions":[{"pr":186,"action":"ceiling parrot"}]},
+  {"username":"PretzelCA","contributions":[{"pr":187,"action":"Discord bot"}]},
+  {"username":"matthewjwolff","contributions":[{"pr":194,"action":"mardi gras parrot"}]},
+  {"username":"Darth-Arminius","contributions":[{"pr":198,"action":"sith parrot"}]},
+  {"username":"emmajam","contributions":[{"pr":201,"action":"bitcoin parrot"}]},
+  {"username":"juniormucciolo","contributions":[{"pr":203,"action":"portal parrot"}]},
+  {"username":"mrkolby","contributions":[{"pr":208,"action":"flying money parrot"},{"pr":206,"action":"hard hat parrot"},{"pr":207,"action":"troll parrot"},{"pr":204,"action":"mustache parrot"}]},
+  {"username":"eokuwwy","contributions":[{"pr":209,"action":"HD version of party parrot"}]}
 ]

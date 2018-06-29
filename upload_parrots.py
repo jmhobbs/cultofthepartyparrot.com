@@ -3,6 +3,7 @@ import sys
 import glob
 import argparse
 import os
+import time
 
 from selenium import webdriver
 
@@ -19,17 +20,32 @@ class ParrotUploader():
         self.browser = webdriver.Chrome()
         self.slack_team = slack_team
 
-    def login(self, username, password):
+    def login(self, username, password, google):
         if self.loggged_in:
             return
 
         self.browser.get('https://{}.slack.com/signin'.format(self.slack_team))
-        username_field = self.browser.find_element(value="email")
-        password_field = self.browser.find_element(value='password')
 
-        username_field.send_keys(username)
-        password_field.send_keys(password)
-        username_field.submit()
+        if google:
+            signin_button = self.browser.find_element_by_partial_link_text("Sign in with Google")
+            signin_button.click()
+
+            username_field = WebDriverWait(self.browser, 30).until(EC.presence_of_element_located((By.ID, "identifierId")))
+            username_field.send_keys(username)
+            username_next = self.browser.find_element_by_id("identifierNext")
+            username_next.click()
+
+            password_field = WebDriverWait(self.browser, 30).until(EC.presence_of_element_located((By.NAME, "password")))
+            password_field.send_keys(password)
+            password_next = self.browser.find_element_by_id("passwordNext")
+            password_next.click()
+        else:
+            username_field = self.browser.find_element(value="email")
+            password_field = self.browser.find_element(value='password')
+
+            username_field.send_keys(username)
+            password_field.send_keys(password)
+            username_field.submit()
 
         self.loggged_in = True
 
@@ -70,6 +86,8 @@ def main():
                         help='The slack username with which to upload')
     parser.add_argument('--password',
                         help='The slack password with which to login')
+    parser.add_argument('--google', action='store_true',
+                        help='Only add this arg if you use Google signin for your Slack team')
 
     args = parser.parse_args()
 
@@ -78,7 +96,7 @@ def main():
     all_the_parrots = glob.glob(os.path.join(dir_path, 'parrots/hd/*.gif'))
     all_the_parrots += glob.glob(os.path.join(dir_path, 'parrots/*.gif'))
     try:
-        uploader.login(args.username, args.password)
+        uploader.login(args.username, args.password, args.google)
         for parrot in all_the_parrots:
             uploader.upload(parrot)
     finally:

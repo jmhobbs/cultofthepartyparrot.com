@@ -58,7 +58,9 @@ The only Slack reaction gif's you'll ever need.
  1. `gulp build`
  1. Upload it somewhere!
 
-# Automated upload via Selenium
+# Automated Upload
+
+## Slack via Selenium
 
 You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
 installed to run this:
@@ -68,3 +70,8 @@ installed to run this:
  3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
 
  __Notice__: The uploader won't re-write already existing parrots if they match by name.
+
+## Discord via Mr. Parrot
+
+  1. [Click this link](https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot) to invite the bot to your server
+  2. Enjoy!

@@ -102,7 +102,18 @@ The only Slack reaction gif's you'll ever need.
  * [@belltailjp](https://github.com/belltailjp) for [sushi parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/157)
  * [@breadadams](https://github.com/breadadams) for [fetch-the-parrot link](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/155)
  * [@danrichman](https://github.com/danrichman) for [party pooper](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/167)
- * [@RHvdW](https://github.com/RHvdW) for [Sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
+ * [@RHvdW](https://github.com/RHvdW) for [sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
+ * [@cavpollo](https://github.com/cavpollo) for [cat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/180)
+ * [@nuragic](https://github.com/nuragic) for [web components](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/182)
+ * [@TheoKanning](https://github.com/TheoKanning) for [pirate parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/185)
+ * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
+ * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
+ * [@matthewjwolff](https://github.com/matthewjwolff) for [mardi gras parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/194)
+ * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198)
+ * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
+ * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
+ * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207) and [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204)
+ * [@eokuwwy](https://github.com/eokuwwy) for [HD version of party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/209)
 
 # Contributing!
 
@@ -116,13 +127,23 @@ The only Slack reaction gif's you'll ever need.
  1. `gulp build`
  1. Upload it somewhere!
 
-# Automated upload via Selenium
+# Automated Upload
+
+## Slack via Selenium
 
 You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
 installed to run this:
 
  1. `python3 -m venv .venv`
  2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+ 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS` 
+ 
+ The following are optional args you can append to 3. above: 
+ 1. `--google` Use this if your Slack team uses Google signin
 
  __Notice__: The uploader won't re-write already existing parrots if they match by name.
+
+## Discord via Mr. Parrot
+
+  1. [Click this link](https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot) to invite the bot to your server
+  2. Enjoy!
