@@ -88,6 +88,8 @@ def main():
                         help='The slack password with which to login')
     parser.add_argument('--google', action='store_true',
                         help='Only add this arg if you use Google signin for your Slack team')
+    parser.add_argument('--guests', action='store_true',
+                        help='Also upload guests to the party')
 
     args = parser.parse_args()
 
@@ -95,6 +97,9 @@ def main():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     all_the_parrots = glob.glob(os.path.join(dir_path, 'parrots/hd/*.gif'))
     all_the_parrots += glob.glob(os.path.join(dir_path, 'parrots/*.gif'))
+    if (args.guests):
+        all_the_parrots += glob.glob(os.path.join(dir_path, 'guests/*.gif'))
+
     try:
         uploader.login(args.username, args.password, args.google)
         for parrot in all_the_parrots:
