@@ -49,6 +49,16 @@
     "tip": "Party?"
   },
   {
+    "gif": "dogeparrot.gif",
+    "name": "Doge Parrot",
+    "tip": "Wow. Such party."
+  },
+  {
+    "gif": "congadoge.gif",
+    "name": "Conga Doge",
+    "tip": "Very conga. Much line."
+  },
+  {
     "hd": "hd/partygopher.gif",
     "name": "Party Gopher"
   },
