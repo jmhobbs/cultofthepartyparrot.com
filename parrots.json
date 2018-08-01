@@ -471,5 +471,9 @@
     {
       "hd": "hd/marshmallowparrot.gif",
       "name": "Marshmallow Parrot"
+    },
+    {
+      "hd": "hd/duelparrot.gif",
+      "name": "Duel Parrot"
     }
 ]
