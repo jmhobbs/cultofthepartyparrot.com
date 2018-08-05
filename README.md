@@ -140,6 +140,7 @@ installed to run this:
  
  The following are optional args you can append to 3. above: 
  1. `--google` Use this if your Slack team uses Google signin
+ 2. `--guests` Use this to invite all the party guests
 
  __Notice__: The uploader won't re-write already existing parrots if they match by name.
 

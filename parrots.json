@@ -457,6 +457,26 @@
       "name": "Transparront"
     },
     {
+      "gif": "fixparrot.gif",
+      "name": "Fix Parrot"
+    },
+    {
+      "gif": "brazilianplayerparrot.gif",
+      "name": "Brazilian Player Parrot"
+    },
+    {
+      "gif": "brazilianfanparrot.gif",
+      "name": "Brazilian Fan Parrot"
+    },
+    {
+      "hd": "hd/marshmallowparrot.gif",
+      "name": "Marshmallow Parrot"
+    },
+    {
+      "hd": "hd/whitewalkerparrot.gif",
+      "name": "White Walker Parrot"
+    },
+    {
       "gif": "schnitzelparrot.gif",
       "name": "Schnitzel Parrot"
     }
