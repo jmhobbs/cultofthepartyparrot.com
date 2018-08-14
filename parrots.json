@@ -5,6 +5,11 @@
         "name": "Parrot"
     },
     {
+        "gif": "opensourceparrot.gif",
+        "hd": "hd/opensourceparrot.gif",
+        "name": "Open-source Parrot"
+    },
+    {
         "gif": "middleparrot.gif",
         "hd": "hd/middleparrot.gif",
         "name": "Middle Parrot"
