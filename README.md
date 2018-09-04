@@ -131,6 +131,8 @@ The only Slack reaction gif's you'll ever need.
 
 ## Slack via Selenium
 
+**Note:** This [appears to have broken with a recent change to the Slack upload form](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/259). If you can help fix it, that would be appreciated! See [#259](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/259)
+
 You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
 installed to run this:
 
