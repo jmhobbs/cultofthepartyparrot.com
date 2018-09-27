@@ -497,5 +497,10 @@
     {
       "hd": "hd/britparrot.gif",
       "name": "British Parrot"
+    },
+    {
+        "gif":"frenchparrot.gif",
+        "name":"French Parrot",
+        "tip":"Oulala"
     }
 ]
