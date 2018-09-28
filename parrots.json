@@ -504,11 +504,11 @@
         "name":"French Parrot",
         "tip":"Oulala"
     },
-	{
+    {
         "gif": "anonymousparrot.gif",
         "name": "Anonymous Parrot"
     },
-	{
+    {
         "gif": "anonymouscongaparrot.gif",
         "name": "Anonymous Conga Parrot"
     }
