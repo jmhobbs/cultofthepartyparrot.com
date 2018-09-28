@@ -68,11 +68,11 @@
     "tip": "// TODO"   
   },
   {
-    "gif": "anonymouscongaparrot.gif"
-    "name": "Anonymous Conga Parrot"
+    "gif":"anonymouscongaparrot.gif",
+    "name":"Anonymous Conga Parrot"
   }, 
   {
-    "gif": "anonymousparrot.gif",
+    "gif":"anonymousparrot.gif",
     "name": "Anonymous Parrot"
   }
 ]
