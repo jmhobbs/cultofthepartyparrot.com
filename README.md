@@ -129,22 +129,14 @@ The only Slack reaction gif's you'll ever need.
 
 # Automated Upload
 
-## Slack via Selenium
+## Slack via `emojipacks`
 
-**Note:** This [appears to have broken with a recent change to the Slack upload form](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/259). If you can help fix it, that would be appreciated! See [#259](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/259)
+First, you need to clone this repo and run the build script with `npm run build` or `yarn build`.
 
-You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
-installed to run this:
+It will generate a `dist/` folder containing the website build files; we only need the  `dist/parrotparty.yaml`. Copy the file path.
 
- 1. `python3 -m venv .venv`
- 2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS` 
- 
- The following are optional args you can append to 3. above: 
- 1. `--google` Use this if your Slack team uses Google signin
- 2. `--guests` Use this to invite all the party guests
+Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll be asked to enter your Slack credentials plus _the path of the yaml file_. That's all! Enjoy your parrots.
 
- __Notice__: The uploader won't re-write already existing parrots if they match by name.
 
 ## Discord via Mr. Parrot
 
