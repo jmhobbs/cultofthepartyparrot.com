@@ -503,5 +503,11 @@
         "hd":"hd/frenchparrothd.gif",
         "name":"French Parrot",
         "tip":"Oulala"
+    },
+    {
+      "gif": "githubparrot.gif",
+      "hd": "hd/githubparrot.gif",
+      "name": "Github Party Parrot",
+      "tip": "Github PR Party"
     }
 ]
