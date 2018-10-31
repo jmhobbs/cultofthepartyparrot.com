@@ -503,5 +503,11 @@
         "hd":"hd/frenchparrothd.gif",
         "name":"French Parrot",
         "tip":"Oulala"
+    },
+    {
+      "gif":"mathparrot.gif",
+      "hd":"hd/mathparrot.gif",
+      "name":"Math Parrot",
+      "tip":"The Limit Does Not Exist"
     }
 ]
