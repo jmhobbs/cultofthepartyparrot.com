@@ -61,8 +61,47 @@ function ParrotObjectAddSlackName (parrot) {
   return parrot;
 }
 
+gulp.task('css', function () {
+  return gulp.src('src/parrot.css')
+    .pipe(uglifycss())
+    .pipe(rev())
+    .pipe(gulp.dest('dist/assets/'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('dist/assets/'));
+});
+
+gulp.task('compress', gulp.series('test', function (cb) {
+  exec('rm -f ./parrots.zip', function (err, stdout, stderr) {
+    console.log(stderr);
+    if(err != null) { cb(err); }
+    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
+      console.log(stderr);
+      cb(err);
+    });
+  });
+}));
+
+gulp.task('guests-compress', gulp.series('test', function (cb) {
+  exec('rm -f ./guests.zip', function (err, stdout, stderr) {
+    console.log(stderr);
+    if(err != null) { cb(err); }
+    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./guests.zip ./guests/*", function(err, stdout, stderr) {
+      console.log(stderr);
+      cb(err);
+    });
+  });
+}));
+
+gulp.task('zip', gulp.series('compress', 'guests-compress', function () {
+  return gulp.src('*.zip')
+    .pipe(rev())
+    .pipe(gulp.dest('dist/'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('dist/'));
+}));
+
 // Depends on zip and css for the asset manifest
-gulp.task('render', ['test', 'zip', 'css'], function () {
+gulp.task('render', gulp.series('test', 'zip', 'css', function () {
   return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
     .pipe(data(function(file) {
       // Mustache doesn't handle dots in keys...
@@ -81,37 +120,7 @@ gulp.task('render', ['test', 'zip', 'css'], function () {
     }))
     .pipe(mustache())
     .pipe(gulp.dest("dist/"));
-});
-
-gulp.task('zip', ['compress', 'guests-compress'], function () {
-  return gulp.src('*.zip')
-    .pipe(rev())
-    .pipe(gulp.dest('dist/'))
-    .pipe(rev.manifest())
-    .pipe(gulp.dest('dist/'));
-});
-
-gulp.task('compress', ['test'], function (cb) {
-  exec('rm -f ./parrots.zip', function (err, stdout, stderr) {
-    console.log(stderr);
-    if(err != null) { cb(err); }
-    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
-      console.log(stderr);
-      cb(err);
-    });
-  });
-});
-
-gulp.task('guests-compress', ['test'], function (cb) {
-  exec('rm -f ./guests.zip', function (err, stdout, stderr) {
-    console.log(stderr);
-    if(err != null) { cb(err); }
-    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./guests.zip ./guests/*", function(err, stdout, stderr) {
-      console.log(stderr);
-      cb(err);
-    });
-  });
-});
+}));
 
 gulp.task('images', function () {
   gulp.src('src/favicon.ico')
@@ -125,15 +134,6 @@ gulp.task('images', function () {
     .pipe(gulp.dest('dist/assets/'));
 });
 
-gulp.task('css', function () {
-  return gulp.src('src/parrot.css')
-    .pipe(uglifycss())
-    .pipe(rev())
-    .pipe(gulp.dest('dist/assets/'))
-    .pipe(rev.manifest())
-    .pipe(gulp.dest('dist/assets/'));
-});
-
 gulp.task('clean', function (cb) {
   exec('rm -rf dist/*', function (err, stdout, stderr) {
     console.log(stdout);
@@ -142,6 +142,6 @@ gulp.task('clean', function (cb) {
   });
 });
 
-gulp.task('build', ['test', 'css', 'images', 'render', 'render-humans', 'zip']);
+gulp.task('build', gulp.series('test', 'css', 'images', 'render', 'render-humans', 'zip'));
 
-gulp.task('default', ['test']);
+gulp.task('default', gulp.parallel('test'));

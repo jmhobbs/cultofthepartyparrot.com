@@ -5,6 +5,11 @@
         "name": "Parrot"
     },
     {
+        "gif": "opensourceparrot.gif",
+        "hd": "hd/opensourceparrot.gif",
+        "name": "Open-source Parrot"
+    },
+    {
         "gif": "middleparrot.gif",
         "hd": "hd/middleparrot.gif",
         "name": "Middle Parrot"
@@ -469,12 +474,35 @@
       "name": "Brazilian Fan Parrot"
     },
     {
+      "gif": "spyparrot.gif",
+      "name": "Spy Parrot"
+    },
+    {
       "hd": "hd/marshmallowparrot.gif",
       "name": "Marshmallow Parrot"
     },
     {
       "hd": "hd/whitewalkerparrot.gif",
       "name": "White Walker Parrot"
+    },
+    {
+      "hd": "hd/trans-parrot.gif",
+      "name": "Trans Flag Parrot",
+      "tip": "Transgender flag pride parrot"
+    },
+    {
+      "hd": "hd/calvinist_parrot.gif",
+      "name": "Calvinist Parrot"
+    },
+    {
+      "hd": "hd/britparrot.gif",
+      "name": "British Parrot"
+    },
+    {
+        "gif":"frenchparrot.gif",
+        "hd":"hd/frenchparrothd.gif",
+        "name":"French Parrot",
+        "tip":"Oulala"
     },
     {
       "gif": "schnitzelparrot.gif",
