@@ -16,11 +16,13 @@ describe("gifs", function() {
 
         parrot_hd_gifs.forEach(function(gif) {
             var mode = fs.statSync(__dirname + '/../parrots/hd/' + gif).mode;
+            console.log("parrot hd stat:", gif, mode);
             assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
         });
 
         guests_hd_gifs.forEach(function(gif) {
             var mode = fs.statSync(__dirname + '/../guests/hd/' + gif).mode;
+            console.log("guest hd stat:", gif, mode);
             assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
         });
     });
@@ -32,12 +34,14 @@ describe("gifs", function() {
         parrot_gifs.forEach(function(gif) {
             if(gif == "hd") { return; }
             var mode = fs.statSync(__dirname + '/../parrots/' + gif).mode;
+            console.log("parrot sd stat:", gif, mode);
             assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
         });
 
         guests_gifs.forEach(function(gif) {
             if(gif == "hd") { return; }
             var mode = fs.statSync(__dirname + '/../guests/' + gif).mode;
+            console.log("guest hd stat:", gif, mode);
             assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
         });
     });
