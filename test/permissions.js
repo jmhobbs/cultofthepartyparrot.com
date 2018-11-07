@@ -2,10 +2,13 @@ var fs        = require('fs'),
     assert    = require('chai').assert;
 
 
-var RWRR = parseInt("100644", 8);
-
 function modeString(mode) {
  return '0' + (mode & 0777).toString(8);
+}
+
+// Return true if a mode doesn't have any execute bits.
+function modeNoExecute(mode) {
+  return 0 == (mode & 0111);
 }
 
 describe("gifs", function() {
@@ -16,14 +19,12 @@ describe("gifs", function() {
 
         parrot_hd_gifs.forEach(function(gif) {
             var mode = fs.statSync(__dirname + '/../parrots/hd/' + gif).mode;
-            console.log("parrot hd stat:", gif, mode);
-            assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
+            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
         });
 
         guests_hd_gifs.forEach(function(gif) {
             var mode = fs.statSync(__dirname + '/../guests/hd/' + gif).mode;
-            console.log("guest hd stat:", gif, mode);
-            assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
+            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
         });
     });
 
@@ -34,15 +35,13 @@ describe("gifs", function() {
         parrot_gifs.forEach(function(gif) {
             if(gif == "hd") { return; }
             var mode = fs.statSync(__dirname + '/../parrots/' + gif).mode;
-            console.log("parrot sd stat:", gif, mode);
-            assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
+            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
         });
 
         guests_gifs.forEach(function(gif) {
             if(gif == "hd") { return; }
             var mode = fs.statSync(__dirname + '/../guests/' + gif).mode;
-            console.log("guest hd stat:", gif, mode);
-            assert(mode == RWRR, gif + " has bad permissions, " + modeString(mode));
+            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
         });
     });
 });
