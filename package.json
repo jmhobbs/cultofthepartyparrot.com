@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "description": "PARTY OR DIE",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,14 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "convert-units": "^2.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-data": "^1.2.1",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-mocha": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-mocha": "^6.0.0",
     "gulp-mustache": "^2.3.0",
     "gulp-rev": "^7.1.2",
     "gulp-uglifycss": "^1.0.6",
+    "image-size": "^0.6.1",
     "jsonschema": "1.1.1"
   }
 }

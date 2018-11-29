@@ -1,6 +1,7 @@
 deploy.sh
 node_modules/
 parrots.zip
+guests.zip
 dist/
 
 # Created by https://www.gitignore.io/api/vim,osx
@@ -45,3 +46,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Python ###
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+.ropeproject

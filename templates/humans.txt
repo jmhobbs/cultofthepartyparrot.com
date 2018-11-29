@@ -1,0 +1,12 @@
+/* TEAM */
+Parrot Herder: John Hobbs
+Twitter: @jmhobbs
+
+/* THANKS */
+{{#contributors}}
+{{username}}: https://github.com/{{username}}
+{{/contributors}}
+
+/* SITE */
+Last update: {{{last_update}}}
+Software: Gulp, Mocha, Chai

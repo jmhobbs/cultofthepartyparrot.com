@@ -1,0 +1,70 @@
+[
+  {
+    "gif": "nyanparrot.gif",
+    "name": "Nyan Parrot"
+  },
+  {
+    "gif": "oriolesparrot.gif",
+    "name": "Orioles Parrot",
+    "tip": "This parrot loves the orioles so much he turned into one!"
+  },
+  {
+    "gif": "capsparrot.gif",
+    "hd": "hd/capsparrot.gif",
+    "name": "Capitals Parrot",
+    "tip": "C! A! P! S! CAPS! CAPS! CAPS!!."
+  },
+  {
+    "gif": "fieriparrot.gif",
+    "name": "Guy Fieri Parrot",
+    "tip": "One way ticket to flavor town!"
+  },
+  {
+    "gif": "witnessprotectionparrot.gif",
+    "name": "Witness Protection Parrot",
+    "tip": "I wonder who this guy is?"
+  },
+  {
+    "hd": "hd/party-wizard.gif",
+    "name": "Party Wizard"
+  },
+  {
+    "gif": "partyowl.gif",
+    "name": "Party Owl"
+  },
+  {
+    "gif": "parrotpoop.gif",
+    "hd": "hd/parrotpoop.gif",
+    "name": "Parrot Poop",
+    "tip": "Contains parrot DNA."
+  },
+  {
+    "gif": "catparrot.gif",
+    "name": "Cat Parrot",
+    "tip": "Dont be confused by its meows."
+  },
+  {
+    "hd": "hd/trollparrot.gif",
+    "name": "Troll Parrot",
+    "tip": "Party?"
+  },
+  {
+    "gif": "dogeparrot.gif",
+    "name": "Doge Parrot",
+    "tip": "Wow. Such party."
+  },
+  {
+    "gif": "congadoge.gif",
+    "name": "Conga Doge",
+    "tip": "Very conga. Much line."
+  },
+  {
+    "hd": "hd/partygopher.gif",
+    "name": "Party Gopher"
+  },
+  {
+    "hd": "hd/stubparrot.gif",
+    "name": "Stub Parrot",
+    "tip": "// TODO"   
+  }
+]

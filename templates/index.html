@@ -6,6 +6,7 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/{{assets.parrot_css}}">
+    <link type="text/plain" rel="author" href="humans.txt" />
 
     <meta property="og:title" content="Cult of the Party Parrot" />
     <meta property="og:type" content="website" />
@@ -92,10 +93,28 @@
 
         <hr/>
 
+        <h3>Party Guests</h3>
+
+        <ul>
+          {{#guests}}
+          <li><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/guests}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
+        </div>
+
+
+        <hr/>
+
         <h3>Shirts!</h3>
         <div class="clearfix">
           <div class="shirt">
             <a href="https://cottonbureau.com/products/parrot"><img src="/assets/shirt.jpg" alt=":parrot:" /></a>
+          </div>
+          <div class="shirt">
+            <a href="https://cottonbureau.com/products/parrot-style"><img src="/assets/style-shirt.jpg" alt=":parrot-vibes:" /></a>
           </div>
           <div class="shirt">
             <a href="https://teespring.com/partyparrot"><img src="/assets/glasses-shirt.png" alt=":partyparrot:" /></a>
@@ -106,6 +125,7 @@
 
         <p>
           <a class="button-small" href="https://www.redbubble.com/people/korben-dallas/collections/621063-party-parrot-collection">Redbubble</a>
+          <a class="button-small" href="http://pingrovepress.storenvy.com/">Enamel Pins</a>
         </p>
 
         <hr/>
@@ -125,6 +145,16 @@
 
         <hr/>
 
+        <h3>Discord</h3>
+        <small>A bot to add some parrots to your server!</small>
+        <p>
+          <a class="button-small" href="https://github.com/Kizzaris/partydiscord">Bot Code</a>
+          <a class="button-small" href="https://discord.gg/BG3AUfh">Demo Server</a>
+          <a class="button-small" href="https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot">Mr. Parrot Invite Link</a>
+        </p>
+
+        <hr/>
+
         <p>
           <a class="button-small" href="https://github.com/jmhobbs/terminal-parrot">Terminal</a>
           <a class="button-small" href="https://github.com/Shrugs/partyparrot">Text-To-Parrots</a>
@@ -133,10 +163,16 @@
           <a class="button-small" href="https://www.reddit.com/r/PartyParrot">r/PartyParrot</a>
           <a class="button-small" href="https://github.com/mjaniszew/osx-touchbar-party-parrot">PartyParrot on MacBook's Touch Bar</a>
           <a class="button-small" href="https://github.com/matheuss/parrotsay">Parrot Say</a>
+          <a class="button-small" href="https://codepen.io/nathangath/pen/RgvzVY/">CSS Parrot</a>
+          <a class="button-small" href="https://github.com/breadadams/fetch-the-parrot">Fetch-the-parrot</a>
+          <a class="button-small" href="https://twitter.com/hugojmd/status/937997911257882624"><tt>curl parrot.live</tt></a>
+          <a class="button-small" href="https://t.me/PartyParrotBot">Telegram Bot</a>
+          <a class="button-small" href="https://www.npmjs.com/package/parrotify-cli">parrotify-cli</a>
+          <a class="button-small" href="https://github.com/dp12/parrot">emacs parrot</a>
         </p>
-        
+
         <hr/>
-        
+
         <p>
           Party Parrot based on <a href="https://www.youtube.com/watch?v=9T1vfsHYiKY">Sirocco</a>, the hardest partying parrot ever.
         </p>
@@ -189,6 +225,7 @@
           }
         }
         trackLinkClickEvent("parrots_zip", "parrots.zip");
+        trackLinkClickEvent("guests_zip", "guests.zip");
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
         if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
