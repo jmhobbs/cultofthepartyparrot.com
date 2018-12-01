@@ -518,5 +518,10 @@
       "hd": "hd/githubparrot.gif",
       "name": "Github Party Parrot",
       "tip": "Github PR Party"
+    },
+    {
+      "gif": "bootlegparrot.gif",
+      "hd": "hd/bootlegparrot.gif",
+      "name": "Bootleg Parrot"
     }
 ]
