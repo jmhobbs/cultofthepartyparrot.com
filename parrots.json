@@ -523,5 +523,9 @@
       "gif": "bootlegparrot.gif",
       "hd": "hd/bootlegparrot.gif",
       "name": "Bootleg Parrot"
+    },
+    {
+      "gif": "pingpongparrots.gif",
+      "name": "Ping Pong Parrots"
     }
 ]
