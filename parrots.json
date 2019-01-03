@@ -528,5 +528,10 @@
       "gif": "bikerparrot.gif",
       "hd": "hd/bikerparrot.gif",
       "name": "Biker Parrot"
+    },
+    {
+      "gif": "inverseparrot.gif",
+      "hd": "hd/inverseparrot.gif",
+      "name": "Inverse Parrot"
     }
 ]
