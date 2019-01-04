@@ -66,5 +66,13 @@
     "hd": "hd/stubparrot.gif",
     "name": "Stub Parrot",
     "tip": "// TODO"   
+  },
+  {
+    "gif":"anonymouscongaparrot.gif",
+    "name":"Anonymous Conga Parrot"
+  }, 
+  {
+    "gif":"anonymousparrot.gif",
+    "name": "Anonymous Parrot"
   }
 ]
