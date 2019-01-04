@@ -66,5 +66,10 @@
     "hd": "hd/stubparrot.gif",
     "name": "Stub Parrot",
     "tip": "// TODO"   
+  },
+  {
+    "hd": "hd/party-k8s.gif",
+    "name": "Party Kubernetes",
+    "tip": "Party Borg would have been better :("
   }
 ]
