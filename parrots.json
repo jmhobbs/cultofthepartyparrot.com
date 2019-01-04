@@ -528,5 +528,9 @@
       "gif": "bikerparrot.gif",
       "hd": "hd/bikerparrot.gif",
       "name": "Biker Parrot"
-    }
+    },
+    {
+      "hd": "hd/dev_parrot.gif",
+      "name": "Dev Parrot"
+    },
 ]
