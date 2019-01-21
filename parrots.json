@@ -538,5 +538,9 @@
       "gif": "inverseparrot.gif",
       "hd": "hd/inverseparrot.gif",
       "name": "Inverse Parrot"
+    },
+    {
+      "hd": "hd/pingpongparrot.gif",
+      "name": "Ping Pong Parrot"
     }
 ]
