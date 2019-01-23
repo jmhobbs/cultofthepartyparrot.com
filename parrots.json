@@ -543,5 +543,15 @@
     {
       "hd": "hd/pingpongparrot.gif",
       "name": "Ping Pong Parrot"
+    },
+    {
+      "gif": "american-parrot.gif",
+      "hd": "hd/american-parrot.gif",
+      "name": "American Parrot"
+    },
+    {
+      "gif": "doge-parrot.gif",
+      "hd": "hd/doge-parrot.gif",
+      "name": "Doge Parrot"
     }
 ]
