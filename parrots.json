@@ -104,6 +104,11 @@
         "name": "Deal With It Parrot"
     },
     {
+        "gif": "dealwithitnowparrot.gif",
+        "hd": "hd/dealwithitnowparrot.gif",
+        "name": "Deal With It Now Parrot"
+    },
+    {
         "gif": "fiestaparrot.gif",
         "name": "Fiesta Parrot"
     },
@@ -221,6 +226,7 @@
     },
     {
       "gif": "parrotbeer.gif",
+      "hd": "hd/parrotbeer.gif",
       "name": "Happy Hour Parrot"
     },
     {
@@ -262,6 +268,7 @@
     },
     {
       "gif": "twinsparrot.gif",
+      "hd": "hd/twinsparrot.gif",
       "name": "Twins Parrot",
       "tip": "parrot + parrot = great party!"
     },
@@ -272,6 +279,7 @@
     },
     {
       "gif": "stableparrot.gif",
+      "hd": "hd/stableparrot.gif",
       "name": "Stable Parrot",
       "tip": "Gyrostablization Mode Initiated"
     },
@@ -530,7 +538,32 @@
       "name": "Biker Parrot"
     },
     {
-      "hd": "hd/dev_parrot.gif",
-      "name": "Dev Parrot"
+      "gif": "inverseparrot.gif",
+      "hd": "hd/inverseparrot.gif",
+      "name": "Inverse Parrot"
+    },
+    {
+      "hd": "hd/pingpongparrot.gif",
+      "name": "Ping Pong Parrot"
+    },
+    {
+      "hd": "hd/americaparrot.gif",
+      "name": "American Parrot"
+    },
+    {
+      "hd": "hd/canadaparrot.gif",
+      "name": "Canadian Parrot"
+    },
+    {
+      "hd": "hd/mexicoparrot.gif",
+      "name": "Mexican Parrot"
+    },
+    {
+      "hd": "hd/serbiaparrot.gif",
+      "name": "Serbian Parrot"
+    },
+    {
+      "hd": "hd/laptop_parrot.gif",
+      "name": "Laptop Parrot"
     },
 ]
