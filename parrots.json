@@ -561,5 +561,9 @@
     {
       "hd": "hd/serbiaparrot.gif",
       "name": "Serbian Parrot"
+    },
+    {
+      "hd": "hd/laptop_parrot.gif",
+      "name": "Laptop Parrot"
     }
 ]
