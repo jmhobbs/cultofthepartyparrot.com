@@ -1,28 +1,88 @@
 [
-    {
-      "hd": "hd/americaparrot.gif",
-      "name": "American Parrot"
-    },
-    {
-      "hd": "hd/canadaparrot.gif",
-      "name": "Canadian Parrot"
-    },
-    {
-      "hd": "hd/mexicoparrot.gif",
-      "name": "Mexican Parrot"
-    },
-    {
-      "hd": "hd/serbiaparrot.gif",
-      "name": "Serbian Parrot"
-    },
-    {
-      "gif": "prideparrot.gif",
-      "hd": "hd/prideparrot.gif",
-      "name": "Pride Parrot"
-    },
-    {
-      "hd": "hd/trans-parrot.gif",
-      "name": "Trans Flag Parrot",
-      "tip": "Transgender flag pride parrot"
-    }
+  {
+    "hd": "hd/americaparrot.gif",
+    "name": "America Parrot"
+  },
+  {
+    "hd": "hd/australiaparrot.gif",
+    "name": "Australia Parrot"
+  },
+  {
+    "hd": "hd/canadaparrot.gif",
+    "name": "Canadian Parrot"
+  },
+  {
+    "hd": "hd/dominicaparrot.gif",
+    "name": "Dominica Parrot"
+  },
+  {
+    "hd": "hd/euparrot.gif",
+    "name": "Europe Parrot"
+  },
+  {
+    "hd": "hd/franceparrot.gif",
+    "name": "France Parrot"
+  },
+  {
+    "hd": "hd/germanyparrot.gif",
+    "name": "Germany Parrot"
+  },
+  {
+    "hd": "hd/indiaparrot.gif",
+    "name": "India Parrot"
+  },
+  {
+    "hd": "hd/irelandparrot.gif",
+    "name": "Ireland Parrot"
+  },
+  {
+    "hd": "hd/japanparrot.gif",
+    "name": "Japan Parrot"
+  },
+  {
+    "hd": "hd/mexicoparrot.gif",
+    "name": "Mexican Parrot"
+  },
+  {
+    "hd": "hd/newzelandparrot.gif",
+    "name": "New Zeland Parrot"
+  },
+  {
+    "hd": "hd/pakistanparrot.gif",
+    "name": "Pakistan Parrot"
+  },
+  {
+    "hd": "hd/philippinesparrot.gif",
+    "name": "Philippines Parrot"
+  },
+  {
+    "hd": "hd/portugalparrot.gif",
+    "name": "Protugal Parrot"
+  },
+  {
+    "hd": "hd/serbiaparrot.gif",
+    "name": "Serbian Parrot"
+  },
+  {
+    "hd": "hd/southafricaparrot.gif",
+    "name": "South Africa Parrot"
+  },
+  {
+    "hd": "hd/spainparrot.gif",
+    "name": "Spain Parrot"
+  },
+  {
+    "hd": "hd/sweedenparrot.gif",
+    "name": "Sweeden Parrot"
+  },
+  {
+    "gif": "prideparrot.gif",
+    "hd": "hd/prideparrot.gif",
+    "name": "Pride Parrot"
+  },
+  {
+    "hd": "hd/trans-parrot.gif",
+    "name": "Trans Flag Parrot",
+    "tip": "Transgender flag pride parrot"
+  }
 ]
