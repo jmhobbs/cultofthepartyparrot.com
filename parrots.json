@@ -68,6 +68,7 @@
     },
     {
         "gif": "parrotcop.gif",
+        "hd": "hd/parrotcop.gif",
         "name": "Parrot Cop",
         "tip": "Not to be confused with Stripper Parrot!"
     },
@@ -85,6 +86,7 @@
     },
     {
         "gif": "slowparrot.gif",
+        "hd": "hd/slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
     },
@@ -147,6 +149,7 @@
     },
     {
         "gif": "confusedparrot.gif",
+        "hd": "hd/confusedparrot.gif",
         "name": "Confused Parrot"
     },
     {
@@ -204,6 +207,7 @@
     },
     {
       "gif": "thumbsupparrot.gif",
+      "hd": "hd/thumbsupparrot.gif",
       "name": "Thumbs Up Parrot"
     },
     {
@@ -381,6 +385,7 @@
     },
     {
       "gif": "angryparrot.gif",
+      "hd": "hd/angryparrot.gif",
       "name": "Angry Parrot"
     },
     {
@@ -539,5 +544,18 @@
     {
       "hd": "hd/laptop_parrot.gif",
       "name": "Laptop Parrot"
+    },
+    {
+      "hd": "hd/60fpsparrot.gif",
+      "name": "60fps Parrot"
+    },
+    {
+      "hd": "hd/redhatparrot.gif",
+      "name": "Red Hat Parrot",
+      "tip": "Soon to be IBM parrot..."
+    },
+    {
+      "hd": "hd/footballparrot.gif",
+      "name": "Football Parrot"
     }
 ]
