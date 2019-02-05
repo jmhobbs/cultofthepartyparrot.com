@@ -12,6 +12,10 @@
     "name": "Canadian Parrot"
   },
   {
+    "hd": "hd/chinaparrot.gif",
+    "name": "China Parrot"
+  },
+  {
     "hd": "hd/dominicaparrot.gif",
     "name": "Dominica Parrot"
   },
@@ -68,12 +72,20 @@
     "name": "South Africa Parrot"
   },
   {
+    "hd": "hd/southkoreaparrot.gif",
+    "name": "South Korea Parrot"
+  },
+  {
     "hd": "hd/spainparrot.gif",
     "name": "Spain Parrot"
   },
   {
     "hd": "hd/sweedenparrot.gif",
     "name": "Sweeden Parrot"
+  },
+  {
+    "hd": "hd/taiwanparrot.gif",
+    "name": "Taiwan Parrot"
   },
   {
     "gif": "prideparrot.gif",
