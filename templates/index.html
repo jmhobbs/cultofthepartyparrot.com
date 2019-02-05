@@ -93,6 +93,20 @@
 
         <hr/>
 
+        <h3>Flag Parrots</h3>
+
+        <ul>
+          {{#flags}}
+          <li><img src="/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/flags}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="flags_zip" href="/{{files.flags_zip}}">Download</a>
+        </div>
+
+        <hr/>
+
         <h3>Party Guests</h3>
 
         <ul>

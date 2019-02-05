@@ -67,6 +67,7 @@ gulp.task('render-web', function () {
   var renderData = {
     parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAsSlackName),
     guests: JSON.parse(fs.readFileSync('guests.json')).map(ParrotObjectAsSlackName),
+    flags: JSON.parse(fs.readFileSync('flags.json')).map(ParrotObjectAsSlackName),
     files: assets
   };
   return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])

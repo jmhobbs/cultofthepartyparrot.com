@@ -340,11 +340,6 @@
       "name": "Science Parrot"
     },
     {
-      "gif": "prideparrot.gif",
-      "hd": "hd/prideparrot.gif",
-      "name": "Pride Parrot"
-    },
-    {
       "hd": "hd/revolutionparrot.gif",
       "name": "Revolution Parrot"
     },
@@ -503,11 +498,6 @@
       "name": "White Walker Parrot"
     },
     {
-      "hd": "hd/trans-parrot.gif",
-      "name": "Trans Flag Parrot",
-      "tip": "Transgender flag pride parrot"
-    },
-    {
       "hd": "hd/calvinist_parrot.gif",
       "name": "Calvinist Parrot"
     },
@@ -545,22 +535,6 @@
     {
       "hd": "hd/pingpongparrot.gif",
       "name": "Ping Pong Parrot"
-    },
-    {
-      "hd": "hd/americaparrot.gif",
-      "name": "American Parrot"
-    },
-    {
-      "hd": "hd/canadaparrot.gif",
-      "name": "Canadian Parrot"
-    },
-    {
-      "hd": "hd/mexicoparrot.gif",
-      "name": "Mexican Parrot"
-    },
-    {
-      "hd": "hd/serbiaparrot.gif",
-      "name": "Serbian Parrot"
     },
     {
       "hd": "hd/laptop_parrot.gif",

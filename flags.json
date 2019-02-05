@@ -1,0 +1,28 @@
+[
+    {
+      "hd": "hd/americaparrot.gif",
+      "name": "American Parrot"
+    },
+    {
+      "hd": "hd/canadaparrot.gif",
+      "name": "Canadian Parrot"
+    },
+    {
+      "hd": "hd/mexicoparrot.gif",
+      "name": "Mexican Parrot"
+    },
+    {
+      "hd": "hd/serbiaparrot.gif",
+      "name": "Serbian Parrot"
+    },
+    {
+      "gif": "prideparrot.gif",
+      "hd": "hd/prideparrot.gif",
+      "name": "Pride Parrot"
+    },
+    {
+      "hd": "hd/trans-parrot.gif",
+      "name": "Trans Flag Parrot",
+      "tip": "Transgender flag pride parrot"
+    }
+]
