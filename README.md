@@ -127,7 +127,7 @@ The only Slack reaction gif's you'll ever need.
  * [@georgegillams](https://github.com/georgegillams) for [Open Source parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/253)
  * [@unlobito](https://github.com/unlobito) for [trans flag parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/254)
  * [@borisrev](https://github.com/borisrev) for [spy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/255)
- * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258)
+ * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258), [Flower parror](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/307) and [Laptop parror](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/288)
  * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
  * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
 
