@@ -68,6 +68,7 @@
     },
     {
         "gif": "parrotcop.gif",
+        "hd": "hd/parrotcop.gif",
         "name": "Parrot Cop",
         "tip": "Not to be confused with Stripper Parrot!"
     },
@@ -85,6 +86,7 @@
     },
     {
         "gif": "slowparrot.gif",
+        "hd": "hd/slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
     },
@@ -147,6 +149,7 @@
     },
     {
         "gif": "confusedparrot.gif",
+        "hd": "hd/confusedparrot.gif",
         "name": "Confused Parrot"
     },
     {
@@ -204,6 +207,7 @@
     },
     {
       "gif": "thumbsupparrot.gif",
+      "hd": "hd/thumbsupparrot.gif",
       "name": "Thumbs Up Parrot"
     },
     {
@@ -340,11 +344,6 @@
       "name": "Science Parrot"
     },
     {
-      "gif": "prideparrot.gif",
-      "hd": "hd/prideparrot.gif",
-      "name": "Pride Parrot"
-    },
-    {
       "hd": "hd/revolutionparrot.gif",
       "name": "Revolution Parrot"
     },
@@ -386,6 +385,7 @@
     },
     {
       "gif": "angryparrot.gif",
+      "hd": "hd/angryparrot.gif",
       "name": "Angry Parrot"
     },
     {
@@ -503,11 +503,6 @@
       "name": "White Walker Parrot"
     },
     {
-      "hd": "hd/trans-parrot.gif",
-      "name": "Trans Flag Parrot",
-      "tip": "Transgender flag pride parrot"
-    },
-    {
       "hd": "hd/calvinist_parrot.gif",
       "name": "Calvinist Parrot"
     },
@@ -547,23 +542,20 @@
       "name": "Ping Pong Parrot"
     },
     {
-      "hd": "hd/americaparrot.gif",
-      "name": "American Parrot"
-    },
-    {
-      "hd": "hd/canadaparrot.gif",
-      "name": "Canadian Parrot"
-    },
-    {
-      "hd": "hd/mexicoparrot.gif",
-      "name": "Mexican Parrot"
-    },
-    {
-      "hd": "hd/serbiaparrot.gif",
-      "name": "Serbian Parrot"
-    },
-    {
       "hd": "hd/laptop_parrot.gif",
       "name": "Laptop Parrot"
+    },
+    {
+      "hd": "hd/60fpsparrot.gif",
+      "name": "60fps Parrot"
+    },
+    {
+      "hd": "hd/redhatparrot.gif",
+      "name": "Red Hat Parrot",
+      "tip": "Soon to be IBM parrot..."
+    },
+    {
+      "hd": "hd/footballparrot.gif",
+      "name": "Football Parrot"
     }
 ]

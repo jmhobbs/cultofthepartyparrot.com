@@ -72,5 +72,9 @@
     "hd": "hd/party-k8s.gif",
     "name": "Party Kubernetes",
     "tip": "Party Borg would have been better :("
+  },
+  {
+    "hd": "hd/partycage.gif",
+    "name": "Party Cage"
   }
 ]

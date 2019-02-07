@@ -5,3 +5,13 @@ emojis:
     src: 'http://cultofthepartyparrot.com/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
     fullname: {{name}}
 {{/parrots}}
+{{#guests}}
+  - name: {{slack_name}}
+    src: 'http://cultofthepartyparrot.com/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
+    fullname: {{name}}
+{{/guests}}
+{{#flags}}
+  - name: {{slack_name}}
+    src: 'http://cultofthepartyparrot.com/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
+    fullname: {{name}}
+{{/flags}}

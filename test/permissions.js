@@ -3,7 +3,7 @@ var fs        = require('fs'),
 
 
 function modeString(mode) {
- return '0' + (mode & 0777).toString(8);
+  return '0' + (mode & 0777).toString(8);
 }
 
 // Return true if a mode doesn't have any execute bits.
@@ -11,38 +11,26 @@ function modeNoExecute(mode) {
   return 0 == (mode & 0111);
 }
 
-describe("gifs", function() {
+['parrots', 'guests', 'flags'].forEach(function(type) {
+  describe(type + " gifs", function() {
 
     it("in HD should be read only", function() {
-        var parrot_hd_gifs = fs.readdirSync(__dirname + '/../parrots/hd'),
-            guests_hd_gifs  = fs.readdirSync(__dirname + '/../guests/hd');
+      let hd_gifs = fs.readdirSync(__dirname + '/../' + type + '/hd');
 
-        parrot_hd_gifs.forEach(function(gif) {
-            var mode = fs.statSync(__dirname + '/../parrots/hd/' + gif).mode;
-            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
-        });
-
-        guests_hd_gifs.forEach(function(gif) {
-            var mode = fs.statSync(__dirname + '/../guests/hd/' + gif).mode;
-            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
-        });
+      hd_gifs.forEach(function(gif) {
+        let mode = fs.statSync(__dirname + '/../' + type + '/hd/' + gif).mode;
+        assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
+      });
     });
 
     it("in SD should be read only", function() {
-        var parrot_gifs = fs.readdirSync(__dirname + '/../parrots'),
-            guests_gifs  = fs.readdirSync(__dirname + '/../guests');
+      let gifs = fs.readdirSync(__dirname + '/../' + type);
 
-        parrot_gifs.forEach(function(gif) {
-            if(gif == "hd") { return; }
-            var mode = fs.statSync(__dirname + '/../parrots/' + gif).mode;
-            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
-        });
-
-        guests_gifs.forEach(function(gif) {
-            if(gif == "hd") { return; }
-            var mode = fs.statSync(__dirname + '/../guests/' + gif).mode;
-            assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
-        });
+      gifs.forEach(function(gif) {
+        if(gif == "hd") { return; }
+        let mode = fs.statSync(__dirname + '/../' + type + '/' + gif).mode;
+        assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
+      });
     });
+  });
 });
-

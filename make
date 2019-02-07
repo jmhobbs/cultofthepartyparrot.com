@@ -107,17 +107,23 @@ function images () {
 
   cp -r parrots dist/parrots
   cp -r guests dist/guests
+  cp -r flags dist/flags
 }
 
 # Make gif's into zip files.
 function compress () {
   header "compress"
-  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -u -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
   cp "$CACHE_DIR/parrots.zip" "dist/parrots.zip"
   mv dist/parrots.zip "dist/$(update_manifest dist/parrots.zip)"
-  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -u -o -r -z  "$CACHE_DIR/guests.zip" ./guests/*
+
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/guests.zip" ./guests/*
   cp "$CACHE_DIR/guests.zip" "dist/guests.zip"
   mv dist/guests.zip "dist/$(update_manifest dist/guests.zip)"
+
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/flags.zip" ./flags/*
+  cp "$CACHE_DIR/flags.zip" "dist/flags.zip"
+  mv dist/flags.zip "dist/$(update_manifest dist/flags.zip)"
 }
 
 # Run tests with gulp
@@ -157,6 +163,7 @@ function main () {
       ;;
     "build")
       header "build"
+      test
       clean
       css
       images
