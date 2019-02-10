@@ -1,196 +1,196 @@
 [
-    {
-        "hd": "hd/americaparrot.gif",
-        "name": "America Parrot"
-    },
-    {
-        "hd": "hd/australiaparrot.gif",
-        "name": "Australia Parrot"
-    },
-    {
-        "hd": "hd/canadaparrot.gif",
-        "name": "Canadian Parrot"
-    },
-    {
-        "hd": "hd/chinaparrot.gif",
-        "name": "China Parrot"
-    },
-    {
-        "hd": "hd/dominicaparrot.gif",
-        "name": "Dominica Parrot"
-    },
-    {
-        "hd": "hd/euparrot.gif",
-        "name": "Europe Parrot"
-    },
-    {
-        "hd": "hd/franceparrot.gif",
-        "name": "France Parrot"
-    },
-    {
-        "hd": "hd/germanyparrot.gif",
-        "name": "Germany Parrot"
-    },
-    {
-        "hd": "hd/indiaparrot.gif",
-        "name": "India Parrot"
-    },
-    {
-        "hd": "hd/irelandparrot.gif",
-        "name": "Ireland Parrot"
-    },
-    {
-        "hd": "hd/japanparrot.gif",
-        "name": "Japan Parrot"
-    },
-    {
-        "hd": "hd/mexicoparrot.gif",
-        "name": "Mexico Parrot"
-    },
-    {
-        "hd": "hd/newzelandparrot.gif",
-        "name": "New Zeland Parrot"
-    },
-    {
-        "hd": "hd/pakistanparrot.gif",
-        "name": "Pakistan Parrot"
-    },
-    {
-        "hd": "hd/philippinesparrot.gif",
-        "name": "Philippines Parrot"
-    },
-    {
-        "hd": "hd/portugalparrot.gif",
-        "name": "Protugal Parrot"
-    },
-    {
-        "hd": "hd/serbiaparrot.gif",
-        "name": "Serbian Parrot"
-    },
-    {
-        "hd": "hd/southafricaparrot.gif",
-        "name": "South Africa Parrot"
-    },
-    {
-        "hd": "hd/southkoreaparrot.gif",
-        "name": "South Korea Parrot"
-    },
-    {
-        "hd": "hd/spainparrot.gif",
-        "name": "Spain Parrot"
-    },
-    {
-        "hd": "hd/swedenparrot.gif",
-        "name": "Sweden Parrot"
-    },
-    {
-        "hd": "hd/taiwanparrot.gif",
-        "name": "Taiwan Parrot"
-    },
-    {
-        "hd": "hd/austriaparrot.gif",
-        "name": "Austria"
-    },
-    {
-        "hd": "hd/belgiumparrot.gif",
-        "name": "Belgium"
-    },
-    {
-        "hd": "hd/cambodiaparrot.gif",
-        "name": "Cambodia"
-    },
-    {
-        "hd": "hd/czechrepublicparrot.gif",
-        "name": "Czech Republic"
-    },
-    {
-        "hd": "hd/denmarkparrot.gif",
-        "name": "Denmark"
-    },
-    {
-        "hd": "hd/finlandparrot.gif",
-        "name": "Finland"
-    },
-    {
-        "hd": "hd/greeceparrot.gif",
-        "name": "Greece"
-    },
-    {
-        "hd": "hd/hongkongparrot.gif",
-        "name": "Hong Kong"
-    },
-    {
-        "hd": "hd/hungaryparrot.gif",
-        "name": "Hungary"
-    },
-    {
-        "hd": "hd/icelandparrot.gif",
-        "name": "Iceland"
-    },
-    {
-        "hd": "hd/italyparrot.gif",
-        "name": "Italy"
-    },
-    {
-        "hd": "hd/laosparrot.gif",
-        "name": "Laos"
-    },
-    {
-        "hd": "hd/macauparrot.gif",
-        "name": "Macau"
-    },
-    {
-        "hd": "hd/mongoliaparrot.gif",
-        "name": "Mongolia"
-    },
-    {
-        "hd": "hd/northkoreaparrot.gif",
-        "name": "North Korea"
-    },
-    {
-        "hd": "hd/norwayparrot.gif",
-        "name": "Norway"
-    },
-    {
-        "hd": "hd/polandparrot.gif",
-        "name": "Poland"
-    },
-    {
-        "hd": "hd/russiaparrot.gif",
-        "name": "Russia"
-    },
-    {
-        "hd": "hd/slovokiaparrot.gif",
-        "name": "Slovokia"
-    },
-    {
-        "hd": "hd/switzerlandparrot.gif",
-        "name": "Switzerland"
-    },
-    {
-        "hd": "hd/thailandparrot.gif",
-        "name": "Thailand"
-    },
-    {
-        "hd": "hd/ukraineparrot.gif",
-        "name": "Ukraine"
-    },
-    {
-        "hd": "hd/venezuelaparrot.gif",
-        "name": "Venezuela"
-    },
-    {
-        "hd": "hd/vietnamparrot.gif",
-        "name": "Vietnam"
-    },
-    {
-        "gif": "prideparrot.gif",
-        "hd": "hd/prideparrot.gif",
-        "name": "Pride Parrot"
-    },
-    {
-        "hd": "hd/trans-parrot.gif",
-        "name": "Trans Flag Parrot",
-        "tip": "Transgender flag pride parrot"
-    }
+  {
+    "hd": "hd/americaparrot.gif",
+    "name": "America Parrot"
+  },
+  {
+    "hd": "hd/australiaparrot.gif",
+    "name": "Australia Parrot"
+  },
+  {
+    "hd": "hd/austriaparrot.gif",
+    "name": "Austria"
+  },
+  {
+    "hd": "hd/belgiumparrot.gif",
+    "name": "Belgium"
+  },
+  {
+    "hd": "hd/cambodiaparrot.gif",
+    "name": "Cambodia"
+  },
+  {
+    "hd": "hd/canadaparrot.gif",
+    "name": "Canadian Parrot"
+  },
+  {
+    "hd": "hd/chinaparrot.gif",
+    "name": "China Parrot"
+  },
+  {
+    "hd": "hd/czechrepublicparrot.gif",
+    "name": "Czech Republic"
+  },
+  {
+    "hd": "hd/denmarkparrot.gif",
+    "name": "Denmark"
+  },
+  {
+    "hd": "hd/dominicaparrot.gif",
+    "name": "Dominica Parrot"
+  },
+  {
+    "hd": "hd/euparrot.gif",
+    "name": "Europe Parrot"
+  },
+  {
+    "hd": "hd/finlandparrot.gif",
+    "name": "Finland"
+  },
+  {
+    "hd": "hd/franceparrot.gif",
+    "name": "France Parrot"
+  },
+  {
+    "hd": "hd/germanyparrot.gif",
+    "name": "Germany Parrot"
+  },
+  {
+    "hd": "hd/greeceparrot.gif",
+    "name": "Greece"
+  },
+  {
+    "hd": "hd/hongkongparrot.gif",
+    "name": "Hong Kong"
+  },
+  {
+    "hd": "hd/hungaryparrot.gif",
+    "name": "Hungary"
+  },
+  {
+    "hd": "hd/icelandparrot.gif",
+    "name": "Iceland"
+  },
+  {
+    "hd": "hd/indiaparrot.gif",
+    "name": "India Parrot"
+  },
+  {
+    "hd": "hd/irelandparrot.gif",
+    "name": "Ireland Parrot"
+  },
+  {
+    "hd": "hd/italyparrot.gif",
+    "name": "Italy"
+  },
+  {
+    "hd": "hd/japanparrot.gif",
+    "name": "Japan Parrot"
+  },
+  {
+    "hd": "hd/laosparrot.gif",
+    "name": "Laos"
+  },
+  {
+    "hd": "hd/macauparrot.gif",
+    "name": "Macau"
+  },
+  {
+    "hd": "hd/mexicoparrot.gif",
+    "name": "Mexico Parrot"
+  },
+  {
+    "hd": "hd/mongoliaparrot.gif",
+    "name": "Mongolia"
+  },
+  {
+    "hd": "hd/newzelandparrot.gif",
+    "name": "New Zeland Parrot"
+  },
+  {
+    "hd": "hd/northkoreaparrot.gif",
+    "name": "North Korea"
+  },
+  {
+    "hd": "hd/norwayparrot.gif",
+    "name": "Norway"
+  },
+  {
+    "hd": "hd/pakistanparrot.gif",
+    "name": "Pakistan Parrot"
+  },
+  {
+    "hd": "hd/philippinesparrot.gif",
+    "name": "Philippines Parrot"
+  },
+  {
+    "hd": "hd/polandparrot.gif",
+    "name": "Poland"
+  },
+  {
+    "hd": "hd/portugalparrot.gif",
+    "name": "Protugal Parrot"
+  },
+  {
+    "hd": "hd/russiaparrot.gif",
+    "name": "Russia"
+  },
+  {
+    "hd": "hd/serbiaparrot.gif",
+    "name": "Serbian Parrot"
+  },
+  {
+    "hd": "hd/slovokiaparrot.gif",
+    "name": "Slovokia"
+  },
+  {
+    "hd": "hd/southafricaparrot.gif",
+    "name": "South Africa Parrot"
+  },
+  {
+    "hd": "hd/southkoreaparrot.gif",
+    "name": "South Korea Parrot"
+  },
+  {
+    "hd": "hd/spainparrot.gif",
+    "name": "Spain Parrot"
+  },
+  {
+    "hd": "hd/swedenparrot.gif",
+    "name": "Sweden Parrot"
+  },
+  {
+    "hd": "hd/switzerlandparrot.gif",
+    "name": "Switzerland"
+  },
+  {
+    "hd": "hd/taiwanparrot.gif",
+    "name": "Taiwan Parrot"
+  },
+  {
+    "hd": "hd/thailandparrot.gif",
+    "name": "Thailand"
+  },
+  {
+    "hd": "hd/ukraineparrot.gif",
+    "name": "Ukraine"
+  },
+  {
+    "hd": "hd/venezuelaparrot.gif",
+    "name": "Venezuela"
+  },
+  {
+    "hd": "hd/vietnamparrot.gif",
+    "name": "Vietnam"
+  },
+  {
+    "gif": "prideparrot.gif",
+    "hd": "hd/prideparrot.gif",
+    "name": "Pride Parrot"
+  },
+  {
+    "hd": "hd/trans-parrot.gif",
+    "name": "Trans Flag Parrot",
+    "tip": "Transgender flag pride parrot"
+  }
 ]
