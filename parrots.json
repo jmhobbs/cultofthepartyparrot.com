@@ -33,6 +33,7 @@
     },
     {
         "gif": "boredparrot.gif",
+        "hd": "hd/boredparrot.gif",
         "name": "Bored Parrot"
     },
     {
@@ -226,6 +227,7 @@
     },
     {
       "gif": "parrotsleep.gif",
+      "hd": "hd/sleepingparrot.gif",
       "name": "Sleepy Parrot"
     },
     {
@@ -557,5 +559,22 @@
     {
       "hd": "hd/footballparrot.gif",
       "name": "Football Parrot"
+    },
+    {
+      "hd": "hd/flower_parrot.gif",
+      "name": "Flower Parrot"
+    },
+    {
+      "hd": "hd/parrotnotfound.gif",
+      "name": "Parrot Not Found"
+    },
+    {
+      "hd": "hd/spinningparrot.gif",
+      "name": "Spinning Parrot"
+    },
+    {
+      "hd": "hd/redenvelopeparrot.gif",
+      "name": "Red Envelope Parrot",
+      "tip": "Happy Lunar New Year!"
     }
 ]
