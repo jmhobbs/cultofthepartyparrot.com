@@ -81,5 +81,30 @@
     "hd": "hd/batparrot.gif",
     "name": "Bat Parrot",
     "tip": "I'M BATMAN"
+  }, 
+  {
+    "hd": "hd/grumpy.gif",
+    "name": "Grumpy Parrot",
+    "tip": "Humph"
+  }, 
+  {
+    "hd": "hd/koala.gif",
+    "name": "Koala Parrot",
+    "tip": "Zzzz"
+  }, 
+  {
+    "hd": "hd/minion.gif",
+    "name": "Minion Parrot",
+    "tip": "Heh. Bottom"
+  }, 
+  {
+    "hd": "hd/sloth.gif",
+    "name": "Sloth Parrot",
+    "tip": "Sloooooooow"
+  } , 
+  {
+    "hd": "hd/piglet.gif",
+    "name": "Piglet Parrot",
+    "tip": "Piiiiiiiige"
   }
 ]
