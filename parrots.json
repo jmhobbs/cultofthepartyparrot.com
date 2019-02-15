@@ -576,5 +576,13 @@
       "hd": "hd/redenvelopeparrot.gif",
       "name": "Red Envelope Parrot",
       "tip": "Happy Lunar New Year!"
+    },
+    {
+      "hd": "hd/grouchoparrot.gif",
+      "name": "Groucho Parrot"
+    },
+    {
+      "hd": "hd/chicoparrot.gif",
+      "name": "Chico Parrot"
     }
 ]
