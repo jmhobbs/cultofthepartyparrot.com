@@ -76,5 +76,10 @@
   {
     "hd": "hd/partycage.gif",
     "name": "Party Cage"
+  },
+  {
+    "hd": "hd/batparrot.gif",
+    "name": "Bat Parrot",
+    "tip": "I'M BATMAN"
   }
 ]
