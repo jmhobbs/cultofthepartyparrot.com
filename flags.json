@@ -1,5 +1,9 @@
 [
   {
+    "hd": "hd/algeriaparrot.gif",
+    "name": "Algeria Parrot"
+  },
+  {
     "hd": "hd/americaparrot.gif",
     "name": "America Parrot"
   },
@@ -16,6 +20,14 @@
     "name": "Belgium"
   },
   {
+    "hd": "hd/belizeparrot.gif",
+    "name": "Belize Parrot"
+  },
+  {
+    "hd": "hd/brazilparrot.gif",
+    "name": "Brazil Parrot"
+  },
+  {
     "hd": "hd/cambodiaparrot.gif",
     "name": "Cambodia"
   },
@@ -28,6 +40,14 @@
     "name": "China Parrot"
   },
   {
+    "hd": "hd/costaricaparrot.gif",
+    "name": "Costa Rica Parrot"
+  },
+  {
+    "hd": "hd/cubaparrot.gif",
+    "name": "Cuba Parrot"
+  },
+  {
     "hd": "hd/czechrepublicparrot.gif",
     "name": "Czech Republic"
   },
@@ -38,6 +58,18 @@
   {
     "hd": "hd/dominicaparrot.gif",
     "name": "Dominica Parrot"
+  },
+  {
+    "hd": "hd/dominicanrepublicparrot.gif",
+    "name": "Dominican Republic Parrot"
+  },
+  {
+    "hd": "hd/egyptparrot.gif",
+    "name": "Egypt Parrot"
+  },
+  {
+    "hd": "hd/elsalvadorparrot.gif",
+    "name": "El Salvador Parrot"
   },
   {
     "hd": "hd/euparrot.gif",
@@ -60,6 +92,22 @@
     "name": "Greece"
   },
   {
+    "hd": "hd/greenlandparrot.gif",
+    "name": "Greenland Parrot"
+  },
+  {
+    "hd": "hd/guatemalaparrot.gif",
+    "name": "Guatemala Parrot"
+  },
+  {
+    "hd": "hd/haitiparrot.gif",
+    "name": "Haiti Parrot"
+  },
+  {
+    "hd": "hd/hondurasparrot.gif",
+    "name": "Honduras Parrot"
+  },
+  {
     "hd": "hd/hongkongparrot.gif",
     "name": "Hong Kong"
   },
@@ -76,20 +124,52 @@
     "name": "India Parrot"
   },
   {
+    "hd": "hd/iranparrot.gif",
+    "name": "Iran Parrot"
+  },
+  {
+    "hd": "hd/iraqparrot.gif",
+    "name": "Iraq Parrot"
+  },
+  {
     "hd": "hd/irelandparrot.gif",
     "name": "Ireland Parrot"
+  },
+  {
+    "hd": "hd/israelparrot.gif",
+    "name": "Israel Parrot"
   },
   {
     "hd": "hd/italyparrot.gif",
     "name": "Italy"
   },
   {
+    "hd": "hd/jamaicaparrot.gif",
+    "name": "Jamaica Parrot"
+  },
+  {
     "hd": "hd/japanparrot.gif",
     "name": "Japan Parrot"
   },
   {
+    "hd": "hd/jordanparrot.gif",
+    "name": "Jordan Parrot"
+  },
+  {
     "hd": "hd/laosparrot.gif",
     "name": "Laos"
+  },
+  {
+    "hd": "hd/lebanonparrot.gif",
+    "name": "Lebanon Parrot"
+  },
+  {
+    "hd": "hd/libyaparrot.gif",
+    "name": "Libya Parrot"
+  },
+  {
+    "hd": "hd/luxembourgparrot.gif",
+    "name": "Luxembourg Parrot"
   },
   {
     "hd": "hd/macauparrot.gif",
@@ -100,12 +180,24 @@
     "name": "Mexico Parrot"
   },
   {
+    "hd": "hd/monacoparrot.gif",
+    "name": "Monaco Parrot"
+  },
+  {
     "hd": "hd/mongoliaparrot.gif",
     "name": "Mongolia"
   },
   {
+    "hd": "hd/moroccoparrot.gif",
+    "name": "Morocco Parrot"
+  },
+  {
     "hd": "hd/newzelandparrot.gif",
     "name": "New Zeland Parrot"
+  },
+  {
+    "hd": "hd/nicaraguaparrot.gif",
+    "name": "Nicaragua Parrot"
   },
   {
     "hd": "hd/northkoreaparrot.gif",
@@ -120,6 +212,14 @@
     "name": "Pakistan Parrot"
   },
   {
+    "hd": "hd/palestineparrot.gif",
+    "name": "Palestine Parrot"
+  },
+  {
+    "hd": "hd/panamaparrot.gif",
+    "name": "Panama Parrot"
+  },
+  {
     "hd": "hd/philippinesparrot.gif",
     "name": "Philippines Parrot"
   },
@@ -132,8 +232,20 @@
     "name": "Portugal Parrot"
   },
   {
+    "hd": "hd/puertoricoparrot.gif",
+    "name": "Puerto Rico Parrot"
+  },
+  {
+    "hd": "hd/romaniaparrot.gif",
+    "name": "Romania Parrot"
+  },
+  {
     "hd": "hd/russiaparrot.gif",
     "name": "Russia"
+  },
+  {
+    "hd": "hd/saudiarabiaparrot.gif",
+    "name": "Saudi Arabia Parrot"
   },
   {
     "hd": "hd/serbiaparrot.gif",
@@ -164,6 +276,10 @@
     "name": "Switzerland"
   },
   {
+    "hd": "hd/syriaparrot.gif",
+    "name": "Syria Parrot"
+  },
+  {
     "hd": "hd/taiwanparrot.gif",
     "name": "Taiwan Parrot"
   },
@@ -176,12 +292,20 @@
     "name": "Ukraine"
   },
   {
+    "hd": "hd/unitedkingdomparrot.gif",
+    "name": "United Kingdom Parrot"
+  },
+  {
     "hd": "hd/venezuelaparrot.gif",
     "name": "Venezuela"
   },
   {
     "hd": "hd/vietnamparrot.gif",
     "name": "Vietnam"
+  },
+  {
+    "hd": "hd/checkeredflagparrot.gif",
+    "name": "Checkered Flag Parrot"
   },
   {
     "gif": "prideparrot.gif",
