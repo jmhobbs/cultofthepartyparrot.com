@@ -81,5 +81,9 @@
     "hd": "hd/batparrot.gif",
     "name": "Bat Parrot",
     "tip": "I'M BATMAN"
+  },
+  {
+    "hd": "hd/partysloth.gif",
+    "name": "Party Sloth",
   }
 ]
