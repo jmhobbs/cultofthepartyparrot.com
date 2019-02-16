@@ -584,5 +584,9 @@
     {
       "hd": "hd/chicoparrot.gif",
       "name": "Chico Parrot"
+    },
+    {
+      "gif": "schnitzelparrot.gif",
+      "name": "Schnitzel Parrot"
     }
 ]
