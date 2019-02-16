@@ -5,7 +5,7 @@
     <title>Cult of the Party Parrot</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/{{assets.parrot_css}}">
+    <link rel="stylesheet" href="{{files.assets__parrot_css}}">
     <link type="text/plain" rel="author" href="humans.txt" />
 
     <meta property="og:title" content="Cult of the Party Parrot" />
@@ -86,10 +86,24 @@
 
         <hr/>
 
-        <a class="button" id="parrots_zip" href="/{{zip}}"></a>
+        <a class="button" id="parrots_zip" href="/{{files.parrots_zip}}"></a>
         <p>(zip)</p>
 
         <aside><p>Add them to your Slack. Do it.</p></aside>
+
+        <hr/>
+
+        <h3>Flag Parrots</h3>
+
+        <ul>
+          {{#flags}}
+          <li><img src="/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/flags}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="flags_zip" href="/{{files.flags_zip}}">Download</a>
+        </div>
 
         <hr/>
 
@@ -102,7 +116,7 @@
         </ul>
 
         <div id="other_download">
-          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
+          <a class="button-small" id="guests_zip" href="/{{files.guests_zip}}">Download</a>
         </div>
 
 
@@ -168,6 +182,7 @@
           <a class="button-small" href="https://twitter.com/hugojmd/status/937997911257882624"><tt>curl parrot.live</tt></a>
           <a class="button-small" href="https://t.me/PartyParrotBot">Telegram Bot</a>
           <a class="button-small" href="https://www.npmjs.com/package/parrotify-cli">parrotify-cli</a>
+          <a class="button-small" href="https://github.com/dp12/parrot">emacs parrot</a>
         </p>
 
         <hr/>
