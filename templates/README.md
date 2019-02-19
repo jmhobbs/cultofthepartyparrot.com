@@ -55,8 +55,8 @@ The only Slack reaction gif's you'll ever need.
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 
