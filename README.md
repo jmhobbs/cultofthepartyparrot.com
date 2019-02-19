@@ -127,9 +127,10 @@ The only Slack reaction gif's you'll ever need.
  * [@georgegillams](https://github.com/georgegillams) for [Open Source parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/253)
  * [@unlobito](https://github.com/unlobito) for [trans flag parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/254)
  * [@borisrev](https://github.com/borisrev) for [spy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/255)
- * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258), [Flower parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/307) and [Laptop parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/288)
+ * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258), [flower parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/307) and [laptop parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/288)
  * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
  * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
+ * [@uberchemist](https://github.com/uberchemist) for [HD Beer Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/292), [so many parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/312), [like, a lot of parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/303) and [basically all the parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/300)
 
 # Contributing!
 
@@ -140,8 +141,8 @@ The only Slack reaction gif's you'll ever need.
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 
