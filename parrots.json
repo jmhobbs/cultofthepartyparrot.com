@@ -586,7 +586,15 @@
       "name": "Chico Parrot"
     },
     {
+      "hd": "hd/harpoparrot.gif",
+      "name": "Harpo Parrot"
+    },
+    {
       "gif": "schnitzelparrot.gif",
       "name": "Schnitzel Parrot"
+    },
+    {
+      "hd": "hd/vikingparrot.gif",
+      "name": "Viking Parrot"
     }
 ]
