@@ -1,5 +1,9 @@
 [
   {
+    "hd": "hd/albaniaparrot.gif",
+    "name": "Albania"
+  },
+  {
     "hd": "hd/algeriaparrot.gif",
     "name": "Algeria Parrot"
   },
@@ -24,8 +28,16 @@
     "name": "Belize Parrot"
   },
   {
+    "hd": "hd/bosniaandherzgovinaparrot.gif",
+    "name": "Bosnia and Herzgovina"
+  },
+  {
     "hd": "hd/brazilparrot.gif",
     "name": "Brazil Parrot"
+  },
+  {
+    "hd": "hd/bulgariaparrot.gif",
+    "name": "Bulgaria"
   },
   {
     "hd": "hd/cambodiaparrot.gif",
@@ -40,12 +52,24 @@
     "name": "China Parrot"
   },
   {
+    "hd": "hd/colombiaparrot.gif",
+    "name": "Colombia"
+  },
+  {
     "hd": "hd/costaricaparrot.gif",
     "name": "Costa Rica Parrot"
   },
   {
+    "hd": "hd/croatiaparrot.gif",
+    "name": "Croatia"
+  },
+  {
     "hd": "hd/cubaparrot.gif",
     "name": "Cuba Parrot"
+  },
+  {
+    "hd": "hd/cyprusparrot.gif",
+    "name": "Cyprus"
   },
   {
     "hd": "hd/czechrepublicparrot.gif",
@@ -62,6 +86,10 @@
   {
     "hd": "hd/dominicanrepublicparrot.gif",
     "name": "Dominican Republic Parrot"
+  },
+  {
+    "hd": "hd/ecuadorparrot.gif",
+    "name": "Ecuador"
   },
   {
     "hd": "hd/egyptparrot.gif",
@@ -92,12 +120,20 @@
     "name": "Greece"
   },
   {
+    "hd": "hd/greekmacedoniaparrot.gif",
+    "name": "Greek Macedonia"
+  },
+  {
     "hd": "hd/greenlandparrot.gif",
     "name": "Greenland Parrot"
   },
   {
     "hd": "hd/guatemalaparrot.gif",
     "name": "Guatemala Parrot"
+  },
+  {
+    "hd": "hd/guyanaparrot.gif",
+    "name": "Guyana"
   },
   {
     "hd": "hd/haitiparrot.gif",
@@ -156,6 +192,10 @@
     "name": "Jordan Parrot"
   },
   {
+    "hd": "hd/kosovoparrot.gif",
+    "name": "Kosovo"
+  },
+  {
     "hd": "hd/laosparrot.gif",
     "name": "Laos"
   },
@@ -180,12 +220,20 @@
     "name": "Mexico Parrot"
   },
   {
+    "hd": "hd/moldovaparrot.gif",
+    "name": "Moldova"
+  },
+  {
     "hd": "hd/monacoparrot.gif",
     "name": "Monaco Parrot"
   },
   {
     "hd": "hd/mongoliaparrot.gif",
     "name": "Mongolia"
+  },
+  {
+    "hd": "hd/montenegroparrot.gif",
+    "name": "Montenegro"
   },
   {
     "hd": "hd/moroccoparrot.gif",
@@ -204,6 +252,10 @@
     "name": "North Korea"
   },
   {
+    "hd": "hd/northmacedoniaparrot.gif",
+    "name": "North Macedonia"
+  },
+  {
     "hd": "hd/norwayparrot.gif",
     "name": "Norway"
   },
@@ -218,6 +270,10 @@
   {
     "hd": "hd/panamaparrot.gif",
     "name": "Panama Parrot"
+  },
+  {
+    "hd": "hd/peruparrot.gif",
+    "name": "Peru"
   },
   {
     "hd": "hd/philippinesparrot.gif",
