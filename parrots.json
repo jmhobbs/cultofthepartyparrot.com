@@ -596,5 +596,9 @@
     {
       "hd": "hd/vikingparrot.gif",
       "name": "Viking Parrot"
+    },
+    {
+      "hd": "hd/darkmodeparrot.gif",
+      "name": "Dark Mode Parrot"
     }
 ]
