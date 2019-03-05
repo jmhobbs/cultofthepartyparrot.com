@@ -12,6 +12,10 @@
     "name": "America Parrot"
   },
   {
+    "hd": "hd/argentinaparrot.gif",
+    "name": "Argentina Parrot"
+  },
+  {
     "hd": "hd/australiaparrot.gif",
     "name": "Australia Parrot"
   },
@@ -20,12 +24,20 @@
     "name": "Austria"
   },
   {
+    "hd": "hd/belarusparrot.gif",
+    "name": "Belarus Parrot"
+  },
+  {
     "hd": "hd/belgiumparrot.gif",
     "name": "Belgium"
   },
   {
     "hd": "hd/belizeparrot.gif",
     "name": "Belize Parrot"
+  },
+  {
+    "hd": "hd/boliviaparrot.gif",
+    "name": "Bolivia Parrot"
   },
   {
     "hd": "hd/bosniaandherzgovinaparrot.gif",
@@ -46,6 +58,14 @@
   {
     "hd": "hd/canadaparrot.gif",
     "name": "Canadian Parrot"
+  },
+  {
+    "hd": "hd/chadparrot.gif",
+    "name": "Chad Parrot"
+  },
+  {
+    "hd": "hd/chileparrot.gif",
+    "name": "Chile Parrot"
   },
   {
     "hd": "hd/chinaparrot.gif",
@@ -100,8 +120,16 @@
     "name": "El Salvador Parrot"
   },
   {
+    "hd": "hd/estoniaparrot.gif",
+    "name": "Estonia Parrot"
+  },
+  {
     "hd": "hd/euparrot.gif",
     "name": "Europe Parrot"
+  },
+  {
+    "hd": "hd/falklandislandsparrot.gif",
+    "name": "Falkland Islands Parrot"
   },
   {
     "hd": "hd/finlandparrot.gif",
@@ -200,6 +228,10 @@
     "name": "Laos"
   },
   {
+    "hd": "hd/latviaparrot.gif",
+    "name": "Latvia Parrot"
+  },
+  {
     "hd": "hd/lebanonparrot.gif",
     "name": "Lebanon Parrot"
   },
@@ -218,6 +250,14 @@
   {
     "hd": "hd/macauparrot.gif",
     "name": "Macau"
+  },
+  {
+    "hd": "hd/maliparrot.gif",
+    "name": "Mali Parrot"
+  },
+  {
+    "hd": "hd/mauritaniaparrot.gif",
+    "name": "Mauritania Parrot"
   },
   {
     "hd": "hd/mexicoparrot.gif",
@@ -252,6 +292,10 @@
     "name": "Nicaragua Parrot"
   },
   {
+    "hd": "hd/nigerparrot.gif",
+    "name": "Niger Parrot"
+  },
+  {
     "hd": "hd/nigeriaparrot.gif",
     "name": "Nigeria Parrot"
   },
@@ -278,6 +322,10 @@
   {
     "hd": "hd/panamaparrot.gif",
     "name": "Panama Parrot"
+  },
+  {
+    "hd": "hd/paraguayparrot.gif",
+    "name": "Paraguay Parrot"
   },
   {
     "hd": "hd/peruparrot.gif",
@@ -332,6 +380,10 @@
     "name": "Spain Parrot"
   },
   {
+    "hd": "hd/surinameparrot.gif",
+    "name": "Suriname Parrot"
+  },
+  {
     "hd": "hd/swedenparrot.gif",
     "name": "Sweden Parrot"
   },
@@ -352,6 +404,10 @@
     "name": "Thailand"
   },
   {
+    "hd": "hd/trinidadandtobagoparrot.gif",
+    "name": "Trinidad and Tobago Parrot"
+  },
+  {
     "hd": "hd/ukraineparrot.gif",
     "name": "Ukraine"
   },
@@ -360,12 +416,20 @@
     "name": "United Kingdom Parrot"
   },
   {
+    "hd": "hd/uruguaryparrot.gif",
+    "name": "Uruguary Parrot"
+  },
+  {
     "hd": "hd/venezuelaparrot.gif",
     "name": "Venezuela"
   },
   {
     "hd": "hd/vietnamparrot.gif",
     "name": "Vietnam"
+  },
+  {
+    "hd": "hd/westernsaharaparrot.gif",
+    "name": "Western Sahara Parrot"
   },
   {
     "hd": "hd/checkeredflagparrot.gif",
