@@ -10,8 +10,19 @@ GULP_INSTALLED=$?
 which gifsicle > /dev/null
 GIFSICLE_INSTALLED=$?
 
+which md5 > /dev/null
+MD5_INSTALLED=$?
+
+if [ $MD5_INSTALLED -ne 0 ]; then
+  which md5sum > /dev/null
+  MD5_INSTALLED=$?
+fi
+
 which pngcrush > /dev/null
 PNGCRUSH_INSTALLED=$?
+
+which svgo > /dev/null
+SVGO_INSTALLED=$?
 
 which jpegtran > /dev/null
 JPEGTRAN_INSTALLED=$?
@@ -23,9 +34,11 @@ which uglifycss > /dev/null
 UGLIFYCSS_INSTALLED=$?
 
 if [ $GULP_INSTALLED -ne 0 ] || \
-   [ $PNGCRUSH_INSTALLED -ne 0 ] || \
-   [ $JPEGTRAN_INSTALLED -ne 0 ] || \
    [ $GIFSICLE_INSTALLED -ne 0 ] || \
+   [ $PNGCRUSH_INSTALLED -ne 0 ] || \
+   [ $SVGO_INSTALLED -ne 0 ] || \
+   [ $JPEGTRAN_INSTALLED -ne 0 ] || \
+   [ $MD5_INSTALLED -ne 0 ] || \
    [ $JQ_INSTALLED -ne 0 ] || \
    [ $UGLIFYCSS_INSTALLED -ne 0 ]; then
   echo "The following software is required:"
@@ -33,7 +46,9 @@ if [ $GULP_INSTALLED -ne 0 ] || \
   echo "      gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "        jq: $([ $JQ_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "md5/md5sum: $([ $MD5_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "      svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo " uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   exit 1
@@ -71,6 +86,17 @@ function update_manifest () {
   echo "$OUTPUT"
 }
 
+function md5_hash {
+  which md5 > /dev/null
+  if [ $? -eq 0 ]; then
+    # Prefer `md5`
+    md5 -q "$1"
+  else
+    # Fall back to `md5sum`, but cut the first field
+    md5sum "$1" | cut -d' ' -f 1
+  fi
+}
+
 ##############################################
 ## Tasks
 
@@ -87,17 +113,17 @@ function images () {
   cp src/favicon.ico dist/favicon.ico
 
   while IFS= read -r -d '' FILE; do
-    CACHE_FILE="$CACHE_DIR/${FILE##"src/"}-$(md5 -q "$FILE")"
+    CACHE_FILE="$CACHE_DIR/${FILE##"src/"}-$(md5_hash "$FILE")"
     if ! [ -f "$CACHE_FILE" ]; then
       case ${FILE##*.} in
         "gif")
-          gifsicle --lossy --optimize=3 "$FILE" > "$CACHE_FILE"
+          gifsicle --optimize=3 "$FILE" > "$CACHE_FILE"
           ;;
         "jpg")
           jpegtran -progressive -optimize -copy none -outfile "$CACHE_FILE" "$FILE"
           ;;
         "png")
-          pngcrush -reduce -s -warn "$FILE" "$CACHE_FILE"
+          pngcrush -reduce -s "$FILE" "$CACHE_FILE"
           ;;
         "svg")
           svgo --input="$FILE" --output="$CACHE_FILE"
