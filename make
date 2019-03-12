@@ -19,11 +19,15 @@ JPEGTRAN_INSTALLED=$?
 which jq > /dev/null
 JQ_INSTALLED=$?
 
+which uglifycss > /dev/null
+UGLIFYCSS_INSTALLED=$?
+
 if [ $GULP_INSTALLED -ne 0 ] || \
    [ $PNGCRUSH_INSTALLED -ne 0 ] || \
    [ $JPEGTRAN_INSTALLED -ne 0 ] || \
    [ $GIFSICLE_INSTALLED -ne 0 ] || \
-   [ $JQ_INSTALLED -ne 0 ]; then
+   [ $JQ_INSTALLED -ne 0 ] || \
+   [ $UGLIFYCSS_INSTALLED -ne 0 ]; then
   echo "The following software is required:"
   echo
   echo "      gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
@@ -31,6 +35,7 @@ if [ $GULP_INSTALLED -ne 0 ] || \
   echo "  gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo " uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   exit 1
 fi
 
