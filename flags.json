@@ -24,6 +24,10 @@
     "name": "Andorra Parrot"
   },
   {
+    "hd": "hd/angolaparrot.gif",
+    "name": "Angola Parrot"
+  },
+  {
     "hd": "hd/antiguaandbarbudaparrot.gif",
     "name": "Antigua and Barbuda Parrot"
   },
@@ -96,6 +100,10 @@
     "name": "Bosnia and Herzgovina"
   },
   {
+    "hd": "hd/botswanaparrot.gif",
+    "name": "Botswana Parrot"
+  },
+  {
     "hd": "hd/brazilparrot.gif",
     "name": "Brazil Parrot"
   },
@@ -112,8 +120,16 @@
     "name": "Burkina Faso Parrot"
   },
   {
+    "hd": "hd/burundiparrot.gif",
+    "name": "Burundi Parrot"
+  },
+  {
     "hd": "hd/cambodiaparrot.gif",
     "name": "Cambodia"
+  },
+  {
+    "hd": "hd/cameroonparrot.gif",
+    "name": "Cameroon Parrot"
   },
   {
     "hd": "hd/canadaparrot.gif",
@@ -122,6 +138,10 @@
   {
     "hd": "hd/capeverdeparrot.gif",
     "name": "Cape Verde Parrot"
+  },
+  {
+    "hd": "hd/centralafricarepublicparrot.gif",
+    "name": "Central Africa Republic Parrot"
   },
   {
     "hd": "hd/chadparrot.gif",
@@ -168,6 +188,10 @@
     "name": "Czech Republic"
   },
   {
+    "hd": "hd/democraticrepublicofthecongoparrot.gif",
+    "name": "Democratic Republic of the Congo Parrot"
+  },
+  {
     "hd": "hd/denmarkparrot.gif",
     "name": "Denmark"
   },
@@ -212,6 +236,14 @@
     "name": "Estonia Parrot"
   },
   {
+    "hd": "hd/eswatiniparrot.gif",
+    "name": "Eswatini Parrot"
+  },
+  {
+    "hd": "hd/ethiopiaparrot.gif",
+    "name": "Ethiopia Parrot"
+  },
+  {
     "hd": "hd/euparrot.gif",
     "name": "Europe Parrot"
   },
@@ -230,6 +262,10 @@
   {
     "hd": "hd/franceparrot.gif",
     "name": "France Parrot"
+  },
+  {
+    "hd": "hd/gabonparrot.gif",
+    "name": "Gabon Parrot"
   },
   {
     "hd": "hd/gambiaparrot.gif",
@@ -348,6 +384,10 @@
     "name": "Kazakhstan Parrot"
   },
   {
+    "hd": "hd/kenyaparrot.gif",
+    "name": "Kenya Parrot"
+  },
+  {
     "hd": "hd/kiribatiparrot.gif",
     "name": "Kiribati Parrot"
   },
@@ -376,6 +416,10 @@
     "name": "Lebanon Parrot"
   },
   {
+    "hd": "hd/lesothoparrot.gif",
+    "name": "Lesotho Parrot"
+  },
+  {
     "hd": "hd/liberiaparrot.gif",
     "name": "Liberia Parrot"
   },
@@ -398,6 +442,14 @@
   {
     "hd": "hd/macauparrot.gif",
     "name": "Macau"
+  },
+  {
+    "hd": "hd/madagascarparrot.gif",
+    "name": "Madagascar Parrot"
+  },
+  {
+    "hd": "hd/malawiparrot.gif",
+    "name": "Malawi Parrot"
   },
   {
     "hd": "hd/malaysiaparrot.gif",
@@ -456,8 +508,16 @@
     "name": "Morocco Parrot"
   },
   {
+    "hd": "hd/mozambiqueparrot.gif",
+    "name": "Mozambique Parrot"
+  },
+  {
     "hd": "hd/myanmarparrot.gif",
     "name": "Myanmar Parrot"
+  },
+  {
+    "hd": "hd/namibiaparrot.gif",
+    "name": "Namibia Parrot"
   },
   {
     "hd": "hd/nauruparrot.gif",
@@ -560,12 +620,20 @@
     "name": "Qatar Parrot"
   },
   {
+    "hd": "hd/republicofthecongoparrot.gif",
+    "name": "Republic of the Congo Parrot"
+  },
+  {
     "hd": "hd/romaniaparrot.gif",
     "name": "Romania Parrot"
   },
   {
     "hd": "hd/russiaparrot.gif",
     "name": "Russia"
+  },
+  {
+    "hd": "hd/rwandaparrot.gif",
+    "name": "Rwanda Parrot"
   },
   {
     "hd": "hd/sahrawiarabdemocraticrepublicparrot.gif",
@@ -628,6 +696,10 @@
     "name": "Soloman Islands Parrot"
   },
   {
+    "hd": "hd/somaliaparrot.gif",
+    "name": "Somalia Parrot"
+  },
+  {
     "hd": "hd/somalilandparrot.gif",
     "name": "Somaliland Parrot"
   },
@@ -644,12 +716,20 @@
     "name": "South Ossetia Parrot"
   },
   {
+    "hd": "hd/southsudanparrot.gif",
+    "name": "South Sudan Parrot"
+  },
+  {
     "hd": "hd/spainparrot.gif",
     "name": "Spain Parrot"
   },
   {
     "hd": "hd/srilankaparrot.gif",
     "name": "Sri Lanka Parrot"
+  },
+  {
+    "hd": "hd/sudanparrot.gif",
+    "name": "Sudan Parrot"
   },
   {
     "hd": "hd/surinameparrot.gif",
@@ -678,6 +758,10 @@
   {
     "hd": "hd/tajikistanparrot.gif",
     "name": "Tajikistan Parrot"
+  },
+  {
+    "hd": "hd/tanzaniaparrot.gif",
+    "name": "Tanzania Parrot"
   },
   {
     "hd": "hd/thailandparrot.gif",
@@ -714,6 +798,10 @@
   {
     "hd": "hd/tuvaluparrot.gif",
     "name": "Tuvalu Parrot"
+  },
+  {
+    "hd": "hd/ugandaparrot.gif",
+    "name": "Uganda Parrot"
   },
   {
     "hd": "hd/ukraineparrot.gif",
@@ -758,6 +846,14 @@
   {
     "hd": "hd/yemenparrot.gif",
     "name": "Yemen Parrot"
+  },
+  {
+    "hd": "hd/zambiaparrot.gif",
+    "name": "Zambia Parrot"
+  },
+  {
+    "hd": "hd/zimbabweparrot.gif",
+    "name": "Zimbabwe Parrot"
   },
   {
     "hd": "hd/checkeredflagparrot.gif",
