@@ -131,6 +131,7 @@ The only Slack reaction gif's you'll ever need.
  * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
  * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
  * [@uberchemist](https://github.com/uberchemist) for [HD Beer Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/292), [so many parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/312), [like, a lot of parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/303) and [basically all the parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/300)
+ * [@oibind](https://github.com/oibind) for [link to parrot.today](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/342)
 
 # Contributing!
 
