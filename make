@@ -175,6 +175,9 @@ function main () {
       compress
       gulp render-humans
       gulp render-web
+      cp parrots.json dist/
+      cp guests.json dist/
+      cp flags.json dist/
       ;;
     *)
       echo "usage: $0 <test|clean|readme|build>"
