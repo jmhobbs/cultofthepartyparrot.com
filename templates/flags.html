@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cult of the Party Parrot :: Flags</title>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{files.assets__parrot_css}}">
+    <link type="text/plain" rel="author" href="humans.txt" />
+
+    <meta property="og:title" content="Cult of the Party Parrot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="THE PARROT INSISTS" />
+    <meta property="og:image" content="/assets/og.png" />
+
+    <!--
+
+                          ........:oo:........
+                       o//ssssssssyhhysssss+////o                   .'''''''''''''''''.
+                 mddmmm/::ddddddddddddddmmmyss::/mmN               |   PARTY OR DIE   |
+                 o..+oodddmmmhhhhhhhhhhhdmmmmmdddooy               | ,................'
+              h::oyyhddmmm+++///////////++++++mmmddy::s            |/
+           Nyyo[[sddhyyyyy::::::::::::::::::::yyymmh//oyym
+           h..:oohmm+:://///::::////////////////+mmmmms..sNN
+           m++sddmmm+::hddhhy::+ddddddddddddddhhhmmmmmdhh+++d
+        Nsssyyhmmhssooodmmhhh::+mmdyyyyyyyyddddddmmmmmmmmo::d
+      mmd../mmmmmo::shhdmmhhh::+mmhooooooooyhhmmmmmmmmmmmyssdmm
+      +++++smmdddo::///dmmhhh::+mmhooooooooooommmmmddddmmmdd/++m
+      ``+hhhmmhoo/:::::oooooossymmhooooooooyyymmdoooooydddmmo//N
+      ++:mmmmmy:::::::::::::/yyhmmhooooooooyhhmmd:::::+yyhmmyssddd
+      ooommmmmy:::::::::::::://ommhooooooooooommd:::::://shhdmm+..
+      yyhmmh++/::::::::::::::::+mmhooooooooyyymmd::::::::/++hmm+//
+      dddmmh++/::::::::::::::::+mmhooooooooyhhddh:::::::::::hmmysshhd
+      mmmmmdhhs::::::::::::::::+mmhoooooooohhhhhy:::::::::::hmmhhh``+
+      mmmmmh++/::::::::::::::::+mmdhhsooooodmm++/:::::::::::hmmsss``+
+      dddmmhoo+::::::::::::::::+dddddyssyyydmm::::::::::::::hmmsoo++o
+      dddmmdhho::::::::::::::::+hhdmmddddmmmmm::::::::::::::hmmsooNNN
+      mmmmmh///::::::::::::::::+hhdmmmmmmmmddd::::::::::::::hmmsoo++/
+      yyhmmdss+::::::::::::::::/ooydddmmmmmsoo::::::::::::::yddhyy::+
+      ++ommmmmy:::::::::::::::::::ohhdmmddd/::::::::::::::::shhdmmsssNNNmmN
+      ..+mmmmmy:::::::::::::::::::://shh+//:::::::::::::::::://dmmmmdoo+..o
+      ``+dddmmhss+:::::::::::::::::::+++/::::::::::::::::::::::ooodddhhysshNNy++m
+      ``+hhdmmdhhs///:::::::::::::::::::::::::::::::::::::::::::::yyymmmmmmmmo++hNNmdd
+      ``+hhdmmdhhhhh+:::::::::::::::::::::::::::::::::::::::::::::::/hhhhhdmmmmmsoo...
+      ``+ddmmmdhhhhhyyyyyyyyyyyo:::::::::::::::::::::::::::::::::::::+++++sdddmmdhhsss//+
+      ``+mmmmmhsshhhhhhhhhhhhhhy++/:::::::::::::::::::::::::::::::::::::::+ssyyydmmddd///hhd
+      ``+mmmmmy::shhhhhhhhhhhhhhhhs:::::::::::::::::::::::::::::::::::::::::::::ymmmmmmmh../
+      ``+mmmmmy:://////////////ohhhyy+::::::::::::::::::::::::::::::::::::::::::///hddmmmhhs++s
+      ``+mmmmmhssssssssssssssssydddddysssssssssssssssssssssssssssssssssssssssssssssdddmmmmmy::s
+      ``+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmhooh
+
+    -->
+  </head>
+  <body class="long-names">
+    <div id="wrapper">
+      <article>
+        <div>
+          <h1>Cult of the Party Parrot</h1>
+        </div>
+
+        <h3>Flag Parrots</h3>
+
+        <ul>
+          {{#flags}}
+          <li><img src="/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/flags}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="flags_zip" href="/{{files.flags_zip}}">DOWNLOAD THE FLAG PARROTS</a>
+        <a class="button-small" href="/">GET BACK TO THE MAIN PARTY</a>
+        </div>
+
+        <hr/>
+
+      </article>
+
+      <footer>
+        With <img src="/parrots/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
+      </footer>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-1664885-25', 'auto');
+        ga('send', 'pageview');
+
+        function trackLinkClickEvent(id, name) {
+          document.getElementById(id).onclick = function (event) {
+            if(false && navigator.sendBeacon != undefined) {
+              ga('send', 'event', 'Link', 'click', name, {transport: 'beacon'});
+            }
+            else {
+              var ran = false,
+                   el = event.srcElement || event.target;
+                 link = e.href,
+             navigate = function() {
+                if (ran) return;
+                ran = true;
+                window.location.href = link;
+              };
+              ga('send', 'event', 'Link', 'click', name, {hitCallback: navigate});
+              setTimeout(navigate, 1000);
+              event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+            }
+          }
+        }
+        trackLinkClickEvent("flags_zip", "flags.zip");
+      </script>
+    </div>
+  </body>
+</html>

@@ -95,14 +95,16 @@
 
         <h3>Flag Parrots</h3>
 
-        <ul>
-          {{#flags}}
-          <li><img src="/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
-          {{/flags}}
-        </ul>
-
-        <div id="other_download">
-          <a class="button-small" id="flags_zip" href="/{{files.flags_zip}}">Download</a>
+        <div class="flags-group">
+          <img src="/flags/hd/australiaparrot.gif" alt="Australia Parrot" class="flags" id="flag-0" />
+          <img src="/flags/hd/bhutanparrot.gif" alt="Bhutan Parrot" class="flags" id="flag-1" />
+          <img src="/flags/hd/burkinafasoparrot.gif" alt="Burkina Faso Parrot" class="flags" id="flag-2" />
+        </div>
+        <div class="flags-button"><a class="button-small" href="/flags.html">See Them All</a></div>
+        <div class="flags-group">
+          <img src="/flags/hd/gabonparrot.gif" alt="Gabon Parrot" class="flags" id="flag-3" />
+          <img src="/flags/hd/kiribatiparrot.gif" alt="Kiribati Parrot" class="flags" id="flag-4" />
+          <img src="/flags/hd/jamaicaparrot.gif" alt="Jamaica Parrot" class="flags" id="flag-5" />
         </div>
 
         <hr/>
@@ -252,6 +254,30 @@
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
         if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
+
+        // Random Flag Parrots
+        fetch('/flags.json').then(function(response) {
+          return response.json();
+        }).then(function(flags) {
+          let keys = Object.keys(flags);
+          shuffle(keys);
+          for(i = 0; i < 6; i++){
+            document.getElementById("flag-" + i).src = "/flags/" + flags[keys[i]].hd;
+          }
+        });
+
+        // https://www.frankmitchell.org/2015/01/fisher-yates/
+        function shuffle (array) {
+          let i = 0, j = 0, temp = null;
+
+          for (i = array.length - 1; i > 0; i -= 1) {
+            j = Math.floor(Math.random() * (i + 1))
+            temp = array[i]
+            array[i] = array[j]
+            array[j] = temp
+          }
+        }
+
       </script>
     </div>
   </body>

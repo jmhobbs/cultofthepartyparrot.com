@@ -81,8 +81,23 @@ p {
   li {
     width: 25%;
   }
+  .long-names li {
+    width: 33.3333%;
+  }
 }
 
+.flags-button {
+  margin-top: 24px;
+}
+
+.flags-button a {
+  margin: 0;
+}
+
+img.flags {
+  height: 78px;
+  vertical-align: bottom;
+}
 
 a.button {
   border-radius: 20px;

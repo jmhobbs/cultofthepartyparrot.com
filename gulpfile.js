@@ -70,7 +70,7 @@ gulp.task('render-web', function () {
     flags: JSON.parse(fs.readFileSync('flags.json')).map(ParrotObjectAsSlackName),
     files: assets
   };
-  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
+  return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])
     .pipe(data(renderData))
     .pipe(mustache())
     .pipe(gulp.dest("dist/"));
