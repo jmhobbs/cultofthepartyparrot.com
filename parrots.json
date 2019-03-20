@@ -606,5 +606,9 @@
     {
       "hd": "hd/darkmodeparrot.gif",
       "name": "Dark Mode Parrot"
+    },
+    {
+      "hd": "hd/tiedyeparrot.gif",
+      "name": "Tie Dye Parrot"
     }
 ]
