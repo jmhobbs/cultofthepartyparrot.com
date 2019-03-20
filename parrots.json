@@ -610,5 +610,9 @@
     {
       "hd": "hd/tiedyeparrot.gif",
       "name": "Tie Dye Parrot"
+    },
+    {
+      "hd": "hd/horizontalparrot.gif",
+      "name": "Horizontal Parrot"
     }
 ]
