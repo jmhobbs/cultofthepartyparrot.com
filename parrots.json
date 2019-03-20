@@ -54,6 +54,7 @@
     },
     {
         "gif": "reversecongaparrot.gif",
+        "hd": "hd/reversecongaparrot.gif",
         "name": "Reverse Conga Line Parrot"
     },
     {
@@ -155,10 +156,12 @@
     },
     {
         "gif": "aussiecongaparrot.gif",
+        "hd": "hd/aussiecongaparrot.gif",
         "name": "Aussie Conga Line Parrot"
     },
     {
         "gif": "aussiereversecongaparrot.gif",
+        "hd": "hd/aussiereversecongaparrot.gif",
         "name": "Aussie Reverse Conga Line Parrot"
     },
     {
@@ -204,6 +207,7 @@
     },
     {
       "gif": "moonwalkingparrot.gif",
+      "hd": "hd/moonwalkingparrot.gif",
       "name": "Moonwalking Parrot"
     },
     {
