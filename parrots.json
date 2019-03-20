@@ -460,10 +460,12 @@
     },
     {
       "gif": "portalorangeparrot.gif",
+      "hd": "hd/portalorangeparrot.gif",
       "name": "Portal Parrot (Orange Portal)"
     },
     {
       "gif": "portalblueparrot.gif",
+      "hd": "hd/portalblueparrot.gif",
       "name": "Portal Parrot (Blue Portal)"
     },
     {
