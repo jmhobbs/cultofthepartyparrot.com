@@ -323,7 +323,17 @@
       "name": "Donut Parrot"
     },
     {
-            "gif": "evilparrot.gif",
+      "hd": "hd/baldparrot.gif",
+      "name": "Bald Parrot",
+      "tip": "Bald and slow dude with a five o'clock shadow"
+    },
+    {
+      "hd": "hd/tiredparrot.gif",
+      "name": "Tired Parrot",
+      "tip": "Tired dude"
+    },
+    {
+      "gif": "evilparrot.gif",
       "name": "Evil Parrot"
     },
     {
