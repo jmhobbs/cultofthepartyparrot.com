@@ -98,7 +98,7 @@
         "tip": "Party in slow motion."
     },
     {
-        "gif": "dadparrot.gif",
+        "hd": "hd/dadparrot.gif",
         "name": "Dad Parrot",
         "tip": "Is totally freaking out."
     },
@@ -323,7 +323,7 @@
       "name": "Donut Parrot"
     },
     {
-            "gif": "evilparrot.gif",
+      "hd": "hd/evilparrot.gif",
       "name": "Evil Parrot"
     },
     {
@@ -395,7 +395,7 @@
       "name": "Angry Parrot"
     },
     {
-      "gif": "invisibleparrot.gif",
+      "hd": "hd/invisibleparrot.gif",
       "name": "Invisible Parrot"
     },
     {
@@ -491,15 +491,15 @@
       "name": "Fix Parrot"
     },
     {
-      "gif": "brazilianplayerparrot.gif",
+      "hd": "hd/brazilianplayerparrot.gif",
       "name": "Brazilian Player Parrot"
     },
     {
-      "gif": "brazilianfanparrot.gif",
+      "hd": "hd/brazilianfanparrot.gif",
       "name": "Brazilian Fan Parrot"
     },
     {
-      "gif": "spyparrot.gif",
+      "hd": "hd/spyparrot.gif",
       "name": "Spy Parrot"
     },
     {
