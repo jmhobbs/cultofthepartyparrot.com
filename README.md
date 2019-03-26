@@ -109,7 +109,7 @@ The only Slack reaction gif's you'll ever need.
  * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
  * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
  * [@matthewjwolff](https://github.com/matthewjwolff) for [mardi gras parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/194)
- * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198)
+ * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198) and various housekeeping contributions
  * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
  * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
  * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207), [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204), [bunny parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/216) and [Norwegian Blue parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/218)
@@ -136,6 +136,7 @@ The only Slack reaction gif's you'll ever need.
 # Contributing!
 
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. Make sure your parrot gif file is named [name]parrot.gif in all lower case e.g. `exampleparrot.gif`
  1. Open a PR
  1. PARTY
 
