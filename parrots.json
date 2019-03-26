@@ -463,12 +463,10 @@
       "tip": "The money is flying away!"
     },
     {
-      "gif": "portalorangeparrot.gif",
       "hd": "hd/portalorangeparrot.gif",
       "name": "Portal Parrot (Orange Portal)"
     },
     {
-      "gif": "portalblueparrot.gif",
       "hd": "hd/portalblueparrot.gif",
       "name": "Portal Parrot (Blue Portal)"
     },
@@ -525,7 +523,6 @@
         "tip":"Oulala"
     },
     {
-      "gif": "githubparrot.gif",
       "hd": "hd/githubparrot.gif",
       "name": "Github Party Parrot",
       "tip": "Github PR Party"
