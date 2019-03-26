@@ -53,7 +53,7 @@ The only Slack reaction gif's you'll ever need.
  * [@ernestoacevedo](https://github.com/ernestoacevedo) for [fiesta parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/20)
  * [@andyhmltn](https://github.com/andyhmltn) for [chill, explody and shuffle party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/23)
  * [@oliviag](https://github.com/oliviag) for [ice cream parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/26)
- * [@ultrafez](https://github.com/ultrafez) for [doing the wave](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/27)
+ * [@ultrafez](https://github.com/ultrafez) for [doing the wave](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/27) and [improve the parrot wave](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/275)
  * [@samlindsaylevine](https://github.com/samlindsaylevine) for [Aussie conga line parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/28)
  * [@joaorgsampaio](https://github.com/joaorgsampaio) for [moonwalking parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/29)
  * [@hrimhari](https://github.com/hrimhari) for [conga party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/24)
@@ -74,7 +74,7 @@ The only Slack reaction gif's you'll ever need.
  * [@marcthayer](https://github.com/marcthayer) for [banana parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/78) and [typo fixes](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/77)
  * [@tianyuliu](https://github.com/tianyuliu) for [ski parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/81), [halal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/80) and [ship it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/84)
  * [@vaicine](https://github.com/vaicine) for [nyan parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/89)
- * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/90) and [taco parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/130)
+ * [@deedeelavinder](https://github.com/deedeelavinder) for [love parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/90), [taco parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/130), [github party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/266) and [help debug permissions errors](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/268)
  * [@jcoutch](https://github.com/jcoutch) for [Wendy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/91)
  * [@paul-russo](https://github.com/paul-russo) for [typo fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/92)
  * [@lucymhdavies](https://github.com/lucymhdavies) for [sharing found parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/93)
@@ -83,7 +83,7 @@ The only Slack reaction gif's you'll ever need.
  * [@mjaniszew](https://github.com/mjaniszew) for [touch bar parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/101)
  * [@melinerunen](https://github.com/melinerunen) for [HD only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/102), [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/107) and [upload script tweaks](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/158)
  * [@joekieffer](https://github.com/joekieffer) for [🍩 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/103)
- * [@erinknight242](https://github.com/erinknight242) for [fixing HD conga parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/113)
+ * [@erinknight242](https://github.com/erinknight242) for [fixing HD conga parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/113), [fixing parrot transparency](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/242) and [HD sassy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/242)
  * [@trekroot](https://github.com/trekroot) for [disco, matrix, papal and stalker parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/121)
  * [@KeesKoffeman](https://github.com/KeesKoffeman) for [evil parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/123)
  * [@shiruken](https://github.com/shiruken) for [science parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/124)
@@ -104,7 +104,7 @@ The only Slack reaction gif's you'll ever need.
  * [@danrichman](https://github.com/danrichman) for [party pooper](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/167)
  * [@RHvdW](https://github.com/RHvdW) for [sint parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/178)
  * [@cavpollo](https://github.com/cavpollo) for [cat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/180)
- * [@nuragic](https://github.com/nuragic) for [web components](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/182)
+ * [@nuragic](https://github.com/nuragic) for [web components](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/182) and [fix slack upload documentation](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/264)
  * [@TheoKanning](https://github.com/TheoKanning) for [pirate parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/185)
  * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
  * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
@@ -112,8 +112,26 @@ The only Slack reaction gif's you'll ever need.
  * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198)
  * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
  * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
- * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207) and [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204)
- * [@eokuwwy](https://github.com/eokuwwy) for [HD version of party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/209)
+ * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207), [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204), [bunny parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/216) and [Norwegian Blue parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/218)
+ * [@eokuwwy](https://github.com/eokuwwy) for [HD version of party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/209), [HD fast and ultrafast parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/212), [HD conga party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/213), [white walker parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/249), [bootleg parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/281) and [biker parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/282)
+ * [@jesivasq](https://github.com/jesivasq) for [portal parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/210)
+ * [@armills](https://github.com/armills) for [improved invisible parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/221)
+ * [@smlevorse](https://github.com/smlevorse) for [Transparront](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/225)
+ * [@bushong1](https://github.com/bushong1) for [Washington Capitals parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/230)
+ * [@sashforth](https://github.com/sashforth) for [stub parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/231) and [British parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/232)
+ * [@mconiglio](https://github.com/mconiglio) for [fix it parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/235)
+ * [@felipericieri](https://github.com/felipericieri) for [Brazillian World Cup parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/238)
+ * [@davin-english](https://github.com/davin-english) for [marshmallow roasting parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/242)
+ * [@tgockel](https://github.com/tgockel) for [guests slack upload](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/245) and [doge parrot guest](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/246)
+ * [@moigonzalez](https://github.com/moigonzalez) for [link to parrotify-cli](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/251)
+ * [@georgegillams](https://github.com/georgegillams) for [Open Source parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/253)
+ * [@unlobito](https://github.com/unlobito) for [trans flag parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/254)
+ * [@borisrev](https://github.com/borisrev) for [spy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/255)
+ * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258), [flower parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/307) and [laptop parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/288)
+ * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
+ * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
+ * [@uberchemist](https://github.com/uberchemist) for [HD Beer Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/292), [so many parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/312), [like, a lot of parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/303) and [basically all the parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/300)
+ * [@oibind](https://github.com/oibind) for [link to parrot.today](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/342)
 
 # Contributing!
 
@@ -124,24 +142,21 @@ The only Slack reaction gif's you'll ever need.
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 
-## Slack via Selenium
+## Slack via `emojipacks`
 
-You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
-installed to run this:
+>**WARNING:** Due to a recent Slack update, which changes their emoji upload UI, this method using emojipacks may not work. A current workaround is to use the `Neutral Face Emoji Tools` Chrome extension. This extension allows you to batch upload emojis by dragging and dropping the files into it's UI. You can find the extension [here](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej).
 
- 1. `python3 -m venv .venv`
- 2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS` 
- 
- The following are optional args you can append to 3. above: 
- 1. `--google` Use this if your Slack team uses Google signin
+First, you need to clone this repo and run the build script with `npm run build` or `yarn build`.
 
- __Notice__: The uploader won't re-write already existing parrots if they match by name.
+It will generate a `dist/` folder containing the website build files; we only need the  `dist/parrotparty.yaml`. Copy the file path.
+
+Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll be asked to enter your Slack credentials plus _the path of the yaml file_. That's all! Enjoy your parrots.
+
 
 ## Discord via Mr. Parrot
 

@@ -5,7 +5,7 @@
     <title>Cult of the Party Parrot</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/{{assets.parrot_css}}">
+    <link rel="stylesheet" href="{{files.assets__parrot_css}}">
     <link type="text/plain" rel="author" href="humans.txt" />
 
     <meta property="og:title" content="Cult of the Party Parrot" />
@@ -86,10 +86,26 @@
 
         <hr/>
 
-        <a class="button" id="parrots_zip" href="/{{zip}}"></a>
+        <a class="button" id="parrots_zip" href="/{{files.parrots_zip}}"></a>
         <p>(zip)</p>
 
         <aside><p>Add them to your Slack. Do it.</p></aside>
+
+        <hr/>
+
+        <h3>Flag Parrots</h3>
+
+        <div class="flags-group">
+          <img src="/flags/hd/australiaparrot.gif" alt="Australia Parrot" class="flags" id="flag-0" />
+          <img src="/flags/hd/bhutanparrot.gif" alt="Bhutan Parrot" class="flags" id="flag-1" />
+          <img src="/flags/hd/burkinafasoparrot.gif" alt="Burkina Faso Parrot" class="flags" id="flag-2" />
+        </div>
+        <div class="flags-button"><a class="button-small" href="/flags.html">See Them All</a></div>
+        <div class="flags-group">
+          <img src="/flags/hd/gabonparrot.gif" alt="Gabon Parrot" class="flags" id="flag-3" />
+          <img src="/flags/hd/kiribatiparrot.gif" alt="Kiribati Parrot" class="flags" id="flag-4" />
+          <img src="/flags/hd/jamaicaparrot.gif" alt="Jamaica Parrot" class="flags" id="flag-5" />
+        </div>
 
         <hr/>
 
@@ -102,7 +118,7 @@
         </ul>
 
         <div id="other_download">
-          <a class="button-small" id="guests_zip" href="/{{guests_zip}}">Download</a>
+          <a class="button-small" id="guests_zip" href="/{{files.guests_zip}}">Download</a>
         </div>
 
 
@@ -111,20 +127,29 @@
         <h3>Shirts!</h3>
         <div class="clearfix">
           <div class="shirt">
-            <a href="https://cottonbureau.com/products/parrot"><img src="/assets/shirt.jpg" alt=":parrot:" /></a>
-          </div>
-          <div class="shirt">
             <a href="https://cottonbureau.com/products/parrot-style"><img src="/assets/style-shirt.jpg" alt=":parrot-vibes:" /></a>
           </div>
-          <div class="shirt">
+          <div class="shirt donation">
+            <a href="https://teespring.com/partyparrotee"><img src="/assets/crazy-shirt.png" alt=":oh-god-so-many-parrots:" /></a>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="shirt out-of-print">
+            <a href="https://cottonbureau.com/products/parrot"><img src="/assets/shirt.jpg" alt=":parrot:" /></a>
+            <div>Out of Print</div>
+          </div>
+          <div class="shirt out-of-print">
             <a href="https://teespring.com/partyparrot"><img src="/assets/glasses-shirt.png" alt=":partyparrot:" /></a>
+            <div>Out of Print</div>
           </div>
         </div>
 
         <hr class="thin" />
 
         <p>
+          <a class="button-small" href="https://teespring.com/partyparrot">Mug</a>
           <a class="button-small" href="https://www.redbubble.com/people/korben-dallas/collections/621063-party-parrot-collection">Redbubble</a>
+          <a class="button-small" href="http://pingrovepress.storenvy.com/">Enamel Pins</a>
         </p>
 
         <hr/>
@@ -166,6 +191,9 @@
           <a class="button-small" href="https://github.com/breadadams/fetch-the-parrot">Fetch-the-parrot</a>
           <a class="button-small" href="https://twitter.com/hugojmd/status/937997911257882624"><tt>curl parrot.live</tt></a>
           <a class="button-small" href="https://t.me/PartyParrotBot">Telegram Bot</a>
+          <a class="button-small" href="https://www.npmjs.com/package/parrotify-cli">parrotify-cli</a>
+          <a class="button-small" href="https://github.com/dp12/parrot">emacs parrot</a>
+          <a class="button-small" href="https://parrot.today">parrot.today</a>
         </p>
 
         <hr/>
@@ -226,6 +254,30 @@
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
         if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
+
+        // Random Flag Parrots
+        fetch('/flags.json').then(function(response) {
+          return response.json();
+        }).then(function(flags) {
+          let keys = Object.keys(flags);
+          shuffle(keys);
+          for(i = 0; i < 6; i++){
+            document.getElementById("flag-" + i).src = "/flags/" + flags[keys[i]].hd;
+          }
+        });
+
+        // https://www.frankmitchell.org/2015/01/fisher-yates/
+        function shuffle (array) {
+          let i = 0, j = 0, temp = null;
+
+          for (i = array.length - 1; i > 0; i -= 1) {
+            j = Math.floor(Math.random() * (i + 1))
+            temp = array[i]
+            array[i] = array[j]
+            array[j] = temp
+          }
+        }
+
       </script>
     </div>
   </body>

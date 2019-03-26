@@ -1,0 +1,876 @@
+[
+  {
+    "hd": "hd/abkhaziaparrot.gif",
+    "name": "Abkhazia Parrot"
+  },
+  {
+    "hd": "hd/afghanistanparrot.gif",
+    "name": "Afghanistan Parrot"
+  },
+  {
+    "hd": "hd/albaniaparrot.gif",
+    "name": "Albania"
+  },
+  {
+    "hd": "hd/algeriaparrot.gif",
+    "name": "Algeria Parrot"
+  },
+  {
+    "hd": "hd/americaparrot.gif",
+    "name": "America Parrot"
+  },
+  {
+    "hd": "hd/andorraparrot.gif",
+    "name": "Andorra Parrot"
+  },
+  {
+    "hd": "hd/angolaparrot.gif",
+    "name": "Angola Parrot"
+  },
+  {
+    "hd": "hd/antarcticaparrot.gif",
+    "name": "Antarctica Parrot"
+  },
+  {
+    "hd": "hd/antiguaandbarbudaparrot.gif",
+    "name": "Antigua and Barbuda Parrot"
+  },
+  {
+    "hd": "hd/argentinaparrot.gif",
+    "name": "Argentina Parrot"
+  },
+  {
+    "hd": "hd/armeniaparrot.gif",
+    "name": "Armenia Parrot"
+  },
+  {
+    "hd": "hd/artsakhparrot.gif",
+    "name": "Artsakh Parrot"
+  },
+  {
+    "hd": "hd/australiaparrot.gif",
+    "name": "Australia Parrot"
+  },
+  {
+    "hd": "hd/austriaparrot.gif",
+    "name": "Austria"
+  },
+  {
+    "hd": "hd/azerbaijanparrot.gif",
+    "name": "Azerbaijan Parrot"
+  },
+  {
+    "hd": "hd/bahamasparrot.gif",
+    "name": "The Bahamas Parrot"
+  },
+  {
+    "hd": "hd/bahrainparrot.gif",
+    "name": "Bahrain Parrot"
+  },
+  {
+    "hd": "hd/bangladeshparrot.gif",
+    "name": "Bangladesh Parrot"
+  },
+  {
+    "hd": "hd/barbadosparrot.gif",
+    "name": "Barbados Parrot"
+  },
+  {
+    "hd": "hd/belarusparrot.gif",
+    "name": "Belarus Parrot"
+  },
+  {
+    "hd": "hd/belgiumparrot.gif",
+    "name": "Belgium"
+  },
+  {
+    "hd": "hd/belizeparrot.gif",
+    "name": "Belize Parrot"
+  },
+  {
+    "hd": "hd/beninparrot.gif",
+    "name": "Benin Parrot"
+  },
+  {
+    "hd": "hd/bhutanparrot.gif",
+    "name": "Bhutan Parrot"
+  },
+  {
+    "hd": "hd/boliviaparrot.gif",
+    "name": "Bolivia Parrot"
+  },
+  {
+    "hd": "hd/bosniaandherzgovinaparrot.gif",
+    "name": "Bosnia and Herzgovina"
+  },
+  {
+    "hd": "hd/botswanaparrot.gif",
+    "name": "Botswana Parrot"
+  },
+  {
+    "hd": "hd/brazilparrot.gif",
+    "name": "Brazil Parrot"
+  },
+  {
+    "hd": "hd/bruneiparrot.gif",
+    "name": "Brunei Parrot"
+  },
+  {
+    "hd": "hd/bulgariaparrot.gif",
+    "name": "Bulgaria"
+  },
+  {
+    "hd": "hd/burkinafasoparrot.gif",
+    "name": "Burkina Faso Parrot"
+  },
+  {
+    "hd": "hd/burundiparrot.gif",
+    "name": "Burundi Parrot"
+  },
+  {
+    "hd": "hd/cambodiaparrot.gif",
+    "name": "Cambodia"
+  },
+  {
+    "hd": "hd/cameroonparrot.gif",
+    "name": "Cameroon Parrot"
+  },
+  {
+    "hd": "hd/canadaparrot.gif",
+    "name": "Canadian Parrot"
+  },
+  {
+    "hd": "hd/capeverdeparrot.gif",
+    "name": "Cape Verde Parrot"
+  },
+  {
+    "hd": "hd/centralafricarepublicparrot.gif",
+    "name": "Central Africa Republic Parrot"
+  },
+  {
+    "hd": "hd/chadparrot.gif",
+    "name": "Chad Parrot"
+  },
+  {
+    "hd": "hd/chileparrot.gif",
+    "name": "Chile Parrot"
+  },
+  {
+    "hd": "hd/chinaparrot.gif",
+    "name": "China Parrot"
+  },
+  {
+    "hd": "hd/colombiaparrot.gif",
+    "name": "Colombia"
+  },
+  {
+    "hd": "hd/comorosparrot.gif",
+    "name": "Comoros Parrot"
+  },
+  {
+    "hd": "hd/cookislandsparrot.gif",
+    "name": "Cook Islands Parrot"
+  },
+  {
+    "hd": "hd/costaricaparrot.gif",
+    "name": "Costa Rica Parrot"
+  },
+  {
+    "hd": "hd/croatiaparrot.gif",
+    "name": "Croatia"
+  },
+  {
+    "hd": "hd/cubaparrot.gif",
+    "name": "Cuba Parrot"
+  },
+  {
+    "hd": "hd/cyprusparrot.gif",
+    "name": "Cyprus"
+  },
+  {
+    "hd": "hd/czechrepublicparrot.gif",
+    "name": "Czech Republic"
+  },
+  {
+    "hd": "hd/democraticrepublicofthecongoparrot.gif",
+    "name": "Democratic Republic of the Congo Parrot"
+  },
+  {
+    "hd": "hd/denmarkparrot.gif",
+    "name": "Denmark"
+  },
+  {
+    "hd": "hd/djiboutiparrot.gif",
+    "name": "Djibouti Parrot"
+  },
+  {
+    "hd": "hd/dominicaparrot.gif",
+    "name": "Dominica Parrot"
+  },
+  {
+    "hd": "hd/dominicanrepublicparrot.gif",
+    "name": "Dominican Republic Parrot"
+  },
+  {
+    "hd": "hd/easttimorparrot.gif",
+    "name": "East Timor Parrot"
+  },
+  {
+    "hd": "hd/ecuadorparrot.gif",
+    "name": "Ecuador"
+  },
+  {
+    "hd": "hd/egyptparrot.gif",
+    "name": "Egypt Parrot"
+  },
+  {
+    "hd": "hd/elsalvadorparrot.gif",
+    "name": "El Salvador Parrot"
+  },
+  {
+    "hd": "hd/equatorialguineaparrot.gif",
+    "name": "Equatorial Guinea Parrot"
+  },
+  {
+    "hd": "hd/eritreaparrot.gif",
+    "name": "Eritrea Parrot"
+  },
+  {
+    "hd": "hd/estoniaparrot.gif",
+    "name": "Estonia Parrot"
+  },
+  {
+    "hd": "hd/eswatiniparrot.gif",
+    "name": "Eswatini Parrot"
+  },
+  {
+    "hd": "hd/ethiopiaparrot.gif",
+    "name": "Ethiopia Parrot"
+  },
+  {
+    "hd": "hd/euparrot.gif",
+    "name": "Europe Parrot"
+  },
+  {
+    "hd": "hd/falklandislandsparrot.gif",
+    "name": "Falkland Islands Parrot"
+  },
+  {
+    "hd": "hd/fijiparrot.gif",
+    "name": "Fiji Parrot"
+  },
+  {
+    "hd": "hd/finlandparrot.gif",
+    "name": "Finland"
+  },
+  {
+    "hd": "hd/franceparrot.gif",
+    "name": "France Parrot"
+  },
+  {
+    "hd": "hd/gabonparrot.gif",
+    "name": "Gabon Parrot"
+  },
+  {
+    "hd": "hd/gambiaparrot.gif",
+    "name": "The Gambia Parrot"
+  },
+  {
+    "hd": "hd/georgiaparrot.gif",
+    "name": "Georgia Parrot"
+  },
+  {
+    "hd": "hd/germanyparrot.gif",
+    "name": "Germany Parrot"
+  },
+  {
+    "hd": "hd/ghanaparrot.gif",
+    "name": "Ghana Parrot"
+  },
+  {
+    "hd": "hd/greeceparrot.gif",
+    "name": "Greece"
+  },
+  {
+    "hd": "hd/greekmacedoniaparrot.gif",
+    "name": "Greek Macedonia"
+  },
+  {
+    "hd": "hd/greenlandparrot.gif",
+    "name": "Greenland Parrot"
+  },
+  {
+    "hd": "hd/grenadaparrot.gif",
+    "name": "Grenada Parrot"
+  },
+  {
+    "hd": "hd/guatemalaparrot.gif",
+    "name": "Guatemala Parrot"
+  },
+  {
+    "hd": "hd/guineaparrot.gif",
+    "name": "Guinea Parrot"
+  },
+  {
+    "hd": "hd/guineabissauparrot.gif",
+    "name": "Guinea-Bissau Parrot"
+  },
+  {
+    "hd": "hd/guyanaparrot.gif",
+    "name": "Guyana"
+  },
+  {
+    "hd": "hd/haitiparrot.gif",
+    "name": "Haiti Parrot"
+  },
+  {
+    "hd": "hd/hondurasparrot.gif",
+    "name": "Honduras Parrot"
+  },
+  {
+    "hd": "hd/hongkongparrot.gif",
+    "name": "Hong Kong"
+  },
+  {
+    "hd": "hd/hungaryparrot.gif",
+    "name": "Hungary"
+  },
+  {
+    "hd": "hd/icelandparrot.gif",
+    "name": "Iceland"
+  },
+  {
+    "hd": "hd/indiaparrot.gif",
+    "name": "India Parrot"
+  },
+  {
+    "hd": "hd/indonesiaparrot.gif",
+    "name": "Indonesia Parrot"
+  },
+  {
+    "hd": "hd/iranparrot.gif",
+    "name": "Iran Parrot"
+  },
+  {
+    "hd": "hd/iraqparrot.gif",
+    "name": "Iraq Parrot"
+  },
+  {
+    "hd": "hd/irelandparrot.gif",
+    "name": "Ireland Parrot"
+  },
+  {
+    "hd": "hd/israelparrot.gif",
+    "name": "Israel Parrot"
+  },
+  {
+    "hd": "hd/italyparrot.gif",
+    "name": "Italy"
+  },
+  {
+    "hd": "hd/ivorycoastparrot.gif",
+    "name": "Ivory Coast Parrot"
+  },
+  {
+    "hd": "hd/jamaicaparrot.gif",
+    "name": "Jamaica Parrot"
+  },
+  {
+    "hd": "hd/japanparrot.gif",
+    "name": "Japan Parrot"
+  },
+  {
+    "hd": "hd/jordanparrot.gif",
+    "name": "Jordan Parrot"
+  },
+  {
+    "hd": "hd/kazakhstanparrot.gif",
+    "name": "Kazakhstan Parrot"
+  },
+  {
+    "hd": "hd/kenyaparrot.gif",
+    "name": "Kenya Parrot"
+  },
+  {
+    "hd": "hd/kiribatiparrot.gif",
+    "name": "Kiribati Parrot"
+  },
+  {
+    "hd": "hd/kosovoparrot.gif",
+    "name": "Kosovo"
+  },
+  {
+    "hd": "hd/kuwaitparrot.gif",
+    "name": "Kuwait Parrot"
+  },
+  {
+    "hd": "hd/kyrgyzstanparrot.gif",
+    "name": "Kyrgyzstan Parrot"
+  },
+  {
+    "hd": "hd/laosparrot.gif",
+    "name": "Laos"
+  },
+  {
+    "hd": "hd/latviaparrot.gif",
+    "name": "Latvia Parrot"
+  },
+  {
+    "hd": "hd/lebanonparrot.gif",
+    "name": "Lebanon Parrot"
+  },
+  {
+    "hd": "hd/lesothoparrot.gif",
+    "name": "Lesotho Parrot"
+  },
+  {
+    "hd": "hd/liberiaparrot.gif",
+    "name": "Liberia Parrot"
+  },
+  {
+    "hd": "hd/libyaparrot.gif",
+    "name": "Libya Parrot"
+  },
+  {
+    "hd": "hd/liechtensteinparrot.gif",
+    "name": "Liechtenstein Parrot"
+  },
+  {
+    "hd": "hd/lithuaniaparrot.gif",
+    "name": "Lithuania Parrot"
+  },
+  {
+    "hd": "hd/luxembourgparrot.gif",
+    "name": "Luxembourg Parrot"
+  },
+  {
+    "hd": "hd/macauparrot.gif",
+    "name": "Macau"
+  },
+  {
+    "hd": "hd/madagascarparrot.gif",
+    "name": "Madagascar Parrot"
+  },
+  {
+    "hd": "hd/malawiparrot.gif",
+    "name": "Malawi Parrot"
+  },
+  {
+    "hd": "hd/malaysiaparrot.gif",
+    "name": "Malaysia Parrot"
+  },
+  {
+    "hd": "hd/maldivesparrot.gif",
+    "name": "Maldives Parrot"
+  },
+  {
+    "hd": "hd/maliparrot.gif",
+    "name": "Mali Parrot"
+  },
+  {
+    "hd": "hd/maltaparrot.gif",
+    "name": "Malta Parrot"
+  },
+  {
+    "hd": "hd/marshallislandsparrot.gif",
+    "name": "Marshall Islands Parrot"
+  },
+  {
+    "hd": "hd/mauritaniaparrot.gif",
+    "name": "Mauritania Parrot"
+  },
+  {
+    "hd": "hd/mauritiusparrot.gif",
+    "name": "Mauritius Parrot"
+  },
+  {
+    "hd": "hd/mexicoparrot.gif",
+    "name": "Mexico Parrot"
+  },
+  {
+    "hd": "hd/micronesiaparrot.gif",
+    "name": "Micronesia Parrot"
+  },
+  {
+    "hd": "hd/moldovaparrot.gif",
+    "name": "Moldova"
+  },
+  {
+    "hd": "hd/monacoparrot.gif",
+    "name": "Monaco Parrot"
+  },
+  {
+    "hd": "hd/mongoliaparrot.gif",
+    "name": "Mongolia"
+  },
+  {
+    "hd": "hd/montenegroparrot.gif",
+    "name": "Montenegro"
+  },
+  {
+    "hd": "hd/moroccoparrot.gif",
+    "name": "Morocco Parrot"
+  },
+  {
+    "hd": "hd/mozambiqueparrot.gif",
+    "name": "Mozambique Parrot"
+  },
+  {
+    "hd": "hd/myanmarparrot.gif",
+    "name": "Myanmar Parrot"
+  },
+  {
+    "hd": "hd/namibiaparrot.gif",
+    "name": "Namibia Parrot"
+  },
+  {
+    "hd": "hd/nauruparrot.gif",
+    "name": "Nauru Parrot"
+  },
+  {
+    "hd": "hd/nepalparrot.gif",
+    "name": "Nepal Parrot"
+  },
+  {
+    "hd": "hd/netherlandsparrot.gif",
+    "name": "The Netherlands Parrot"
+  },
+  {
+    "hd": "hd/newzelandparrot.gif",
+    "name": "New Zeland Parrot"
+  },
+  {
+    "hd": "hd/nicaraguaparrot.gif",
+    "name": "Nicaragua Parrot"
+  },
+  {
+    "hd": "hd/nigerparrot.gif",
+    "name": "Niger Parrot"
+  },
+  {
+    "hd": "hd/nigeriaparrot.gif",
+    "name": "Nigeria Parrot"
+  },
+  {
+    "hd": "hd/niueparrot.gif",
+    "name": "Niue Parrot"
+  },
+  {
+    "hd": "hd/northkoreaparrot.gif",
+    "name": "North Korea"
+  },
+  {
+    "hd": "hd/northmacedoniaparrot.gif",
+    "name": "North Macedonia"
+  },
+  {
+    "hd": "hd/northerncyprusparrot.gif",
+    "name": "Northern Cyprus Parrot"
+  },
+  {
+    "hd": "hd/norwayparrot.gif",
+    "name": "Norway"
+  },
+  {
+    "hd": "hd/omanparrot.gif",
+    "name": "Oman Parrot"
+  },
+  {
+    "hd": "hd/pakistanparrot.gif",
+    "name": "Pakistan Parrot"
+  },
+  {
+    "hd": "hd/palauparrot.gif",
+    "name": "Palau Parrot"
+  },
+  {
+    "hd": "hd/palestineparrot.gif",
+    "name": "Palestine Parrot"
+  },
+  {
+    "hd": "hd/panamaparrot.gif",
+    "name": "Panama Parrot"
+  },
+  {
+    "hd": "hd/papuanewguineaparrot.gif",
+    "name": "Papua New Guinea Parrot"
+  },
+  {
+    "hd": "hd/paraguayparrot.gif",
+    "name": "Paraguay Parrot"
+  },
+  {
+    "hd": "hd/peruparrot.gif",
+    "name": "Peru"
+  },
+  {
+    "hd": "hd/philippinesparrot.gif",
+    "name": "Philippines Parrot"
+  },
+  {
+    "hd": "hd/polandparrot.gif",
+    "name": "Poland"
+  },
+  {
+    "hd": "hd/portugalparrot.gif",
+    "name": "Portugal Parrot"
+  },
+  {
+    "hd": "hd/puertoricoparrot.gif",
+    "name": "Puerto Rico Parrot"
+  },
+  {
+    "hd": "hd/qatarparrot.gif",
+    "name": "Qatar Parrot"
+  },
+  {
+    "hd": "hd/republicofthecongoparrot.gif",
+    "name": "Republic of the Congo Parrot"
+  },
+  {
+    "hd": "hd/romaniaparrot.gif",
+    "name": "Romania Parrot"
+  },
+  {
+    "hd": "hd/russiaparrot.gif",
+    "name": "Russia"
+  },
+  {
+    "hd": "hd/rwandaparrot.gif",
+    "name": "Rwanda Parrot"
+  },
+  {
+    "hd": "hd/sahrawiarabdemocraticrepublicparrot.gif",
+    "name": "Sahrawi Arab Democratic Republic Parrot"
+  },
+  {
+    "hd": "hd/saintkittsandnevisparrot.gif",
+    "name": "Saint Kitts and Nevis Parrot"
+  },
+  {
+    "hd": "hd/saintluciaparrot.gif",
+    "name": "Saint Lucia Parrot"
+  },
+  {
+    "hd": "hd/saintvincentandthegrenadinesparrot.gif",
+    "name": "Saint Vincent and the Grenadines Parrot"
+  },
+  {
+    "hd": "hd/samoaparrot.gif",
+    "name": "Samoa Parrot"
+  },
+  {
+    "hd": "hd/sanmarinoparrot.gif",
+    "name": "San Marino Parrot"
+  },
+  {
+    "hd": "hd/saudiarabiaparrot.gif",
+    "name": "Saudi Arabia Parrot"
+  },
+  {
+    "hd": "hd/senegalparrot.gif",
+    "name": "Senegal Parrot"
+  },
+  {
+    "hd": "hd/serbiaparrot.gif",
+    "name": "Serbian Parrot"
+  },
+  {
+    "hd": "hd/seychellesparrot.gif",
+    "name": "Seychelles Parrot"
+  },
+  {
+    "hd": "hd/sierraleoneparrot.gif",
+    "name": "Sierra Leone Parrot"
+  },
+  {
+    "hd": "hd/singaporeparrot.gif",
+    "name": "Singapore Parrot"
+  },
+  {
+    "hd": "hd/sloveniaparrot.gif",
+    "name": "Slovenia Parrot"
+  },
+  {
+    "hd": "hd/slovokiaparrot.gif",
+    "name": "Slovokia"
+  },
+  {
+    "hd": "hd/solomanislandsparrot.gif",
+    "name": "Soloman Islands Parrot"
+  },
+  {
+    "hd": "hd/somaliaparrot.gif",
+    "name": "Somalia Parrot"
+  },
+  {
+    "hd": "hd/somalilandparrot.gif",
+    "name": "Somaliland Parrot"
+  },
+  {
+    "hd": "hd/southafricaparrot.gif",
+    "name": "South Africa Parrot"
+  },
+  {
+    "hd": "hd/southkoreaparrot.gif",
+    "name": "South Korea Parrot"
+  },
+  {
+    "hd": "hd/southossetiaparrot.gif",
+    "name": "South Ossetia Parrot"
+  },
+  {
+    "hd": "hd/southsudanparrot.gif",
+    "name": "South Sudan Parrot"
+  },
+  {
+    "hd": "hd/spainparrot.gif",
+    "name": "Spain Parrot"
+  },
+  {
+    "hd": "hd/srilankaparrot.gif",
+    "name": "Sri Lanka Parrot"
+  },
+  {
+    "hd": "hd/sudanparrot.gif",
+    "name": "Sudan Parrot"
+  },
+  {
+    "hd": "hd/surinameparrot.gif",
+    "name": "Suriname Parrot"
+  },
+  {
+    "hd": "hd/swedenparrot.gif",
+    "name": "Sweden Parrot"
+  },
+  {
+    "hd": "hd/switzerlandparrot.gif",
+    "name": "Switzerland"
+  },
+  {
+    "hd": "hd/syriaparrot.gif",
+    "name": "Syria Parrot"
+  },
+  {
+    "hd": "hd/saotomeandprincipeparrot.gif",
+    "name": "São Tomé and Príncipe Parrot"
+  },
+  {
+    "hd": "hd/taiwanparrot.gif",
+    "name": "Taiwan Parrot"
+  },
+  {
+    "hd": "hd/tajikistanparrot.gif",
+    "name": "Tajikistan Parrot"
+  },
+  {
+    "hd": "hd/tanzaniaparrot.gif",
+    "name": "Tanzania Parrot"
+  },
+  {
+    "hd": "hd/thailandparrot.gif",
+    "name": "Thailand"
+  },
+  {
+    "hd": "hd/togoparrot.gif",
+    "name": "Togo Parrot"
+  },
+  {
+    "hd": "hd/tongaparrot.gif",
+    "name": "Tonga Parrot"
+  },
+  {
+    "hd": "hd/transnistriaparrot.gif",
+    "name": "Transnistria Parrot"
+  },
+  {
+    "hd": "hd/trinidadandtobagoparrot.gif",
+    "name": "Trinidad and Tobago Parrot"
+  },
+  {
+    "hd": "hd/tunisiaparrot.gif",
+    "name": "Tunisia Parrot"
+  },
+  {
+    "hd": "hd/turkeyparrot.gif",
+    "name": "Turkey Parrot"
+  },
+  {
+    "hd": "hd/turkmenistanparrot.gif",
+    "name": "Turkmenistan Parrot"
+  },
+  {
+    "hd": "hd/tuvaluparrot.gif",
+    "name": "Tuvalu Parrot"
+  },
+  {
+    "hd": "hd/ugandaparrot.gif",
+    "name": "Uganda Parrot"
+  },
+  {
+    "hd": "hd/ukraineparrot.gif",
+    "name": "Ukraine"
+  },
+  {
+    "hd": "hd/unitedarabemiratesparrot.gif",
+    "name": "United Arab Emirates Parrot"
+  },
+  {
+    "hd": "hd/unitedkingdomparrot.gif",
+    "name": "United Kingdom Parrot"
+  },
+  {
+    "hd": "hd/uruguaryparrot.gif",
+    "name": "Uruguary Parrot"
+  },
+  {
+    "hd": "hd/uzbekistanparrot.gif",
+    "name": "Uzbekistan Parrot"
+  },
+  {
+    "hd": "hd/vanuatuparrot.gif",
+    "name": "Vanuatu Parrot"
+  },
+  {
+    "hd": "hd/vaticancityparrot.gif",
+    "name": "Vatican City Parrot"
+  },
+  {
+    "hd": "hd/venezuelaparrot.gif",
+    "name": "Venezuela"
+  },
+  {
+    "hd": "hd/vietnamparrot.gif",
+    "name": "Vietnam"
+  },
+  {
+    "hd": "hd/westernsaharaparrot.gif",
+    "name": "Western Sahara Parrot"
+  },
+  {
+    "hd": "hd/yemenparrot.gif",
+    "name": "Yemen Parrot"
+  },
+  {
+    "hd": "hd/zambiaparrot.gif",
+    "name": "Zambia Parrot"
+  },
+  {
+    "hd": "hd/zimbabweparrot.gif",
+    "name": "Zimbabwe Parrot"
+  },
+  {
+    "hd": "hd/checkeredflagparrot.gif",
+    "name": "Checkered Flag Parrot"
+  },
+  {
+    "gif": "prideparrot.gif",
+    "hd": "hd/prideparrot.gif",
+    "name": "Pride Parrot"
+  },
+  {
+    "hd": "hd/trans-parrot.gif",
+    "name": "Trans Flag Parrot",
+    "tip": "Transgender flag pride parrot"
+  }
+]

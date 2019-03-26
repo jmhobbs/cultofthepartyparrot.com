@@ -2,10 +2,6 @@ var gulp = require('gulp'),
   mocha = require('gulp-mocha'),
   mustache = require("gulp-mustache"),
   data = require('gulp-data'),
-  imagemin = require('gulp-imagemin'),
-  uglifycss = require('gulp-uglifycss'),
-  rev = require('gulp-rev'),
-  exec = require('child_process').exec,
   fs = require('fs');
 
 
@@ -56,92 +52,28 @@ gulp.task('render-humans', function () {
     .pipe(gulp.dest("dist/"));
 });
 
-function ParrotObjectAddSlackName (parrot) {
+function ParrotObjectAsSlackName (parrot) {
   parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
   return parrot;
 }
 
-// Depends on zip and css for the asset manifest
-gulp.task('render', ['test', 'zip', 'css'], function () {
-  return gulp.src(['templates/index.html', 'templates/parrotparty.yaml'])
-    .pipe(data(function(file) {
-      // Mustache doesn't handle dots in keys...
-      var assets = {};
-      var json = JSON.parse(fs.readFileSync('dist/assets/rev-manifest.json'));
-      for(var key in json) {
-        assets[key.replace('.', '_')] = json[key];
-      }
-      return {
-        parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAddSlackName),
-        guests: JSON.parse(fs.readFileSync('guests.json')).map(ParrotObjectAddSlackName),
-        assets: assets,
-        zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['parrots.zip'],
-        guests_zip: JSON.parse(fs.readFileSync('dist/rev-manifest.json'))['guests.zip']
-      };
-    }))
+gulp.task('render-web', function () {
+  // Mustache doesn't handle dots in keys...
+  var assets = {};
+  var json = JSON.parse(fs.readFileSync('dist/manifest.json'));
+  for(var key in json) {
+    assets[key.replace('.', '_').replace('/', '__')] = json[key];
+  }
+  var renderData = {
+    parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAsSlackName),
+    guests: JSON.parse(fs.readFileSync('guests.json')).map(ParrotObjectAsSlackName),
+    flags: JSON.parse(fs.readFileSync('flags.json')).map(ParrotObjectAsSlackName),
+    files: assets
+  };
+  return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])
+    .pipe(data(renderData))
     .pipe(mustache())
     .pipe(gulp.dest("dist/"));
 });
 
-gulp.task('zip', ['compress', 'guests-compress'], function () {
-  return gulp.src('*.zip')
-    .pipe(rev())
-    .pipe(gulp.dest('dist/'))
-    .pipe(rev.manifest())
-    .pipe(gulp.dest('dist/'));
-});
-
-gulp.task('compress', ['test'], function (cb) {
-  exec('rm -f ./parrots.zip', function (err, stdout, stderr) {
-    console.log(stderr);
-    if(err != null) { cb(err); }
-    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./parrots.zip ./parrots/*", function(err, stdout, stderr) {
-      console.log(stderr);
-      cb(err);
-    });
-  });
-});
-
-gulp.task('guests-compress', ['test'], function (cb) {
-  exec('rm -f ./guests.zip', function (err, stdout, stderr) {
-    console.log(stderr);
-    if(err != null) { cb(err); }
-    exec("echo \"      ~= Party or Die =~\n~= cultofthepartyparrot.com =~\" | zip -o -r -z  ./guests.zip ./guests/*", function(err, stdout, stderr) {
-      console.log(stderr);
-      cb(err);
-    });
-  });
-});
-
-gulp.task('images', function () {
-  gulp.src('src/favicon.ico')
-    .pipe(gulp.dest('dist/'));
-  gulp.src('parrots/**/*')
-    .pipe(gulp.dest('dist/parrots/'));
-  gulp.src('guests/**/*')
-    .pipe(gulp.dest('dist/guests/'));
-  return gulp.src('src/*.{svg,png,jpg,gif}')
-    .pipe(imagemin())
-    .pipe(gulp.dest('dist/assets/'));
-});
-
-gulp.task('css', function () {
-  return gulp.src('src/parrot.css')
-    .pipe(uglifycss())
-    .pipe(rev())
-    .pipe(gulp.dest('dist/assets/'))
-    .pipe(rev.manifest())
-    .pipe(gulp.dest('dist/assets/'));
-});
-
-gulp.task('clean', function (cb) {
-  exec('rm -rf dist/*', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  });
-});
-
-gulp.task('build', ['test', 'css', 'images', 'render', 'render-humans', 'zip']);
-
-gulp.task('default', ['test']);
+gulp.task('default', gulp.parallel('test'));

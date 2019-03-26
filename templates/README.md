@@ -55,21 +55,21 @@ The only Slack reaction gif's you'll ever need.
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 
-## Slack via Selenium
+## Slack via `emojipacks`
 
-You'll need Python 3, Google Chrome and chromedriver (`brew install chromedriver`)
-installed to run this:
+>**WARNING:** Due to a recent Slack update, which changes their emoji upload UI, this method using emojipacks may not work. A current workaround is to use the `Neutral Face Emoji Tools` Chrome extension. This extension allows you to batch upload emojis by dragging and dropping the files into it's UI. You can find the extension [here](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej).
 
- 1. `python3 -m venv .venv`
- 2. `pip install -r requirements.txt`
- 3. `python upload_parrots.py --team YOUR_TEAM --username YOUR_EMAIL --password YOUR_PASS`
+First, you need to clone this repo and run the build script with `npm run build` or `yarn build`.
 
- __Notice__: The uploader won't re-write already existing parrots if they match by name.
+It will generate a `dist/` folder containing the website build files; we only need the  `dist/parrotparty.yaml`. Copy the file path.
+
+Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll be asked to enter your Slack credentials plus _the path of the yaml file_. That's all! Enjoy your parrots.
+
 
 ## Discord via Mr. Parrot
 

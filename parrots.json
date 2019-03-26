@@ -5,6 +5,11 @@
         "name": "Parrot"
     },
     {
+        "gif": "opensourceparrot.gif",
+        "hd": "hd/opensourceparrot.gif",
+        "name": "Open-source Parrot"
+    },
+    {
         "gif": "middleparrot.gif",
         "hd": "hd/middleparrot.gif",
         "name": "Middle Parrot"
@@ -28,6 +33,7 @@
     },
     {
         "gif": "boredparrot.gif",
+        "hd": "hd/boredparrot.gif",
         "name": "Bored Parrot"
     },
     {
@@ -48,6 +54,7 @@
     },
     {
         "gif": "reversecongaparrot.gif",
+        "hd": "hd/reversecongaparrot.gif",
         "name": "Reverse Conga Line Parrot"
     },
     {
@@ -63,21 +70,25 @@
     },
     {
         "gif": "parrotcop.gif",
+        "hd": "hd/parrotcop.gif",
         "name": "Parrot Cop",
         "tip": "Not to be confused with Stripper Parrot!"
     },
     {
         "gif": "fastparrot.gif",
+	"hd": "hd/fastparrot.gif",
         "name": "Fast Parrot",
         "tip": "Now with 50% more party!"
     },
     {
         "gif": "ultrafastparrot.gif",
+	"hd": "hd/ultrafastparrot.gif",
         "name": "Ultra Fast Parrot",
         "tip": "Now with 150% more party!"
     },
     {
         "gif": "slowparrot.gif",
+        "hd": "hd/slowparrot.gif",
         "name": "Slow Parrot",
         "tip": "Web 1.0 all over again!"
     },
@@ -95,6 +106,11 @@
         "gif": "dealwithitparrot.gif",
         "hd": "hd/dealwithitparrot.gif",
         "name": "Deal With It Parrot"
+    },
+    {
+        "gif": "dealwithitnowparrot.gif",
+        "hd": "hd/dealwithitnowparrot.gif",
+        "name": "Deal With It Now Parrot"
     },
     {
         "gif": "fiestaparrot.gif",
@@ -130,18 +146,22 @@
     },
     {
         "gif": "sassyparrot.gif",
+        "hd": "hd/sassyparrot.gif",
         "name": "Sassy Parrot"
     },
     {
         "gif": "confusedparrot.gif",
+        "hd": "hd/confusedparrot.gif",
         "name": "Confused Parrot"
     },
     {
         "gif": "aussiecongaparrot.gif",
+        "hd": "hd/aussiecongaparrot.gif",
         "name": "Aussie Conga Line Parrot"
     },
     {
         "gif": "aussiereversecongaparrot.gif",
+        "hd": "hd/aussiereversecongaparrot.gif",
         "name": "Aussie Reverse Conga Line Parrot"
     },
     {
@@ -173,15 +193,26 @@
         "name": "Parrot Wave (7)"
     },
     {
+        "gif": "parrotwave8.gif",
+        "name": "Parrot Wave (8)"
+    },
+    {
+        "gif": "parrotwave9.gif",
+        "name": "Parrot Wave (9)"
+    },
+    {
       "gif": "congapartyparrot.gif",
+      "hd": "hd/congapartyparrot.gif",
       "name": "Conga Party Parrot"
     },
     {
       "gif": "moonwalkingparrot.gif",
+      "hd": "hd/moonwalkingparrot.gif",
       "name": "Moonwalking Parrot"
     },
     {
       "gif": "thumbsupparrot.gif",
+      "hd": "hd/thumbsupparrot.gif",
       "name": "Thumbs Up Parrot"
     },
     {
@@ -200,10 +231,12 @@
     },
     {
       "gif": "parrotsleep.gif",
+      "hd": "hd/sleepingparrot.gif",
       "name": "Sleepy Parrot"
     },
     {
       "gif": "parrotbeer.gif",
+      "hd": "hd/parrotbeer.gif",
       "name": "Happy Hour Parrot"
     },
     {
@@ -245,6 +278,7 @@
     },
     {
       "gif": "twinsparrot.gif",
+      "hd": "hd/twinsparrot.gif",
       "name": "Twins Parrot",
       "tip": "parrot + parrot = great party!"
     },
@@ -255,6 +289,7 @@
     },
     {
       "gif": "stableparrot.gif",
+      "hd": "hd/stableparrot.gif",
       "name": "Stable Parrot",
       "tip": "Gyrostablization Mode Initiated"
     },
@@ -315,11 +350,6 @@
       "name": "Science Parrot"
     },
     {
-      "gif": "prideparrot.gif",
-      "hd": "hd/prideparrot.gif",
-      "name": "Pride Parrot"
-    },
-    {
       "hd": "hd/revolutionparrot.gif",
       "name": "Revolution Parrot"
     },
@@ -361,6 +391,7 @@
     },
     {
       "gif": "angryparrot.gif",
+      "hd": "hd/angryparrot.gif",
       "name": "Angry Parrot"
     },
     {
@@ -430,5 +461,158 @@
       "hd": "hd/flyingmoneyparrot.gif",
       "name": "Flying Money Parrot",
       "tip": "The money is flying away!"
+    },
+    {
+      "gif": "portalorangeparrot.gif",
+      "hd": "hd/portalorangeparrot.gif",
+      "name": "Portal Parrot (Orange Portal)"
+    },
+    {
+      "gif": "portalblueparrot.gif",
+      "hd": "hd/portalblueparrot.gif",
+      "name": "Portal Parrot (Blue Portal)"
+    },
+    {
+      "hd": "hd/bunnyparrot.gif",
+      "name": "Bunny Parrot",
+      "tip": "Real men love bunnies"
+    },
+    {
+      "hd": "hd/norwegianblueparrot.gif",
+      "name": "Norwegian Blue Parrot",
+      "tip": "Remarkable bird, the Norwegian Blue, idn'it, ay?"
+    },
+    {
+      "hd": "hd/transparront.gif",
+      "name": "Transparront"
+    },
+    {
+      "gif": "fixparrot.gif",
+      "name": "Fix Parrot"
+    },
+    {
+      "gif": "brazilianplayerparrot.gif",
+      "name": "Brazilian Player Parrot"
+    },
+    {
+      "gif": "brazilianfanparrot.gif",
+      "name": "Brazilian Fan Parrot"
+    },
+    {
+      "gif": "spyparrot.gif",
+      "name": "Spy Parrot"
+    },
+    {
+      "hd": "hd/marshmallowparrot.gif",
+      "name": "Marshmallow Parrot"
+    },
+    {
+      "hd": "hd/whitewalkerparrot.gif",
+      "name": "White Walker Parrot"
+    },
+    {
+      "hd": "hd/calvinist_parrot.gif",
+      "name": "Calvinist Parrot"
+    },
+    {
+      "hd": "hd/britparrot.gif",
+      "name": "British Parrot"
+    },
+    {
+        "gif":"frenchparrot.gif",
+        "hd":"hd/frenchparrothd.gif",
+        "name":"French Parrot",
+        "tip":"Oulala"
+    },
+    {
+      "gif": "githubparrot.gif",
+      "hd": "hd/githubparrot.gif",
+      "name": "Github Party Parrot",
+      "tip": "Github PR Party"
+    },
+    {
+      "gif": "bootlegparrot.gif",
+      "hd": "hd/bootlegparrot.gif",
+      "name": "Bootleg Parrot"
+    },
+    {
+      "gif": "bikerparrot.gif",
+      "hd": "hd/bikerparrot.gif",
+      "name": "Biker Parrot"
+    },
+    {
+      "gif": "inverseparrot.gif",
+      "hd": "hd/inverseparrot.gif",
+      "name": "Inverse Parrot"
+    },
+    {
+      "hd": "hd/pingpongparrot.gif",
+      "name": "Ping Pong Parrot"
+    },
+    {
+      "hd": "hd/laptop_parrot.gif",
+      "name": "Laptop Parrot"
+    },
+    {
+      "hd": "hd/60fpsparrot.gif",
+      "name": "60fps Parrot"
+    },
+    {
+      "hd": "hd/redhatparrot.gif",
+      "name": "Red Hat Parrot",
+      "tip": "Soon to be IBM parrot..."
+    },
+    {
+      "hd": "hd/footballparrot.gif",
+      "name": "Football Parrot"
+    },
+    {
+      "hd": "hd/flower_parrot.gif",
+      "name": "Flower Parrot"
+    },
+    {
+      "hd": "hd/parrotnotfound.gif",
+      "name": "Parrot Not Found"
+    },
+    {
+      "hd": "hd/spinningparrot.gif",
+      "name": "Spinning Parrot"
+    },
+    {
+      "hd": "hd/redenvelopeparrot.gif",
+      "name": "Red Envelope Parrot",
+      "tip": "Happy Lunar New Year!"
+    },
+    {
+      "hd": "hd/grouchoparrot.gif",
+      "name": "Groucho Parrot"
+    },
+    {
+      "hd": "hd/chicoparrot.gif",
+      "name": "Chico Parrot"
+    },
+    {
+      "hd": "hd/harpoparrot.gif",
+      "name": "Harpo Parrot"
+    },
+    {
+      "gif": "schnitzelparrot.gif",
+      "name": "Schnitzel Parrot"
+    },
+    {
+      "hd": "hd/vikingparrot.gif",
+      "name": "Viking Parrot"
+    },
+    {
+      "hd": "hd/darkmodeparrot.gif",
+      "name": "Dark Mode Parrot"
+    },
+    {
+      "hd": "hd/tiedyeparrot.gif",
+      "name": "Tie Dye Parrot"
+    },
+    {
+      "hd": "hd/horizontalparrot.gif",
+      "name": "Horizontal Parrot"
     }
 ]
