@@ -15,9 +15,9 @@
         "name": "Middle Parrot"
     },
     {
-        "gif": "rightparrot.gif",
-        "hd": "hd/rightparrot.gif",
-        "name": "Right Parrot"
+        "gif": "reverseparrot.gif",
+        "hd": "hd/reverseparrot.gif",
+        "name": "Reverse Parrot"
     },
     {
         "gif": "aussieparrot.gif",
@@ -69,9 +69,9 @@
         "tip": "Parrots are entitled to their full range of emotions."
     },
     {
-        "gif": "parrotcop.gif",
-        "hd": "hd/parrotcop.gif",
-        "name": "Parrot Cop",
+        "gif": "copparrot.gif",
+        "hd": "hd/copparrot.gif",
+        "name": "Cop Parrot",
         "tip": "Not to be confused with Stripper Parrot!"
     },
     {
@@ -98,8 +98,8 @@
         "tip": "Party in slow motion."
     },
     {
-        "gif": "parrotdad.gif",
-        "name": "Parrot Dad",
+        "gif": "dadparrot.gif",
+        "name": "Dad Parrot",
         "tip": "Is totally freaking out."
     },
     {
@@ -141,8 +141,8 @@
         "name": "Shuffle Party Parrot"
     },
     {
-        "gif": "ice-cream-parrot.gif",
-        "name": "Ice Cream Parrot"
+        "gif": "icecreamparrot.gif",
+        "name": "Ice-Cream Parrot"
     },
     {
         "gif": "sassyparrot.gif",
@@ -220,8 +220,8 @@
       "name": "Coffee Parrot"
     },
     {
-      "gif": "parrotmustache.gif",
-      "hd": "hd/parrotmustache.gif",
+      "gif": "mustacheparrot.gif",
+      "hd": "hd/mustacheparrot.gif",
       "name": "Parrot with mustache"
     },
     {
@@ -230,13 +230,13 @@
       "name": "Christmas Parrot"
     },
     {
-      "gif": "parrotsleep.gif",
+      "gif": "sleepingparrot.gif",
       "hd": "hd/sleepingparrot.gif",
       "name": "Sleepy Parrot"
     },
     {
-      "gif": "parrotbeer.gif",
-      "hd": "hd/parrotbeer.gif",
+      "gif": "beerparrot.gif",
+      "hd": "hd/beerparrot.gif",
       "name": "Happy Hour Parrot"
     },
     {
@@ -273,8 +273,8 @@
       "tip": "You're a parrot-wizard Harry!"
     },
     {
-      "gif": "upvotepartyparrot.gif",
-      "name": "Upvote Party Parrot"
+      "gif": "upvoteparrot.gif",
+      "name": "Upvote Parrot"
     },
     {
       "gif": "twinsparrot.gif",
@@ -520,7 +520,7 @@
     },
     {
         "gif":"frenchparrot.gif",
-        "hd":"hd/frenchparrothd.gif",
+        "hd":"hd/frenchparrot.gif",
         "name":"French Parrot",
         "tip":"Oulala"
     },
@@ -567,7 +567,7 @@
       "name": "Football Parrot"
     },
     {
-      "hd": "hd/flower_parrot.gif",
+      "hd": "hd/flowerparrot.gif",
       "name": "Flower Parrot"
     },
     {
