@@ -513,14 +513,10 @@
       "name": "Calvinist Parrot"
     },
     {
-      "hd": "hd/britparrot.gif",
-      "name": "British Parrot"
-    },
-    {
-        "gif":"frenchparrot.gif",
-        "hd":"hd/frenchparrot.gif",
-        "name":"French Parrot",
-        "tip":"Oulala"
+      "gif":"frenchparrot.gif",
+      "hd":"hd/frenchparrot.gif",
+      "name":"French Parrot",
+      "tip":"Oulala"
     },
     {
       "hd": "hd/githubparrot.gif",
