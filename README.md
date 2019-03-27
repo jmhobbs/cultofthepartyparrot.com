@@ -109,7 +109,7 @@ The only Slack reaction gif's you'll ever need.
  * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
  * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
  * [@matthewjwolff](https://github.com/matthewjwolff) for [mardi gras parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/194)
- * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198) and various housekeeping contributions
+ * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198) and [various housekeeping contributions](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/350)
  * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
  * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
  * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207), [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204), [bunny parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/216) and [Norwegian Blue parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/218)
@@ -131,7 +131,11 @@ The only Slack reaction gif's you'll ever need.
  * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
  * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
  * [@uberchemist](https://github.com/uberchemist) for [HD Beer Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/292), [so many parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/312), [like, a lot of parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/303) and [basically all the parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/300)
- * [@oibind](https://github.com/oibind) for [link to parrot.today](https://github.com/jmhobbs/cultofthepartyparrot.com/pull/342)
+ * [@jpac-run](https://github.com/jpac-run) for [fix Portugal Parrot name](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/313)
+ * [@jenlersadnie](https://github.com/jenlersadnie) for [Party Sloth](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/316)
+ * [@kareiva](https://github.com/kareiva) for [Lithuania Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/323)
+ * [@tgockel](https://github.com/tgockel) for [build script uglifycss detection](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/335) and [build script improvements](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/336)
+ * [@oibind](https://github.com/oibind) for [link to parrot.today](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/342)
 
 # Contributing!
 

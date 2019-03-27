@@ -66,7 +66,7 @@
   {"username":"zix99","contributions":[{"pr":186,"action":"ceiling parrot"}]},
   {"username":"PretzelCA","contributions":[{"pr":187,"action":"Discord bot"}]},
   {"username":"matthewjwolff","contributions":[{"pr":194,"action":"mardi gras parrot"}]},
-  {"username":"Darth-Arminius","contributions":[{"pr":198,"action":"sith parrot"}]},
+  {"username":"Darth-Arminius","contributions":[{"pr":198,"action":"sith parrot"},{"pr":350,"action":"various housekeeping contributions"}]},
   {"username":"emmajam","contributions":[{"pr":201,"action":"bitcoin parrot"}]},
   {"username":"juniormucciolo","contributions":[{"pr":203,"action":"portal parrot"}]},
   {"username":"mrkolby","contributions":[{"pr":208,"action":"flying money parrot"},{"pr":206,"action":"hard hat parrot"},{"pr":207,"action":"troll parrot"},{"pr":204,"action":"mustache parrot"},{"pr":216,"action":"bunny parrot"},{"pr":218,"action":"Norwegian Blue parrot"}]},
@@ -87,5 +87,10 @@
   {"username":"Jegama","contributions":[{"pr":258,"action":"Calvinist parrot"},{"pr":307,"action":"flower parrot"},{"pr":288,"action":"laptop parrot"}]},
   {"username":"oXis","contributions":[{"pr":261,"action":"French parrot"}]},
   {"username":"dp12","contributions":[{"pr":274,"action":"link to emacs parrot-mode"}]},
-  {"username":"uberchemist","contributions":[{"pr":292,"action":"HD Beer Parrot"},{"pr":312,"action":"so many parrots"},{"pr":303,"action":"like, a lot of parrots"},{"pr":300,"action":"basically all the parrots"}]}
+  {"username":"uberchemist","contributions":[{"pr":292,"action":"HD Beer Parrot"},{"pr":312,"action":"so many parrots"},{"pr":303,"action":"like, a lot of parrots"},{"pr":300,"action":"basically all the parrots"}]},
+  {"username":"jpac-run","contributions":[{"pr":313,"action":"fix Portugal Parrot name"}]},
+  {"username":"jenlersadnie","contributions":[{"pr":316,"action":"Party Sloth"}]},
+  {"username":"kareiva","contributions":[{"pr":323,"action":"Lithuania Parrot"}]},
+  {"username":"tgockel","contributions":[{"pr":335,"action":"build script uglifycss detection"},{"pr":336,"action":"build script improvements"}]},
+  {"username":"oibind","contributions":[{"pr":342,"action":"link to parrot.today"}]}
 ]
