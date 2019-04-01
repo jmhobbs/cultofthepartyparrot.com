@@ -21,6 +21,7 @@
   },
   {
     "gif": "witnessprotectionparrot.gif",
+    "hd": "hd/witnessprotectionparrot.gif",
     "name": "Witness Protection Parrot",
     "tip": "I wonder who this guy is?"
   },
@@ -85,5 +86,9 @@
   {
     "hd": "hd/partysloth.gif",
     "name": "Party Sloth"
+  },
+  {
+    "hd": "hd/partyblob.gif",
+    "name": "Party Blob"
   }
 ]
