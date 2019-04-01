@@ -21,6 +21,7 @@
     },
     {
         "gif": "aussieparrot.gif",
+        "hd": "hd/aussieparrot.gif",
         "name": "Aussie Parrot"
     },
     {
@@ -607,5 +608,9 @@
     {
       "hd": "hd/horizontalparrot.gif",
       "name": "Horizontal Parrot"
+    },
+    {
+      "hd": "hd/sherlockholmesparrot.gif",
+      "name": "Sherlock Parrot"
     }
 ]
