@@ -472,6 +472,14 @@
       "name": "Portal Parrot (Blue Portal)"
     },
     {
+      "hd": "hd/reverseportalorangeparrot.gif",
+      "name": "Reverse Portal Parrot (Orange Portal)"
+    },
+    {
+      "hd": "hd/reverseportalblueparrot.gif",
+      "name": "Reverse Portal Parrot (Blue Portal)"
+    },
+    {
       "hd": "hd/bunnyparrot.gif",
       "name": "Bunny Parrot",
       "tip": "Real men love bunnies"
