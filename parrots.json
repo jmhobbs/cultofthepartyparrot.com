@@ -620,5 +620,9 @@
     {
       "hd": "hd/sherlockholmesparrot.gif",
       "name": "Sherlock Parrot"
+    },
+    {
+      "gif": "cryingjordanparrot.gif",
+      "name": "Crying Jordan Parrot"
     }
 ]
