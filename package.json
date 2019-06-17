@@ -21,7 +21,7 @@
     "convert-units": "^2.1.0",
     "gulp": "^4.0.0",
     "gulp-data": "^1.2.1",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^6.0.0",
     "gulp-mocha": "^6.0.0",
     "gulp-mustache": "^2.3.0",
     "gulp-rev": "^7.1.2",
