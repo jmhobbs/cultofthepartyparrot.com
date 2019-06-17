@@ -624,5 +624,11 @@
     {
       "hd": "hd/tennisparrot.gif",
       "name": "Tennis Parrot"
+    },
+    {
+      "hd": "hd/originalparrot.gif",
+      "gif": "originalparrot.gif",
+      "name": "Original Parrot",
+      "tip": "The one and only."
     }
 ]
