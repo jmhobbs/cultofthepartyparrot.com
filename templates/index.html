@@ -194,6 +194,7 @@
           <a class="button-small" href="https://www.npmjs.com/package/parrotify-cli">parrotify-cli</a>
           <a class="button-small" href="https://github.com/dp12/parrot">emacs parrot</a>
           <a class="button-small" href="https://parrot.today">parrot.today</a>
+          <a class="button-small" href="https://github.com/jbaublitz/knock-out">Kernel Module</a>
         </p>
 
         <hr/>
@@ -253,7 +254,12 @@
         trackLinkClickEvent("guests_zip", "guests.zip");
         trackLinkClickEvent("parrot_svg", "parrot.svg");
 
-        if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
+        if(window.console && window.console.log) { 
+          console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/");
+          if(/Linux/.test(window.navigator.platform)) {
+            console.log("wget https://github.com/jbaublitz/knock-out/archive/master.zip && unzip master.zip && cd knock-out-master && make && sudo insmod parrot.ko && sudo mknod /dev/parrot c \"$(cat /proc/devices | grep parrot |  awk '{print $1}' | tr -d '\\n')\" 0 && cat /dev/parrot");
+          }
+        }
 
         // Random Flag Parrots
         fetch('/flags.json').then(function(response) {
