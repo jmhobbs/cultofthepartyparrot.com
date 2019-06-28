@@ -401,6 +401,10 @@
       "name": "Invisible Parrot"
     },
     {
+      "gif": "fadingparrot.gif",
+      "name": "Fading Parrot"
+    },
+    {
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
     },
