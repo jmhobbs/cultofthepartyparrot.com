@@ -631,5 +631,9 @@
       "gif": "originalparrot.gif",
       "name": "Original Parrot",
       "tip": "The one and only."
+    },
+    {
+      "hd": "hd/bobaparrot.gif",
+      "name": "Boba Parrot"
     }
 ]
