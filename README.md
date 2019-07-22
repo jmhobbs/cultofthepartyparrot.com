@@ -38,7 +38,7 @@
       ``+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmhooh
 ```
 
-The only Slack reaction gif's you'll ever need.
+The only Slack reaction gifs you'll ever need.
 
 ## Thanks
 
