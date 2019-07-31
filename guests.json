@@ -103,5 +103,10 @@
   {
     "hd": "hd/partykeanu.gif",
     "name": "Party Keanu"
+  },
+  {
+    "hd": "hd/partygeeko.gif",
+    "name": "Party Geeko",
+    "tip": "the Geeko insists, too"
   }
 ]
