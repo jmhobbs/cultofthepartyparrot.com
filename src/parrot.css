@@ -53,6 +53,10 @@ p {
   padding: 0 20px;
 }
 
+td img {
+  width: 35px;
+}
+
 @media screen and (min-width: 720px) {
   ul {
     width: 100%;
