@@ -639,5 +639,9 @@
     {
       "hd": "hd/bobaparrot.gif",
       "name": "Boba Parrot"
+    },
+    {
+      "hd": "hd/backwardsparrot.gif",
+      "name": "Backwards Parrot"
     }
 ]
