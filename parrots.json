@@ -647,5 +647,10 @@
     {
       "gif":"ripparrot.gif",
       "name":"RIP Parrot"
+    },
+    {
+      "hd": "hd/shortparrot.gif"
+      "name": "Short Parrot"
+      "tip": "Someone get a ladder"
     }
 ]
