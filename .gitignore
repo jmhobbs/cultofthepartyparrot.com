@@ -3,6 +3,7 @@ node_modules/
 parrots.zip
 guests.zip
 dist/
+still/
 .cache/
 
 # Created by https://www.gitignore.io/api/vim,osx
