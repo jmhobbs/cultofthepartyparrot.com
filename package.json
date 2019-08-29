@@ -21,12 +21,16 @@
     "convert-units": "^2.1.0",
     "gulp": "^4.0.0",
     "gulp-data": "^1.2.1",
-    "gulp-imagemin": "^6.0.0",
     "gulp-mocha": "^6.0.0",
     "gulp-mustache": "^2.3.0",
-    "gulp-rev": "^7.1.2",
-    "gulp-uglifycss": "^1.0.6",
     "image-size": "^0.6.1",
-    "jsonschema": "1.1.1"
+    "imagemin-cli": "^5.0.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngcrush": "^6.0.0",
+    "imagemin-svgo": "7.0.0",
+    "jsonschema": "1.1.1",
+    "uglify-js": "^3.6.0",
+    "uglifycss": "0.0.29"
   }
 }
