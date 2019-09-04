@@ -652,5 +652,10 @@
       "hd": "hd/shortparrot.gif",
       "name": "Short Parrot",
       "tip": "Someone get a ladder"
+    },
+    {
+      "hd": "hd/headsetparrot.gif",
+      "name": "Headset Parrot",
+      "tip": "Hear no evil"
     }
 ]
