@@ -108,5 +108,10 @@
     "hd": "hd/partygeeko.gif",
     "name": "Party Geeko",
     "tip": "the Geeko insists, too"
+  },
+  {
+    "hd": "hd/bugparrot.gif",
+    "name": "Party BUg",
+    "tip": "It's not a bug, it's a feature"
   }
 ]
