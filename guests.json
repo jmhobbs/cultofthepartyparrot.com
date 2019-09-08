@@ -118,5 +118,9 @@
   {
     "hd": "hd/partyblobcat.gif",
     "name": "Party Blob Cat"
+  },
+  {
+    "gif": "cursedparrot.gif",
+    "name": "Cursed Parrot"
   }
 ]
