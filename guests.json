@@ -113,5 +113,9 @@
     "hd": "hd/bugparrot.gif",
     "name": "Party BUg",
     "tip": "It's not a bug, it's a feature"
+  },
+  {
+    "gif": "cursedparrot.gif",
+    "name": "Cursed Parrot"
   }
 ]
