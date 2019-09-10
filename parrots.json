@@ -657,5 +657,17 @@
       "hd": "hd/headsetparrot.gif",
       "name": "Headset Parrot",
       "tip": "Hear no evil"
+    },
+    {
+      "hd": "hd/bouncingparrot.gif",
+      "name": "Bouncing Parrot"
+    },
+    {
+      "hd": "hd/levitationparrot.gif",
+      "name": "Levitation Parrot"
+    },
+    {
+      "hd": "hd/verticalparrot.gif",
+      "name": "Vertical Parrot"
     }
 ]
