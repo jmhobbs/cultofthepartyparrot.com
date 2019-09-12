@@ -15,8 +15,9 @@
     "tip": "C! A! P! S! CAPS! CAPS! CAPS!!."
   },
   {
-    "gif": "fieriparrot.gif",
-    "name": "Guy Fieri Parrot",
+    "gif": "partyfieri.gif",
+    "hd": "hd/partyfieri.gif",
+    "name": "Party Guy Fieri",
     "tip": "One way ticket to flavor town!"
   },
   {
@@ -113,6 +114,10 @@
     "hd": "hd/bugparrot.gif",
     "name": "Party BUg",
     "tip": "It's not a bug, it's a feature"
+  },
+  {
+    "hd": "hd/partyblobcat.gif",
+    "name": "Party Blob Cat"
   },
   {
     "gif": "cursedparrot.gif",
