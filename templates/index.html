@@ -60,19 +60,19 @@
        
         <table>
           <tr>
-            <td><img src="/parrots/parrot.gif" /></td>
-            <td><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /></td>
-            <td><img src="/parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/hd/parrot.gif" /></td>
+            <td><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /></td>
+            <td><img src="/parrots/hd/reverseparrot.gif" /></td>
           </tr>
           <tr>
-            <td><img src="/parrots/parrot.gif" /></td>
+            <td><img src="/parrots/hd/parrot.gif" /></td>
             <td><h2>PARTY OR DIE</h2></td>
-            <td><img src="/parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/hd/reverseparrot.gif" /></td>
           </tr>
           <tr>
-            <td><img src="/parrots/parrot.gif" /></td>
-            <td><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /><img src="/parrots/middleparrot.gif" /></td>
-            <td><img src="/parrots/rightparrot.gif" /></td>
+            <td><img src="/parrots/hd/parrot.gif" /></td>
+            <td><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /><img src="/parrots/hd/middleparrot.gif" /></td>
+            <td><img src="/parrots/hd/reverseparrot.gif" /></td>
           </tr>
         </table>
 
@@ -80,7 +80,7 @@
 
         <ul>
           {{#parrots}}
-          <li><img src="/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          <li><img src="/still/parrots/{{still}}" class="lazy" data-src="/parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
           {{/parrots}}
         </ul>
 
@@ -113,7 +113,7 @@
 
         <ul>
           {{#guests}}
-          <li><img src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          <li><img src="/still/guests/{{still}}" class="lazy" data-src="/guests/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
           {{/guests}}
         </ul>
 
@@ -194,6 +194,7 @@
           <a class="button-small" href="https://www.npmjs.com/package/parrotify-cli">parrotify-cli</a>
           <a class="button-small" href="https://github.com/dp12/parrot">emacs parrot</a>
           <a class="button-small" href="https://parrot.today">parrot.today</a>
+          <a class="button-small" href="https://github.com/jbaublitz/knock-out">Kernel Module</a>
         </p>
 
         <hr/>
@@ -217,68 +218,11 @@
       </article>
 
       <footer>
-        With <img src="/parrots/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
+        With <img src="/parrots/hd/parrot.gif"> from <a href="http://midwestdevchat.com/">Midwest Dev Chat</a> &amp; <a href="https://github.com/jmhobbs/cultofthepartyparrot.com#thanks">friends</a>
       </footer>
 
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-1664885-25', 'auto');
-        ga('send', 'pageview');
-
-        function trackLinkClickEvent(id, name) {
-          document.getElementById(id).onclick = function (event) {
-            if(false && navigator.sendBeacon != undefined) {
-              ga('send', 'event', 'Link', 'click', name, {transport: 'beacon'});
-            }
-            else {
-              var ran = false,
-                   el = event.srcElement || event.target;
-                 link = e.href,
-             navigate = function() {
-                if (ran) return;
-                ran = true;
-                window.location.href = link;
-              };
-              ga('send', 'event', 'Link', 'click', name, {hitCallback: navigate});
-              setTimeout(navigate, 1000);
-              event.preventDefault ? event.preventDefault() : event.returnValue = !1;
-            }
-          }
-        }
-        trackLinkClickEvent("parrots_zip", "parrots.zip");
-        trackLinkClickEvent("guests_zip", "guests.zip");
-        trackLinkClickEvent("parrot_svg", "parrot.svg");
-
-        if(window.console && window.console.log) { console.log("PARTY PARROT WANTS YOUR SOUL: http://codepen.io/codevinsky/full/LWprYo/"); }
-
-        // Random Flag Parrots
-        fetch('/flags.json').then(function(response) {
-          return response.json();
-        }).then(function(flags) {
-          let keys = Object.keys(flags);
-          shuffle(keys);
-          for(i = 0; i < 6; i++){
-            document.getElementById("flag-" + i).src = "/flags/" + flags[keys[i]].hd;
-          }
-        });
-
-        // https://www.frankmitchell.org/2015/01/fisher-yates/
-        function shuffle (array) {
-          let i = 0, j = 0, temp = null;
-
-          for (i = array.length - 1; i > 0; i -= 1) {
-            j = Math.floor(Math.random() * (i + 1))
-            temp = array[i]
-            array[i] = array[j]
-            array[j] = temp
-          }
-        }
-
-      </script>
+      <script src="{{files.assets__lazy_js}}" defer></script>
+      <script src="{{files.assets__home_js}}" defer></script>
     </div>
   </body>
 </html>

@@ -52,8 +52,9 @@ gulp.task('render-humans', function () {
     .pipe(gulp.dest("dist/"));
 });
 
-function ParrotObjectAsSlackName (parrot) {
+function ModifiedParrotObject (parrot) {
   parrot.slack_name = (parrot.gif || parrot.hd).replace(/\.gif$/, '').toLowerCase().replace(/[^a-z0-9-_]/g, '-').replace(/-+/g, '-').replace(/^hd-/,'');
+  parrot.still = (parrot.gif || parrot.hd).replace(/\.gif$/, '.png').replace('hd/','')
   return parrot;
 }
 
@@ -65,9 +66,9 @@ gulp.task('render-web', function () {
     assets[key.replace('.', '_').replace('/', '__')] = json[key];
   }
   var renderData = {
-    parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ParrotObjectAsSlackName),
-    guests: JSON.parse(fs.readFileSync('guests.json')).map(ParrotObjectAsSlackName),
-    flags: JSON.parse(fs.readFileSync('flags.json')).map(ParrotObjectAsSlackName),
+    parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ModifiedParrotObject),
+    guests: JSON.parse(fs.readFileSync('guests.json')).map(ModifiedParrotObject),
+    flags: JSON.parse(fs.readFileSync('flags.json')).map(ModifiedParrotObject),
     files: assets
   };
   return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])
