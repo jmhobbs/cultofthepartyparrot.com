@@ -26,6 +26,7 @@
     },
     {
         "gif": "gothparrot.gif",
+        "hd": "hd/gothparrot.gif",
         "name": "Goth Parrot"
     },
     {
@@ -400,6 +401,10 @@
       "name": "Invisible Parrot"
     },
     {
+      "gif": "fadingparrot.gif",
+      "name": "Fading Parrot"
+    },
+    {
       "gif": "rotatingparrot.gif",
       "name": "Rotating Parrot"
     },
@@ -620,6 +625,50 @@
     {
       "hd": "hd/sherlockholmesparrot.gif",
       "name": "Sherlock Parrot"
+    },
+    {
+      "hd": "hd/tennisparrot.gif",
+      "name": "Tennis Parrot"
+    },
+    {
+      "hd": "hd/originalparrot.gif",
+      "gif": "originalparrot.gif",
+      "name": "Original Parrot",
+      "tip": "The one and only."
+    },
+    {
+      "hd": "hd/bobaparrot.gif",
+      "name": "Boba Parrot"
+    },
+    {
+      "hd": "hd/backwardsparrot.gif",
+      "name": "Backwards Parrot"
+    },
+    {
+      "gif":"ripparrot.gif",
+      "name":"RIP Parrot"
+    },
+    {
+      "hd": "hd/shortparrot.gif",
+      "name": "Short Parrot",
+      "tip": "Someone get a ladder"
+    },
+    {
+      "hd": "hd/headsetparrot.gif",
+      "name": "Headset Parrot",
+      "tip": "Hear no evil"
+    },
+    {
+      "hd": "hd/bouncingparrot.gif",
+      "name": "Bouncing Parrot"
+    },
+    {
+      "hd": "hd/levitationparrot.gif",
+      "name": "Levitation Parrot"
+    },
+    {
+      "hd": "hd/verticalparrot.gif",
+      "name": "Vertical Parrot"
     },
     {
       "hd": "hd/michaeljacksonparrot.gif",

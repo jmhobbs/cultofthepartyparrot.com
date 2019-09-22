@@ -33,6 +33,9 @@ JQ_INSTALLED=$?
 which uglifycss > /dev/null
 UGLIFYCSS_INSTALLED=$?
 
+which uglifyjs > /dev/null
+UGLIFYJS_INSTALLED=$?
+
 if [ $GULP_INSTALLED -ne 0 ] || \
    [ $GIFSICLE_INSTALLED -ne 0 ] || \
    [ $PNGCRUSH_INSTALLED -ne 0 ] || \
@@ -40,7 +43,8 @@ if [ $GULP_INSTALLED -ne 0 ] || \
    [ $JPEGTRAN_INSTALLED -ne 0 ] || \
    [ $MD5_INSTALLED -ne 0 ] || \
    [ $JQ_INSTALLED -ne 0 ] || \
-   [ $UGLIFYCSS_INSTALLED -ne 0 ]; then
+   [ $UGLIFYCSS_INSTALLED -ne 0 ] || \
+   [ $UGLIFYJS_INSTALLED -ne 0 ]; then
   echo "The following software is required:"
   echo
   echo "      gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
@@ -51,6 +55,7 @@ if [ $GULP_INSTALLED -ne 0 ] || \
   echo "      svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo "  jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   echo " uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "  uglifyjs: $([ $UGLIFYJS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   exit 1
 fi
 
@@ -87,8 +92,7 @@ function update_manifest () {
 }
 
 function md5_hash {
-  which md5 > /dev/null
-  if [ $? -eq 0 ]; then
+  if which md5 > /dev/null; then
     # Prefer `md5`
     md5 -q "$1"
   else
@@ -105,6 +109,16 @@ function css () {
   header "css"
   uglifycss src/parrot.css > dist/assets/parrot.css
   mv dist/assets/parrot.css "dist/$(update_manifest dist/assets/parrot.css)"
+}
+
+# Uglify and compress JavaScript to the dist folder.
+function js () {
+  header "js"
+  for f in src/*.js; do
+    distfile="dist/assets/${f/src\//}"
+    uglifyjs "$f" > "$distfile" 
+    mv "$distfile" "dist/$(update_manifest "$distfile")"
+  done
 }
 
 # Copy and compress asset images to the dist folder.
@@ -139,6 +153,7 @@ function images () {
   cp -r parrots dist/parrots
   cp -r guests dist/guests
   cp -r flags dist/flags
+  cp -r still dist/still
 }
 
 # Make gif's into zip files.
@@ -177,6 +192,22 @@ function clean-cache () {
   mkdir -p dist/assets
 }
 
+function render-still () {
+  sources=( parrots guests flags )
+  for src in "${sources[@]}"; do
+    mkdir -p "still/$src/"
+    for f in "$src"/*.gif; do
+      # shellcheck disable=SC1087
+      convert -coalesce "$f[0]" "still/${f/.gif/.png}"
+    done
+    for f in "$src"/hd/*.gif; do
+      g=${f/hd\//}
+      # shellcheck disable=SC1087
+      convert -coalesce "$f[0]" "still/${g/.gif/.png}"
+    done
+  done
+}
+
 ##############################################
 ## GTD
 
@@ -196,6 +227,8 @@ function main () {
       header "build"
       test
       clean
+      render-still
+      js
       css
       images
       compress
