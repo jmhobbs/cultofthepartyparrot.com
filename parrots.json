@@ -670,4 +670,8 @@
       "hd": "hd/verticalparrot.gif",
       "name": "Vertical Parrot"
     }
+    {
+      "gif": "braveheartparrot.gif",
+      "name": "Braveheart Parrot"
+    },
 ]
