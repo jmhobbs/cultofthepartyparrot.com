@@ -96,8 +96,8 @@
     "name": "Bolivia"
   },
   {
-    "hd": "hd/bosniaandherzgovinaparrot.gif",
-    "name": "Bosnia and Herzgovina"
+    "hd": "hd/bosniaandherzegovinaparrot.gif",
+    "name": "Bosnia and Herzegovina"
   },
   {
     "hd": "hd/botswanaparrot.gif",
@@ -133,15 +133,15 @@
   },
   {
     "hd": "hd/canadaparrot.gif",
-    "name": "Canadian"
+    "name": "Canada"
   },
   {
     "hd": "hd/capeverdeparrot.gif",
     "name": "Cape Verde"
   },
   {
-    "hd": "hd/centralafricarepublicparrot.gif",
-    "name": "Central Africa Republic"
+    "hd": "hd/centralafricanrepublicparrot.gif",
+    "name": "Central African Republic"
   },
   {
     "hd": "hd/chadparrot.gif",
@@ -669,7 +669,7 @@
   },
   {
     "hd": "hd/serbiaparrot.gif",
-    "name": "Serbian"
+    "name": "Serbia"
   },
   {
     "hd": "hd/seychellesparrot.gif",
@@ -688,12 +688,12 @@
     "name": "Slovenia"
   },
   {
-    "hd": "hd/slovokiaparrot.gif",
-    "name": "Slovokia"
+    "hd": "hd/slovakiaparrot.gif",
+    "name": "Slovakia"
   },
   {
-    "hd": "hd/solomanislandsparrot.gif",
-    "name": "Soloman Islands"
+    "hd": "hd/solomonislandsparrot.gif",
+    "name": "Solomon Islands"
   },
   {
     "hd": "hd/somaliaparrot.gif",
@@ -869,8 +869,8 @@
     "name": "Pride"
   },
   {
-    "hd": "hd/trans-parrot.gif",
-    "name": "Trans Flag Parrot",
+    "hd": "hd/transparrot.gif",
+    "name": "Trans Flag",
     "tip": "Transgender flag pride parrot"
   }
 ]
