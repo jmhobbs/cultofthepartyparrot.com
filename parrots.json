@@ -669,5 +669,10 @@
     {
       "hd": "hd/verticalparrot.gif",
       "name": "Vertical Parrot"
+    },
+    {
+      "gif": "databaseparrot.gif",
+      "name": "Database Parrot",
+      "tip": "To sql or not to sql"
     }
 ]
