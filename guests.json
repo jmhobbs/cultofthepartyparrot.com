@@ -28,7 +28,8 @@
   },
   {
     "hd": "hd/party-wizard.gif",
-    "name": "Party Wizard"
+    "name": "Party Wizard",
+    "tip": "His favourite song is the Epic Sax Guy solo"
   },
   {
     "gif": "partyowl.gif",
@@ -77,7 +78,8 @@
   },
   {
     "hd": "hd/partycage.gif",
-    "name": "Party Cage"
+    "name": "Party Cage",
+    "tip": "Not too fond of bees"
   },
   {
     "hd": "hd/batparrot.gif",
@@ -103,7 +105,8 @@
   },
   {
     "hd": "hd/partykeanu.gif",
-    "name": "Party Keanu"
+    "name": "Party Keanu",
+    "tip": "Quite breathtaking"
   },
   {
     "hd": "hd/partygeeko.gif",
@@ -120,7 +123,7 @@
     "name": "Party Blob Cat"
   },
   {
-    "gif": "cursedparrot.gif",
+    "hd": "hd/cursedparrot.gif",
     "name": "Cursed Parrot"
   }
 ]
