@@ -139,10 +139,6 @@
         "name": "Explody Parrot"
     },
     {
-      "gif": "crazyparrot.gif",
-      "name": "Crazy Parrot"
-    },
-    {
         "gif": "shufflepartyparrot.gif",
         "name": "Shuffle Party Parrot"
     },
@@ -169,6 +165,10 @@
         "gif": "aussiereversecongaparrot.gif",
         "hd": "hd/aussiereversecongaparrot.gif",
         "name": "Aussie Reverse Conga Line Parrot"
+    },
+    {
+      "gif": "wave0parrot.gif",
+      "name": "Parrot Wave (0)"
     },
     {
         "gif": "wave1parrot.gif",
