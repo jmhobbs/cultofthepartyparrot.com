@@ -139,6 +139,10 @@
         "name": "Explody Parrot"
     },
     {
+      "gif": "crazyparrot.gif",
+      "name": "Crazy Parrot"
+    },
+    {
         "gif": "shufflepartyparrot.gif",
         "name": "Shuffle Party Parrot"
     },
