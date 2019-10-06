@@ -676,7 +676,7 @@
       "tip": "To sql or not to sql"
     },
     {
-      "gif": "hd/phparrot.gif",
+      "hd": "hd/phparrot.gif",
       "name": "PHParrot",
       "tip": "if (!$party) { die(); }"
     }
