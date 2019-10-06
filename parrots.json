@@ -674,5 +674,10 @@
       "gif": "databaseparrot.gif",
       "name": "Database Parrot",
       "tip": "To sql or not to sql"
+    },
+    {
+      "hd": "hd/phparrot.gif",
+      "name": "PHParrot",
+      "tip": "if (!$party) { die(); }"
     }
 ]
