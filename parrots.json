@@ -679,5 +679,10 @@
       "hd": "hd/phparrot.gif",
       "name": "PHParrot",
       "tip": "if (!$party) { die(); }"
+    },
+    {
+      "gif": "mergedparrot.gif",
+      "name": "Merged Parrot",
+      "tip": "Celebrating the merge!"
     }
 ]
