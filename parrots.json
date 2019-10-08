@@ -679,5 +679,10 @@
       "hd": "hd/phparrot.gif",
       "name": "PHParrot",
       "tip": "if (!$party) { die(); }"
+    },
+    {
+      "hd": "hd/ultraslowmo.gif",
+      "name": "Ultra Slow-mo Parrot",
+      "tip": "Your life is a miracle in slow motion!"
     }
 ]
