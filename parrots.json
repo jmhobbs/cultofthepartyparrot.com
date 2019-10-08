@@ -681,7 +681,7 @@
       "tip": "if (!$party) { die(); }"
     },
     {
-      "hd": "hd/ultraslowmo.gif",
+      "hd": "hd/ultraslowmoparrot.gif",
       "name": "Ultra Slow-mo Parrot",
       "tip": "Your life is a miracle in slow motion!"
     }
