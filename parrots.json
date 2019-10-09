@@ -684,5 +684,13 @@
       "gif": "mergedparrot.gif",
       "name": "Merged Parrot",
       "tip": "Celebrating the merge!"
+    },
+    {
+      "gif": "braveheartparrot.gif",
+      "name": "Braveheart Parrot"
+    },
+    {
+      "hd": "hd/maracasparrot.gif",
+      "name": "Maracas Parrot"
     }
 ]
