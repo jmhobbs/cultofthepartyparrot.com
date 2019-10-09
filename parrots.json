@@ -681,6 +681,11 @@
       "tip": "if (!$party) { die(); }"
     },
     {
+      "gif": "mergedparrot.gif",
+      "name": "Merged Parrot",
+      "tip": "Celebrating the merge!"
+    },
+    {
       "gif": "braveheartparrot.gif",
       "name": "Braveheart Parrot"
     },
