@@ -692,5 +692,10 @@
     {
       "hd": "hd/maracasparrot.gif",
       "name": "Maracas Parrot"
+    },
+	{
+      "gif": "bobrossparrot.gif",
+      "name": "Bob Ross Parrot",
+      "tip": "Happy trees, happy life!"
     }
 ]
