@@ -693,7 +693,7 @@
       "hd": "hd/maracasparrot.gif",
       "name": "Maracas Parrot"
     },
-	  {
+    {
       "gif": "bobrossparrot.gif",
       "name": "Bob Ross Parrot",
       "tip": "Happy trees, happy life!"
@@ -702,5 +702,11 @@
       "hd": "hd/yosemitesamparrot.gif",
       "name": "Yosemite Sam Parrot",
       "tip": "Now I got you Rabbit!"
+    },
+    {
+      "gif": "illuminatiparrot.gif",
+      "hd": "hd/illuminatiparrot.gif",
+      "name": "Illuminati Parrot",
+      "tip": "All Seeing Parrot"
     }
 ]
