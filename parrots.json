@@ -708,5 +708,11 @@
       "hd": "hd/illuminatiparrot.gif",
       "name": "Illuminati Parrot",
       "tip": "All Seeing Parrot"
+    },
+	{
+      "gif": "queenparrot.gif",
+      "hd": "hd/queenparrot.gif",
+      "name": "Queen Parrot",
+      "tip": "A white Crowned Parrot"
     }
 ]
