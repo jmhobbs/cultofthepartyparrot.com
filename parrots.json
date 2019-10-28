@@ -708,5 +708,11 @@
       "hd": "hd/illuminatiparrot.gif",
       "name": "Illuminati Parrot",
       "tip": "All Seeing Parrot"
-    }
+    },
+	{
+      "gif": "skiparrot.gif",
+      "hd": "hd/skiparrot.gif",
+      "name": "skiparrot Parrot",
+      "tip": "A Ski Parrot Dancing"
+    },
 ]
