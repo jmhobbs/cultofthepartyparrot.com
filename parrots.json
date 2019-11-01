@@ -78,13 +78,13 @@
     },
     {
         "gif": "fastparrot.gif",
-	"hd": "hd/fastparrot.gif",
+	      "hd": "hd/fastparrot.gif",
         "name": "Fast Parrot",
         "tip": "Now with 50% more party!"
     },
     {
         "gif": "ultrafastparrot.gif",
-	"hd": "hd/ultrafastparrot.gif",
+	      "hd": "hd/ultrafastparrot.gif",
         "name": "Ultra Fast Parrot",
         "tip": "Now with 150% more party!"
     },
@@ -119,8 +119,8 @@
         "name": "Fiesta Parrot"
     },
     {
-      "gif": "pizzaparrot.gif",
-      "name": "🍕 Parrot"
+        "gif": "pizzaparrot.gif",
+        "name": "🍕 Parrot"
     },
     {
       "gif": "hamburgerparrot.gif",
@@ -356,8 +356,8 @@
       "name": "Revolution Parrot"
     },
     {
-        "gif": "fidgetparrot.gif",
-        "name": "Fidget Spinner Parrot"
+      "gif": "fidgetparrot.gif",
+      "name": "Fidget Spinner Parrot"
     },
     {
       "gif": "beretparrot.gif",
@@ -710,9 +710,7 @@
       "tip": "All Seeing Parrot"
     },
     {
-      {
-       "gif": "thegrokeparrot.gif",
-       "name": "The Groke Parrot"
-    },
+      "gif": "thegrokeparrot.gif",
+      "name": "The Groke Parrot"
     }
 ]
