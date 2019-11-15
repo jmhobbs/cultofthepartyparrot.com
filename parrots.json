@@ -708,5 +708,13 @@
       "hd": "hd/illuminatiparrot.gif",
       "name": "Illuminati Parrot",
       "tip": "All Seeing Parrot"
+    },
+    {
+      "hd": "hd/michaeljacksonparrot.gif",
+      "name": "Michael Jackson Parrot"
+    },
+    {
+      "hd": "hd/picassoparrot.gif",
+      "name": "Picasso Parrot"
     }
 ]
