@@ -708,5 +708,9 @@
       "hd": "hd/illuminatiparrot.gif",
       "name": "Illuminati Parrot",
       "tip": "All Seeing Parrot"
+    },
+    {
+      "hd": "picassoparrot.gif",
+      "name": "Picasso Parrot"
     }
 ]
