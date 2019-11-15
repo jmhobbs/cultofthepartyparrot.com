@@ -6,21 +6,21 @@ var fs        = require('fs'),
 
 ['parrots', 'guests', 'flags'].forEach(function(type) {
   describe(type + " gifs", function() {
-    it("in HD should weight less than 64KB", function() {
+    it("in HD should weigh less than 128KB", function() {
       let gifs = fs.readdirSync(__dirname + '/../' + type + '/hd');
 
       gifs.forEach(function(gif) {
         let size = fs.statSync(__dirname + '/../' + type + '/hd/' + gif).size;
-        assert(size <= convert(64).from('KB').to('B'), gif + " is too big(" + convert(size).from('B').to('KB') + " KB)");
+        assert(size <= convert(128).from('KB').to('B'), gif + " is too big(" + convert(size).from('B').to('KB') + " KB)");
       });
     });
 
-    it("in SD should weight less than 64KB", function() {
+    it("in SD should weigh less than 128KB", function() {
       let gifs = fs.readdirSync(__dirname + '/../' + type);
 
       gifs.forEach(function(gif) {
         var size = fs.statSync(__dirname + '/../' + type + '/' + gif).size;
-        assert(size <= convert(64).from('KB').to('B'), gif + " is too big(" + convert(size).from('B').to('KB') + " KB)");
+        assert(size <= convert(128).from('KB').to('B'), gif + " is too big(" + convert(size).from('B').to('KB') + " KB)");
       });
     });
 

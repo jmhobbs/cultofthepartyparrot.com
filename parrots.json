@@ -669,5 +669,44 @@
     {
       "hd": "hd/verticalparrot.gif",
       "name": "Vertical Parrot"
+    },
+    {
+      "gif": "databaseparrot.gif",
+      "name": "Database Parrot",
+      "tip": "To sql or not to sql"
+    },
+    {
+      "hd": "hd/phparrot.gif",
+      "name": "PHParrot",
+      "tip": "if (!$party) { die(); }"
+    },
+    {
+      "gif": "mergedparrot.gif",
+      "name": "Merged Parrot",
+      "tip": "Celebrating the merge!"
+    },
+    {
+      "gif": "braveheartparrot.gif",
+      "name": "Braveheart Parrot"
+    },
+    {
+      "hd": "hd/maracasparrot.gif",
+      "name": "Maracas Parrot"
+    },
+    {
+      "gif": "bobrossparrot.gif",
+      "name": "Bob Ross Parrot",
+      "tip": "Happy trees, happy life!"
+    },
+    {
+      "hd": "hd/yosemitesamparrot.gif",
+      "name": "Yosemite Sam Parrot",
+      "tip": "Now I got you Rabbit!"
+    },
+    {
+      "gif": "illuminatiparrot.gif",
+      "hd": "hd/illuminatiparrot.gif",
+      "name": "Illuminati Parrot",
+      "tip": "All Seeing Parrot"
     }
 ]
