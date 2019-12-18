@@ -439,6 +439,10 @@
       "name": "Pirate Parrot"
     },
     {
+      "hd": "hd/roxburyparrot.gif",
+      "name": "Roxbury Parrot"
+    },
+    {
       "hd": "hd/ceilingparrot.gif",
       "gif": "ceilingparrot.gif",
       "name": "Ceiling Parrot"
