@@ -14,7 +14,7 @@ var json_schema = {
       "tip": { "type": "string" }
     },
     "required": ["name"],
-    "anyOf": [
+    "oneOf": [
       {"required" : ["gif"]},
       {"required" : ["hd"]}
     ],
@@ -31,16 +31,12 @@ var json_schema = {
       validation_result = validate(gif_json, json_schema);
 
       // Schema errors in mocha are pretty useless, so print some here.
+      let message = "";
       validation_result.errors.forEach(function (e) {
-        var header = "-- " + e.toString() + " ------------",
-          footer = "";
-        for(var i = 0; i < header.length; i++) { footer += '-'; } // lol
-        console.log("\n" + header);
-        console.log(e.instance);
-        console.log(footer + "\n");
+        message = message + " (" + e.toString() + ":" + JSON.stringify(e.instance) + " )\n";
       });
 
-      assert.equal(0, validation_result.errors.length);
+      assert.equal(0, validation_result.errors.length, message);
     });
 
     it("should not have extra gifs", function () {

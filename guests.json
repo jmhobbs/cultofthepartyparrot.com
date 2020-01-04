@@ -1,6 +1,5 @@
 [
   {
-    "gif": "nyanparrot.gif",
     "hd": "hd/nyanparrot.gif",
     "name": "Nyan Parrot"
   },
@@ -10,19 +9,16 @@
     "tip": "This parrot loves the orioles so much he turned into one!"
   },
   {
-    "gif": "capsparrot.gif",
     "hd": "hd/capsparrot.gif",
     "name": "Capitals Parrot",
     "tip": "C! A! P! S! CAPS! CAPS! CAPS!!."
   },
   {
-    "gif": "partyfieri.gif",
     "hd": "hd/partyfieri.gif",
     "name": "Party Guy Fieri",
     "tip": "One way ticket to flavor town!"
   },
   {
-    "gif": "witnessprotectionparrot.gif",
     "hd": "hd/witnessprotectionparrot.gif",
     "name": "Witness Protection Parrot",
     "tip": "I wonder who this guy is?"
@@ -36,7 +32,6 @@
     "name": "Party Owl"
   },
   {
-    "gif": "parrotpoop.gif",
     "hd": "hd/parrotpoop.gif",
     "name": "Parrot Poop",
     "tip": "Contains parrot DNA."
@@ -52,7 +47,6 @@
     "tip": "Party?"
   },
   {
-    "gif": "dogeparrot.gif",
     "hd": "hd/dogeparrot.gif",
     "name": "Doge Parrot",
     "tip": "Wow. Such party."
@@ -94,7 +88,6 @@
     "name": "Party Blob"
   },
   {
-    "gif": "partygritty.gif",
     "hd": "hd/partygritty.gif",
     "name": "Party Gritty"
   },
