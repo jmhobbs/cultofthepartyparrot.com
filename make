@@ -196,15 +196,11 @@ function render-still () {
   sources=( parrots guests flags )
   for src in "${sources[@]}"; do
     mkdir -p "still/$src/"
-    for f in "$src"/*.gif; do
-      # shellcheck disable=SC1087
-      convert -coalesce "$f[0]" "still/${f/.gif/.png}"
-    done
-    for f in "$src"/hd/*.gif; do
-      g=${f/hd\//}
-      # shellcheck disable=SC1087
-      convert -coalesce "$f[0]" "still/${g/.gif/.png}"
-    done
+    find "$src" -name '*.gif' -print0 |
+      while IFS= read -r -d '' f; do
+        bn="$(basename "$f")"
+        convert -coalesce "${f}[0]" "still/$src/${bn/.gif/.png}"
+      done
   done
 }
 
