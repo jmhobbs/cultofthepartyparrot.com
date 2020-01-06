@@ -670,5 +670,51 @@
   {
     "hd": "hd/picassoparrot.gif",
     "name": "Picasso Parrot"
+  },
+
+  {
+    "hd": "columbiaparrot.gif",
+    "name": "Columbia Parrot"
   }
+  ,
+
+  {
+    "hd": "brownparrot.gif",
+    "name": "Brown Parrot"
+  }
+  ,
+
+  {
+    "hd": "harvardparrot.gif",
+    "name": "Harvard Parrot"
+  }
+  ,
+
+  {
+    "hd": "cornellparrot.gif",
+    "name": "Cornell Parrot"
+  }
+
+  ,
+
+  {
+    "hd": "dartmouthparrot.gif",
+    "name": "Dartmouth Parrot"
+  }
+
+  ,
+
+  {
+    "hd": "yaleparrot.gif",
+    "name": "Yale Parrot"
+  }
+
+  ,
+
+  {
+    "hd": "pennparrot.gif",
+    "name": "UPenn Parrot"
+  }
+
+
 ]
