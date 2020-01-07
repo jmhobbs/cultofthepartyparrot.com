@@ -670,5 +670,9 @@
   {
     "hd": "hd/picassoparrot.gif",
     "name": "Picasso Parrot"
+  },
+  {
+    "hd": "hd/headingparrot.gif",
+    "name": "Heading Parrot"
   }
 ]
