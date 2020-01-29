@@ -1,0 +1,3 @@
+CF_ZONE: <cloudflare-zone-id>
+CF_TOKEN: <cloudflare-api-token>
+JWT_SECRET: <256-bit-netlify-jwt-secret>
