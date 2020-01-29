@@ -1,0 +1,6 @@
+*_test.go
+Makefile
+.envrc
+*.yaml
+README.md
+vendor/*

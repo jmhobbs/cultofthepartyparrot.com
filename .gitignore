@@ -6,6 +6,10 @@ dist/
 still/
 .cache/
 
+cloud-function/env.yaml
+cloud-function/.envrc
+cloud-function/vendor/*
+
 # Created by https://www.gitignore.io/api/vim,osx
 
 ### Vim ###
