@@ -674,5 +674,10 @@
   {
     "hd": "hd/headingparrot.gif",
     "name": "Heading Parrot"
+  },
+  {
+    "hd": "hd/innersourceparrot.gif",
+    "name": "InnerSource Parrot",
+    "tip": "InnerSource-Commons Parrot"
   }
 ]
