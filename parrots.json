@@ -679,5 +679,10 @@
     "hd": "hd/innersourceparrot.gif",
     "name": "InnerSource Parrot",
     "tip": "InnerSource-Commons Parrot"
+  },
+  {
+    "hd": "hd/asyncparrot.gif",
+    "gif": "asyncparrot.gif",
+    "name": "async Parrot"
   }
 ]
