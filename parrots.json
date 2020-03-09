@@ -683,5 +683,9 @@
   {
     "gif": "asyncparrot.gif",
     "name": "async Parrot"
+  },
+  {
+    "gif": "mergeparrot.gif",
+    "name": "Merge Parrot"
   }
 ]
