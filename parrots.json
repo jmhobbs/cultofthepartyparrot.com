@@ -687,5 +687,10 @@
   {
     "hd": "hd/meldparrot.gif",
     "name": "Meld Parrot"
+  },
+  {
+    "gif": "docparrot.gif",
+    "name": "Doc Parrot",
+    "tip": "Or any medical professional really..."
   }
 ]
