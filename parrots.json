@@ -692,5 +692,9 @@
     "gif": "docparrot.gif",
     "name": "Doc Parrot",
     "tip": "Or any medical professional really..."
-  }
+  },
+  {
+    "gif": "exceptionallyfastparrot.gif",
+    "name": "Exceptionally Fast Parrot"
+  } 
 ]
