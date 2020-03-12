@@ -2,7 +2,8 @@ var gulp = require('gulp'),
   mocha = require('gulp-mocha'),
   mustache = require("gulp-mustache"),
   data = require('gulp-data'),
-  fs = require('fs');
+  fs = require('fs'),
+  YAML = require('js-yaml');
 
 
 gulp.task('test', function() {
@@ -15,7 +16,7 @@ gulp.task('render-readme', function () {
   return gulp.src('templates/README.md')
     .pipe(data(function(file) {
       return {
-        contributors: JSON.parse(fs.readFileSync('contributors.json')).map(function (contributor) {
+        contributors: YAML.safeLoad(fs.readFileSync('contributors.yaml', 'utf8')).map(function (contributor) {
           var len = contributor.contributions.length;
           contributor.contributions.forEach(function(v) { v.comma = true; v.and = false; });
           contributor.contributions[len-1].comma = false;
@@ -44,7 +45,7 @@ gulp.task('render-humans', function () {
   return gulp.src('templates/humans.txt')
     .pipe(data(function(file) {
       return {
-        contributors: JSON.parse(fs.readFileSync('contributors.json')),
+        contributors: YAML.safeLoad(fs.readFileSync('contributors.yaml', 'utf8')),
         last_update: d.getFullYear() + "/" + pad(d.getMonth()) + "/" + pad(d.getDay())
       };
     }))
@@ -66,9 +67,9 @@ gulp.task('render-web', function () {
     assets[key.replace('.', '_').replace('/', '__')] = json[key];
   }
   var renderData = {
-    parrots: JSON.parse(fs.readFileSync('parrots.json')).map(ModifiedParrotObject),
-    guests: JSON.parse(fs.readFileSync('guests.json')).map(ModifiedParrotObject),
-    flags: JSON.parse(fs.readFileSync('flags.json')).map(ModifiedParrotObject),
+    parrots: YAML.safeLoad(fs.readFileSync('parrots.yaml', 'utf8')).map(ModifiedParrotObject),
+    guests: YAML.safeLoad(fs.readFileSync('guests.yaml', 'utf8')).map(ModifiedParrotObject),
+    flags: YAML.safeLoad(fs.readFileSync('flags.yaml', 'utf8')).map(ModifiedParrotObject),
     files: assets
   };
   return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])

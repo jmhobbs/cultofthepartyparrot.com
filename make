@@ -230,9 +230,9 @@ function main () {
       compress
       gulp render-humans
       gulp render-web
-      cp parrots.json dist/
-      cp guests.json dist/
-      cp flags.json dist/
+      cp parrots.yaml dist/
+      cp guests.yaml dist/
+      cp flags.yaml dist/
       ;;
     *)
       echo "usage: $0 <test|clean|readme|build>"
