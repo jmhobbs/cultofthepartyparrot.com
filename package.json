@@ -29,6 +29,7 @@
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngcrush": "^6.0.0",
     "imagemin-svgo": "^7.0.0",
+    "js-yaml": "^3.13.1",
     "jsonschema": "^1.2.4",
     "path": "^0.12.7",
     "uglify-js": "^3.6.0",

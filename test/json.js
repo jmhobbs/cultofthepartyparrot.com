@@ -1,4 +1,5 @@
 var fs = require('fs'),
+  YAML = require('js-yaml'),
   assert = require('chai').assert,
   validate = require('jsonschema').validate;
 
@@ -22,10 +23,10 @@ var json_schema = {
   }
 };
 
-['parrots.json', 'guests.json', 'flags.json'].forEach(function(jsonFile) {
+['parrots.yaml', 'guests.yaml', 'flags.yaml'].forEach(function(jsonFile) {
   describe(jsonFile, function () {
-    let gifPath = jsonFile.replace('.json', '')
-    let gif_json = JSON.parse(fs.readFileSync(__dirname + '/../' + jsonFile, 'utf8'));
+    let gifPath = jsonFile.replace('.yaml', '')
+    let gif_json = YAML.safeLoad(fs.readFileSync(__dirname + '/../' + jsonFile, 'utf8'));
 
     it("should validate", function () {
       validation_result = validate(gif_json, json_schema);
