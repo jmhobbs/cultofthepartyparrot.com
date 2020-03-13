@@ -696,5 +696,9 @@
   {
     "gif": "exceptionallyfastparrot.gif",
     "name": "Exceptionally Fast Parrot"
-  } 
+  },
+	{
+		"hd": "hd/wfhparrot.gif",
+		"name": "Work from Home Parrot"
+	} 
 ]
