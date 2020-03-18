@@ -33,6 +33,7 @@
     "jsonschema": "^1.2.4",
     "path": "^0.12.7",
     "uglify-js": "^3.6.0",
-    "uglifycss": "^0.0.29"
+    "uglifycss": "^0.0.29",
+    "minimist": ">=1.2.3"
   }
 }
