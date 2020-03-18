@@ -701,8 +701,13 @@
     "gif": "exceptionallyfastparrot.gif",
     "name": "Exceptionally Fast Parrot"
   },
-	{
-		"hd": "hd/wfhparrot.gif",
-		"name": "Work from Home Parrot"
-	} 
+  {
+    "hd": "hd/wfhparrot.gif",
+    "name": "Work from Home Parrot"
+  },
+  {
+    "hd": "hd/covid19parrot.gif",
+    "name": "COVID-19 Parrot",
+    "tip": "Parrot takes a break from partying to socially distance"
+  }
 ]
