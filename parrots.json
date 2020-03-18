@@ -253,7 +253,12 @@
       "name": "Ski Parrot"
     },
     {
-	  "gif": "halalparrot.gif",
-	  "name": "Halal Parrot"
+      "gif": "halalparrot.gif",
+      "name": "Halal Parrot"
+    },
+    {
+      "gif": "covid19parrot.gif",
+      "name": "COVID-19 Parrot",
+      "tip": "Parrot takes a break from partying to socially distance"
     }
 ]
