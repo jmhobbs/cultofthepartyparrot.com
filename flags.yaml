@@ -106,6 +106,8 @@
   name: East Timor
 - hd: hd/ecuadorparrot.gif
   name: Ecuador
+- hd: hd/england.gif
+  name: England
 - hd: hd/egyptparrot.gif
   name: Egypt
 - hd: hd/elsalvadorparrot.gif
@@ -274,6 +276,10 @@
   name: Nigeria
 - hd: hd/niueparrot.gif
   name: Niue
+- hd: hd/northern-ireland-st-patricks-saltire.gif
+  name: "Northern Ireland: Saint Patrick's Saltire"
+- hd: hd/northern-ireland-ulster-banner.gif
+  name: "Northern Ireland: Ulster Banner"
 - hd: hd/northkoreaparrot.gif
   name: North Korea
 - hd: hd/northmacedoniaparrot.gif
@@ -330,6 +336,8 @@
   name: San Marino
 - hd: hd/saudiarabiaparrot.gif
   name: Saudi Arabia
+- hd: hd/scotland.gif
+  name: Scotland
 - hd: hd/senegalparrot.gif
   name: Senegal
 - hd: hd/serbiaparrot.gif
@@ -420,6 +428,8 @@
   name: Venezuela
 - hd: hd/vietnamparrot.gif
   name: Vietnam
+- hd: hd/wales.gif
+  name: Wales
 - hd: hd/westernsaharaparrot.gif
   name: Western Sahara
 - hd: hd/yemenparrot.gif
