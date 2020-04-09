@@ -375,6 +375,8 @@
 - hd: hd/covid19parrot.gif
   name: COVID-19 Parrot
   tip: Parrot takes a break from partying to socially distance
+- gif: metalparrot.gif
+  name: Metal Parrot
 - hd: hd/wineparrot.gif
   name: Wine Parrot
   tip: Parrot and a Pinot
