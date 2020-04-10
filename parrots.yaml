@@ -375,9 +375,19 @@
 - hd: hd/covid19parrot.gif
   name: COVID-19 Parrot
   tip: Parrot takes a break from partying to socially distance
+- gif: metalparrot.gif
+  name: Metal Parrot
 - hd: hd/wineparrot.gif
   name: Wine Parrot
   tip: Parrot and a Pinot
+- hd: hd/everythingsfineparrot.gif
+  name: Everything Is Fine Parrot
+  tip: It's really not
+- hd: hd/headbangingparrot.gif
+  name: Head Banging Parrot
+- hd: hd/tpparrot.gif
+  name: TP Parrot
+  tip: Don't Hoard, ppl
 - hd: hd/moonparrot.gif
   name: Moon Parrot
   tip: Parrot and the moon
