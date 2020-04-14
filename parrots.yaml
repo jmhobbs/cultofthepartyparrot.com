@@ -380,6 +380,13 @@
 - hd: hd/wineparrot.gif
   name: Wine Parrot
   tip: Parrot and a Pinot
+- hd: hd/hypnoparrot.gif
+  name: Hypno Parrot
+  tip: You are getting sleepy!
+- hd: hd/hypnoparrotdark.gif
+  name: Hypno Parrot Dark
+- hd: hd/hypnoparrotlight.gif
+  name: Hypno Parrot Light
 - hd: hd/everythingsfineparrot.gif
   name: Everything Is Fine Parrot
   tip: It's really not
