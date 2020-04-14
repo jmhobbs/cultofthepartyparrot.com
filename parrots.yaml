@@ -388,3 +388,6 @@
 - hd: hd/tpparrot.gif
   name: TP Parrot
   tip: Don't Hoard, ppl
+- hd: hd/rubyparrot.gif
+  name: Ruby Parrot
+  tip: This Parrot surely loves gems
