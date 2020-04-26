@@ -413,3 +413,6 @@
 - hd: hd/moonparrot.gif
   name: Moon Parrot
   tip: Parrot and the moon
+- hd: hd/nodeparrot.gif
+  name: Node Parrot
+  tip: party.on("end",e => {die()})
