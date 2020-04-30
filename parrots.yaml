@@ -416,3 +416,6 @@
 - hd: hd/nodeparrot.gif
   name: Node Parrot
   tip: party.on("end",e => {die()})
+- hd: hd/hanamiparrot.gif
+  name: Hanami Parrot
+  tip: Very beautiful
