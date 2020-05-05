@@ -363,7 +363,7 @@
   name: async Parrot
 - hd: hd/meldparrot.gif
   name: Meld Parrot
-- gif: docparrot.gif
+- hd: hd/docparrot.gif
   name: Doc Parrot
   tip: Or any medical professional really...
 - hd: hd/rythmicalparrot.gif
@@ -380,6 +380,13 @@
 - hd: hd/wineparrot.gif
   name: Wine Parrot
   tip: Parrot and a Pinot
+- hd: hd/hypnoparrot.gif
+  name: Hypno Parrot
+  tip: You are getting sleepy!
+- hd: hd/hypnoparrotdark.gif
+  name: Hypno Parrot Dark
+- hd: hd/hypnoparrotlight.gif
+  name: Hypno Parrot Light
 - hd: hd/everythingsfineparrot.gif
   name: Everything Is Fine Parrot
   tip: It's really not
@@ -388,12 +395,33 @@
 - hd: hd/tpparrot.gif
   name: TP Parrot
   tip: Don't Hoard, ppl
+- hd: hd/stayhomeparrot.gif
+  name: Stay Home Parrot
+  tip: He's in there
+- hd: hd/stayhomeparrotcloser.gif
+  name: Stay Home Parrot Closer
+  tip: See I told you
+- hd: hd/stayhomeparrotwindow.gif
+  name: Stay Home Parrot Window
+  tip: Get off my lawn
+- hd: hd/staytfhomeparrot.gif
+  name: Stay TF Home Parrot
+  tip: Can I help you?
 - hd: hd/rubyparrot.gif
   name: Ruby Parrot
   tip: This Parrot surely loves gems
 - hd: hd/moonparrot.gif
   name: Moon Parrot
   tip: Parrot and the moon
+- hd: hd/hmmparrot.gif
+  name: Hmm Parrot
+  tip: Hmmmmm...
+- hd: hd/nodeparrot.gif
+  name: Node Parrot
+  tip: party.on("end",e => {die()})
+- hd: hd/hanamiparrot.gif
+  name: Hanami Parrot
+  tip: Very beautiful
 - hd: hd/daftpunkparrot.gif
   name: Daft Punk Parrot
   tip: Harder Better Faster Stronger
