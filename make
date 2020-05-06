@@ -204,6 +204,13 @@ function render-still () {
   done
 }
 
+function render-json () {
+  sources=( parrots guests flags )
+  for src in "${sources[@]}"; do
+    npx -p yamljs yaml2json "$src.yaml" > "dist/$src.json"
+  done
+}
+
 ##############################################
 ## GTD
 
@@ -233,6 +240,7 @@ function main () {
       cp parrots.yaml dist/
       cp guests.yaml dist/
       cp flags.yaml dist/
+      render-json
       ;;
     *)
       echo "usage: $0 <test|clean|readme|build>"
