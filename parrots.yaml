@@ -422,3 +422,6 @@
 - hd: hd/hanamiparrot.gif
   name: Hanami Parrot
   tip: Very beautiful
+- hd: hd/loadingparrot.gif
+  name: Loading Parrot
+  tip: Now Loading...
