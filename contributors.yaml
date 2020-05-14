@@ -492,6 +492,8 @@
   contributions:
   - action: RIP Parrot
     pr: 379
+  - action: Revert it Parrot
+    pr: 474
 - username: rsimai
   contributions:
   - action: partygeeko
