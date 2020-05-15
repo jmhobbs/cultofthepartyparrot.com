@@ -207,7 +207,7 @@ function render-still () {
 function render-json () {
   sources=( parrots guests flags )
   for src in "${sources[@]}"; do
-    npx -p yamljs yaml2json "$src.yaml" > "dist/$src.json"
+     npx -p js-yaml js-yaml "$src.yaml" > "dist/$src.json"
   done
 }
 
