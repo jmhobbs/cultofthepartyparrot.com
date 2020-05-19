@@ -54,11 +54,11 @@
 - gif: fiestaparrot.gif
   name: Fiesta Parrot
 - gif: pizzaparrot.gif
-  name: ! "\U0001F355 Parrot"
+  name: !!str "\U0001F355 Parrot"
 - gif: hamburgerparrot.gif
-  name: ! "\U0001F354 Parrot"
+  name: !!str "\U0001F354 Parrot"
 - gif: bananaparrot.gif
-  name: ! "\U0001F34C Parrot"
+  name: !!str "\U0001F34C Parrot"
 - gif: chillparrot.gif
   name: Chill Parrot
 - gif: explodyparrot.gif
@@ -422,6 +422,8 @@
 - hd: hd/hanamiparrot.gif
   name: Hanami Parrot
   tip: Very beautiful
+- gif: revertitparrot.gif
+  name: Revert It Parrot
 - hd: hd/daftpunkparrot.gif
   name: Daft Punk Parrot
   tip: Harder Better Faster Stronger
