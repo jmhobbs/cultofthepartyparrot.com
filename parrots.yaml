@@ -433,3 +433,7 @@
 - hd: hd/glimpseparrot.gif
   name: Glimpse Parrot
   tip: A glimpse from the wall
+- gif: headwallparrot.gif
+  name: Head Wall Parrot
+  tip: When it's just too much
+
