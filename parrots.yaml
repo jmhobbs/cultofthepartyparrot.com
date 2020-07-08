@@ -433,6 +433,8 @@
 - hd: hd/glimpseparrot.gif
   name: Glimpse Parrot
   tip: A glimpse from the wall
+- hd: hd/quadparrot.gif
+  name: Quad Parrot
 - gif: dabparrot.gif
   name: Dab Parrot
 - hd: hd/jumpingparrot.gif
