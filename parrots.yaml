@@ -445,3 +445,9 @@
 - hd: hd/pokeparrot.gif
   name: 151 Pokémon Parrot
   tip: One Hundred Fifty-One Parrot
+- hd: hd/allflagparrot_slow.gif
+  name: All Flag Parrot (Slow)
+  tip: Transforms from one flag to the next.
+- hd: hd/allflagparrot_fast.gif
+  name: All Flag Parrot (Fast)
+  tip: Transforms from one flag to the next, but way faster.
