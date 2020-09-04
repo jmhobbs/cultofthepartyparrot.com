@@ -436,3 +436,19 @@
 - hd: hd/dailyparrot.gif
   name: Daily Parrot
   tip: A parrot to announce daily meetings
+- hd: hd/quadparrot.gif
+  name: Quad Parrot
+- gif: dabparrot.gif
+  name: Dab Parrot
+- hd: hd/jumpingparrot.gif
+  name: Gots some hops
+- hd: hd/jumpingparrotjr.gif
+  name: Jr. Bounce Parrot
+  tip: Aww hey little fella
+- hd: hd/pokeparrot.gif
+  name: 151 Pokémon Parrot
+  tip: One Hundred Fifty-One Parrot
+- hd: hd/cakeparrot.gif
+  name: Cake Parrot
+- gif: unicornparrot.gif
+  name: Unicorn Parrot
