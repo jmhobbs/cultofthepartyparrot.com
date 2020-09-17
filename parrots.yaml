@@ -452,5 +452,6 @@
   name: Cake Parrot
 - gif: unicornparrot.gif
   name: Unicorn Parrot
-- gif: hd/thefastestparrot.gif
+- hd: hd/thefastestparrot.gif
   name: The Fastest Parrot
+  tip: Really fast
