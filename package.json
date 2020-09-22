@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/jmhobbs/cultofthepartyparrot.com#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "convert-units": "^2.3.4",
     "gulp": "^4.0.0",
     "gulp-data": "^1.2.1",
