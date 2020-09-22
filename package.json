@@ -21,7 +21,7 @@
     "gulp": "^4.0.0",
     "gulp-data": "^1.2.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-mocha": "^6.0.0",
+    "gulp-mocha": "^7.0.2",
     "gulp-mustache": "^2.3.0",
     "gulp-rev": "^9.0.0",
     "gulp-uglifycss": "^1.0.6",
