@@ -455,3 +455,7 @@
 - hd: hd/thefastestparrot.gif
   name: The Fastest Parrot
   tip: Really fast
+- hd: hd/playcatchleftparrot.gif
+  name: Catch ball Left Parrot
+- hd: hd/playcatchrightparrot.gif
+  name: Catch ball Right Parrot
