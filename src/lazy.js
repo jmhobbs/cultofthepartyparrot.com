@@ -1,5 +1,20 @@
-// Lazy load gifs
-(function () {
+document.addEventListener("DOMContentLoaded", function() {
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.addEventListener("click", function (e) {
+      if(e.target.matches("img.lazy")) {
+        if(e.target.matches("img.running")) {
+          e.target.classList.remove("running");
+          e.target.src = e.target.dataset["still"];
+        } else {
+          e.target.dataset["still"] = e.target.src;
+          e.target.src = e.target.dataset.src;
+          e.target.classList.add("running")
+        }
+      }
+    });
+    return;
+  }
+
   var images = document.querySelectorAll('.lazy');
   if (!('IntersectionObserver' in window)) {
     Array.from(images).forEach(function (img) {
@@ -21,4 +36,4 @@
       });
     images.forEach(function (img) { observer.observe(img); } );
   }
-})();
+});
