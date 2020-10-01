@@ -49,7 +49,7 @@ The only Slack reaction gifs you'll ever need.
 
 # Contributing!
 
- 1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. Add your parrot gif to `parrots/` and append an entry to `parrots.yaml` (not `parrots.json`!)
  1. Make sure your parrot gif file is named [name]parrot.gif in all lower case e.g. `exampleparrot.gif`
  1. Open a PR
  1. PARTY
