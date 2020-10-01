@@ -371,3 +371,16 @@ span.hd {
  clear: both;
  margin: 40px;
 }
+
+.click-to-play {
+  display: none;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .click-to-play {
+    display: block;
+  }
+}
