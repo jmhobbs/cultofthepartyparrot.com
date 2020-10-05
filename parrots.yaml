@@ -459,6 +459,8 @@
   name: Catch ball Left Parrot
 - hd: hd/playcatchrightparrot.gif
   name: Catch ball Right Parrot
+- hd: hd/biparrot.gif
+  name: Bi Parrot
 - hd: hd/imposterparrot.gif
   name: Imposter Parrot
   tip: Looks kinda sus
