@@ -26,6 +26,6 @@
     "gulp-rev": "^9.0.0",
     "gulp-uglifycss": "^1.1.0",
     "image-size": "^0.9.1",
-    "jsonschema": "1.2.7"
+    "jsonschema": "1.2.8"
   }
 }
