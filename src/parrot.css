@@ -384,3 +384,23 @@ span.hd {
     display: block;
   }
 }
+
+@media (prefers-color-scheme: dark) { 
+  body {
+    background: #0c0c0c;
+    color: #eaeaea;
+  }
+
+  h1, h2, hr, a, footer a {
+    color: #eaeaea;
+    border-color: #eaeaea;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+
+  footer a:hover, a:hover {
+    color: #dadada;
+  }
+}
