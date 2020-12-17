@@ -64,3 +64,6 @@ __pycache__/
 
 # Chromedriver
 Chromedriver.exe
+
+# IntelliJ Idea
+.idea/
