@@ -482,3 +482,5 @@
   name: Ethereum Parrot
 - hd: hd/sneezyparrot.gif
   name: Sneezy Parrot
+- gif: pythonparrot.gif
+  name: Python Parrot
