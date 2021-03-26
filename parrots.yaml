@@ -496,3 +496,7 @@
   name: Race Condition Parrot
 - hd: hd/balconyparrot.gif
   name: Balcony Parrot
+- hd: hd/zombieparrot.gif
+  name: Zombie Parrot
+  tip: Feel better soon little guy!
+
