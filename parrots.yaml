@@ -499,4 +499,7 @@
 - hd: hd/zombieparrot.gif
   name: Zombie Parrot
   tip: Feel better soon little guy!
+- hd: hd/mergeconflictparrot.gif
+  name: Merge Conflict Parrot 
+  tip: Ruh roh
 
