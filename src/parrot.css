@@ -122,60 +122,18 @@ a.button:hover {
   color: #444;
   text-shadow: 2px 2px #FFF;
 
-  animation-name: buttonParrot; 
-  animation-duration:1s; 
-  animation-direction:alternate; 
-  animation-iteration-count:infinite; 
+  animation-name: buttonParrot;
+  animation-duration:1s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 
-  -webkit-animation-name: buttonParrot; 
-  -webkit-animation-duration:1s; 
-  -webkit-animation-direction:alternate; 
-  -webkit-animation-iteration-count:infinite;	
+  -webkit-animation-name: buttonParrot;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
 }
 a.button:hover:after {
   content: 'THE PARROT INSISTS';
-}
-
-@keyframes buttonParrot { 
-  0% {background-color:#FECE7A;}
-  12% {background-color:#7EFF7A;}
-  24% {background-color:#7EFFFF;}
-  36% {background-color:#7BA3FE;}
-  48% {background-color:#CB70FE;}
-  60% {background-color:#FC49F5;}
-  78% {background-color:#FC4EA7;}
-  90% {background-color:#FD5258;}
-}
-@-webkit-keyframes buttonParrot { 
-  0% {background-color:#FECE7A;}
-  12% {background-color:#7EFF7A;}
-  24% {background-color:#7EFFFF;}
-  36% {background-color:#7BA3FE;}
-  48% {background-color:#CB70FE;}
-  60% {background-color:#FC49F5;}
-  78% {background-color:#FC4EA7;}
-  90% {background-color:#FD5258;}
-}
-
-@keyframes hdParrot { 
-  0% {color:#FECE7A;}
-  12% {color:#7EFF7A;}
-  24% {color:#7EFFFF;}
-  36% {color:#7BA3FE;}
-  48% {color:#CB70FE;}
-  60% {color:#FC49F5;}
-  78% {color:#FC4EA7;}
-  90% {color:#FD5258;}
-}
-@-webkit-keyframes hdParrot { 
-  0% {color:#FECE7A;}
-  12% {color:#7EFF7A;}
-  24% {color:#7EFFFF;}
-  36% {color:#7BA3FE;}
-  48% {color:#CB70FE;}
-  60% {color:#FC49F5;}
-  78% {color:#FC4EA7;}
-  90% {color:#FD5258;}
 }
 
 a.button-small {
@@ -195,15 +153,64 @@ a.button-small:hover {
   color: #444;
   text-shadow: 1px 1px #FFF;
 
-  animation-name: buttonParrot; 
-  animation-duration:1s; 
-  animation-direction:alternate; 
-  animation-iteration-count:infinite; 
+  animation-name: buttonParrot;
+  animation-duration:1s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 
-  -webkit-animation-name: buttonParrot; 
-  -webkit-animation-duration:1s; 
-  -webkit-animation-direction:alternate; 
-  -webkit-animation-iteration-count:infinite;	
+  -webkit-animation-name: buttonParrot;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.button:hover, a.button-small:hover {
+    animation: none;
+    -webkit-animation: none;
+  }
+}
+
+@keyframes buttonParrot {
+  0% {background-color:#FECE7A;}
+  12% {background-color:#7EFF7A;}
+  24% {background-color:#7EFFFF;}
+  36% {background-color:#7BA3FE;}
+  48% {background-color:#CB70FE;}
+  60% {background-color:#FC49F5;}
+  78% {background-color:#FC4EA7;}
+  90% {background-color:#FD5258;}
+}
+@-webkit-keyframes buttonParrot {
+  0% {background-color:#FECE7A;}
+  12% {background-color:#7EFF7A;}
+  24% {background-color:#7EFFFF;}
+  36% {background-color:#7BA3FE;}
+  48% {background-color:#CB70FE;}
+  60% {background-color:#FC49F5;}
+  78% {background-color:#FC4EA7;}
+  90% {background-color:#FD5258;}
+}
+
+@keyframes hdParrot {
+  0% {color:#FECE7A;}
+  12% {color:#7EFF7A;}
+  24% {color:#7EFFFF;}
+  36% {color:#7BA3FE;}
+  48% {color:#CB70FE;}
+  60% {color:#FC49F5;}
+  78% {color:#FC4EA7;}
+  90% {color:#FD5258;}
+}
+@-webkit-keyframes hdParrot {
+  0% {color:#FECE7A;}
+  12% {color:#7EFF7A;}
+  24% {color:#7EFFFF;}
+  36% {color:#7BA3FE;}
+  48% {color:#CB70FE;}
+  60% {color:#FC49F5;}
+  78% {color:#FC4EA7;}
+  90% {color:#FD5258;}
 }
 
 html, body {
@@ -314,6 +321,7 @@ div.shirt div {
 
 .keyboards img {
   vertical-align: middle;
+  max-width: 135px;
 }
 
 @media screen and (min-width: 600px) {
@@ -342,18 +350,58 @@ span.hd {
   font-weight: bold;
   vertical-align: super;
 
-  animation-name: hdParrot; 
-  animation-duration:1s; 
-  animation-direction:alternate; 
-  animation-iteration-count:infinite; 
+  animation-name: hdParrot;
+  animation-duration:1s;
+  animation-direction:alternate;
+  animation-iteration-count:infinite;
 
-  -webkit-animation-name: hdParrot; 
-  -webkit-animation-duration:1s; 
-  -webkit-animation-direction:alternate; 
-  -webkit-animation-iteration-count:infinite;	
+  -webkit-animation-name: hdParrot;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  span.hd {
+    animation: none;
+    -webkit-animation: none;
+  }
 }
 
 #other_download {
  clear: both;
  margin: 40px;
+}
+
+.click-to-play {
+  display: none;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .click-to-play {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark) { 
+  body {
+    background: #0c0c0c;
+    color: #eaeaea;
+  }
+
+  h1, h2, hr, a, footer a {
+    color: #eaeaea;
+    border-color: #eaeaea;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+
+  footer a:hover, a:hover {
+    color: #dadada;
+  }
 }

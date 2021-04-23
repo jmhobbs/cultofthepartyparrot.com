@@ -204,6 +204,13 @@ function render-still () {
   done
 }
 
+function render-json () {
+  sources=( parrots guests flags )
+  for src in "${sources[@]}"; do
+     npx -p js-yaml js-yaml "$src.yaml" > "dist/$src.json"
+  done
+}
+
 ##############################################
 ## GTD
 
@@ -230,9 +237,10 @@ function main () {
       compress
       gulp render-humans
       gulp render-web
-      cp parrots.json dist/
-      cp guests.json dist/
-      cp flags.json dist/
+      cp parrots.yaml dist/
+      cp guests.yaml dist/
+      cp flags.yaml dist/
+      render-json
       ;;
     *)
       echo "usage: $0 <test|clean|readme|build>"
