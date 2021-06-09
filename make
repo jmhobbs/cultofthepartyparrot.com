@@ -36,6 +36,9 @@ UGLIFYCSS_INSTALLED=$?
 which uglifyjs > /dev/null
 UGLIFYJS_INSTALLED=$?
 
+which convert > /dev/null
+IMAGEMAGICK_INSTALLED=$?
+
 if [ $GULP_INSTALLED -ne 0 ] || \
    [ $GIFSICLE_INSTALLED -ne 0 ] || \
    [ $PNGCRUSH_INSTALLED -ne 0 ] || \
@@ -44,18 +47,20 @@ if [ $GULP_INSTALLED -ne 0 ] || \
    [ $MD5_INSTALLED -ne 0 ] || \
    [ $JQ_INSTALLED -ne 0 ] || \
    [ $UGLIFYCSS_INSTALLED -ne 0 ] || \
-   [ $UGLIFYJS_INSTALLED -ne 0 ]; then
+   [ $UGLIFYJS_INSTALLED -ne 0 ] || \
+   [ $IMAGEMAGICK_INSTALLED -ne 0 ]; then
   echo "The following software is required:"
   echo
-  echo "      gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "        jq: $([ $JQ_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "md5/md5sum: $([ $MD5_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "      svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo " uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  uglifyjs: $([ $UGLIFYJS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "       gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "         jq: $([ $JQ_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo " md5/md5sum: $([ $MD5_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "       svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "  uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   uglifyjs: $([ $UGLIFYJS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "imagemagick: $([ $IMAGEMAGICK_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   exit 1
 fi
 
