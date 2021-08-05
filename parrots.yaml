@@ -514,3 +514,5 @@
   name: Autonomous Parrot
 - hd: hd/boomparrot.gif
   name: Boom Parrot
+- gif: hidetheparrot.gif
+  name: Hide The Parrot
