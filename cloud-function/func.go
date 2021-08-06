@@ -40,7 +40,7 @@ func PurgeCloudFlare(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if wh.Branch != "master" {
+	if wh.Branch != "main" {
 		w.WriteHeader(http.StatusOK)
 		w.Write([]byte("Ok. Thanks."))
 		return

@@ -20,7 +20,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 		}
 	})
 
-	t.Run("ignores non-master branches", func(t *testing.T) {
+	t.Run("ignores non-main branches", func(t *testing.T) {
 		buf := bytes.NewBufferString(`{"branch":"some-pr-branch"}`)
 		req := httptest.NewRequest(http.MethodPost, "/", buf)
 		rec := httptest.NewRecorder()
@@ -42,7 +42,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 	})
 
 	t.Run("rejects missing JWT", func(t *testing.T) {
-		buf := bytes.NewBufferString(`{"branch":"master"}`)
+		buf := bytes.NewBufferString(`{"branch":"main"}`)
 		req := httptest.NewRequest(http.MethodPost, "/", buf)
 		rec := httptest.NewRecorder()
 
@@ -55,7 +55,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 	})
 
 	t.Run("rejects incorrect JWT", func(t *testing.T) {
-		buf := bytes.NewBufferString(`{"branch":"master"}`)
+		buf := bytes.NewBufferString(`{"branch":"main"}`)
 		req := httptest.NewRequest(http.MethodPost, "/", buf)
 		rec := httptest.NewRecorder()
 

@@ -1,7 +1,7 @@
 .PHONY: test build deploy
 
 test:
-	go test -timeout 30s -tags testing -count=1 cloudfunction
+	go test -timeout 30s -tags testing -count=1 .
 
 build:
 	go build .
@@ -9,7 +9,7 @@ build:
 deploy: test build
 	gcloud functions deploy "$$FUNCTION_NAME" \
 		--project "$$PROJECT_ID" \
-		--runtime go111 \
+		--runtime go113 \
 		--allow-unauthenticated \
 		--entry-point=PurgeCloudFlare \
 		--trigger-http \
