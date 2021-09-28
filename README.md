@@ -1,6 +1,6 @@
 # [cultofthepartyparrot.com](http://cultofthepartyparrot.com)
 
-[![Build Status](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com.svg?branch=master)](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com)
+[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a923b5c1-d312-4530-aa1f-5ab01a588cfc/deploy-status)](https://app.netlify.com/sites/cultofthepartyparrot/deploys)
 
 ```
