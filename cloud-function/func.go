@@ -42,7 +42,9 @@ func PurgeCloudFlare(w http.ResponseWriter, r *http.Request) {
 
 	if wh.Branch != "main" {
 		w.WriteHeader(http.StatusOK)
-		w.Write([]byte("Ok. Thanks."))
+		if _, err = w.Write([]byte("Ok. Thanks.")); err != nil {
+			log.Printf("error writing response: %v", err)
+		}
 		return
 	}
 
