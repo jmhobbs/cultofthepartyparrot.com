@@ -171,27 +171,28 @@ function compress () {
   header "compress"
   rm -f "$CACHE_DIR"/{parrots,guests,flags}.zip
   printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
-  # check zip integrity
-  find parrots -name '*.gif' | sort > "/$TMPDIR/parrots-found"
-  unzip -l "$CACHE_DIR/parrots.zip" | grep .gif | awk '{print $4}' | sort > "/$TMPDIR/parrots-zipped"
-  diff "/$TMPDIR/parrots-found" "/$TMPDIR/parrots-zipped"
-  # move to dist
+  checkzip parrots
   cp "$CACHE_DIR/parrots.zip" "dist/parrots.zip"
   mv dist/parrots.zip "dist/$(update_manifest dist/parrots.zip)"
 
   printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/guests.zip" ./guests/*
-  find guests -name '*.gif' | sort > "/$TMPDIR/guests-found"
-  unzip -l "$CACHE_DIR/guests.zip" | grep .gif | awk '{print $4}' | sort > "/$TMPDIR/guests-zipped"
-  diff "/$TMPDIR/guests-found" "/$TMPDIR/guests-zipped"
+  checkzip guests
   cp "$CACHE_DIR/guests.zip" "dist/guests.zip"
   mv dist/guests.zip "dist/$(update_manifest dist/guests.zip)"
 
   printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/flags.zip" ./flags/*
-  find flags -name '*.gif' | sort > "/$TMPDIR/flags-found"
-  unzip -l "$CACHE_DIR/flags.zip" | grep .gif | awk '{print $4}' | sort > "/$TMPDIR/flags-zipped"
-  diff "/$TMPDIR/flags-found" "/$TMPDIR/flags-zipped"
+  checkzip flags
   cp "$CACHE_DIR/flags.zip" "dist/flags.zip"
   mv dist/flags.zip "dist/$(update_manifest dist/flags.zip)"
+}
+
+function checkzip () {
+  local found_manifest zip_manifest
+  found_manifest="$(mktemp)"
+  zip_manifest="$(mktemp)"
+  find "$1" -name '*.gif' | sort > "$found_manifest"
+  unzip -l "$CACHE_DIR/$1.zip" | grep .gif | awk '{print $4}' | sort > "$zip_manifest"
+  diff "$found_manifest" "$zip_manifest"
 }
 
 # Run tests with gulp
