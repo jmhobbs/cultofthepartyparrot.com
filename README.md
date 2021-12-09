@@ -141,7 +141,7 @@ The only Slack reaction gifs you'll ever need.
  * [@WilliamCollishaw](https://github.com/WilliamCollishaw) for [fix New Zealand typo](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/392)
  * [@pacbroens](https://github.com/pacbroens) for [party bug](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/387) and [headphones parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/388)
  * [@WyTeav](https://github.com/WyTeav) for [short parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/381)
- * [@urielsalis](https://github.com/urielsalis) for [RIP Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/379)
+ * [@urielsalis](https://github.com/urielsalis) for [RIP Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/379) and [Revert it Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/474)
  * [@rsimai](https://github.com/rsimai) for [partygeeko](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/373)
  * [@mbifulco](https://github.com/mbifulco) for [typo fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/372)
  * [@alessandroniciforo](https://github.com/alessandroniciforo) for [fading parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/366)
@@ -150,7 +150,7 @@ The only Slack reaction gifs you'll ever need.
 
 # Contributing!
 
- 1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. Add your parrot gif to `parrots/` and append an entry to `parrots.yaml` (not `parrots.json`!)
  1. Make sure your parrot gif file is named [name]parrot.gif in all lower case e.g. `exampleparrot.gif`
  1. Open a PR
  1. PARTY
