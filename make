@@ -36,6 +36,12 @@ UGLIFYCSS_INSTALLED=$?
 which uglifyjs > /dev/null
 UGLIFYJS_INSTALLED=$?
 
+which convert > /dev/null
+IMAGEMAGICK_INSTALLED=$?
+
+which js-yaml > /dev/null
+JS_YAML_INSTALLED=$?
+
 if [ $GULP_INSTALLED -ne 0 ] || \
    [ $GIFSICLE_INSTALLED -ne 0 ] || \
    [ $PNGCRUSH_INSTALLED -ne 0 ] || \
@@ -44,18 +50,22 @@ if [ $GULP_INSTALLED -ne 0 ] || \
    [ $MD5_INSTALLED -ne 0 ] || \
    [ $JQ_INSTALLED -ne 0 ] || \
    [ $UGLIFYCSS_INSTALLED -ne 0 ] || \
-   [ $UGLIFYJS_INSTALLED -ne 0 ]; then
+   [ $UGLIFYJS_INSTALLED -ne 0 ] || \
+   [ $IMAGEMAGICK_INSTALLED -ne 0 ] || \
+   [ $JS_YAML_INSTALLED -ne 0 ]; then
   echo "The following software is required:"
   echo
-  echo "      gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "        jq: $([ $JQ_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "md5/md5sum: $([ $MD5_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "      svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo " uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
-  echo "  uglifyjs: $([ $UGLIFYJS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "       gulp: $([ $GULP_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "         jq: $([ $JQ_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   gifsicle: $([ $GIFSICLE_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo " md5/md5sum: $([ $MD5_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   pngcrush: $([ $PNGCRUSH_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "       svgo: $([ $SVGO_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   jpegtran: $([ $JPEGTRAN_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "  uglifycss: $([ $UGLIFYCSS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "   uglifyjs: $([ $UGLIFYJS_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "imagemagick: $([ $IMAGEMAGICK_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
+  echo "    js-yaml: $([ $JS_YAML_INSTALLED -eq 0 ] && echo "Installed" || echo "Not Installed")"
   exit 1
 fi
 
@@ -159,17 +169,30 @@ function images () {
 # Make gif's into zip files.
 function compress () {
   header "compress"
-  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
+  rm -f "$CACHE_DIR"/{parrots,guests,flags}.zip
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
+  checkzip parrots
   cp "$CACHE_DIR/parrots.zip" "dist/parrots.zip"
   mv dist/parrots.zip "dist/$(update_manifest dist/parrots.zip)"
 
-  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/guests.zip" ./guests/*
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/guests.zip" ./guests/*
+  checkzip guests
   cp "$CACHE_DIR/guests.zip" "dist/guests.zip"
   mv dist/guests.zip "dist/$(update_manifest dist/guests.zip)"
 
-  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -q -o -r -z  "$CACHE_DIR/flags.zip" ./flags/*
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/flags.zip" ./flags/*
+  checkzip flags
   cp "$CACHE_DIR/flags.zip" "dist/flags.zip"
   mv dist/flags.zip "dist/$(update_manifest dist/flags.zip)"
+}
+
+function checkzip () {
+  local found_manifest zip_manifest
+  found_manifest="$(mktemp)"
+  zip_manifest="$(mktemp)"
+  find "$1" -name '*.gif' | sort > "$found_manifest"
+  unzip -l "$CACHE_DIR/$1.zip" | grep .gif | awk '{print $4}' | sort > "$zip_manifest"
+  diff "$found_manifest" "$zip_manifest"
 }
 
 # Run tests with gulp
@@ -188,8 +211,8 @@ function clean () {
 # Delete all the cached compressed images
 function clean-cache () {
   header "clean-cache"
-  rm -rf dist/*
-  mkdir -p dist/assets
+  rm -rf "${CACHE_DIR:?}"/*
+  mkdir -p "$CACHE_DIR"
 }
 
 function render-still () {
@@ -207,7 +230,7 @@ function render-still () {
 function render-json () {
   sources=( parrots guests flags )
   for src in "${sources[@]}"; do
-     npx -p js-yaml js-yaml "$src.yaml" > "dist/$src.json"
+     js-yaml "$src.yaml" > "dist/$src.json"
   done
 }
 

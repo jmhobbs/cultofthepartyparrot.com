@@ -297,7 +297,8 @@ li > span {
   top: 0px;
 }
 [tooltip]:hover:before {
-  opacity : 1;
+  opacity: 1;
+  z-index: 1;
 }
 
 h3 {

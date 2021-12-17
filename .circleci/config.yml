@@ -2,9 +2,31 @@ version: 2.1
 orbs:
   node: circleci/node@3.0.0
   shellcheck: circleci/shellcheck@2.0.0
+jobs:
+  golang-lint:
+    docker:
+      - image: golangci/golangci-lint:latest
+    working_directory: ~/project/cloud-function
+    steps:
+      - checkout:
+          path: "~/project"
+      - run: go mod download
+      - run: golangci-lint run -v
+  golang-test:
+    docker:
+      - image: golang:latest
+    working_directory: ~/project/cloud-function
+    steps:
+      - checkout:
+          path: "~/project"
+      - run: go mod download
+      - run: go test -v -timeout 30s -tags testing ./...
 workflows:
   build:
     jobs:
       - node/test
+      - golang-lint
+      - golang-test
       - shellcheck/check:
           pattern: "make"
+

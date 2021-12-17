@@ -1,4 +1,4 @@
-module cloudfunction
+module github.com/jmhobbs/cultofthepartyparrot.com/cloud-function
 
 go 1.13
 
