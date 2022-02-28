@@ -500,7 +500,7 @@
   name: Zombie Parrot
   tip: Feel better soon little guy!
 - hd: hd/mergeconflictparrot.gif
-  name: Merge Conflict Parrot 
+  name: Merge Conflict Parrot
   tip: Ruh roh
 - hd: hd/vaccineparrot.gif
   name: Vaccine Parrot
@@ -517,3 +517,5 @@
 - hd: hd/maskparrot.gif
   name: Masked Parrot
   tip: safety is number one priority
+- hd: hd/reactparrot.gif
+  name: React Parrot
