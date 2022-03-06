@@ -196,6 +196,11 @@
   name: Rotating Parrot
 - gif: cryptoparrot.gif
   name: Crypto Parrot
+- gif: deployparrot.gif
+  name: Deploy Parrot
+  tip: Do not use emoji on Fridays
+- gif: uparrowparrot.gif
+  name: Up Arrow Parrot
 - hd: hd/sushiparrot.gif
   name: Sushi Parrot
 - hd: hd/pumpkinparrot.gif
