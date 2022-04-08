@@ -1,6 +1,6 @@
 # [cultofthepartyparrot.com](http://cultofthepartyparrot.com)
 
-[![Build Status](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com.svg?branch=master)](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com)
+[![Build Status](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main.svg?style=shield)](https://circleci.com/gh/jmhobbs/cultofthepartyparrot.com/tree/main)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a923b5c1-d312-4530-aa1f-5ab01a588cfc/deploy-status)](https://app.netlify.com/sites/cultofthepartyparrot/deploys)
 
 ```
@@ -64,7 +64,7 @@ The only Slack reaction gifs you'll ever need.
 
 ## Slack via `emojipacks`
 
->**WARNING:** Due to a recent Slack update, which changes their emoji upload UI, this method using emojipacks may not work. A current workaround is to use the `Neutral Face Emoji Tools` Chrome extension. This extension allows you to batch upload emojis by dragging and dropping the files into it's UI. You can find the extension [here](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej).
+>**WARNING:** Due to a recent Slack update, which changes their emoji upload UI, this method using emojipacks may not work. A current workaround is to use the `Neutral Face Emoji Tools` Chrome extension. This extension allows you to batch upload emojis by dragging and dropping the files into its UI. You can find the extension [here](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej).
 
 First, you need to clone this repo and run the build script with `npm run build` or `yarn build`.
 
