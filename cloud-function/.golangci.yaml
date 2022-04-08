@@ -1,0 +1,4 @@
+run:
+  build-tags:
+    - testing
+

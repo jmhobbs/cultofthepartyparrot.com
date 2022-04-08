@@ -196,6 +196,11 @@
   name: Rotating Parrot
 - gif: cryptoparrot.gif
   name: Crypto Parrot
+- gif: deployparrot.gif
+  name: Deploy Parrot
+  tip: Do not use emoji on Fridays
+- gif: uparrowparrot.gif
+  name: Up Arrow Parrot
 - hd: hd/sushiparrot.gif
   name: Sushi Parrot
 - hd: hd/pumpkinparrot.gif
@@ -500,7 +505,7 @@
   name: Zombie Parrot
   tip: Feel better soon little guy!
 - hd: hd/mergeconflictparrot.gif
-  name: Merge Conflict Parrot 
+  name: Merge Conflict Parrot
   tip: Ruh roh
 - hd: hd/vaccineparrot.gif
   name: Vaccine Parrot
@@ -519,6 +524,11 @@
 - hd: hd/reeeparrot.gif
   name: Reee Parrot
   tip: Reeeeeeeeeeeeeeeeeeeeeeeeeeeee
+- hd: hd/maskparrot.gif
+  name: Masked Parrot
+  tip: safety is number one priority
+- hd: hd/reactparrot.gif
+  name: React Parrot
 - hd: hd/standupparrot.gif
   name: Standup Parrot 
   tip:  Stand up not sit down
