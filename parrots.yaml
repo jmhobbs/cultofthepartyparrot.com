@@ -527,3 +527,6 @@
 - gif: standupparrot.gif
   name: Standup Parrot 
   tip:  Stand up not sit down
+- hd: hd/mergeimmediatelyparrot.gif
+  name: Merge Immediately Parrot 
+  tip: Merge it with complete disregard
