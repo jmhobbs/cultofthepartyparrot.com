@@ -524,6 +524,9 @@
   tip: safety is number one priority
 - hd: hd/reactparrot.gif
   name: React Parrot
+- gif: standupparrot.gif
+  name: Standup Parrot 
+  tip:  Stand up not sit down
 - hd: hd/mergetrainparrot.gif
   name: Merge Train Parrot
   tip: All aboard the merge train
