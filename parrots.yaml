@@ -483,7 +483,7 @@
 - hd: hd/mateparrot.gif
   name: Mate Parrot
   tip: South-american mate fan Parrot
-- hd: hd/ethparrot.gif
+- gif: ethparrot.gif
   name: Ethereum Parrot
 - hd: hd/sneezyparrot.gif
   name: Sneezy Parrot
