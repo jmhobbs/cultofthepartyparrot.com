@@ -534,4 +534,9 @@
   name: Merge Immediately Parrot 
   tip: Merge it with complete disregard
 - hd: hd/badparrot.gif
-  name: Bad Bad Parrot
+  name: Bad Bad Parrot- gif: standupparrot.gif
+  name: Standup Parrot 
+  tip:  Stand up not sit down
+- gif: headbangerparrot.gif
+  name: Head Banger Parrot 
+  tip: Parrot is rhythmic shaking his head
