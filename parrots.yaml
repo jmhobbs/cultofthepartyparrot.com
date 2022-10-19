@@ -537,3 +537,5 @@
   name: Bad Bad Parrot
 - gif: dizzyparrot.gif
   name: Pixelated parrot dizzy after spinning
+- gif: mongodbparrot.gif
+  name: MongoDB Parrot
