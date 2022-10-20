@@ -539,3 +539,5 @@
   name: Pixelated parrot dizzy after spinning
 - gif: mongodbparrot.gif
   name: MongoDB Parrot
+- name: Matrix Parrot
+  gif: matrixparrot.gif
