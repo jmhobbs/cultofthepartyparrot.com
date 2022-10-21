@@ -11,13 +11,15 @@ var json_schema = {
     "properties": {
       "gif": { "type": "string" },
       "hd": { "type": "string" },
+      "fourk": { "type": "string" },
       "name": { "type": "string" },
       "tip": { "type": "string" }
     },
     "required": ["name"],
     "oneOf": [
       {"required" : ["gif"]},
-      {"required" : ["hd"]}
+      {"required" : ["hd"]},
+      {"required" : ["4k"]}
     ],
     "additionalProperties": false
   }
@@ -42,7 +44,7 @@ var json_schema = {
 
     it("should not have extra gifs", function () {
       gif_json.forEach(function(entry) {
-        assert.ok(fs.existsSync(__dirname + '/../' + gifPath + '/' + entry.gif) || fs.existsSync(__dirname + '/../' + gifPath + '/' + entry.hd), entry.name);
+        assert.ok(fs.existsSync(__dirname + '/../' + gifPath + '/' + entry.gif) || fs.existsSync(__dirname + '/../' + gifPath + '/' + entry.hd) || fs.existsSync(__dirname + '/../' + gifPath + '/' + entry.fourk), entry.name);
       });
     });
 
@@ -60,6 +62,15 @@ var json_schema = {
       hd_gif_files.forEach(function(gif) {
         if(! fs.statSync(__dirname + '/../' + gifPath + '/hd/' + gif).isFile()) { return; }
         assert.ok(-1 !== hd_gifs.indexOf('hd/' + gif), gif);
+      });
+    });
+
+    it("should contain all 4k gifs", function () {
+      let fourk_gifs = gif_json.map(function(entry) { return entry.fourk; }).filter(function(fourk) { return fourk != undefined; });
+      var fourk_gif_files = fs.readdirSync(__dirname + '/../' + gifPath + '/4k');
+      fourk_gif_files.forEach(function(gif) {
+        if(! fs.statSync(__dirname + '/../' + gifPath + '/4k/' + gif).isFile()) { return; }
+        assert.ok(-1 !== fourk_gifs.indexOf('4k/' + gif), gif);
       });
     });
   });

@@ -6,6 +6,15 @@ var fs        = require('fs'),
 
 ['parrots', 'guests', 'flags'].forEach(function(type) {
   describe(type + " gifs", function() {
+    it("in 4k should weigh less than 256KB", function() {
+      let gifs = fs.readdirSync(__dirname + '/../' + type + '/4k');
+
+      gifs.forEach(function(gif) {
+        let size = fs.statSync(__dirname + '/../' + type + '/4k/' + gif).size;
+        assert(size <= convert(256).from('KB').to('B'), gif + " is too big(" + convert(size).from('B').to('KB') + " KB)");
+      });
+    });
+
     it("in HD should weigh less than 128KB", function() {
       let gifs = fs.readdirSync(__dirname + '/../' + type + '/hd');
 
@@ -24,12 +33,14 @@ var fs        = require('fs'),
       });
     });
 
-    it("should never be wider or taller than 128px", function () {
-      let hd_gifs = fs.readdirSync(__dirname + '/../' + type + '/hd'),
+    it("should never be wider or taller than 256px", function () {
+      let fourk_gifs = fs.readdirSync(__dirname + '/../' + type + '/4k'),
+        hd_gifs = fs.readdirSync(__dirname + '/../' + type + '/hd'),
         gifs    = fs.readdirSync(__dirname + '/../' + type);
 
       gifs.forEach(function(gif) {
         if(gif == "hd") { return; } // Skip the HD directory
+        if(gif == "4k") { return; } // Skip the 4k directory
         let dimensions = imageSize(__dirname + '/../' + type + '/' + gif);
         assert(dimensions.width <= 128, gif + " is wider than 128px");
         assert(dimensions.height <= 128, gif + " is taller than 128px");
@@ -39,6 +50,12 @@ var fs        = require('fs'),
         let dimensions = imageSize(__dirname + '/../' + type + '/hd/' + gif);
         assert(dimensions.width <= 128, gif + " is wider than 128px");
         assert(dimensions.height <= 128, gif + " is taller than 128px");
+      });
+
+      fourk_gifs.forEach(function(gif) {
+        let dimensions = imageSize(__dirname + '/../' + type + '/4k/' + gif);
+        assert(dimensions.width <= 256, gif + " is wider than 256px");
+        assert(dimensions.height <= 256, gif + " is taller than 256px");
       });
     });
   });

@@ -14,6 +14,15 @@ function modeNoExecute(mode) {
 ['parrots', 'guests', 'flags'].forEach(function(type) {
   describe(type + " gifs", function() {
 
+    it("in 4k should be read only", function() {
+      let hd_gifs = fs.readdirSync(__dirname + '/../' + type + '/4k');
+
+      hd_gifs.forEach(function(gif) {
+        let mode = fs.statSync(__dirname + '/../' + type + '/4k/' + gif).mode;
+        assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
+      });
+    });
+
     it("in HD should be read only", function() {
       let hd_gifs = fs.readdirSync(__dirname + '/../' + type + '/hd');
 
@@ -28,6 +37,7 @@ function modeNoExecute(mode) {
 
       gifs.forEach(function(gif) {
         if(gif == "hd") { return; }
+        if(gif == "4k") { return; }
         let mode = fs.statSync(__dirname + '/../' + type + '/' + gif).mode;
         assert(modeNoExecute(mode), gif + " has bad permissions, " + modeString(mode));
       });
