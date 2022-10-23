@@ -541,3 +541,5 @@
   name: MongoDB Parrot
 - name: Matrix Parrot
   gif: matrixparrot.gif
+- name: Database Parrot 2
+  gif: newdatabaseparrot.gif
