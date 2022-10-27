@@ -541,3 +541,5 @@
   name: MongoDB Parrot
 - name: Matrix Parrot
   gif: matrixparrot.gif
+- gif: drupal_parrot.gif
+  name: A parrot that uses Drupal I guess
