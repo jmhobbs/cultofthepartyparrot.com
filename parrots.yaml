@@ -99,7 +99,7 @@
   name: Moonwalking Parrot
 - hd: hd/thumbsupparrot.gif
   name: Thumbs Up Parrot
-- gif: coffeeparrot.gif
+- hd: hd/coffeeparrot.gif
   name: Coffee Parrot
 - hd: hd/mustacheparrot.gif
   name: Parrot with mustache
@@ -196,6 +196,11 @@
   name: Rotating Parrot
 - gif: cryptoparrot.gif
   name: Crypto Parrot
+- gif: deployparrot.gif
+  name: Deploy Parrot
+  tip: Do not use emoji on Fridays
+- gif: uparrowparrot.gif
+  name: Up Arrow Parrot
 - hd: hd/sushiparrot.gif
   name: Sushi Parrot
 - hd: hd/pumpkinparrot.gif
@@ -314,7 +319,7 @@
   name: Boba Parrot
 - hd: hd/backwardsparrot.gif
   name: Backwards Parrot
-- gif: ripparrot.gif
+- hd: hd/ripparrot.gif
   name: RIP Parrot
 - hd: hd/shortparrot.gif
   name: Short Parrot
@@ -337,7 +342,7 @@
 - gif: mergedparrot.gif
   name: Merged Parrot
   tip: Celebrating the merge!
-- gif: braveheartparrot.gif
+- hd: hd/braveheartparrot.gif
   name: Braveheart Parrot
 - hd: hd/maracasparrot.gif
   name: Maracas Parrot
@@ -368,7 +373,7 @@
   tip: Or any medical professional really...
 - hd: hd/rythmicalparrot.gif
   name: Rythmical Parrot
-- gif: exceptionallyfastparrot.gif
+- hd: hd/exceptionallyfastparrot.gif
   name: Exceptionally Fast Parrot
 - hd: hd/wfhparrot.gif
   name: Work from Home Parrot
@@ -450,7 +455,7 @@
   tip: One Hundred Fifty-One Parrot
 - hd: hd/cakeparrot.gif
   name: Cake Parrot
-- gif: unicornparrot.gif
+- hd: hd/unicornparrot.gif
   name: Unicorn Parrot
 - hd: hd/thefastestparrot.gif
   name: The Fastest Parrot
@@ -466,7 +471,7 @@
   tip: Looks kinda sus
 - hd: hd/kindasusparrot.gif
   name: Kinda Sus Parrot
-- gif: chefparrot.gif
+- hd: hd/chefparrot.gif
   name: Chef parrot
   tip: Cooking parrot
 - hd: hd/turndownforwatchparrot.gif
@@ -478,7 +483,7 @@
 - hd: hd/mateparrot.gif
   name: Mate Parrot
   tip: South-american mate fan Parrot
-- hd: hd/ethparrot.gif
+- gif: ethparrot.gif
   name: Ethereum Parrot
 - hd: hd/sneezyparrot.gif
   name: Sneezy Parrot
@@ -500,7 +505,7 @@
   name: Zombie Parrot
   tip: Feel better soon little guy!
 - hd: hd/mergeconflictparrot.gif
-  name: Merge Conflict Parrot 
+  name: Merge Conflict Parrot
   tip: Ruh roh
 - hd: hd/vaccineparrot.gif
   name: Vaccine Parrot
@@ -525,4 +530,32 @@
 - hd: hd/maskparrot.gif
   name: Masked Parrot
   tip: safety is number one priority
-
+- hd: hd/reactparrot.gif
+  name: React Parrot
+- gif: standupparrot.gif
+  name: Standup Parrot 
+  tip:  Stand up not sit down
+- hd: hd/mergetrainparrot.gif
+  name: Merge Train Parrot
+  tip: All aboard the merge train
+- hd: hd/mergeimmediatelyparrot.gif
+  name: Merge Immediately Parrot 
+  tip: Merge it with complete disregard
+- hd: hd/badparrot.gif
+  name: Bad Bad Parrot
+- gif: dizzyparrot.gif
+  name: Pixelated parrot dizzy after spinning
+- gif: mongodbparrot.gif
+  name: MongoDB Parrot
+- name: Matrix Parrot
+  gif: matrixparrot.gif
+- gif: drupal_parrot.gif
+  name: A parrot that uses Drupal I guess
+- gif: krakenparrot.gif
+  name: Kraken Parrot
+- hd: hd/soccerparrot.gif
+  name: Soccer Parrot
+- hd: hd/blurryparrot.gif
+  name: Blurry Parrot
+- hd: hd/croissantparrot.gif
+  name: Croissant Parrot
