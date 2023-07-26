@@ -551,3 +551,6 @@
   name: Blurry Parrot
 - hd: hd/croissantparrot.gif
   name: Croissant Parrot
+- hd: hd/temporaltableparrot.gif
+  name: Temporal Table Parrot
+  tip: System Versioning all your SQL tables
