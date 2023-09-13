@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{files.assets__parrot_css}}">
     <link type="text/plain" rel="author" href="humans.txt" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta property="og:title" content="Cult of the Party Parrot" />
     <meta property="og:type" content="website" />
@@ -51,11 +52,64 @@
 
     -->
   </head>
+  <style>
+      body.dark {
+  background-color: #292c35;
+  color:#CCC;
+  .checkbox {
+  opacity: 0;
+  position: absolute;
+
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:10px;
+  position: relative;
+  
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+}
+  </style>
   <body>
     <div id="wrapper">
       <article>
         <div>
           <h1>Cult of the Party Parrot</h1>
+        </div>
+        <div>
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball"></span>
+          </label>
         </div>
 
         <table>
@@ -226,6 +280,12 @@
 
       <script src="{{files.assets__lazy_js}}" defer></script>
       <script src="{{files.assets__home_js}}" defer></script>
+      <script>const checkbox = document.getElementById("checkbox")
+        checkbox.addEventListener("change", () => {
+          document.body.classList.toggle("dark")
+        })</script>
     </div>
   </body>
 </html>
+     
+
