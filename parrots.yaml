@@ -571,3 +571,7 @@
   tip: Blue and Green Parrots told Red Parrot something
 - gif: richpartyparrot.gif
   name: Rich Party Parrot
+- gif: brideparrot.gif
+  name: Bride Parrot
+  - gif: groomparrot.gif
+  name: Groom Parrot
