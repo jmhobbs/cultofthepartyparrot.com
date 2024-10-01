@@ -2,7 +2,7 @@ package cloudfunction
 
 import (
 	"bytes"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -30,7 +30,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 			t.Errorf("unexpected response code %d", resp.StatusCode)
 		}
 
-		body, err := ioutil.ReadAll(resp.Body)
+		body, err := io.ReadAll(resp.Body)
 		if err != nil {
 			t.Fatalf("unexpected error reading response body: %v", err)
 		}
@@ -93,7 +93,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 				t.Errorf("incorrect content-type header: %q", r.Header.Get("Content-Type"))
 			}
 
-			body, err := ioutil.ReadAll(r.Body)
+			body, err := io.ReadAll(r.Body)
 			if err != nil {
 				t.Fatalf("unexpected error reading body: %v", err)
 			}
@@ -105,7 +105,7 @@ func Test_PurgeCloudFlare(t *testing.T) {
 
 			return &http.Response{
 				StatusCode: 200,
-				Body:       ioutil.NopCloser(bytes.NewBufferString(`OK`)),
+				Body:       io.NopCloser(bytes.NewBufferString(`OK`)),
 				Header:     make(http.Header),
 			}
 		})
@@ -135,7 +135,7 @@ func (f RoundTripFunc) RoundTrip(req *http.Request) (*http.Response, error) {
 	return f(req), nil
 }
 
-//NewTestClient returns *http.Client with Transport replaced to avoid making real calls
+// NewTestClient returns *http.Client with Transport replaced to avoid making real calls
 func NewTestClient(fn RoundTripFunc) *http.Client {
 	return &http.Client{
 		Transport: RoundTripFunc(fn),
