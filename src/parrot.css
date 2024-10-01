@@ -171,6 +171,7 @@ a#top {
   cursor: pointer;
   font-size: 2em;
   color: revert;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
