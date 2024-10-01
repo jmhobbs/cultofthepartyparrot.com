@@ -164,6 +164,15 @@ a.button-small:hover {
   -webkit-animation-iteration-count:infinite;
 }
 
+a#top {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  cursor: pointer;
+  font-size: 2em;
+  color: revert;
+}
+
 @media (prefers-reduced-motion: reduce) {
   a.button:hover, a.button-small:hover {
     animation: none;
