@@ -39,7 +39,7 @@ UGLIFYCSS_INSTALLED=$?
 which uglifyjs > /dev/null
 UGLIFYJS_INSTALLED=$?
 
-which convert > /dev/null
+which magick > /dev/null
 IMAGEMAGICK_INSTALLED=$?
 
 which js-yaml > /dev/null
@@ -225,7 +225,7 @@ function render-still () {
     find "$src" -name '*.gif' -print0 |
       while IFS= read -r -d '' f; do
         bn="$(basename "$f")"
-        convert -coalesce "${f}[0]" "still/$src/${bn/.gif/.png}"
+        magick "${f}[0]" -coalesce "still/$src/${bn/.gif/.png}"
       done
   done
 }
