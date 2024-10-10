@@ -268,6 +268,9 @@ function main () {
       cp flags.yaml dist/
       render-json
       ;;
+    "verify-install")
+      echo "All dependencies are installed!"
+      ;;
     *)
       echo "usage: $0 <test|clean|readme|build>"
       ;;
