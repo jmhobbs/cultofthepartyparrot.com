@@ -7,6 +7,9 @@
 which gulp > /dev/null
 GULP_INSTALLED=$?
 
+# Some things are part of dev dependencies (js-yaml, uglify, etc.)
+PATH="./node_modules/.bin:$PATH"
+
 which gifsicle > /dev/null
 GIFSICLE_INSTALLED=$?
 
