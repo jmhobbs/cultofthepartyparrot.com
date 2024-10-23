@@ -22,6 +22,8 @@
 - hd: hd/congaparrot.gif
   name: Conga Line Parrot
   tip: A self sufficient conga line parrot!
+- gid: realisticparrot.gif
+  name: Realistic Parrot
 - hd: hd/reversecongaparrot.gif
   name: Reverse Conga Line Parrot
 - hd: hd/partyparrot.gif
