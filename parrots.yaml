@@ -575,5 +575,8 @@
   name: Bride Parrot
 - gif: groomparrot.gif
   name: Groom Parrot
+- gif: beltparrot.gif
+  name: Belt Parrot
+  tip: Sushi, spaghetti, or lasagna?
 - gif: sombreroparrot.gif
   name: Sombrero Parrot
