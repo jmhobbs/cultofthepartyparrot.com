@@ -111,6 +111,24 @@
 
         <hr/>
 
+        <h3>
+          Party Parrots
+          <br/>
+          <small>That aren't Kākāpō</small>
+        </h3>
+
+        <ul>
+          {{#otherParrots}}
+          <li><img src="/still/other-parrots/{{still}}" class="lazy" data-src="/other-parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}" alt="{{name}}"/> {{name}}{{#hd}}<span class="hd">HD</span>{{/hd}}{{#tip}}<span tooltip="{{tip}}">*</span>{{/tip}}</li>
+          {{/otherParrots}}
+        </ul>
+
+        <div id="other_download">
+          <a class="button-small" id="guests_zip" href="/{{files.other-parrots_zip}}">Download</a>
+        </div>
+
+        <hr/>
+
         <h3>Party Guests</h3>
 
         <ul>

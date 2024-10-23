@@ -4,7 +4,7 @@ var fs        = require('fs'),
     imageSize = require('image-size');
 
 
-['parrots', 'guests', 'flags'].forEach(function(type) {
+['parrots', 'guests', 'flags', 'other-parrots'].forEach(function(type) {
   describe(type + " gifs", function() {
     it("in HD should weigh less than 128KB", function() {
       let gifs = fs.readdirSync(__dirname + '/../' + type + '/hd');
