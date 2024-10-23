@@ -314,6 +314,10 @@ li > span {
 h3 {
   margin-top: 0;
 }
+h3 small {
+  font-weight: normal;
+  font-size: 0.6em;
+}
 div.clearfix:after {
   content: '';
   display:table;
@@ -357,7 +361,7 @@ div.shirt div {
 }
 
 span.hd {
-  font-size: 0.2em;
+  font-size: 0.4em;
   font-weight: bold;
   vertical-align: super;
 

@@ -15,3 +15,8 @@ emojis:
     src: 'http://cultofthepartyparrot.com/flags/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
     fullname: {{name}}
 {{/flags}}
+{{#otherParrots}}
+  - name: {{slack_name}}
+    src: 'http://cultofthepartyparrot.com/other-parrots/{{#hd}}{{{hd}}}{{/hd}}{{^hd}}{{gif}}{{/hd}}'
+    fullname: {{name}}
+{{/otherParrots}}

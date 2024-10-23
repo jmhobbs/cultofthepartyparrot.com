@@ -70,6 +70,7 @@ gulp.task('render-web', function () {
     parrots: YAML.safeLoad(fs.readFileSync('parrots.yaml', 'utf8')).map(ModifiedParrotObject),
     guests: YAML.safeLoad(fs.readFileSync('guests.yaml', 'utf8')).map(ModifiedParrotObject),
     flags: YAML.safeLoad(fs.readFileSync('flags.yaml', 'utf8')).map(ModifiedParrotObject),
+    otherParrots: YAML.safeLoad(fs.readFileSync('other-parrots.yaml', 'utf8')).map(ModifiedParrotObject),
     files: assets
   };
   return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])

@@ -169,13 +169,14 @@ function images () {
   cp -r parrots dist/parrots
   cp -r guests dist/guests
   cp -r flags dist/flags
+  cp -r other-parrots dist/other-parrots
   cp -r still dist/still
 }
 
 # Make gif's into zip files.
 function compress () {
   header "compress"
-  rm -f "$CACHE_DIR"/{parrots,guests,flags}.zip
+  rm -f "$CACHE_DIR"/{parrots,guests,flags,other-parrots}.zip
   printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/parrots.zip" ./parrots/*
   checkzip parrots
   cp "$CACHE_DIR/parrots.zip" "dist/parrots.zip"
@@ -190,6 +191,11 @@ function compress () {
   checkzip flags
   cp "$CACHE_DIR/flags.zip" "dist/flags.zip"
   mv dist/flags.zip "dist/$(update_manifest dist/flags.zip)"
+
+  printf "      ~= Party or Die =~\\n~= cultofthepartyparrot.com =~" | zip -v -o -r -z  "$CACHE_DIR/other-parrots.zip" ./other-parrots/*
+  checkzip other-parrots
+  cp "$CACHE_DIR/other-parrots.zip" "dist/other-parrots.zip"
+  mv dist/other-parrots.zip "dist/$(update_manifest dist/other-parrots.zip)"
 }
 
 function checkzip () {
@@ -222,7 +228,7 @@ function clean-cache () {
 }
 
 function render-still () {
-  sources=( parrots guests flags )
+  sources=( parrots guests flags other-parrots )
   for src in "${sources[@]}"; do
     mkdir -p "still/$src/"
     find "$src" -name '*.gif' -print0 |
@@ -238,7 +244,7 @@ function render-still () {
 }
 
 function render-json () {
-  sources=( parrots guests flags )
+  sources=( parrots guests flags other-parrots )
   for src in "${sources[@]}"; do
      js-yaml "$src.yaml" > "dist/$src.json"
   done
@@ -273,6 +279,7 @@ function main () {
       cp parrots.yaml dist/
       cp guests.yaml dist/
       cp flags.yaml dist/
+      cp other-parrots.yaml dist/
       render-json
       ;;
     "verify-install")
