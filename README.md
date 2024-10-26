@@ -41,7 +41,7 @@
 
 The only Slack reaction gifs you'll ever need.
 
-## This project contains all the Parrots you ever dreamt of.
+## This project contains all the Parrots you ever dreamt of. 
 
 ## Thanks
 
