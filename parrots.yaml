@@ -582,3 +582,6 @@
   name: Sombrero Parrot
 - hd: hd/clownparrot.gif
   name: !!str "\U0001F921 Parrot"
+- hd: hd/googlyeyesparrot.gif
+  name: Googly Eyes Parrot
+  tip: Derp.
