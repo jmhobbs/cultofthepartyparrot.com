@@ -580,3 +580,5 @@
   tip: Sushi, spaghetti, or lasagna?
 - gif: sombreroparrot.gif
   name: Sombrero Parrot
+- hd: hd/clownparrot.gif
+  name: !!str "\U0001F921 Parrot"
