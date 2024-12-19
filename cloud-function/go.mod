@@ -1,6 +1,6 @@
 module github.com/jmhobbs/cultofthepartyparrot.com/cloud-function
 
-go 1.23
+go 1.21
 
 require github.com/gbrlsnchs/jwt/v3 v3.0.1
 

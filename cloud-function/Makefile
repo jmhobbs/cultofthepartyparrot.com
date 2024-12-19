@@ -9,7 +9,7 @@ build:
 deploy: test build
 	gcloud functions deploy "$$FUNCTION_NAME" \
 		--project "$$PROJECT_ID" \
-		--runtime go122 \
+		--runtime go121 \
 		--allow-unauthenticated \
 		--entry-point=PurgeCloudFlare \
 		--trigger-http \
