@@ -57,7 +57,14 @@ The only Slack reaction gifs you'll ever need.
 # Deploying!
 
  1. `npm install`
- 1. `bash make build`
+ 1. Ensure you have the other tools installed. A brewfile is provided for MacOS users (`brew bundle install --file=./Brewfile`).  Running `bash make verify-install` will verify all tools are installed and available.
+     - [`gulp` global runner](https://gulpjs.com/) - `npm install --global gulp-cli`
+     - [`jq`](https://jqlang.github.io/jq/)
+     - [`gifsicle`](https://www.lcdf.org/gifsicle/)
+     - [`pngcrush`](https://github.com/Kjuly/pngcrush)
+     - [`jpegtran`](https://www.libjpeg-turbo.org/)
+     - [`imagemagick`](https://imagemagick.org/index.php)
+ 1. Run `bash make build` to generate everything. There is not a dev/watch mode, unfortunately.
  1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload

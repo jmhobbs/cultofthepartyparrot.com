@@ -138,6 +138,8 @@
     pr: 80
   - action: ship it parrot
     pr: 84
+  - action: COVID-19 parrot
+    pr: 447
 - username: vaicine
   contributions:
   - action: nyan parrot
@@ -304,6 +306,8 @@
   contributions:
   - action: mardi gras parrot
     pr: 194
+  - action: Party moogle
+    pr: 583
 - username: Darth-Arminius
   contributions:
   - action: sith parrot
@@ -350,6 +354,10 @@
     pr: 281
   - action: biker parrot
     pr: 282
+  - action: Work From Home parrot
+    pr: 445
+  - action: Hacker parrot
+    pr: 641
 - username: jesivasq
   contributions:
   - action: portal parrots
@@ -478,6 +486,20 @@
   contributions:
   - action: fix New Zealand typo
     pr: 392
+  - action: Replace <tt> with <code>
+    pr: 482
+  - action: App store / google play links and images
+    pr: 529
+  - action: Add .idea to git ignore
+    pr: 530
+  - action: security update on imagemin
+    pr: 531
+  - action: npm security updates
+    pr: 532
+  - action: README typo
+    pr: 570
+  - action: Lots of maintenance tasks
+    pr: 596
 - username: pacbroens
   contributions:
   - action: party bug
@@ -498,6 +520,10 @@
   contributions:
   - action: partygeeko
     pr: 373
+  - action: Party Tux
+    pr: 649
+  - action: Old man yells at parrot
+    pr: 650
 - username: mbifulco
   contributions:
   - action: typo fix
@@ -514,7 +540,443 @@
   contributions:
   - action: crying Jordan parrot
     pr: 357
+  - action: Michael Jackson parrot
+    pr: 393
+  - action: Picasso parrot
+    pr: 423
+- username: Tobski
+  contributions:
+  - action: Braveheart parrot
+    pr: 396
+- username: Mindflayo
+  contributions:
+  - action: PHParrot
+    pr: 399
+- username: pauleks
+  contributions:
+  - action: Update discord bot demo server link
+    pr: 401
+- username: donnavitan
+  contributions:
+  - action: Usability/accessibility fix
+    pr: 404
+- username: kevinhhuynh
+  contributions:
+  - action: Maracas parrot
+    pr: 410
+- username: noSim
+  contributions:
+  - action: Merged parrot
+    pr: 411
+- username: martin-gnodtke
+  contributions:
+  - action: Bob Ross parrot
+    pr: 413
+  - action: Yosemite Sam parrot
+    pr: 414
+- username: zschallz
+  contributions:
+  - action: Move links to HTTPS
+    pr: 415
+- username: cpobdev
+  contributions:
+  - action: Illuminati parrot
+    pr: 416
+- username: ayatothos
+  contributions:
+  - action: Heading parrot
+    pr: 431
+- username: poulad
+  contributions:
+  - action: InnerSource Commons parrot
+    pr: 433
+- username: wand2016
+  contributions:
+  - action: Async parrot
+    pr: 435
+- username: cscashby
+  contributions:
+  - action: Doctor parrot
+    pr: 437
+- username: TortoiseWrath
+  contributions:
+  - action: Exceptionally Fast Parrot
+    pr: 440
+- username: akihanari
+  contributions:
+  - action: Rythmical parrot
+    pr: 441
+- username: deadbeef404
+  contributions:
+  - action: Metal parrot
+    pr: 449
+- username: wowu
+  contributions:
+  - action: Ruby parrot
+    pr: 461
+- username: k018c1077
+  contributions:
+  - action: Node parrot
+    pr: 464
+- username: FlowerSan
+  contributions:
+  - action: Hanami parrot
+    pr: 465
+- username: HidingCherry
+  contributions:
+  - action: Fix YAML unicode
+    pr: 475
+- username: guiprou
+  contributions:
+  - action: Moon parrot
+    pr: 460
+  - action: Daft Punk parrot
+    pr: 472
+  - action: Zouk parrot
+    pr: 478
+- username: yumx02
+  contributions:
+  - action: Glimpse parrot
+    pr: 481
+- username: danryder
+  contributions:
+  - action: Everything's Fine, Headbanging and TP parrots
+    pr: 457
+  - action: Preet Bharara parrot
+    pr: 459
+  - action: Hypnosis parrots
+    pr: 463
+  - action: Jumping parrot and Jumping parrot Jr.
+    pr: 484
+- username: KotoriK
+  contributions:
+  - action: Quad parrot
+    pr: 486
+- username: jesusjimsa
+  contributions:
+  - action: Daily parrot
+    pr: 488
+- username: jack-green
+  contributions:
+  - action: Dab parrot
+    pr: 489
+- username: kyourikey
+  contributions:
+  - action: Poke parrot
+    pr: 490
+- username: KoichiroGIF
+  contributions:
+  - action: Cake parrot
+    pr: 491
+- username: urielsalis
+  contributions:
+  - action: Revert It parrot
+    pr: 474
+  - action: Party Wumpus
+    pr: 493
+- username: jtrnw
+  contributions:
+  - action: Unicorn parrot
+    pr: 495
+- username: don-code
+  contributions:
+  - action: Fix GitHub parrot background
+    pr: 496
+- username: Energy-core
+  contributions:
+  - action: BiParrot
+    pr: 499
+- username: ladomi
+  contributions:
+  - action: Fastest parrot
+    pr: 501
+  - action: Fix Fastest parrot
+    pr: 502
+- username: yutofukushima
+  contributions:
+  - action: Play Catch parrot
+    pr: 503
+- username: nduggar
+  contributions:
+  - action: Imposter parrot
+    pr: 505
+- username: nathanielw
+  contributions:
+  - action: Link to Party-ify tool
+    pr: 509
+- username: tan14007
+  contributions:
+  - action: Fix Gentleman parrot colors
+    pr: 511
+- username: jeyemwey
+  contributions:
+  - action: Dark color scheme
+    pr: 513
+- username: namchaunguyen
+  contributions:
+  - action: This Is Fine parrot
+    pr: 516
+- username: xMcLOVINx
+  contributions:
+  - action: Turn Down for Watch parrot
+    pr: 517
+- username: bolajiscott
+  contributions:
+  - action: Pear parrots
+    pr: 519
+- username: lahdekorpi
+  contributions:
+  - action: Tin foil hat parrot
+    pr:  520
+- username: Quron
+  contributions:
+  - action: Outline Dab parrot arm
+    pr: 500
+  - action: Thread parrot
+    pr: 521
+- username: masonanders
+  contributions:
+  - action: Kinda Sus parrot
+    pr: 522
+- username: ochan12
+  contributions:
+  - action: Mate parrot
+    pr: 525
+- username: graph1994
+  contributions:
+  - action: Ethereum parrot
+    pr: 526
+- username: jacobrose
+  contributions:
+  - action: Sneezy parrot
+    pr: 533
+- username: Fikemox
+  contributions:
+  - action: Accessible parrot
+    pr: 536
+- username: shazena
+  contributions:
+  - action: Python parrot
+    pr: 537
+- username: Gilauk
+  contributions:
+  - action: reee parrot
+    pr: 538
+  - action: Red Bull parrot
+    pr: 539
+- username: viktigpetterr
+  contributions:
+  - action: Vue parrot
+    pr: 540
+- username: ioki-klaus
+  contributions:
+  - action: Sideways parrot
+    pr: 541
+- username: LeonardoCerqueira96
+  contributions:
+  - action: Party GFM
+    pr: 542
+- username: AdrienPoupa
+  contributions:
+  - action: Quebec flag parrot
+    pr: 543
+- username: mattruston
+  contributions:
+  - action: Party fsjal
+    pr: 545
+- username: liamdawson
+  contributions:
+  - action: race-condition parrot
+    pr: 546
+- username: Krlier
+  contributions:
+  - action: Balcony parrot
+    pr: 5499
+- username: aamorin
+  contributions:
+  - action: Uruguay name typo
+    pr: 551
+- username: maxgoedjen
+  contributions:
+  - action: Vaccine parrot
+    pr: 553
+- username: theRealWardo
+  contributions:
+  - action: Astronaut parrot
+    pr: 558
+- username: yakiimo121
+  contributions:
+  - action: Autonomous parrot
+    pr:  561
+- username: aaronpace
+  contributions:
+  - action: HD Boom parrot
+    pr: 562
+- username: ishaanharry
+  contributions:
+  - action: Fix Jedi and Sith parrots
+    pr: 563
+- username: rjcausarano
+  contributions:
+  - action: Paraguay parrot improvements
+    pr: 564
+- username: Panquesito7
+  contributions:
+  - action: Fix GitHub link
+    pr: 565
+- username: MikitaLisavets
+  contributions:
+  - action: Flag of Free Belarus parrot
+    pr: 566
+- username: kaas3000
+  contributions:
+  - action: Hide the parrot
+    pr: 568
 - username: infinitewarp
   contributions:
   - action: Party Picard
     pr: 572
+- username: samyouxyz
+  contributions:
+  - action: Party Rocket
+    pr: 577
+- username: greywillfade
+  contributions:
+  - action: Deploy, Cursed, Up Arrow parrots
+    pr: 578
+- username: dunklesToast
+  contributions:
+  - action: React parrot
+    pr: 586
+- username: ezbc
+  contributions:
+  - action: Meld parrot
+    pr: 436
+  - action: Merge Conflict parrot
+    pr: 552
+  - action: Thank You parrot
+    pr: 554
+  - action: merge-train parrot
+    pr: 592
+  - action: merge-immediaely parrot
+    pr: 591
+  - action: stand-up parrot
+    pr: 590
+- username: revolutionart
+  contributions:
+  - action: Gumi parrot
+    pr: 594
+- username: CSseirin
+  contributions:
+  - action: Bad parrot
+    pr: 597
+- username: YodaDaCoda
+  contributions:
+  - action: HD Coffee parrot
+    pr: 598
+- username: banjobyster
+  contributions:
+  - action: Pixelated Dizzy parrot
+    pr: 604
+- username: MarcoSchiavello
+  contributions:
+  - action: Chef parrot
+    pr: 515
+  - action: Masked parrot
+    pr: 575
+  - action: Drupal parrot
+    pr: 605
+- username: Nonmant
+  contributions:
+  - action: Harold parrot
+    pr: 607
+- username: LucianeFernandesRoque
+  contributions:
+  - action: Fix autonomous parrot background
+    pr: 610
+- username: OliverVermeulen
+  contributions:
+  - action: MongoDB parrot
+    pr: 611
+- username: TimGoldbach
+  contributions:
+  - action: Matrix parrot
+    pr: 614
+- username: zoidyzoidzoid
+  contributions:
+  - action: fix pear parrots backgrround
+    pr: 618
+- username: marianabeldi
+  contributions:
+  - action: Fix database parrot background
+    pr: 619
+- username: TopHatGuy12
+  contributions:
+  - action: Kraken parrot
+    pr: 621
+- username: bradenneufeld
+  contributions:
+  - action: Soccer parrot
+    pr: 622
+- username: BrendanXBoyd
+  contributions:
+  - action: Minion parrot
+    pr: 625
+- username: Bharadwajshivam28
+  contributions:
+  - action: Party Bug background fix
+    pr: 628
+- username: lopes-vincent
+  contributions:
+  - action: Blurry parrot
+    pr: 629
+- username: leanormandon
+  contributions:
+  - action: Croissant parrot
+    pr: 630
+- username: snball6
+  contributions:
+  - action: Disco Duck
+    pr: 579
+  - action: Temporal Table parrot 
+    pr: 632
+- username: luke-brooks
+  contributions:
+  - action: Chef Kiss, Deleted, Fast Twins, and Vacation parrots
+    pr: 633
+- username: josebenitezg
+  contributions:
+  - action: Espresso Martini parrot
+    pr: 637
+- username: WeiJian123-tech
+  contributions:
+  - action: Resonating Red parrot
+    pr: 643
+- username: ANSHIKA-26
+  contributions:
+  - action: Rich Party parrot
+    pr: 648
+- username: edent
+  contributions:
+  - action: Jump to top button
+    pr: 653
+- username: kirby-b
+  contributions:
+  - action: Bride and Groom parrots
+    pr: 655
+- username: cudy789
+  contributions:
+  - action: Factorio Yellow Belt parrot
+    pr: 659
+- username: MyCryGuy
+  contributions:
+  - action: Sombrero parrot
+    pr: 661
+- username: thischarles
+  contributions:
+  - action: HD Oriele, Clown parrot and Googly Eyes parrot
+    pr: 665
+- username: cseeman
+  contributions:
+  - action: Part Pear™
+    pr: 666
