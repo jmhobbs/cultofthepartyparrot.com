@@ -525,13 +525,13 @@
 - hd: hd/reactparrot.gif
   name: React Parrot
 - gif: standupparrot.gif
-  name: Standup Parrot 
+  name: Standup Parrot
   tip:  Stand up not sit down
 - hd: hd/mergetrainparrot.gif
   name: Merge Train Parrot
   tip: All aboard the merge train
 - hd: hd/mergeimmediatelyparrot.gif
-  name: Merge Immediately Parrot 
+  name: Merge Immediately Parrot
   tip: Merge it with complete disregard
 - hd: hd/badparrot.gif
   name: Bad Bad Parrot
@@ -585,3 +585,5 @@
 - hd: hd/googlyeyesparrot.gif
   name: Googly Eyes Parrot
   tip: Derp.
+- hd: hd/mailparrot.gif
+  name: Mail Parrot
