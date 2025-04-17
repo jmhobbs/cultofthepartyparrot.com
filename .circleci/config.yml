@@ -5,7 +5,7 @@ orbs:
 jobs:
   golang-lint:
     docker:
-      - image: golangci/golangci-lint:latest
+      - image: golangci/golangci-lint:v1.64
     working_directory: ~/project/cloud-function
     steps:
       - checkout:
