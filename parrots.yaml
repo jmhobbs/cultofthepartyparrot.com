@@ -1,5 +1,8 @@
 - hd: hd/parrot.gif
   name: Parrot
+- hd: hd/hdrparrot.gif
+  name: HDR Parrot
+  tip: Now in HDR (if your display supports it)
 - hd: hd/opensourceparrot.gif
   name: Open-source Parrot
 - hd: hd/middleparrot.gif
