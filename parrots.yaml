@@ -593,3 +593,6 @@
 - gif: nextparrot.gif
   name: Next Parrot
   tip: '"use client" doesn''t mean CSR only'
+- hd: hd/quantumparrot.gif
+  name: Quantum Parrot
+  tip: Observed behavior may differ, don’t stare too hard
