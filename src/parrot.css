@@ -383,7 +383,7 @@ span.hd {
   }
 }
 
-#other_download {
+.other_download {
  clear: both;
  margin: 40px;
 }
