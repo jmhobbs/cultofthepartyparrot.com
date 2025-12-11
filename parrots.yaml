@@ -522,6 +522,14 @@
   name: Autonomous Parrot
 - hd: hd/boomparrot.gif
   name: Boom Parrot
+- gif: hidetheparrot.gif
+  name: Hide The Parrot
+- hd: hd/reeeparrot.gif
+  name: Reee Parrot
+  tip: Reeeeeeeeeeeeeeeeeeeeeeeeeeeee
+- hd: hd/redbeeparrot.gif
+  name: Red Bee Parrot
+  tip: Zzzzzzz
 - hd: hd/maskparrot.gif
   name: Masked Parrot
   tip: safety is number one priority
