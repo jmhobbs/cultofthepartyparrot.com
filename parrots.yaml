@@ -524,6 +524,8 @@
   name: Boom Parrot
 - hd: hd/maskparrot.gif
   name: Masked Parrot
+- hd: hd/colanderparrot.gif
+  name: Colander Parrot  
   tip: safety is number one priority
 - hd: hd/reactparrot.gif
   name: React Parrot
