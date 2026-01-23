@@ -41,6 +41,8 @@
 
 The only Slack reaction gifs you'll ever need.
 
+## This project contains all the Parrots you ever dreamt of. 
+
 ## Thanks
 
  * [@mermop](https://github.com/mermop) for [sourcing the original party parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/2)
