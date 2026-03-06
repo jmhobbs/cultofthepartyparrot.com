@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-  mocha = require('gulp-mocha'),
+  { default: mocha }  = require('gulp-mocha'),
   mustache = require("gulp-mustache"),
   data = require('gulp-data'),
   fs = require('fs'),
