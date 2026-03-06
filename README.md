@@ -246,7 +246,7 @@ The only Slack reaction gifs you'll ever need.
  * [@cudy789](https://github.com/cudy789) for [Factorio Yellow Belt parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/659)
  * [@MyCryGuy](https://github.com/MyCryGuy) for [Sombrero parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/661)
  * [@thischarles](https://github.com/thischarles) for [HD Oriele, Clown parrot and Googly Eyes parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/665)
- * [@cseeman](https://github.com/cseeman) for [Part Pear™](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/666)
+ * [@cseeman](https://github.com/cseeman) for [Party Pear™](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/666)
 
 # Contributing!
 
