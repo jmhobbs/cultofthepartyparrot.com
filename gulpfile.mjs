@@ -1,16 +1,14 @@
-var gulp = require('gulp'),
-  { default: mocha }  = require('gulp-mocha'),
-  mustache = require("gulp-mustache"),
-  data = require('gulp-data'),
-  fs = require('fs'),
-  YAML = require('js-yaml');
-
+import gulp from 'gulp';
+import mocha from 'gulp-mocha';
+import mustache from 'gulp-mustache';
+import data from 'gulp-data';
+import fs from 'fs';
+import YAML from 'js-yaml';
 
 gulp.task('test', function() {
   return gulp.src(['test/*.js'], { read: false })
     .pipe(mocha());
 });
-
 
 gulp.task('render-readme', function () {
   return gulp.src('templates/README.md')
