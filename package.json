@@ -28,6 +28,7 @@
     "jsonschema": "^1.2.5",
     "minimist": ">=1.2.6",
     "path": "^0.12.7",
+    "svgo": "^4.0.1",
     "uglify-js": "^3.8.0",
     "uglifycss": "^0.0.29",
     "yamljs": "^0.3.0"
