@@ -2,4 +2,9 @@ version: "2"
 run:
   build-tags:
     - testing
-
+linters:
+  settings:
+    errcheck:
+      exclude-functions:
+        - (*os.File).Close
+        - (io.ReadCloser).Close
