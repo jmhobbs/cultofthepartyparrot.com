@@ -77,4 +77,6 @@ gulp.task('render-web', function () {
     .pipe(gulp.dest("dist/"));
 });
 
+gulp.task('build', gulp.parallel('render-readme', 'render-humans', 'render-web'));
+
 gulp.task('default', gulp.parallel('test'));
