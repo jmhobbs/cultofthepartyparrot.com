@@ -123,6 +123,7 @@ Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll 
     <a href="https://github.com/mjaniszew"><img src="https://avatars.githubusercontent.com/mjaniszew?s=40&v=4" height="40" alt="@mjaniszew Avatar" /></a>
     <a href="https://github.com/melinerunen"><img src="https://avatars.githubusercontent.com/melinerunen?s=40&v=4" height="40" alt="@melinerunen Avatar" /></a>
     <a href="https://github.com/joekieffer"><img src="https://avatars.githubusercontent.com/joekieffer?s=40&v=4" height="40" alt="@joekieffer Avatar" /></a>
+    <a href="https://github.com/markhayden"><img src="https://avatars.githubusercontent.com/markhayden?s=40&v=4" height="40" alt="@markhayden Avatar" /></a>
     <a href="https://github.com/erinknight242"><img src="https://avatars.githubusercontent.com/erinknight242?s=40&v=4" height="40" alt="@erinknight242 Avatar" /></a>
     <a href="https://github.com/trekroot"><img src="https://avatars.githubusercontent.com/trekroot?s=40&v=4" height="40" alt="@trekroot Avatar" /></a>
     <a href="https://github.com/KeesKoffeman"><img src="https://avatars.githubusercontent.com/KeesKoffeman?s=40&v=4" height="40" alt="@KeesKoffeman Avatar" /></a>
@@ -342,6 +343,7 @@ Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll 
  * [@mjaniszew](https://github.com/mjaniszew) for [touch bar parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/101)
  * [@melinerunen](https://github.com/melinerunen) for [HD only name fix](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/102), [64kb parrot cap](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/107) and [upload script tweaks](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/158)
  * [@joekieffer](https://github.com/joekieffer) for [🍩 parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/103)
+ * [@markhayden](https://github.com/markhayden) for [Popcorn Parrot of Darkness](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/112)
  * [@erinknight242](https://github.com/erinknight242) for [fixing HD conga parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/113), [fixing parrot transparency](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/242) and [HD sassy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/279)
  * [@trekroot](https://github.com/trekroot) for [disco, matrix, papal and stalker parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/121)
  * [@KeesKoffeman](https://github.com/KeesKoffeman) for [evil parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/123)

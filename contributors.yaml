@@ -196,6 +196,10 @@
   contributions:
   - action: ! "\U0001F369 parrot"
     pr: 103
+- username: markhayden
+  contributions:
+  - action: Popcorn Parrot of Darkness
+    pr: 112
 - username: erinknight242
   contributions:
   - action: fixing HD conga parrot
