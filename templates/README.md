@@ -41,12 +41,6 @@
 
 The only Slack reaction gifs you'll ever need.
 
-## Thanks
-
-{{#contributors}}
- * [@{{username}}](https://github.com/{{username}}) for {{#contributions}}{{#and}} and {{/and}}[{{action}}](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/{{pr}}){{#comma}}, {{/comma}}{{/contributions}}
-{{/contributors}}
-
 # Contributing!
 
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.yaml` (not `parrots.json`!)
@@ -84,3 +78,18 @@ Then, run `emojipacks` (`npm i -g emojipacks` if you don't have it yet): you'll 
 
   1. [Click this link](https://discordapp.com/oauth2/authorize?client_id=394830082058747905&permissions=1074006016&scope=bot) to invite the bot to your server
   2. Enjoy!
+
+## Thanks!
+
+<div markdown="1">
+{{#contributors}}
+    <a href="https://github.com/{{username}}"><img src="https://avatars.githubusercontent.com/{{username}}?s=40&v=4" height="40" alt="@{{username}} Avatar" /></a>
+{{/contributors}}
+</div>
+
+### Contributions
+
+{{#contributors}}
+ * [@{{username}}](https://github.com/{{username}}) for {{#contributions}}{{#and}} and {{/and}}[{{action}}](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/{{pr}}){{#comma}}, {{/comma}}{{/contributions}}
+{{/contributors}}
+
