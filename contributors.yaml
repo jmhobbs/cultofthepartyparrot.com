@@ -32,6 +32,8 @@
   contributions:
   - action: reverse conga parrot and a smoother aussie parrot
     pr: 18
+  - action: conga party parrot
+    pr: 24
 - username: ernestoacevedo
   contributions:
   - action: fiesta parrot
@@ -58,10 +60,6 @@
   contributions:
   - action: moonwalking parrot
     pr: 29
-- username: hrimhari
-  contributions:
-  - action: conga party parrot
-    pr: 24
 - username: natelowry
   contributions:
   - action: bringing the sass
@@ -96,6 +94,12 @@
   contributions:
   - action: witness protection parrot
     pr: 52
+  - action: a one way ticket to flavor town
+    pr: 66
+- username: 321Fetch
+  contributions:
+  - action: keyboard app link
+    pr: 54
 - username: camilaazuma
   contributions:
   - action: sleepy and beer parrot
@@ -108,10 +112,6 @@
     pr: 62
   - action: HD gentleman parrot
     pr: 96
-- username: schaney
-  contributions:
-  - action: a one way ticket to flavor town
-    pr: 66
 - username: francoislg
   contributions:
   - action: upvote parrot and PPaaS
@@ -140,6 +140,10 @@
     pr: 84
   - action: COVID-19 parrot
     pr: 447
+- username: Omlahid
+  contributions:
+  - action: Update PPaaS link
+    pr: 88
 - username: vaicine
   contributions:
   - action: nyan parrot
@@ -199,7 +203,7 @@
   - action: fixing parrot transparency
     pr: 242
   - action: HD sassy parrot
-    pr: 242
+    pr: 279
 - username: trekroot
   contributions:
   - action: disco, matrix, papal and stalker parrots
@@ -280,6 +284,10 @@
   contributions:
   - action: sint parrot
     pr: 178
+- username: rickyhoots
+  contributions:
+  - action: Fix Sinterklaas typo
+    pr: 179
 - username: cavpollo
   contributions:
   - action: cat parrot
@@ -306,8 +314,16 @@
   contributions:
   - action: mardi gras parrot
     pr: 194
+  - action: ping pong parrot
+    pr: 291
   - action: Party moogle
     pr: 583
+- username: kiwivogel
+  contributions:
+  - action: soviet parrot
+    pr: 197
+  - action: Kubernetes guest
+    pr: 289
 - username: Darth-Arminius
   contributions:
   - action: sith parrot
@@ -340,6 +356,10 @@
     pr: 216
   - action: Norwegian Blue parrot
     pr: 218
+- username: christianrank
+  contributions:
+  - action: schnitzel parrot
+    pr: 215
 - username: eokuwwy
   contributions:
   - action: HD version of party parrot
@@ -350,14 +370,22 @@
     pr: 213
   - action: white walker parrot
     pr: 249
+  - action: deal with it now parrot
+    pr: 280
   - action: bootleg parrot
     pr: 281
   - action: biker parrot
     pr: 282
+  - action: inverted parrot
+    pr: 287
   - action: Work From Home parrot
     pr: 445
   - action: Hacker parrot
     pr: 641
+  - action: '6-7 parrot'
+    pr: 678
+  - action: Yeet parrot
+    pr: 679
 - username: jesivasq
   contributions:
   - action: portal parrots
@@ -398,6 +426,10 @@
     pr: 245
   - action: doge parrot guest
     pr: 246
+  - action: build script uglifycss detection
+    pr: 335
+  - action: build script improvements
+    pr: 336
 - username: moigonzalez
   contributions:
   - action: link to parrotify-cli
@@ -434,6 +466,8 @@
   contributions:
   - action: HD Beer Parrot
     pr: 292
+  - action: HD American and Doge parrots
+    pr: 295
   - action: so many parrots
     pr: 312
   - action: like, a lot of parrots
@@ -456,6 +490,10 @@
     pr: 354
   - action: sherlock parrot, HD remakes
     pr: 352
+- username: dtexlyn
+  contributions:
+  - action: bat parrot
+    pr: 306
 - username: jpac-run
   contributions:
   - action: fix Portugal Parrot name
@@ -468,12 +506,6 @@
   contributions:
   - action: Lithuania Parrot
     pr: 323
-- username: tgockel
-  contributions:
-  - action: build script uglifycss detection
-    pr: 335
-  - action: build script improvements
-    pr: 336
 - username: oibind
   contributions:
   - action: link to parrot.today
@@ -500,6 +532,8 @@
     pr: 570
   - action: Lots of maintenance tasks
     pr: 596
+  - action: updated keyboard for iOS
+    pr: 627
 - username: pacbroens
   contributions:
   - action: party bug
@@ -514,8 +548,10 @@
   contributions:
   - action: RIP Parrot
     pr: 379
-  - action: Revert it Parrot
+  - action: Revert It parrot
     pr: 474
+  - action: Party Wumpus
+    pr: 493
 - username: rsimai
   contributions:
   - action: partygeeko
@@ -610,6 +646,14 @@
   contributions:
   - action: Metal parrot
     pr: 449
+- username: BrendanBerkley
+  contributions:
+  - action: wine parrot
+    pr: 453
+- username: zymbaluk
+  contributions:
+  - action: party annoyed bird
+    pr: 454
 - username: wowu
   contributions:
   - action: Ruby parrot
@@ -640,6 +684,8 @@
     pr: 481
 - username: danryder
   contributions:
+  - action: quarantine and work-from-home parrots
+    pr: 455
   - action: Everything's Fine, Headbanging and TP parrots
     pr: 457
   - action: Preet Bharara parrot
@@ -668,12 +714,6 @@
   contributions:
   - action: Cake parrot
     pr: 491
-- username: urielsalis
-  contributions:
-  - action: Revert It parrot
-    pr: 474
-  - action: Party Wumpus
-    pr: 493
 - username: jtrnw
   contributions:
   - action: Unicorn parrot
@@ -791,7 +831,7 @@
 - username: Krlier
   contributions:
   - action: Balcony parrot
-    pr: 5499
+    pr: 549
 - username: aamorin
   contributions:
   - action: Uruguay name typo
@@ -844,6 +884,10 @@
   contributions:
   - action: Deploy, Cursed, Up Arrow parrots
     pr: 578
+- username: phil-chp
+  contributions:
+  - action: Fixed the small HD logo pop-in
+    pr: 580
 - username: dunklesToast
   contributions:
   - action: React parrot
@@ -958,8 +1002,12 @@
     pr: 648
 - username: edent
   contributions:
+  - action: removing the dead Google Play link
+    pr: 645
   - action: Jump to top button
     pr: 653
+  - action: HTML fixes
+    pr: 676
 - username: kirby-b
   contributions:
   - action: Bride and Groom parrots
@@ -980,3 +1028,31 @@
   contributions:
   - action: Party Pear™
     pr: 666
+- username: 99991
+  contributions:
+  - action: mail parrot
+    pr: 669
+- username: chickenisamazing
+  contributions:
+  - action: Next parrot
+    pr: 671
+- username: thomwiggers
+  contributions:
+  - action: HDR parrot
+    pr: 672
+- username: idow09
+  contributions:
+  - action: Quantum parrot
+    pr: 674
+- username: AngelRionCervi
+  contributions:
+  - action: Svelte parrot
+    pr: 675
+- username: milen-sage
+  contributions:
+  - action: Giftparrot
+    pr: 680
+- username: makiharu
+  contributions:
+  - action: HD Pizza Parrot
+    pr: 682
