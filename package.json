@@ -32,5 +32,8 @@
     "uglify-js": "^3.8.0",
     "uglifycss": "^0.0.29",
     "yamljs": "^0.3.0"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5"
   }
 }
