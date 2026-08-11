@@ -24,7 +24,7 @@
     "gulp-mocha": "^10.0.1",
     "gulp-mustache": "^5.0.0",
     "image-size": "^0.7.5",
-    "js-yaml": "^3.13.1",
+    "js-yaml": "^5.2.3",
     "jsonschema": "^1.2.5",
     "minimist": ">=1.2.6",
     "path": "^0.12.7",
