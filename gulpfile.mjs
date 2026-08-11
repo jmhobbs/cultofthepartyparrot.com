@@ -3,7 +3,11 @@ import mocha from 'gulp-mocha';
 import mustache from 'gulp-mustache';
 import data from 'gulp-data';
 import fs from 'fs';
-import YAML from 'js-yaml';
+import { load, FAILSAFE_SCHEMA } from 'js-yaml';
+
+function safeLoad(yamlString) {
+  return load(yamlString, { schema: FAILSAFE_SCHEMA });
+}
 
 gulp.task('test', function() {
   return gulp.src(['test/*.js'], { read: false })
@@ -14,7 +18,7 @@ gulp.task('render-readme', function () {
   return gulp.src('templates/README.md')
     .pipe(data(function(file) {
       return {
-        contributors: YAML.safeLoad(fs.readFileSync('contributors.yaml', 'utf8')).map(function (contributor) {
+        contributors: safeLoad(fs.readFileSync('contributors.yaml', 'utf8')).map(function (contributor) {
           var len = contributor.contributions.length;
           contributor.contributions.forEach(function(v) { v.comma = true; v.and = false; });
           contributor.contributions[len-1].comma = false;
@@ -43,7 +47,7 @@ gulp.task('render-humans', function () {
   return gulp.src('templates/humans.txt')
     .pipe(data(function(file) {
       return {
-        contributors: YAML.safeLoad(fs.readFileSync('contributors.yaml', 'utf8')),
+        contributors: safeLoad(fs.readFileSync('contributors.yaml', 'utf8')),
         last_update: d.getFullYear() + "/" + pad(d.getMonth()) + "/" + pad(d.getDay())
       };
     }))
@@ -65,10 +69,10 @@ gulp.task('render-web', function () {
     assets[key.replace('.', '_').replace('/', '__')] = json[key];
   }
   var renderData = {
-    parrots: YAML.safeLoad(fs.readFileSync('parrots.yaml', 'utf8')).map(ModifiedParrotObject),
-    guests: YAML.safeLoad(fs.readFileSync('guests.yaml', 'utf8')).map(ModifiedParrotObject),
-    flags: YAML.safeLoad(fs.readFileSync('flags.yaml', 'utf8')).map(ModifiedParrotObject),
-    otherParrots: YAML.safeLoad(fs.readFileSync('other-parrots.yaml', 'utf8')).map(ModifiedParrotObject),
+    parrots: safeLoad(fs.readFileSync('parrots.yaml', 'utf8')).map(ModifiedParrotObject),
+    guests: safeLoad(fs.readFileSync('guests.yaml', 'utf8')).map(ModifiedParrotObject),
+    flags: safeLoad(fs.readFileSync('flags.yaml', 'utf8')).map(ModifiedParrotObject),
+    otherParrots: safeLoad(fs.readFileSync('other-parrots.yaml', 'utf8')).map(ModifiedParrotObject),
     files: assets
   };
   return gulp.src(['templates/index.html', 'templates/flags.html', 'templates/parrotparty.yaml'])

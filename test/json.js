@@ -26,7 +26,7 @@ var json_schema = {
 ['parrots.yaml', 'guests.yaml', 'flags.yaml'].forEach(function(jsonFile) {
   describe(jsonFile, function () {
     let gifPath = jsonFile.replace('.yaml', '')
-    let gif_json = YAML.safeLoad(fs.readFileSync(__dirname + '/../' + jsonFile, 'utf8'));
+    let gif_json = YAML.load(fs.readFileSync(__dirname + '/../' + jsonFile, 'utf8'), { schema: YAML.FAILSAFE_SCHEMA });
 
     it("should validate", function () {
       validation_result = validate(gif_json, json_schema);
